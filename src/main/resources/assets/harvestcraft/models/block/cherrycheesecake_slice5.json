@@ -1,0 +1,23 @@
+
+{
+    "textures": {
+        "particle": "harvestcraft:blocks/cherrycheesecake_side",
+        "bottom": "harvestcraft:blocks/cherrycheesecake_bottom",
+        "top": "harvestcraft:blocks/cherrycheesecake_top",
+        "side": "harvestcraft:blocks/cherrycheesecake_side",
+        "inside": "harvestcraft:blocks/cherrycheesecake_inner"
+    },
+    "elements": [
+        {   "from": [ 11, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "uv": [ 11, 1, 15, 15 ], "texture": "#bottom", "cullface": "down" },
+                "up":    { "uv": [ 11, 1, 15, 15 ], "texture": "#top" },
+                "north": { "uv": [  1, 8,  5, 16 ], "texture": "#side" },
+                "south": { "uv": [  1, 8,  5, 16 ], "texture": "#side" },
+                "west":  { "uv": [  1, 8, 15, 16 ], "texture": "#inside" },
+                "east":  { "uv": [  1, 8, 15, 16 ], "texture": "#side" }
+            }
+        }
+    ]
+}

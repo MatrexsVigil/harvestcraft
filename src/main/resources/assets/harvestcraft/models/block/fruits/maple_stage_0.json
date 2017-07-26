@@ -1,0 +1,6 @@
+{
+	"parent":"block/cube_all",
+	"textures": {
+		"all": "harvestcraft:blocks/fruits/maple_stage_0"
+	}
+}

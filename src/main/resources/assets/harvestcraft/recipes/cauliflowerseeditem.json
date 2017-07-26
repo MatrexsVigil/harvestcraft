@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:cauliflowerseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:caulifloweritem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

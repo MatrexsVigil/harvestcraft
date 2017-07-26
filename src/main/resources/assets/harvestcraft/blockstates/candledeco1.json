@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=up": { "model": "harvestcraft:candleDeco1" },
+        "facing=east": { "model": "harvestcraft:candleDeco1_wall" },
+        "facing=south": { "model": "harvestcraft:candleDeco1_wall", "y": 90 },
+        "facing=west": { "model": "harvestcraft:candleDeco1_wall", "y": 180 },
+        "facing=north": { "model": "harvestcraft:candleDeco1_wall", "y": 270 }
+    }
+}

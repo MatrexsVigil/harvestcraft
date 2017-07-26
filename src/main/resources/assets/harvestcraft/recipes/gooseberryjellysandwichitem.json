@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:gooseberryjellysandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLNUTBUTTER"
+    },
+    {
+      "item": "#FOODGOOSEBERRYJELLY"
+    },
+    {
+      "item": "#BREAD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

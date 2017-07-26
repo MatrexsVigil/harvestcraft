@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:cornbreaditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODCORNMEAL"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#LISTALLMILK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

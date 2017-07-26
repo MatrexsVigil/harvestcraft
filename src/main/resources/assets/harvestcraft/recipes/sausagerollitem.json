@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:sausagerollitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODSAUSAGE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#LISTALLEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

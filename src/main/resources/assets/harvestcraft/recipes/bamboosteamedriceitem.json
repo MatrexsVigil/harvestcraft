@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:bamboosteamedriceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#CROPBAMBOOSHOOT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

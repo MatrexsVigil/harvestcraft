@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:starfruit_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:starfruititem"
+    },
+    {
+      "item": "harvestcraft:starfruititem"
+    },
+    {
+      "item": "harvestcraft:starfruititem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

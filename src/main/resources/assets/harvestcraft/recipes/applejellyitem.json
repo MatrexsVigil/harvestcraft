@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:applejellyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPAPPLE"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

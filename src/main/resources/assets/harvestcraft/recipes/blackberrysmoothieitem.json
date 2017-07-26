@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:blackberrysmoothieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPBLACKBERRY"
+    },
+    {
+      "item": "#CROPBLACKBERRY"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:rawtofurkeyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODFIRMTOFU"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

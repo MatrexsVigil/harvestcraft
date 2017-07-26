@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:ricesoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

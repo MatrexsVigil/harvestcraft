@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "harvestcraft:mortarandpestleitem"
+  },
+  "pattern": [
+    "X@X",
+    " X "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "@": {
+      "item": "#STICKWOOD"
+    },
+    "X": {
+      "item": "#STONE"
+    }
+  }
+}

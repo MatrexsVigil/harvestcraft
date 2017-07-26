@@ -1,0 +1,6 @@
+{
+	"parent":"block/crop",
+	"textures": {
+		"crop": "harvestcraft:blocks/crops/rice_stage_2"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:veggiebaititem"
+  },
+  "ingredients": [
+    {
+      "item": "#STRING"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

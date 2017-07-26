@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:bakedturnipsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPTURNIP"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#DUSTSALT"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

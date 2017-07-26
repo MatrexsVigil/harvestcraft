@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:rawtofabbititem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODFIRMTOFU"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#CROPCARROT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

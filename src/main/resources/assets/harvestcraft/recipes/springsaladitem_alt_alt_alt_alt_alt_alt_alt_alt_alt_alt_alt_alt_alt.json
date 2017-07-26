@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:springsaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#CROPCAULIFLOWER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

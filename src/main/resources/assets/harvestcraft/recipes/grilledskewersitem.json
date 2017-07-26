@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:grilledskewersitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#STICKWOOD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

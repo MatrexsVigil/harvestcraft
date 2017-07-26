@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:turkishdelightitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLWATER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPORANGE"
+    },
+    {
+      "item": "#CROPVANILLABEAN"
+    },
+    {
+      "item": "#CROPPISTACHIO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

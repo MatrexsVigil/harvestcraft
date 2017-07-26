@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "harvestcraft:saplings/olive_sapling"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

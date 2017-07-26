@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:cheeseitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#ITEMSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

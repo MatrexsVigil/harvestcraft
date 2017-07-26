@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:espressoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPCOFFEE"
+    },
+    {
+      "item": "#CROPCOFFEE"
+    },
+    {
+      "item": "#CROPCOFFEE"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

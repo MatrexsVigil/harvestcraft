@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:porklomeinitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLPORKRAW"
+    },
+    {
+      "item": "#FOODPASTA"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#CROPCABBAGE"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODSOYSAUCE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

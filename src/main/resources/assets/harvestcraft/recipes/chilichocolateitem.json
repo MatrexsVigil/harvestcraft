@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:chilichocolateitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

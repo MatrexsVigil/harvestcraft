@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:vindalooitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLMEATRAW"
+    },
+    {
+      "item": "#FOODCURRYPOWDER"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    },
+    {
+      "item": "#CROPONION"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

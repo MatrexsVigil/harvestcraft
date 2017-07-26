@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:waxcombitem",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:waxcomb"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

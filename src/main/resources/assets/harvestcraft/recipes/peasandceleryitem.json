@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:peasandceleryitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPCELERY"
+    },
+    {
+      "item": "#CROPPEAS"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

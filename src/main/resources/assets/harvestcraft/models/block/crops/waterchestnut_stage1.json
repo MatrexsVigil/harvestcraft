@@ -1,0 +1,6 @@
+{
+	"parent":"block/crop",
+	"textures": {
+		"crop": "harvestcraft:blocks/crops/waterchestnut_stage_1"
+	}
+}

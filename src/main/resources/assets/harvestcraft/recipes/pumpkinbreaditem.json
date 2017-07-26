@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:pumpkinbreaditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPPUMPKIN"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODDOUGH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

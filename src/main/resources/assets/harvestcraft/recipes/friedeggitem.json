@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:friedeggitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

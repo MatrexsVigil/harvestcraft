@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:pinacoladaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPCOCONUT"
+    },
+    {
+      "item": "#CROPPINEAPPLE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "harvestcraft:bakewareitem"
+  },
+  "pattern": [
+    "@@@",
+    "@ @",
+    "@@@"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "@": {
+      "item": "#INGOTBRICK"
+    }
+  }
+}

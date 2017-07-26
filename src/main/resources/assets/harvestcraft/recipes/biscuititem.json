@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:biscuititem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

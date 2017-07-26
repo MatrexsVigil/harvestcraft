@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:apricotsmoothieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPAPRICOT"
+    },
+    {
+      "item": "#CROPAPRICOT"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

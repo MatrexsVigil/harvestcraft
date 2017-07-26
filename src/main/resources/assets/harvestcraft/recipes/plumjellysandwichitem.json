@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:plumjellysandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLNUTBUTTER"
+    },
+    {
+      "item": "#FOODPLUMJELLY"
+    },
+    {
+      "item": "#BREAD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

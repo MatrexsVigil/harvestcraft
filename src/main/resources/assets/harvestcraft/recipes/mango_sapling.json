@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:mango_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:mangoitem"
+    },
+    {
+      "item": "harvestcraft:mangoitem"
+    },
+    {
+      "item": "harvestcraft:mangoitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

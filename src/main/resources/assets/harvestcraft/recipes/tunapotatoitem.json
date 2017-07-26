@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:tunapotatoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODBUTTEREDPOTATO"
+    },
+    {
+      "item": "#CROPCORN"
+    },
+    {
+      "item": "#LISTALLFISHCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

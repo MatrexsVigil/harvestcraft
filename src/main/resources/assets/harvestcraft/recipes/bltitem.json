@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:bltitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODTOAST"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

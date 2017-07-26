@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:charsiuitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODHOISINSAUCE"
+    },
+    {
+      "item": "#FOODFIVESPICE"
+    },
+    {
+      "item": "harvestcraft:honeyitem"
+    },
+    {
+      "item": "#FOODSOYSAUCE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

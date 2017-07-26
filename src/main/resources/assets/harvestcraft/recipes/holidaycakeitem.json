@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:holidaycakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPCHERRY"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

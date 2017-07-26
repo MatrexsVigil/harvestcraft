@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:guacamoleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPAVOCADO"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

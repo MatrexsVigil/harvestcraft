@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:limejellyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPLIME"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

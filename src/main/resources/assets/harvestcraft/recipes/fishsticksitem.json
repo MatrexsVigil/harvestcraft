@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:fishsticksitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLFISHRAW"
+    },
+    {
+      "item": "#FOODBATTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

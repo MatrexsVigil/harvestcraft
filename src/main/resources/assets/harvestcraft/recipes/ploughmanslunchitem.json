@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:ploughmanslunchitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#BREAD"
+    },
+    {
+      "item": "#CROPAPPLE"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#FOODSWEETPICKLE"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODBOILEDEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

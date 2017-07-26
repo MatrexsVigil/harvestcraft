@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:mapleoatmealitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPOATS"
+    },
+    {
+      "item": "#CROPMAPLESYRUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:blackberryjellyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPBLACKBERRY"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:durianmilkshakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#CROPDURIAN"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:papaya_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:papayaitem"
+    },
+    {
+      "item": "harvestcraft:papayaitem"
+    },
+    {
+      "item": "harvestcraft:papayaitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

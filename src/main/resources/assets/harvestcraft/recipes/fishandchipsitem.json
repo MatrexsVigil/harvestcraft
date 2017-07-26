@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:fishandchipsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODFISHSTICKS"
+    },
+    {
+      "item": "#FOODFRIES"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

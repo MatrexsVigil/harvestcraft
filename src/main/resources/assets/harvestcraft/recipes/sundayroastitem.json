@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:sundayroastitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODROASTCHICKEN"
+    },
+    {
+      "item": "#FOODROASTPOTATOES"
+    },
+    {
+      "item": "#LISTALLGREENVEGGIE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

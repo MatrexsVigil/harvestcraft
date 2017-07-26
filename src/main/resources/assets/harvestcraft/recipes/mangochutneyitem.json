@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:mangochutneyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPMANGO"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#CROPMUSTARD"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

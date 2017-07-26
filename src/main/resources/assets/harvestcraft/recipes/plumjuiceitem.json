@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:plumjuiceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPPLUM"
+    },
+    {
+      "item": "#CROPPLUM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

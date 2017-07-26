@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:friedonionsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

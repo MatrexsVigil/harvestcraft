@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:papayajellysandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLNUTBUTTER"
+    },
+    {
+      "item": "#FOODPAPAYAJELLY"
+    },
+    {
+      "item": "#BREAD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

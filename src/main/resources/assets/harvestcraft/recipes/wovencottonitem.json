@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:wovencottonitem"
+  },
+  "ingredients": [
+    {
+      "item": "#STRING"
+    },
+    {
+      "item": "#STRING"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

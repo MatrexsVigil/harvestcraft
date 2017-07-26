@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:fishtrapbaititem",
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "item": "#STRING"
+    },
+    {
+      "item": "#LISTALLFISHRAW"
+    },
+    {
+      "item": "#LISTALLFISHRAW"
+    },
+    {
+      "item": "#LISTALLFISHRAW"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

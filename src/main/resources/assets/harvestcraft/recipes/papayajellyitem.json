@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:papayajellyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPPAPAYA"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

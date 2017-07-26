@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:steamedpeasitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPPEAS"
+    },
+    {
+      "item": "#LISTALLWATER"
+    },
+    {
+      "item": "#ITEMSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

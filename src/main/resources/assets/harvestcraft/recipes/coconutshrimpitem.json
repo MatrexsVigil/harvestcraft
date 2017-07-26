@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:coconutshrimpitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPCOCONUT"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODSHRIMPRAW"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

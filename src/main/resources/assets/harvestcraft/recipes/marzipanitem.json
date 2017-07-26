@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:marzipanitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMORTARANDPESTLE"
+    },
+    {
+      "item": "harvestcraft:honeyitem"
+    },
+    {
+      "item": "#CROPALMOND"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

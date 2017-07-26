@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:freshwateritem"
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLWATER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

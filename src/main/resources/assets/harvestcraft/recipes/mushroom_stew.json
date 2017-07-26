@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "minecraft:mushroom_stew"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

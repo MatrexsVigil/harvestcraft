@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolatebaritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#FOODCOCOAPOWDER"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#LISTALLMILK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

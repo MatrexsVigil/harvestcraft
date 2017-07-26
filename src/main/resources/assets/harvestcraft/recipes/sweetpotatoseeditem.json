@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:sweetpotatoseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:sweetpotatoitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

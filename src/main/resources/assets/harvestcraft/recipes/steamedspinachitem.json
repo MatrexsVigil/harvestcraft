@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:steamedspinachitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPSPINACH"
+    },
+    {
+      "item": "#LISTALLWATER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:baklavaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPWALNUT"
+    },
+    {
+      "item": "#CROPCINNAMON"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

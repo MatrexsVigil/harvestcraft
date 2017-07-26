@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:dimsumitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPWATERCHESTNUT"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    },
+    {
+      "item": "#LISTALLMEATRAW"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

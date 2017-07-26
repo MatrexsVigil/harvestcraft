@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:currypowderitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMORTARANDPESTLE"
+    },
+    {
+      "item": "#CROPCURRYLEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

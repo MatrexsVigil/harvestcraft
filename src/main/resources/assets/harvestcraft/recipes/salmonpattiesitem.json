@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:salmonpattiesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODSALMONRAW"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

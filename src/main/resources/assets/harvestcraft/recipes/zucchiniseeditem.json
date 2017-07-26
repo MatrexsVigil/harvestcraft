@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:zucchiniseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:zucchiniitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

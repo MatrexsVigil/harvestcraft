@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:blackberryjellysandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLNUTBUTTER"
+    },
+    {
+      "item": "#FOODBLACKBERRYJELLY"
+    },
+    {
+      "item": "#BREAD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

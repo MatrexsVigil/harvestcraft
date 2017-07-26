@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:chickennoodlesoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODPASTA"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

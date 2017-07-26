@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:grilledeggplantitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:eggplantitem"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

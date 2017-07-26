@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:lemonaideitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPLEMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:potatosaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "#FOODMAYO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

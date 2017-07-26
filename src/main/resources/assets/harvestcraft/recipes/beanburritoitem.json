@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:beanburritoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPBEAN"
+    },
+    {
+      "item": "#FOODTORTILLA"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

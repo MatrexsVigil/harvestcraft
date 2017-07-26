@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:coconutsmoothieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPCOCONUT"
+    },
+    {
+      "item": "#CROPCOCONUT"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

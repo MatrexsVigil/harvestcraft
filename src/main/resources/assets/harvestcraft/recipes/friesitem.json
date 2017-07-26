@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:friesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#FOODSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

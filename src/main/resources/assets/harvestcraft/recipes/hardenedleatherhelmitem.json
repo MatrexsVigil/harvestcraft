@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "harvestcraft:hardenedleatherhelmitem"
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "harvestcraft:hardenedleatheritem"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:sweetandsourchickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#CROPPINEAPPLE"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODSWEETANDSOURSAUCE"
+    },
+    {
+      "item": "#FOODKETCHUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

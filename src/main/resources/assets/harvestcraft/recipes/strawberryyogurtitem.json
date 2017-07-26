@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:strawberryyogurtitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPSTRAWBERRY"
+    },
+    {
+      "item": "#FOODPLAINYOGURT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:cinnamon_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:cinnamonitem"
+    },
+    {
+      "item": "harvestcraft:cinnamonitem"
+    },
+    {
+      "item": "harvestcraft:cinnamonitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

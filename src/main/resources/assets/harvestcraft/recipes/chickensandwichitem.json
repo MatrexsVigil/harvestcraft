@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:chickensandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#BREAD"
+    },
+    {
+      "item": "#FOODMAYO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

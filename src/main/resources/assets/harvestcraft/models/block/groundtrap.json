@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "harvestcraft:blocks/groundtrap",
+        "down": "harvestcraft:blocks/groundtrap",
+        "north": "harvestcraft:blocks/groundtrap",
+        "south": "harvestcraft:blocks/groundtrap",
+        "west": "harvestcraft:blocks/groundtrap",
+        "east": "harvestcraft:blocks/groundtrap",
+        "particle": "harvestcraft:blocks/groundtrap"
+    }
+}

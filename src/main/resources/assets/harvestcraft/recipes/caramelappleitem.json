@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:caramelappleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPAPPLE"
+    },
+    {
+      "item": "#FOODCARAMEL"
+    },
+    {
+      "item": "#STICKWOOD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:poutineitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#FOODFRIES"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#FOODGRAVY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

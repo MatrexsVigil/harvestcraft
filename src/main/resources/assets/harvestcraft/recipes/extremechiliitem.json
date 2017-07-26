@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:extremechiliitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODCHILI"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

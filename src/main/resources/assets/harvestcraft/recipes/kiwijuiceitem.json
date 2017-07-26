@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:kiwijuiceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPKIWI"
+    },
+    {
+      "item": "#CROPKIWI"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

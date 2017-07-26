@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:mincepieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLBEEFCOOKED"
+    },
+    {
+      "item": "#LISTALLFRUIT"
+    },
+    {
+      "item": "#LISTALLNUT"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

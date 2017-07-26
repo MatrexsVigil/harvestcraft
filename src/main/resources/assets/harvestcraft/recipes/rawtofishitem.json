@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:rawtofishitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODFIRMTOFU"
+    },
+    {
+      "item": "#CROPSEAWEED"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

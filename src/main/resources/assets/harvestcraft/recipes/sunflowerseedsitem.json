@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:sunflowerseedsitem",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:double_plant",
+      "data": 0
+    },
+    {
+      "item": "minecraft:double_plant",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

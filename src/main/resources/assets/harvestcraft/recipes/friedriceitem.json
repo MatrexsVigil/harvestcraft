@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:friedriceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#CROPONION"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

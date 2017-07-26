@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:mashedsweetpotatoesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPSWEETPOTATO"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

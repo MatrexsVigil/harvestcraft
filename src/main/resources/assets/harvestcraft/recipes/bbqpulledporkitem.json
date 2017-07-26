@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:bbqpulledporkitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

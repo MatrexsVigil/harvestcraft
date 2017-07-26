@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:peachesandcreamoatmealitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPOATS"
+    },
+    {
+      "item": "#CROPPEACH"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

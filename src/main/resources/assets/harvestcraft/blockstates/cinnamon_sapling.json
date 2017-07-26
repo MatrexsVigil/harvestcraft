@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "harvestcraft:saplings/cinnamon_sapling"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

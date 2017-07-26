@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:loadedbakedpotatoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODBUTTEREDPOTATO"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

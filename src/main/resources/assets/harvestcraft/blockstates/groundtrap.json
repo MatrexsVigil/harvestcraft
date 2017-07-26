@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestcraft:groundtrap" },
+    "facing=south": { "model": "harvestcraft:groundtrap", "y": 180 },
+    "facing=west":  { "model": "harvestcraft:groundtrap", "y": 270 },
+    "facing=east":  { "model": "harvestcraft:groundtrap", "y": 90 }
+  }
+}

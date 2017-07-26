@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:applecideritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPAPPLE"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:porklettucewrapitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

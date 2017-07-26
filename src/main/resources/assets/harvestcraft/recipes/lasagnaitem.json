@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:lasagnaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODPASTA"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPGARLIC"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

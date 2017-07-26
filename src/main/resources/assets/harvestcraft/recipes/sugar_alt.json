@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "minecraft:sugar"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#DROPHONEY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

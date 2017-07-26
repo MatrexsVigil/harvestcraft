@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:rawtofeakitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODFIRMTOFU"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    },
+    {
+      "item": "#FOODSOYSAUCE"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

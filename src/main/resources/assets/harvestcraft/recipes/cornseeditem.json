@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:cornseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:cornitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

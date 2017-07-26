@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:boiledeggitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

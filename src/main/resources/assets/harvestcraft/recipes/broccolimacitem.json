@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:broccolimacitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPBROCCOLI"
+    },
+    {
+      "item": "#FOODPASTA"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

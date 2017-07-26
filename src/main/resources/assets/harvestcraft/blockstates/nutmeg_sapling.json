@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "harvestcraft:saplings/nutmeg_sapling"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

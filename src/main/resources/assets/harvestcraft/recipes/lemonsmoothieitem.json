@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:lemonsmoothieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

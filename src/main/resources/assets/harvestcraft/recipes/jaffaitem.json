@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:jaffaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    },
+    {
+      "item": "#CROPORANGE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

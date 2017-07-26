@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:peanutbutteritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPPEANUT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

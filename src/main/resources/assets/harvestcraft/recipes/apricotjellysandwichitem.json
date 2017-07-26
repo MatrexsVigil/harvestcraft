@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:apricotjellysandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLNUTBUTTER"
+    },
+    {
+      "item": "#FOODAPRICOTJELLY"
+    },
+    {
+      "item": "#BREAD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

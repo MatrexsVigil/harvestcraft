@@ -1,0 +1,13 @@
+
+{
+    "variants": {
+    	"inventory": [{ "model": "harvestcraft:redvelvetcake_uneaten" }],
+        "bites=0": { "model": "harvestcraft:redvelvetcake_uneaten" },
+        "bites=1": { "model": "harvestcraft:redvelvetcake_slice1" },
+        "bites=2": { "model": "harvestcraft:redvelvetcake_slice2" },
+        "bites=3": { "model": "harvestcraft:redvelvetcake_slice3" },
+        "bites=4": { "model": "harvestcraft:redvelvetcake_slice4" },
+        "bites=5": { "model": "harvestcraft:redvelvetcake_slice5" },
+        "bites=6": { "model": "harvestcraft:redvelvetcake_slice6" }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:blueberrymuffinitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPBLUEBERRY"
+    },
+    {
+      "item": "#FOODBATTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

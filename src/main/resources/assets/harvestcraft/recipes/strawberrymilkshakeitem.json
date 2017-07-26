@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:strawberrymilkshakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#CROPSTRAWBERRY"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

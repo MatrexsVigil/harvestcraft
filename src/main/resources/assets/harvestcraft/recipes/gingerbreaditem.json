@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:gingerbreaditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPGINGER"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

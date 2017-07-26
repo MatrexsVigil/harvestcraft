@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:honeybreaditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "#FOODHONEYDROP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:gherkinitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#ORESALT"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

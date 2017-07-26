@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:eggnogitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#FOODGROUNDNUTMEG"
+    },
+    {
+      "item": "#CROPCINNAMON"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

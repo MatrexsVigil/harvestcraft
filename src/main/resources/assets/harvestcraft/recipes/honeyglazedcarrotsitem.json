@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:honeyglazedcarrotsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODHONEYDROP"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#CROPLEMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

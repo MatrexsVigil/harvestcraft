@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:potatoandcheesepirogiitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

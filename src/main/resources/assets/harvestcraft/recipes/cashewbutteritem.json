@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:cashewbutteritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPCASHEW"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

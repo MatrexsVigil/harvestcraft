@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "minecraft:leather_helmet"
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "harvestcraft:wovencottonitem"
+    }
+  }
+}

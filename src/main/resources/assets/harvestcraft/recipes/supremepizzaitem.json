@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:supremepizzaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODPIZZA"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

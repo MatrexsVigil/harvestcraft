@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:pancakesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#LISTALLMILK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

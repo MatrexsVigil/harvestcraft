@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:leafyfishsandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODFISHSANDWICH"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

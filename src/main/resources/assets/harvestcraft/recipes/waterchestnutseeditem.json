@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:waterchestnutseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:waterchestnutitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

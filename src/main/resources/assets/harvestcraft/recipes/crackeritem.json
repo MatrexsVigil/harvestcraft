@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:crackeritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#LISTALLWATER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:creeperwingsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLCHICKENCOOKED"
+    },
+    {
+      "item": "#FOODHOTSAUCE"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

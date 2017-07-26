@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:dhalitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPPEAS"
+    },
+    {
+      "item": "#FOODGARAMMASALA"
+    },
+    {
+      "item": "#CROPCURRYLEAF"
+    },
+    {
+      "item": "#CROPMUSTARD"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#CROPGARLIC"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:tortillaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODCORNMEAL"
+    },
+    {
+      "item": "#LISTALLWATER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

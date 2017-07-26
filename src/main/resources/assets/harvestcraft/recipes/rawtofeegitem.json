@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "harvestcraft:rawtofeegitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODFIRMTOFU"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 11
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

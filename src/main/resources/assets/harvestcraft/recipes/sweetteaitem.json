@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:sweetteaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODTEA"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPLEMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

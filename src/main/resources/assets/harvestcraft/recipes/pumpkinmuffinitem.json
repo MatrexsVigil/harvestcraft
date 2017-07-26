@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:pumpkinmuffinitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPPUMPKIN"
+    },
+    {
+      "item": "#FOODBATTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

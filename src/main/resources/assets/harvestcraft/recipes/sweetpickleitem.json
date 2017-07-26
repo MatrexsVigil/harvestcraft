@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:sweetpickleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

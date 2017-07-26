@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:hotandsoursoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLPORKRAW"
+    },
+    {
+      "item": "#FOODSESAMEOIL"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    },
+    {
+      "item": "#CROPBAMBOOSHOOT"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

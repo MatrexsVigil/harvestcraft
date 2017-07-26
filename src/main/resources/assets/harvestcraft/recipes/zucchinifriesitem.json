@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:zucchinifriesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPZUCCHINI"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#LISTALLEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "harvestcraft:apiary"
+  },
+  "pattern": [
+    "#O#",
+    "#O#",
+    "#O#"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "#": {
+      "item": "#PLANKWOOD"
+    },
+    "O": {
+      "item": "minecraft:item_frame"
+    }
+  }
+}

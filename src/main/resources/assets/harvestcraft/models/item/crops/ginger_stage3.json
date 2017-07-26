@@ -1,0 +1,5 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "harvestcraft:blocks/crops/ginger_stage_3"
+    }}

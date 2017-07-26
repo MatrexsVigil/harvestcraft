@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:snickersbaritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    },
+    {
+      "item": "#CROPPEANUT"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

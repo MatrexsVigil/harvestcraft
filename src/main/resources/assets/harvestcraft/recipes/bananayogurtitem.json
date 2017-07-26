@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:bananayogurtitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPBANANA"
+    },
+    {
+      "item": "#FOODPLAINYOGURT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

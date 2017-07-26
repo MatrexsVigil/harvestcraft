@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:olive_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:oliveitem"
+    },
+    {
+      "item": "harvestcraft:oliveitem"
+    },
+    {
+      "item": "harvestcraft:oliveitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

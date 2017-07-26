@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:pomegranatejellyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPPOMEGRANATE"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

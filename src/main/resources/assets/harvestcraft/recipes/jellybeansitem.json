@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:jellybeansitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 11
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

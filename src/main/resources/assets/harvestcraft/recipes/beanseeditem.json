@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:beanseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:beanitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

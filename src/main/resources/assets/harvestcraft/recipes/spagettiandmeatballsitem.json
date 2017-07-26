@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:spagettiandmeatballsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#FOODSPAGETTI"
+    },
+    {
+      "item": "#LISTALLBEEFCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

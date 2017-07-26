@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:hushpuppiesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODCORNMEAL"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

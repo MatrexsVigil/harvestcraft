@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestcraft:apiary" },
+    "facing=south": { "model": "harvestcraft:apiary", "y": 180 },
+    "facing=west":  { "model": "harvestcraft:apiary", "y": 270 },
+    "facing=east":  { "model": "harvestcraft:apiary", "y": 90 }
+  }
+}

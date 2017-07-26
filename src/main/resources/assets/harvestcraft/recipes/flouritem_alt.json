@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:flouritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMORTARANDPESTLE"
+    },
+    {
+      "item": "#CROPRICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

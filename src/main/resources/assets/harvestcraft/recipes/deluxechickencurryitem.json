@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:deluxechickencurryitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODCHICKENCURRY"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#FOODNAAN"
+    },
+    {
+      "item": "#FOODMANGOCHUTNEY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:cottonitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPCOTTON"
+    },
+    {
+      "item": "#CROPCOTTON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "harvestcraft:wovencottonitem",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "#MATERIALCLOTH"
+    },
+    {
+      "item": "#MATERIALCLOTH"
+    },
+    {
+      "item": "#MATERIALCLOTH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestcraft:presser" },
+    "facing=south": { "model": "harvestcraft:presser", "y": 180 },
+    "facing=west":  { "model": "harvestcraft:presser", "y": 270 },
+    "facing=east":  { "model": "harvestcraft:presser", "y": 90 }
+  }
+}

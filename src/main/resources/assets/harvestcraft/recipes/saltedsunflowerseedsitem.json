@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:saltedsunflowerseedsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPSUNFLOWER"
+    },
+    {
+      "item": "#FOODSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

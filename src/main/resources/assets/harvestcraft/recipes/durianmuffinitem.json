@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:durianmuffinitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPDURIAN"
+    },
+    {
+      "item": "#FOODBATTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

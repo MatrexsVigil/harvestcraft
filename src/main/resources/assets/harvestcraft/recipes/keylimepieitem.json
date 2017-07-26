@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:keylimepieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPLIME"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODDOUGH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

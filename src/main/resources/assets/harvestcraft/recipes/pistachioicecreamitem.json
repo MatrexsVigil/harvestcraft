@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:pistachioicecreamitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLICECREAM"
+    },
+    {
+      "item": "#CROPPISTACHIO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

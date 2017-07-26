@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolatedonutitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODDONUT"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

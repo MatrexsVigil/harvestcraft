@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:gummybearsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 2
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

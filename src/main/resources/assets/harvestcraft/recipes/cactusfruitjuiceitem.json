@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:cactusfruitjuiceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPCACTUSFRUIT"
+    },
+    {
+      "item": "#CROPCACTUSFRUIT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

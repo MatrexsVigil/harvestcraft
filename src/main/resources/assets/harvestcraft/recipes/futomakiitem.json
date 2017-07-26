@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:futomakiitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODBOILEDEGG"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    },
+    {
+      "item": "#CROPWINTERSQUASH"
+    },
+    {
+      "item": "#CROPRADISH"
+    },
+    {
+      "item": "#CROPSEAWEED"
+    },
+    {
+      "item": "#CROPGINGER"
+    },
+    {
+      "item": "#CROPRICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

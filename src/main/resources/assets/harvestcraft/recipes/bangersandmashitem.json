@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:bangersandmashitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODPORKSAUSAGE"
+    },
+    {
+      "item": "#FOODMASHEDPOTATOES"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

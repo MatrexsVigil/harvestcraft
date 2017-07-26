@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:leekbaconsoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPLEEK"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

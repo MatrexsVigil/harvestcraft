@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:grilledcheeseitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:raspberrypieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPRASPBERRY"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODDOUGH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

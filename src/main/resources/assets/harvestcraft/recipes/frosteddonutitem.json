@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:frosteddonutitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODDONUT"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 2
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 11
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

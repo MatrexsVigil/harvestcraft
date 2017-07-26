@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:cherrycheesecakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPCHERRY"
+    },
+    {
+      "item": "#FOODCHEESECAKE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

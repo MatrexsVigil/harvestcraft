@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:artichokeseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:artichokeitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

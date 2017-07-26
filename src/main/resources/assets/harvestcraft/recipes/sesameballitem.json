@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:sesameballitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPSESAME"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#CROPBEAN"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODFLOUR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:fish",
+    "data": 0
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLFISHRAW"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

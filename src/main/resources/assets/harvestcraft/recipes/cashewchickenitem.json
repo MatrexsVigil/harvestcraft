@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:cashewchickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPCASHEW"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#LISTALLPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:pizzaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#FOODPEPPERONI"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

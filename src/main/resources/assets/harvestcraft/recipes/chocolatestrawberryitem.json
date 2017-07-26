@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolatestrawberryitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPSTRAWBERRY"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:nutmeg_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:nutmegitem"
+    },
+    {
+      "item": "harvestcraft:nutmegitem"
+    },
+    {
+      "item": "harvestcraft:nutmegitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

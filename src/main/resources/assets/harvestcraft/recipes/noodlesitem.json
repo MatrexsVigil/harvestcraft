@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:noodlesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODDOUGH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

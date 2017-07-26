@@ -1,0 +1,6 @@
+{
+	"parent":"block/cross",
+	"textures": {
+		"cross": "harvestcraft:blocks/fruits/vanillabean_stage_0"
+	}
+}

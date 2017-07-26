@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:seedsoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLSEED"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:ricecakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:riceitem"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:braisedonionsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

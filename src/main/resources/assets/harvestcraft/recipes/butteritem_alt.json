@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:butteritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#DUSTSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

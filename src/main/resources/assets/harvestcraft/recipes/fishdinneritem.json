@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:fishdinneritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#LISTALLFISHRAW"
+    },
+    {
+      "item": "#FOODMAYO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

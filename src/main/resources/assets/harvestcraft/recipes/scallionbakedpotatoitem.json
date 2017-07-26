@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:scallionbakedpotatoitem"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "#CROPSCALLION"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

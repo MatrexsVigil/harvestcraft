@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:potatoandleeksoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#CROPLEEK"
+    },
+    {
+      "item": "#FOODSTOCK"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

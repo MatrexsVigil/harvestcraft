@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:salsaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#CROPLIME"
+    },
+    {
+      "item": "#CROPGARLIC"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

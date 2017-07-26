@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:saladdressingitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

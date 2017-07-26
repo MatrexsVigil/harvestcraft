@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolateicecreamitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLICECREAM"
+    },
+    {
+      "item": "#FOODCOCOAPOWDER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:groundnutmegitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMORTARANDPESTLE"
+    },
+    {
+      "item": "#CROPNUTMEG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

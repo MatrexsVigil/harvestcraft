@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:kiwismoothieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPKIWI"
+    },
+    {
+      "item": "#CROPKIWI"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,5 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "harvestcraft:blocks/fruits/vanillabean_stage_0"
+    }}

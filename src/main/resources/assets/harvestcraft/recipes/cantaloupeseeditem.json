@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:cantaloupeseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:cantaloupeitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

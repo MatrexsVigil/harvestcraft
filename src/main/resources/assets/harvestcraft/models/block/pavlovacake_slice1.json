@@ -1,0 +1,23 @@
+
+{
+    "textures": {
+        "particle": "harvestcraft:blocks/pavlovacake_side",
+        "bottom": "harvestcraft:blocks/pavlovacake_bottom",
+        "top": "harvestcraft:blocks/pavlovacake_top",
+        "side": "harvestcraft:blocks/pavlovacake_side",
+        "inside": "harvestcraft:blocks/pavlovacake_inner"
+    },
+    "elements": [
+        {   "from": [ 3, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "uv": [ 3, 1, 15, 15 ], "texture": "#bottom", "cullface": "down" },
+                "up":    { "uv": [ 3, 1, 15, 15 ], "texture": "#top" },
+                "north": { "uv": [ 1, 8, 13, 16 ], "texture": "#side" },
+                "south": { "uv": [ 1, 8, 13, 16 ], "texture": "#side" },
+                "west":  { "uv": [ 1, 8, 15, 16 ], "texture": "#inside" },
+                "east":  { "uv": [ 1, 8, 15, 16 ], "texture": "#side" }
+            }
+        }
+    ]
+}

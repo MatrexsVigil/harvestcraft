@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:parsnipseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:parsnipitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

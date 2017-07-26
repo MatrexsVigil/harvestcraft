@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:raisincookiesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODRAISINS"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:teriyakichickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#FOODSOYSAUCE"
+    },
+    {
+      "item": "#FOODHONEYDROP"
+    },
+    {
+      "item": "#CROPSCALLION"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

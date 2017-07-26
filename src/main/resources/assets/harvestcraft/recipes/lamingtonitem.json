@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:lamingtonitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    },
+    {
+      "item": "#FOODTOASTEDCOCONUT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

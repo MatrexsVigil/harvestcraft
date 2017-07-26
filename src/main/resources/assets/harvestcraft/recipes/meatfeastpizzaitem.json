@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:meatfeastpizzaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODPIZZA"
+    },
+    {
+      "item": "#FOODPEPPERONI"
+    },
+    {
+      "item": "#FOODPORKSAUSAGE"
+    },
+    {
+      "item": "#LISTALLBEEFCOOKED"
+    },
+    {
+      "item": "#LISTALLCHICKENCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

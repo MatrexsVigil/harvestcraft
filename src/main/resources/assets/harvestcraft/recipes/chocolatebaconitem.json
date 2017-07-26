@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolatebaconitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

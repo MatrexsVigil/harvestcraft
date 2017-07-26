@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:maplesyruppancakesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODPANCAKES"
+    },
+    {
+      "item": "#CROPMAPLESYRUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

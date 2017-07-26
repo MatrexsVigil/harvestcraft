@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:damperitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#DUSTSALT"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

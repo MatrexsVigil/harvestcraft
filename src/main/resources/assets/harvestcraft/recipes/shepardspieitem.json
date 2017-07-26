@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:shepardspieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLMUTTONRAW"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPPEAS"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

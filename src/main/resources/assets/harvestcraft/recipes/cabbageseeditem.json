@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:cabbageseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:cabbageitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

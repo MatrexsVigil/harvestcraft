@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:rawtofenisonitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODFIRMTOFU"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#LISTALLNUT"
+    },
+    {
+      "item": "#FOODSOYSAUCE"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

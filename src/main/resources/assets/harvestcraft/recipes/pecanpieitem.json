@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:pecanpieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPPECAN"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

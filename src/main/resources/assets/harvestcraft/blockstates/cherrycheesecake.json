@@ -1,0 +1,13 @@
+
+{
+    "variants": {
+    	"inventory": [{"model": "harvestcraft:cherrycheesecake_uneaten" }],
+        "bites=0": { "model": "harvestcraft:cherrycheesecake_uneaten" },
+        "bites=1": { "model": "harvestcraft:cherrycheesecake_slice1" },
+        "bites=2": { "model": "harvestcraft:cherrycheesecake_slice2" },
+        "bites=3": { "model": "harvestcraft:cherrycheesecake_slice3" },
+        "bites=4": { "model": "harvestcraft:cherrycheesecake_slice4" },
+        "bites=5": { "model": "harvestcraft:cherrycheesecake_slice5" },
+        "bites=6": { "model": "harvestcraft:cherrycheesecake_slice6" }
+    }
+}

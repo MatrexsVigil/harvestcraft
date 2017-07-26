@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:cornflakesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#CROPCORN"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

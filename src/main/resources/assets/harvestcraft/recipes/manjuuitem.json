@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:manjuuitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#CROPBEAN"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

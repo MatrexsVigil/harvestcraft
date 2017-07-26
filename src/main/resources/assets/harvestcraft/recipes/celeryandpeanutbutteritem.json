@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:celeryandpeanutbutteritem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPCELERY"
+    },
+    {
+      "item": "#LISTALLNUTBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

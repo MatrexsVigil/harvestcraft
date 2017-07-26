@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "harvestcraft:stockitem",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

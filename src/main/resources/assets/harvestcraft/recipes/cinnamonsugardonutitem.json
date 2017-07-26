@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:cinnamonsugardonutitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODDONUT"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

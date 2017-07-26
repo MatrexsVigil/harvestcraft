@@ -1,0 +1,27 @@
+{
+  "result": {
+    "item": "harvestcraft:sweetandsoursauceitem",
+    "count": 5
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#FOODKETCHUP"
+    },
+    {
+      "item": "harvestcraft:honeyitem"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#FOODSOYSAUCE"
+    },
+    {
+      "item": "#CROPGINGER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

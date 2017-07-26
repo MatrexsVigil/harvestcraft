@@ -1,0 +1,6 @@
+{
+	"parent":"block/cross",
+	"textures": {
+		"cross": "harvestcraft:blocks/fruits/fig_stage_0"
+	}
+}

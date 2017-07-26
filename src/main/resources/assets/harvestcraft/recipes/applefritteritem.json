@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:applefritteritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPAPPLE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

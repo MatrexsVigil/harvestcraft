@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "minecraft:leather_leggings"
+  },
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "harvestcraft:wovencottonitem"
+    }
+  }
+}

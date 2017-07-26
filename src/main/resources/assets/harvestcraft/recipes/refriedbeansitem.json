@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:refriedbeansitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPBEAN"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

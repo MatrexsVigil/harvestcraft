@@ -1,0 +1,6 @@
+{
+	"parent":"block/cross",
+	"textures": {
+		"cross": "harvestcraft:blocks/fruits/nutmeg_stage_1"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:freshwateritem"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

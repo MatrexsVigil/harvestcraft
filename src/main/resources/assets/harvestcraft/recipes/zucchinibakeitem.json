@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:zucchinibakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPZUCCHINI"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#CROPCORN"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "harvestcraft:neapolitanicecreamitem",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "#FOODCHOCOLATEICECREAM"
+    },
+    {
+      "item": "#FOODSTRAWBERRYICECREAM"
+    },
+    {
+      "item": "#FOODVANILLAICECREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

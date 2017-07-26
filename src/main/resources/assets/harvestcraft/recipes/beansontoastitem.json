@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:beansontoastitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#FOODBAKEDBEANS"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

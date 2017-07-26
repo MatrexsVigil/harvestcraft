@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:fruitpunchitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#LISTALLFRUIT"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:mcpamitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLBEEFCOOKED"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#FOODPICKLES"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#FOODSALADDRESSING"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

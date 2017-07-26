@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:pineappleupsidedowncakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPPINEAPPLE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPCHERRY"
+    },
+    {
+      "item": "#CROPWALNUT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

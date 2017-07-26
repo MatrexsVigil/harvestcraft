@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:mayoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#LISTALLEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

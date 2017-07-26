@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "harvestcraft:cocoapowderitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMORTARANDPESTLE"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

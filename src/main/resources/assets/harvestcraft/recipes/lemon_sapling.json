@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:lemon_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:lemonitem"
+    },
+    {
+      "item": "harvestcraft:lemonitem"
+    },
+    {
+      "item": "harvestcraft:lemonitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

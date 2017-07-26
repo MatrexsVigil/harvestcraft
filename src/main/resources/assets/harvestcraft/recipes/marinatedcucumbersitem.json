@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:marinatedcucumbersitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

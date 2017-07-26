@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:honeyitem",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:honey"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

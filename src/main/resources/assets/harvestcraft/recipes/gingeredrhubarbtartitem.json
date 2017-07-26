@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:gingeredrhubarbtartitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPRHUBARB"
+    },
+    {
+      "item": "#CROPGINGER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#LISTALLEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:celeryseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:celeryitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

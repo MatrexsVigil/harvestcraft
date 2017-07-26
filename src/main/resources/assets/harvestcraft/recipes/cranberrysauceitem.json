@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:cranberrysauceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPCRANBERRY"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

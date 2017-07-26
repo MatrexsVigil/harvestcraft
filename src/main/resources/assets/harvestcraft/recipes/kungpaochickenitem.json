@@ -1,0 +1,35 @@
+{
+  "result": {
+    "item": "harvestcraft:kungpaochickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPORANGE"
+    },
+    {
+      "item": "#CROPGINGER"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#CROPPEPPERCORN"
+    },
+    {
+      "item": "#CROPPEANUT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

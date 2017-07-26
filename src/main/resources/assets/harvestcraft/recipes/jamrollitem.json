@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:jamrollitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODRASPBERRYJELLY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

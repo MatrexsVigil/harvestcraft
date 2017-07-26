@@ -1,0 +1,35 @@
+{
+  "result": {
+    "item": "harvestcraft:kimchiitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#CROPCABBAGE"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#CROPGINGER"
+    },
+    {
+      "item": "#CROPRADISH"
+    },
+    {
+      "item": "#CROPSCALLION"
+    },
+    {
+      "item": "#LISTALLSPICE"
+    },
+    {
+      "item": "#CROPSESAME"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

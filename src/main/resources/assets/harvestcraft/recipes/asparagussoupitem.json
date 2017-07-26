@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:asparagussoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPASPARAGUS"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

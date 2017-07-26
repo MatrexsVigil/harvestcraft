@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:candiedwalnutsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPWALNUT"
+    },
+    {
+      "item": "#FOODVANILLA"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

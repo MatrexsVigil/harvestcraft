@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:rutabagaseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:rutabagaitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

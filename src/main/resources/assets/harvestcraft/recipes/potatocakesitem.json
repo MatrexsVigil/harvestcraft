@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:potatocakesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

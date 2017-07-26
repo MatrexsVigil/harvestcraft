@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:sunflowerbroccolisaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPSUNFLOWER"
+    },
+    {
+      "item": "#CROPBROCCOLI"
+    },
+    {
+      "item": "#FOODMAYO"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:ceasarsaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

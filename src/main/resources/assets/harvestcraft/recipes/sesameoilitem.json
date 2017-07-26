@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:sesameoilitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPSESAME"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

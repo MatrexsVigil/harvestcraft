@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:grapesaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPGRAPE"
+    },
+    {
+      "item": "#FOODFRUITSALAD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

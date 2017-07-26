@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:friedpecanokraitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPOKRA"
+    },
+    {
+      "item": "#CROPPECAN"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

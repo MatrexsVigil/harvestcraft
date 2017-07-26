@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:raspberrytrifleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPRASPBERRY"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#FOODVANILLA"
+    },
+    {
+      "item": "#FOODDOUGH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

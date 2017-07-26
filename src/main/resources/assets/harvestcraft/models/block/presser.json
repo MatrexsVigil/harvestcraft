@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "harvestcraft:blocks/pressertop",
+        "down": "harvestcraft:blocks/sinkbottom_0",
+        "north": "harvestcraft:blocks/presserfront",
+        "south": "harvestcraft:blocks/presserside",
+        "west": "harvestcraft:blocks/presserside",
+        "east": "harvestcraft:blocks/presserside",
+        "particle": "harvestcraft:blocks/presserside"
+    }
+}

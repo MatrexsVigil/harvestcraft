@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:picklesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

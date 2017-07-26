@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:sushiitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLFISHRAW"
+    },
+    {
+      "item": "#CROPSEAWEED"
+    },
+    {
+      "item": "#CROPRICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:oldworldveggiesoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODSTOCK"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPPEAS"
+    },
+    {
+      "item": "#CROPBARLEY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

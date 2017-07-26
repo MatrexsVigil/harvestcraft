@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:montecristosandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "#LISTALLTURKEYCOOKED"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#FOODMUSTARD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

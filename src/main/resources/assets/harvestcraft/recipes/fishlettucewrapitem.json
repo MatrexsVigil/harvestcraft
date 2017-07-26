@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:fishlettucewrapitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#LISTALLFISHCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

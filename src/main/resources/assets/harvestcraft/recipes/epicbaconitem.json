@@ -1,0 +1,39 @@
+{
+  "result": {
+    "item": "harvestcraft:epicbaconitem"
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 14
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 2
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 6
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 5
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 13
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:meatloafitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODKETCHUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

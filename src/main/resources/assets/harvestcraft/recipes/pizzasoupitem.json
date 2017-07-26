@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:pizzasoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODTOMATOSOUP"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

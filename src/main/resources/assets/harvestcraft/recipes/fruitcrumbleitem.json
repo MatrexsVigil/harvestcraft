@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:fruitcrumbleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLFRUIT"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

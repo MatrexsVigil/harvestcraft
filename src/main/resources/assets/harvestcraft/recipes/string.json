@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "minecraft:string",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "#CROPCOTTON"
+    },
+    {
+      "item": "#CROPCOTTON"
+    },
+    {
+      "item": "#CROPCOTTON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

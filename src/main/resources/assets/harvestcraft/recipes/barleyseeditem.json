@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:barleyseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:barleyitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

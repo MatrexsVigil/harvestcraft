@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:okrachipsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPOKRA"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

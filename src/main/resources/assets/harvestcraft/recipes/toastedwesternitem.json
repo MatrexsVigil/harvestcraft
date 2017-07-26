@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:toastedwesternitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#FOODTOAST"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

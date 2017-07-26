@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:gravyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODSTOCK"
+    },
+    {
+      "item": "#FOODFLOUR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

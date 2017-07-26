@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:oliveoilitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPOLIVE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:cornishpastyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPRUTABAGA"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

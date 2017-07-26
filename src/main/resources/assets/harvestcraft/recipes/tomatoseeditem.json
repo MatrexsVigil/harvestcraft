@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:tomatoseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:tomatoitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

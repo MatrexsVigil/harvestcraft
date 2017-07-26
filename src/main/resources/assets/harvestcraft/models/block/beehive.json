@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "harvestcraft:blocks/beehivetop",
+        "down": "harvestcraft:blocks/beehivebottom",
+        "north": "harvestcraft:blocks/beehiveside",
+        "south": "harvestcraft:blocks/beehiveside",
+        "west": "harvestcraft:blocks/beehiveside",
+        "east": "harvestcraft:blocks/beehiveside",
+        "particle": "harvestcraft:blocks/beehiveside"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:maplesyrupwafflesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODWAFFLES"
+    },
+    {
+      "item": "#CROPMAPLESYRUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:paneeritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#FOODLEMONAIDE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

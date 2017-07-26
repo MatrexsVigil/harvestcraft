@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:avocadoburritoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPAVOCADO"
+    },
+    {
+      "item": "#FOODTORTILLA"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

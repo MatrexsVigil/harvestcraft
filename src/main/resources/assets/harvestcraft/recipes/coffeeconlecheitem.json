@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:coffeeconlecheitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODESPRESSO"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

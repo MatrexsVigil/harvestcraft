@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:taffyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#LISTALLWATER"
+    },
+    {
+      "item": "#FOODSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

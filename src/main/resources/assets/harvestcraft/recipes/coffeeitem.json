@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:coffeeitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:coffeebeanitem"
+    },
+    {
+      "item": "#TOOLPOT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

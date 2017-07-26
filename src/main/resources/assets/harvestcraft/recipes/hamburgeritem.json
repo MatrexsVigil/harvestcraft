@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:hamburgeritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "#FOODTOAST"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

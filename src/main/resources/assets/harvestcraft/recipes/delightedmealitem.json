@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:delightedmealitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODDELUXECHEESEBURGER"
+    },
+    {
+      "item": "#FOODFRIES"
+    },
+    {
+      "item": "#LISTALLSMOOTHIE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:creamcookieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODCOCOAPOWDER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

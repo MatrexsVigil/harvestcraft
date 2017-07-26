@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:gingersnapsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPGINGER"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

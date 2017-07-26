@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:beetsaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPBEET"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

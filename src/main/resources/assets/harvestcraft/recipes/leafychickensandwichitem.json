@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:leafychickensandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODCHICKENSANDWICH"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

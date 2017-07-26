@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:gardensoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODSTOCK"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

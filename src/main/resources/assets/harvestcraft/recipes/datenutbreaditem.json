@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:datenutbreaditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPDATE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#LISTALLNUT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

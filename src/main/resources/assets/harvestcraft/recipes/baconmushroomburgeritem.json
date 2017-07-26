@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:baconmushroomburgeritem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODBACONCHEESEBURGER"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

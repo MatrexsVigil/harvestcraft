@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:spicebunitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#FOODGROUNDNUTMEG"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#FOODRAISINS"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

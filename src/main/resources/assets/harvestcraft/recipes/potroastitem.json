@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:potroastitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

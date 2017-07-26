@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "minecraft:cake"
+  },
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "A": {
+      "item": "#LISTALLMILK"
+    },
+    "B": {
+      "item": "#LISTALLSUGAR"
+    },
+    "C": {
+      "item": "#FLOUREQUALSWHEAT"
+    },
+    "E": {
+      "item": "#LISTALLEGG"
+    }
+  }
+}

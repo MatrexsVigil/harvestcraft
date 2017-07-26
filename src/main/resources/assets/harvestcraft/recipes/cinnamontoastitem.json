@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:cinnamontoastitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

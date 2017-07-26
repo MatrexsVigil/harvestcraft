@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:chorizoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#LISTALLSPICE"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#ITEMSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

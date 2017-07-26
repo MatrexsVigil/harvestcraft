@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:timtamitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

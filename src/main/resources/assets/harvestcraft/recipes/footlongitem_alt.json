@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:footlongitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#BREAD"
+    },
+    {
+      "item": "#LISTALLCHICKENCOOKED"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#FOODMAYO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

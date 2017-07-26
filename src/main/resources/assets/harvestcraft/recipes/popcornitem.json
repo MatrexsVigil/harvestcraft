@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:popcornitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:cornitem"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

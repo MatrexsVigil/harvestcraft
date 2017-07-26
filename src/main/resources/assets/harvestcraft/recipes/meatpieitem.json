@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:meatpieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

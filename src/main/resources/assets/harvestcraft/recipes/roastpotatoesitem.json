@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:roastpotatoesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

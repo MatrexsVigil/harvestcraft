@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:californiarollitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLFISHRAW"
+    },
+    {
+      "item": "#CROPAVOCADO"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    },
+    {
+      "item": "#CROPSEAWEED"
+    },
+    {
+      "item": "#CROPRICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

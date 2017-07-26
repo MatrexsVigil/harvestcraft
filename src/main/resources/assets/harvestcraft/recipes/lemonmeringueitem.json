@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:lemonmeringueitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

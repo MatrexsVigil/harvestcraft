@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:watertrap"
+  },
+  "pattern": [
+    "XFX",
+    "OCO",
+    "XOX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "F": {
+      "item": "minecraft:fishing_rod"
+    },
+    "X": {
+      "item": "#STICKWOOD"
+    },
+    "O": {
+      "item": "#STRING"
+    }
+  }
+}

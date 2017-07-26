@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:honeycombchocolatebaritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    },
+    {
+      "item": "#FOODHONEYDROP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:cheeseontoastitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

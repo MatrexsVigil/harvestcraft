@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolatecaramelfudgeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    },
+    {
+      "item": "#FOODCARAMEL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

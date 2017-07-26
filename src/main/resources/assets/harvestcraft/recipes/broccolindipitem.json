@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:broccolindipitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPBROCCOLI"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

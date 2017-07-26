@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:chickenpotpieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODDOUGH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

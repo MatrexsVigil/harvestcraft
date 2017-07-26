@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:heartybreakfastitem"
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODFRIEDEGG"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#FOODPOTATOCAKES"
+    },
+    {
+      "item": "#FOODCHOCOLATEMILK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:fishtacoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLFISHCOOKED"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#FOODTORTILLA"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

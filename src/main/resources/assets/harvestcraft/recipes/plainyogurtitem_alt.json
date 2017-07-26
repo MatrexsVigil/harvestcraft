@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "harvestcraft:plainyogurtitem",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "#FOODPLAINYOGURT"
+    },
+    {
+      "item": "#LISTALLMILK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

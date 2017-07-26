@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:summerradishsaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPRADISH"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

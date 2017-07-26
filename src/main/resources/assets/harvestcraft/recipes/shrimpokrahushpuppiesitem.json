@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:shrimpokrahushpuppiesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODCORNMEAL"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#FOODSHRIMPRAW"
+    },
+    {
+      "item": "#CROPOKRA"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

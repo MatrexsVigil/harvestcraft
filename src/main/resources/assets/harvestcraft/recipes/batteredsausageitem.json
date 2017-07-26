@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:batteredsausageitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODPORKSAUSAGE"
+    },
+    {
+      "item": "#FOODBATTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

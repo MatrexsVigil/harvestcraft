@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:lambbarleysoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODSTOCK"
+    },
+    {
+      "item": "#LISTALLMUTTONRAW"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#CROPBARLEY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

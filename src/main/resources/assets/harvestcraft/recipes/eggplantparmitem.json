@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:eggplantparmitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPEGGPLANT"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#FOODPASTA"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

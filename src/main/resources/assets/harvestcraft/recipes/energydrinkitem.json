@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:energydrinkitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODBUBBLYWATER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

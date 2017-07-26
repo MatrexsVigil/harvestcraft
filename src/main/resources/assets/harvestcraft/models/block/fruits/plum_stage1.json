@@ -1,0 +1,6 @@
+{
+	"parent":"block/cross",
+	"textures": {
+		"cross": "harvestcraft:blocks/fruits/plum_stage_1"
+	}
+}

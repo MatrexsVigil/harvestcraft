@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:grapesodaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODBUBBLYWATER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODGRAPEJUICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

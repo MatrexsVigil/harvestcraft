@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:mintchocolatechipicecreamitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLICECREAM"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

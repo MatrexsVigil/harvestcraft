@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:baconandeggsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLPORKRAW"
+    },
+    {
+      "item": "#LISTALLEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:caramelitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:toastedcoconutitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:coconutitem"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

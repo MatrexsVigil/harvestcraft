@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:poachedpearitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPPEAR"
+    },
+    {
+      "item": "#FOODVANILLA"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

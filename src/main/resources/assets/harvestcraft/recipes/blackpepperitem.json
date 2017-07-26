@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:blackpepperitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMORTARANDPESTLE"
+    },
+    {
+      "item": "#CROPPEPPERCORN"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

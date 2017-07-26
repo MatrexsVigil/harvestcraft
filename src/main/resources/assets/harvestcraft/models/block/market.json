@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "harvestcraft:blocks/markettop",
+        "down": "harvestcraft:blocks/marketbottom",
+        "north": "harvestcraft:blocks/marketside",
+        "south": "harvestcraft:blocks/marketside",
+        "west": "harvestcraft:blocks/marketside",
+        "east": "harvestcraft:blocks/marketside",
+        "particle": "harvestcraft:blocks/markettop"
+    }
+}

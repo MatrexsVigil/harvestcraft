@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:coleslawitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPCABBAGE"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODMAYO"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

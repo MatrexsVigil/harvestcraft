@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:limesmoothieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPLIME"
+    },
+    {
+      "item": "#CROPLIME"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

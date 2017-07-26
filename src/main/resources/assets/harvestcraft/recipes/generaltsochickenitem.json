@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:generaltsochickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPBROCCOLI"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    },
+    {
+      "item": "#CROPRICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

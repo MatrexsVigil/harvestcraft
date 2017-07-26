@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:pumpkinoatsconesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#CROPOATS"
+    },
+    {
+      "item": "#CROPPUMPKIN"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

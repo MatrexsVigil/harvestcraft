@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:frenchtoastitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#FOODTOAST"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#LISTALLEGG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

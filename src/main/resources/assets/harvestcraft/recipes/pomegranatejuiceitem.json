@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:pomegranatejuiceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPPOMEGRANATE"
+    },
+    {
+      "item": "#CROPPOMEGRANATE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

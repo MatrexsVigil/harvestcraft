@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:ovenroastedcaulifloweritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPCAULIFLOWER"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#CROPLEMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

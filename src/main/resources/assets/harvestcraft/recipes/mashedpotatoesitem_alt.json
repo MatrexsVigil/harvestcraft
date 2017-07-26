@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:mashedpotatoesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#FOODBUTTEREDPOTATO"
+    },
+    {
+      "item": "#DUSTSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

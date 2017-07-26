@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:porksausageitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#LISTALLSPICE"
+    },
+    {
+      "item": "#FOODSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

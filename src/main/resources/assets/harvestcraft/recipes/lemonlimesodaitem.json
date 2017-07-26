@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:lemonlimesodaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODBUBBLYWATER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#FOODLIMEJUICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:zestyzucchiniitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPZUCCHINI"
+    },
+    {
+      "item": "#FOODPASTA"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

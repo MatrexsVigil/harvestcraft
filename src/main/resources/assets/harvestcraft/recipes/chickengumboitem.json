@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:chickengumboitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPOKRA"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPCELERY"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODSTOCK"
+    },
+    {
+      "item": "#LISTALLSPICE"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

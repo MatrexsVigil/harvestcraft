@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:cherry_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:cherryitem"
+    },
+    {
+      "item": "harvestcraft:cherryitem"
+    },
+    {
+      "item": "harvestcraft:cherryitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

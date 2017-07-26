@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:veggiestirfryitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPBEAN"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

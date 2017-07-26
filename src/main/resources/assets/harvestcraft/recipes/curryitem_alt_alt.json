@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:curryitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#ITEMSALT"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    },
+    {
+      "item": "#FOODCOCONUTMILK"
+    },
+    {
+      "item": "#LISTALLSPICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:raspberryicedteaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPTEA"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "#CROPRASPBERRY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

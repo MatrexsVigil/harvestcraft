@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:chaiteaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPTEA"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:maplecandiedbaconitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#CROPMAPLESYRUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

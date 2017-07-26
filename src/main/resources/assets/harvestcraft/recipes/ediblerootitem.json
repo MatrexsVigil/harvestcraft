@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:ediblerootitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

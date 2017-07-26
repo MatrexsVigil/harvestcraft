@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:hotsauceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLWATER"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

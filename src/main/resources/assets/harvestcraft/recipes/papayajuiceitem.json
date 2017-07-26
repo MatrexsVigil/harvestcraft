@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:papayajuiceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPPAPAYA"
+    },
+    {
+      "item": "#CROPPAPAYA"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

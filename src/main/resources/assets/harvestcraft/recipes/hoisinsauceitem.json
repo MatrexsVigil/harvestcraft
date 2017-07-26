@@ -1,0 +1,35 @@
+{
+  "result": {
+    "item": "harvestcraft:hoisinsauceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPSWEETPOTATO"
+    },
+    {
+      "item": "#LISTALLWATER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPSOYBEAN"
+    },
+    {
+      "item": "#CROPSESAME"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

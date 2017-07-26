@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:stuffedmushroomitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#FOODTOAST"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

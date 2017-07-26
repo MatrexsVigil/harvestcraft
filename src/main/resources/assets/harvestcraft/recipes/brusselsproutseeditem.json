@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:brusselsproutseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:brusselsproutitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

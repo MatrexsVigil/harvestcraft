@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:bakedsweetpotatoitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:sweetpotatoitem"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

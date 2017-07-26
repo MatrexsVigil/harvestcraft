@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:persimmonyogurtitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPPERSIMMON"
+    },
+    {
+      "item": "#FOODPLAINYOGURT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,30 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "harvestcraft:blocks/candleDeco11",
+	"candleDeco11": "harvestcraft:blocks/candleDeco11"
+    },
+    "elements": [
+        {   "from": [ 7, 0, 7 ],
+            "to": [ 9, 10, 9 ],
+            "faces": {
+                "down": { "uv": [ 7, 13, 9, 15 ], "texture": "#candleDeco11" },
+                "up":   { "uv": [ 7,  6, 9,  8 ], "texture": "#candleDeco11" }
+            }
+        },
+        {   "from": [ 7, 0, 0 ],
+            "to": [ 9, 16, 16 ],
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#candleDeco11" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#candleDeco11" }
+            }
+        },
+        {   "from": [ 0, 0, 7 ],
+            "to": [ 16, 16, 9 ],
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#candleDeco11" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#candleDeco11" }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:cinnamonappleoatmealitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPOATS"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#CROPAPPLE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

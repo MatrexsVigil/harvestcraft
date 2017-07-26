@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:vegetarianlettucewrapitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    },
+    {
+      "item": "#CROPTOMATO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

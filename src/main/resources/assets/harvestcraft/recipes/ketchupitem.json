@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:ketchupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPTOMATO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:asparagusquicheitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPASPARAGUS"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODCHEESE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

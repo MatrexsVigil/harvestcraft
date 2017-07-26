@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:sesamesnapsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPSESAME"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

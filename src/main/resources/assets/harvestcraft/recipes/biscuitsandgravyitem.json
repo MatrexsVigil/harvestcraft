@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:biscuitsandgravyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODBISCUIT"
+    },
+    {
+      "item": "#FOODGRAVY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

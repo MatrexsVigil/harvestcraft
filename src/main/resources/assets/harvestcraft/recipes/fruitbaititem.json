@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:fruitbaititem",
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "item": "#STRING"
+    },
+    {
+      "item": "#LISTALLFRUIT"
+    },
+    {
+      "item": "#LISTALLFRUIT"
+    },
+    {
+      "item": "#LISTALLFRUIT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

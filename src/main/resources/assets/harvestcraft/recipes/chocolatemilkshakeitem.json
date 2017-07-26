@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolatemilkshakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#FOODCOCOAPOWDER"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

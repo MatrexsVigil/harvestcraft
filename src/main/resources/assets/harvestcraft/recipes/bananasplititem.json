@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:bananasplititem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPBANANA"
+    },
+    {
+      "item": "#FOODCOCOAPOWDER"
+    },
+    {
+      "item": "#CROPCHERRY"
+    },
+    {
+      "item": "#LISTALLICECREAM"
+    },
+    {
+      "item": "#CROPSTRAWBERRY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:raisinsitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:grapeitem"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

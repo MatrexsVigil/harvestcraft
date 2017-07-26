@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:zombiejerkyitem"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "#ITEMSALT"
+    },
+    {
+      "item": "#DUSTSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

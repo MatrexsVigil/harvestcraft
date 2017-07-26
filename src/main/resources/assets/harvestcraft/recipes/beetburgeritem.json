@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:beetburgeritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLBEEFCOOKED"
+    },
+    {
+      "item": "#CROPBEET"
+    },
+    {
+      "item": "#FOODFRIEDEGG"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#CROPPINEAPPLE"
+    },
+    {
+      "item": "#FOODTOAST"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

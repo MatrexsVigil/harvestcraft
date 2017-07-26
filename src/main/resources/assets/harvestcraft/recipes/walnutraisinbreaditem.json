@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:walnutraisinbreaditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPWALNUT"
+    },
+    {
+      "item": "#FOODRAISINS"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

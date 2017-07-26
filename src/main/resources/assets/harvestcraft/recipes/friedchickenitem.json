@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:friedchickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

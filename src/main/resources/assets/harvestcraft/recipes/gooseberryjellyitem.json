@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:gooseberryjellyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPGOOSEBERRY"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

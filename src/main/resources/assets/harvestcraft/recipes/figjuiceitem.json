@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:figjuiceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPFIG"
+    },
+    {
+      "item": "#CROPFIG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

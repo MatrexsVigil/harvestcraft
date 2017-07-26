@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:coleslawburgeritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODHAMBURGER"
+    },
+    {
+      "item": "#FOODCOLESLAW"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

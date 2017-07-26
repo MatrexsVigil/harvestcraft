@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:citrussaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLCITRUS"
+    },
+    {
+      "item": "#CROPLETTUCE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

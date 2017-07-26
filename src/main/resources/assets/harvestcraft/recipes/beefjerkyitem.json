@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:beefjerkyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "#FOODSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

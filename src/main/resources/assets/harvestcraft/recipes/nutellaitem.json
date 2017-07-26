@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:nutellaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    },
+    {
+      "item": "#FOODGROUNDNUTMEG"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:fig_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:figitem"
+    },
+    {
+      "item": "harvestcraft:figitem"
+    },
+    {
+      "item": "harvestcraft:figitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

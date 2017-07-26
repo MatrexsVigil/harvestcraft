@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:toadintheholeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODYORKSHIREPUDDING"
+    },
+    {
+      "item": "#FOODSAUSAGE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

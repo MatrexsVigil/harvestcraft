@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:stuffedeggplantitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPEGGPLANT"
+    },
+    {
+      "item": "#CROPGARLIC"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:cucumbersaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPCUCUMBER"
+    },
+    {
+      "item": "#FOODSPRINGSALAD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:market"
+  },
+  "pattern": [
+    "XOX",
+    "OEO",
+    "XOX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "X": {
+      "item": "#PLANKWOOD"
+    },
+    "O": {
+      "item": "minecraft:wool",
+      "data": 0
+    }
+  }
+}

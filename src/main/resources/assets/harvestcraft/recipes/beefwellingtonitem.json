@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:beefwellingtonitem"
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    },
+    {
+      "item": "#CROPSPINACH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

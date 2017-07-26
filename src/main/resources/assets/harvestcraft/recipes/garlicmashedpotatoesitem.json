@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:garlicmashedpotatoesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODMASHEDPOTATOES"
+    },
+    {
+      "item": "#CROPGARLIC"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

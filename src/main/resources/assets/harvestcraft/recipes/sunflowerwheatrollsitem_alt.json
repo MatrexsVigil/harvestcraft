@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:sunflowerwheatrollsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPSUNFLOWER"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#DUSTSALT"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

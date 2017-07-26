@@ -1,0 +1,6 @@
+{
+	"parent":"block/cube_all",
+	"textures": {
+		"all": "harvestcraft:blocks/fruits/cinnamon_stage_0"
+	}
+}

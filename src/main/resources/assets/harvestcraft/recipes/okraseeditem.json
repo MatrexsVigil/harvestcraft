@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:okraseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:okraitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

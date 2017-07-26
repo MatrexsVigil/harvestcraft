@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:peaandhamsoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPPEAS"
+    },
+    {
+      "item": "#LISTALLPORKRAW"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#CROPCELERY"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:hummusitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#CROPBEAN"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#CROPSESAME"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

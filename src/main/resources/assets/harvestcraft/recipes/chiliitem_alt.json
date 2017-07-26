@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:chiliitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPBEAN"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#LISTALLBEEFCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

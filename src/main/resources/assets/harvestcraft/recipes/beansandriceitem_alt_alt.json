@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:beansandriceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPBEAN"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#CROPCHILIPEPPER"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:maplesausageitem"
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#CROPMAPLESYRUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

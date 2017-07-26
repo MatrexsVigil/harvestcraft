@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:vinegaritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODGRAPEJUICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

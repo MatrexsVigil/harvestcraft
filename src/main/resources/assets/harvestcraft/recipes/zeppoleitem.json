@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:zeppoleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

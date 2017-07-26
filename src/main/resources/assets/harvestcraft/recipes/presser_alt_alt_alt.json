@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "harvestcraft:presser"
+  },
+  "pattern": [
+    "#O#",
+    "# #",
+    "#O#"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "#": {
+      "item": "#INGOTBRONZE"
+    },
+    "O": {
+      "item": "minecraft:piston"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:creamofavocadosoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPAVOCADO"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#CROPLIME"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

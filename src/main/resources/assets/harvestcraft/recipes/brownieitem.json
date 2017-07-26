@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:brownieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPWALNUT"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#FOODBUTTER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODCOCOAPOWDER"
+    },
+    {
+      "item": "#FOODVANILLA"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

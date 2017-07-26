@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:toastitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#BREAD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

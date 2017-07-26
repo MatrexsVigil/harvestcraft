@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:grainbaititem",
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "item": "#STRING"
+    },
+    {
+      "item": "#LISTALLGRAIN"
+    },
+    {
+      "item": "#LISTALLGRAIN"
+    },
+    {
+      "item": "#LISTALLGRAIN"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

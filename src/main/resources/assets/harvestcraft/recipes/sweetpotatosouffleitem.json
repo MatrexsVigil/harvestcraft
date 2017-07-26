@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:sweetpotatosouffleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPSWEETPOTATO"
+    },
+    {
+      "item": "#CROPPECAN"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#FOODBUTTER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

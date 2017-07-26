@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:coconut_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:coconutitem"
+    },
+    {
+      "item": "harvestcraft:coconutitem"
+    },
+    {
+      "item": "harvestcraft:coconutitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

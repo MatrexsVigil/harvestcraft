@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:toastedsesameseedsitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:sesameseedsitem"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:spagettiitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#FOODPASTA"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

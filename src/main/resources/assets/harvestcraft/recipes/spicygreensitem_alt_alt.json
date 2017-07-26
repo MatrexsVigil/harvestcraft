@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:spicygreensitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#FOODMUSTARD"
+    },
+    {
+      "item": "#CROPPEAS"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#CROPONION"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:steakandchipsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLBEEFRAW"
+    },
+    {
+      "item": "#FOODFRIES"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

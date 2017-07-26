@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:candleberryseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:candleberryitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:pear_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:pearitem"
+    },
+    {
+      "item": "harvestcraft:pearitem"
+    },
+    {
+      "item": "harvestcraft:pearitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

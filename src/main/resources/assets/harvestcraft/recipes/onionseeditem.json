@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:onionseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:onionitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

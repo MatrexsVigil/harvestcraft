@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:whitemushroomseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:whitemushroomitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

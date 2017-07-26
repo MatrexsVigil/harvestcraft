@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:groundtrap"
+  },
+  "pattern": [
+    "XTX",
+    "OCO",
+    "XOX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "T": {
+      "item": "minecraft:trapdoor"
+    },
+    "X": {
+      "item": "#STICKWOOD"
+    },
+    "O": {
+      "item": "#STRING"
+    }
+  }
+}

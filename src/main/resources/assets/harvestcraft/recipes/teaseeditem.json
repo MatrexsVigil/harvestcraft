@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:teaseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:tealeafitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

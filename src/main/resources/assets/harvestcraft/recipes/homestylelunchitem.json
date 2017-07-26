@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:homestylelunchitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODGRILLEDCHEESE"
+    },
+    {
+      "item": "#FOODTOMATOSOUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

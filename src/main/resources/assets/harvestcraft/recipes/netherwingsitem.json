@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:netherwingsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLCHICKENCOOKED"
+    },
+    {
+      "item": "#FOODHOTSAUCE"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

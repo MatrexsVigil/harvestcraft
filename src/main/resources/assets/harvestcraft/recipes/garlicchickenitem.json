@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:garlicchickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

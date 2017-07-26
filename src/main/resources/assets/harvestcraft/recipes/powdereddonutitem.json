@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:powdereddonutitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODDONUT"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

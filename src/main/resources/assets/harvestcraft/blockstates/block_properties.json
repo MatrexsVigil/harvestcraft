@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"type=white": { "model":"harvestcraft:block_properties_white" },
+		"type=black": { "model":"harvestcraft:block_properties_black" }
+	}
+}

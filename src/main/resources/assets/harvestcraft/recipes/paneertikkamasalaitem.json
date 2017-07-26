@@ -1,0 +1,35 @@
+{
+  "result": {
+    "item": "harvestcraft:paneertikkamasalaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#FOODPANEER"
+    },
+    {
+      "item": "#FOODGARAMMASALA"
+    },
+    {
+      "item": "#FOODCURRYPOWDER"
+    },
+    {
+      "item": "#FOODCOCONUTCREAM"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#CROPGINGER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

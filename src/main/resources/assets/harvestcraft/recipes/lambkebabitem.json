@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:lambkebabitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLMUTTONCOOKED"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#STICKWOOD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

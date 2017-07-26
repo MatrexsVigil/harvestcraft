@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:chocovoxelsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "minecraft:cookie"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

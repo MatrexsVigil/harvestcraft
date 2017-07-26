@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:eggsaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODBOILEDEGG"
+    },
+    {
+      "item": "#FOODMAYO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:wintersquashseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:wintersquashitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

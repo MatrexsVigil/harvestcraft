@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:honeysoyribsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLPORKRAW"
+    },
+    {
+      "item": "#FOODHONEYDROP"
+    },
+    {
+      "item": "#FOODSOYSAUCE"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:roastedrootveggiemedleyitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPPARSNIP"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

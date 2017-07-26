@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:papayayogurtitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPPAPAYA"
+    },
+    {
+      "item": "#FOODPLAINYOGURT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

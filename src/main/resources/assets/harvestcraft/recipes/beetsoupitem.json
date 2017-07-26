@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:beetsoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPBEET"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    },
+    {
+      "item": "#LISTALLMILK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

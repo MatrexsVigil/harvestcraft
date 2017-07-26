@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:vegemiteitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPBARLEY"
+    },
+    {
+      "item": "#LISTALLWATER"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

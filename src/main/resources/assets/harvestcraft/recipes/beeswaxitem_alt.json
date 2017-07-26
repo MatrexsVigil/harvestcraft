@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:beeswaxitem",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:pressedwax"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

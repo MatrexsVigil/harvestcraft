@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:roastedchestnutitem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:chestnutitem"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

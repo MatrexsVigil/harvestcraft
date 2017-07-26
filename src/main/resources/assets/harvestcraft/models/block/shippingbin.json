@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "harvestcraft:blocks/shippingbintop",
+        "down": "harvestcraft:blocks/shippingbinbottom",
+        "north": "harvestcraft:blocks/shippingbinside",
+        "south": "harvestcraft:blocks/shippingbinside",
+        "west": "harvestcraft:blocks/shippingbinside",
+        "east": "harvestcraft:blocks/shippingbinside",
+        "particle": "harvestcraft:blocks/shippingbintop"
+    }
+}

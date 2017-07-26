@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "minecraft:slime_ball"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODJELLYFISHRAW"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

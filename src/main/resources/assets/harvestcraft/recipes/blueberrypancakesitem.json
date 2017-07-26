@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:blueberrypancakesitem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPBLUEBERRY"
+    },
+    {
+      "item": "#FOODPANCAKES"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

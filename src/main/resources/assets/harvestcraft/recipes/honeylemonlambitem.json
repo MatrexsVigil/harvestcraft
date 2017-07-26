@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:honeylemonlambitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLMUTTONRAW"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#FOODMUSTARD"
+    },
+    {
+      "item": "#FOODHONEYDROP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

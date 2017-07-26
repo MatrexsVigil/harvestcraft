@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:sardinesinhotsauceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#FOODSARDINERAW"
+    },
+    {
+      "item": "#FOODHOTSAUCE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

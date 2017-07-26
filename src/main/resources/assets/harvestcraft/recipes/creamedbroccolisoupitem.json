@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:creamedbroccolisoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPBROCCOLI"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODBLACKPEPPER"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

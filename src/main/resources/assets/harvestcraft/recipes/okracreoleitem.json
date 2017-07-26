@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:okracreoleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPOKRA"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#CROPBELLPEPPER"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#LISTALLSPICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

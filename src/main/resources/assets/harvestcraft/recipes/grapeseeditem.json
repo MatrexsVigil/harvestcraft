@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:grapeseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:grapeitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:sweetpotatopieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPSWEETPOTATO"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#FOODMARSHMELLOWS"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

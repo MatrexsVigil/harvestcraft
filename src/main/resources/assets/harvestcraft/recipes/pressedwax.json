@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "harvestcraft:pressedwax"
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "X": {
+      "item": "#MATERIALPRESSEDWAX"
+    }
+  }
+}

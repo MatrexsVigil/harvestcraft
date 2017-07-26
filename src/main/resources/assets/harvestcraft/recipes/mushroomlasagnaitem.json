@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:mushroomlasagnaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODPASTA"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

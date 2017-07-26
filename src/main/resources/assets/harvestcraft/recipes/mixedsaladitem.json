@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:mixedsaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    },
+    {
+      "item": "#FOODSALADDRESSING"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

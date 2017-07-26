@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:blackberrycobbleritem"
+  },
+  "ingredients": [
+    {
+      "item": "#CROPBLACKBERRY"
+    },
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODDOUGH"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

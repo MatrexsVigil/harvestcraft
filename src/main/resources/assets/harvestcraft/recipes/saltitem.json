@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:saltitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#LISTALLWATER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

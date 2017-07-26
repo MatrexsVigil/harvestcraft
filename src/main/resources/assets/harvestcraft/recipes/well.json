@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:well"
+  },
+  "pattern": [
+    "XOX",
+    "XOX",
+    "XOX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "X": {
+      "item": "#INGOTIRON"
+    },
+    "O": {
+      "item": "minecraft:stone",
+      "data": 0
+    }
+  }
+}

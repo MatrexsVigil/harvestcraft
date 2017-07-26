@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:zucchinibreaditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPZUCCHINI"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#FOODGROUNDCINNAMON"
+    },
+    {
+      "item": "#CROPWALNUT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

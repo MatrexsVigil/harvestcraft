@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:curryleafseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:curryleafitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

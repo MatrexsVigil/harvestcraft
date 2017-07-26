@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:creamedcornitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPCORN"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODHEAVYCREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

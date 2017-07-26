@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:orangesodaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODBUBBLYWATER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#FOODORANGEJUICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

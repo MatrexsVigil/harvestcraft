@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:hotwingsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#FOODHOTSAUCE"
+    },
+    {
+      "item": "#LISTALLCHICKENCOOKED"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

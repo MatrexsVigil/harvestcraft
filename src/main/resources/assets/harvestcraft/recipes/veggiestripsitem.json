@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:veggiestripsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    },
+    {
+      "item": "#LISTALLVEGGIE"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#LISTALLSPICE"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:museliitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLGRAIN"
+    },
+    {
+      "item": "#FOODRAISINS"
+    },
+    {
+      "item": "#CROPPECAN"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#LISTALLMILK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

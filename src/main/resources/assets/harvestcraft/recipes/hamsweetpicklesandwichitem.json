@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:hamsweetpicklesandwichitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODSWEETPICKLE"
+    },
+    {
+      "item": "#BREAD"
+    },
+    {
+      "item": "#LISTALLPORKCOOKED"
+    },
+    {
+      "item": "#FOODMAYO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

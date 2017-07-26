@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:anchovypepperonipizzaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#CROPTOMATO"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#FOODPEPPERONI"
+    },
+    {
+      "item": "#FOODANCHOVYRAW"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

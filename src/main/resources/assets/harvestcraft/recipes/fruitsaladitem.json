@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:fruitsaladitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLFRUIT"
+    },
+    {
+      "item": "#LISTALLFRUIT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

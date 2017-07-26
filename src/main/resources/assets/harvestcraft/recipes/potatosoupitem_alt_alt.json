@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:potatosoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#ITEMSALT"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

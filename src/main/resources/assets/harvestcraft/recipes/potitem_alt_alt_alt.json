@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "harvestcraft:potitem"
+  },
+  "pattern": [
+    "X@@",
+    " @@"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "@": {
+      "item": "#INGOTCOPPER"
+    },
+    "X": {
+      "item": "#STICKWOOD"
+    }
+  }
+}

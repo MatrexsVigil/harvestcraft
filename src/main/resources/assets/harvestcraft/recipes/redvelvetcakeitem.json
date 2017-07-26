@@ -1,0 +1,31 @@
+{
+  "result": {
+    "item": "harvestcraft:redvelvetcakeitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

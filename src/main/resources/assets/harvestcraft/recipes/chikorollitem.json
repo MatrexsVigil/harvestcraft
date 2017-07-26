@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:chikorollitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#FOODDOUGH"
+    },
+    {
+      "item": "#LISTALLCHICKENCOOKED"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#CROPCABBAGE"
+    },
+    {
+      "item": "#CROPLEEK"
+    },
+    {
+      "item": "#CROPONION"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

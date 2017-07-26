@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:gingerchickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPGINGER"
+    },
+    {
+      "item": "#CROPSCALLION"
+    },
+    {
+      "item": "#DROPHONEY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

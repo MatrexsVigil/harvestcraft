@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:chickencelerycasseroleitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPCELERY"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#CROPGARLIC"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#LISTALLMUSHROOM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

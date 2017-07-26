@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:riceseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:riceitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

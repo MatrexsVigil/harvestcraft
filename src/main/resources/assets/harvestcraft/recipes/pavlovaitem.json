@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:pavlovaitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#LISTALLEGG"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPLEMON"
+    },
+    {
+      "item": "#LISTALLHEAVYCREAM"
+    },
+    {
+      "item": "#CROPSTRAWBERRY"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

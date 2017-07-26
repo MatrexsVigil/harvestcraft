@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "harvestcraft:blocks/saplings/walnut_sapling"
+    }
+}

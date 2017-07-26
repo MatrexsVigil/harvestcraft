@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:randomtacoitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#LISTALLBEEFCOOKED"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#FOODCHEESE"
+    },
+    {
+      "item": "#CROPAVOCADO"
+    },
+    {
+      "item": "#LISTALLSPICE"
+    },
+    {
+      "item": "#FOODLIMEJUICE"
+    },
+    {
+      "item": "#FOODTORTILLA"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

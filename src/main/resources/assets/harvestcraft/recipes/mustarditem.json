@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:mustarditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPMUSTARD"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

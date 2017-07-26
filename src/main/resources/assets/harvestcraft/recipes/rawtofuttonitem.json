@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:rawtofuttonitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODFIRMTOFU"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    },
+    {
+      "item": "#CROPPOTATO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

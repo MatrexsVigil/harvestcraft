@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:chestnutbutteritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPCHESTNUT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

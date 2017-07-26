@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:onionhamburgeritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLCUTTINGBOARD"
+    },
+    {
+      "item": "#FOODHAMBURGER"
+    },
+    {
+      "item": "#FOODFRIEDONIONS"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

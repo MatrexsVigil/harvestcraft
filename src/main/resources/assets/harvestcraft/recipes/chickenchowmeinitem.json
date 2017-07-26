@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:chickenchowmeinitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#FOODNOODLES"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPCELERY"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

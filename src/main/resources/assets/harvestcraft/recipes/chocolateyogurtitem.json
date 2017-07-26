@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolateyogurtitem"
+  },
+  "ingredients": [
+    {
+      "item": "#FOODCOCOAPOWDER"
+    },
+    {
+      "item": "#FOODPLAINYOGURT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

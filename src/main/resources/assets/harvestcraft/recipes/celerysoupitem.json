@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:celerysoupitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPCELERY"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#CROPCARROT"
+    },
+    {
+      "item": "#FOODSTOCK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

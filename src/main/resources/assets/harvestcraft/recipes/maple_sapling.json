@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:maple_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:maplesyrupitem"
+    },
+    {
+      "item": "harvestcraft:maplesyrupitem"
+    },
+    {
+      "item": "harvestcraft:maplesyrupitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

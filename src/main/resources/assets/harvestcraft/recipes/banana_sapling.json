@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:banana_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:bananaitem"
+    },
+    {
+      "item": "harvestcraft:bananaitem"
+    },
+    {
+      "item": "harvestcraft:bananaitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

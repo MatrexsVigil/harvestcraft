@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "harvestcraft:trailmixitem"
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLSEED"
+    },
+    {
+      "item": "#LISTALLSEED"
+    },
+    {
+      "item": "#LISTALLSEED"
+    },
+    {
+      "item": "#LISTALLSEED"
+    },
+    {
+      "item": "#LISTALLSEED"
+    },
+    {
+      "item": "#LISTALLSEED"
+    },
+    {
+      "item": "#FOODRAISINS"
+    },
+    {
+      "item": "#FOODCHOCOLATEBAR"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

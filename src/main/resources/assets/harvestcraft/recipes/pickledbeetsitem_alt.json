@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:pickledbeetsitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLPOT"
+    },
+    {
+      "item": "#CROPBEET"
+    },
+    {
+      "item": "#FOODVINEGAR"
+    },
+    {
+      "item": "#DUSTSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

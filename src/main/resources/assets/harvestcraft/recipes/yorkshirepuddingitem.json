@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:yorkshirepuddingitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#FOODSALT"
+    },
+    {
+      "item": "#FOODSTOCK"
+    },
+    {
+      "item": "#LISTALLMILK"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

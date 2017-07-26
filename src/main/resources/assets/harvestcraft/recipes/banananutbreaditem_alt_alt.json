@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:banananutbreaditem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#CROPBANANA"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#CROPWALNUT"
+    },
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#ITEMSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

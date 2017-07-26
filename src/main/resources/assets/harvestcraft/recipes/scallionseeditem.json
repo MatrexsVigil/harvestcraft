@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "harvestcraft:scallionseeditem"
+  },
+  "ingredients": [
+    {
+      "item": "harvestcraft:scallionitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

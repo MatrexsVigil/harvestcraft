@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:hashitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSKILLET"
+    },
+    {
+      "item": "#CROPONION"
+    },
+    {
+      "item": "#LISTALLBEEFCOOKED"
+    },
+    {
+      "item": "#CROPPOTATO"
+    },
+    {
+      "item": "#FOODKETCHUP"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

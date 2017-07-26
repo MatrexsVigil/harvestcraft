@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:creepercookieitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLBAKEWARE"
+    },
+    {
+      "item": "#FOODBATTER"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 2
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

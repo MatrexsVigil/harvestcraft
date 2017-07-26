@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "harvestcraft:spumoniicecreamitem",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "#FOODCHERRYICECREAM"
+    },
+    {
+      "item": "#FOODPISTACHIOICECREAM"
+    },
+    {
+      "item": "#FOODVANILLAICECREAM"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

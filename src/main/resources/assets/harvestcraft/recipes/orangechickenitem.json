@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:orangechickenitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLSAUCEPAN"
+    },
+    {
+      "item": "#CROPORANGE"
+    },
+    {
+      "item": "#LISTALLCHICKENRAW"
+    },
+    {
+      "item": "#LISTALLSUGAR"
+    },
+    {
+      "item": "#CROPRICE"
+    },
+    {
+      "item": "#CROPBROCCOLI"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

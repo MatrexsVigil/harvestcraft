@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:doughitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#LISTALLWATER"
+    },
+    {
+      "item": "#FOODFLOUR"
+    },
+    {
+      "item": "#ITEMSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

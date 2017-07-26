@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "harvestcraft:waxcomb"
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "harvestcraft:waxcombitem"
+    }
+  }
+}

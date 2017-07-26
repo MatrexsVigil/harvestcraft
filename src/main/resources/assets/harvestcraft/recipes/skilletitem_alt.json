@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "harvestcraft:skilletitem"
+  },
+  "pattern": [
+    "@  ",
+    " @ ",
+    "  X"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "@": {
+      "item": "#INGOTCOPPER"
+    },
+    "X": {
+      "item": "#STICKWOOD"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:cuttingboarditem"
+  },
+  "pattern": [
+    "@  ",
+    " X ",
+    "  O"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "@": {
+      "item": "#INGOTCOPPER"
+    },
+    "X": {
+      "item": "#STICKWOOD"
+    },
+    "O": {
+      "item": "#PLANKWOOD"
+    }
+  }
+}

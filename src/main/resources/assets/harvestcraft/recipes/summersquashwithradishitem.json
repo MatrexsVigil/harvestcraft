@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:summersquashwithradishitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLMIXINGBOWL"
+    },
+    {
+      "item": "#CROPRADISH"
+    },
+    {
+      "item": "#CROPZUCCHINI"
+    },
+    {
+      "item": "#CROPPUMPKIN"
+    },
+    {
+      "item": "#CROPSPICELEAF"
+    },
+    {
+      "item": "#FOODOLIVEOIL"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

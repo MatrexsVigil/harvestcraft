@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:soysauceitem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPSOYBEAN"
+    },
+    {
+      "item": "#LISTALLWATER"
+    },
+    {
+      "item": "#FOODSALT"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

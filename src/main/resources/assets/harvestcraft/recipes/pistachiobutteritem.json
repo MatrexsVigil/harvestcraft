@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:pistachiobutteritem"
+  },
+  "ingredients": [
+    {
+      "item": "#TOOLJUICER"
+    },
+    {
+      "item": "#CROPPISTACHIO"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

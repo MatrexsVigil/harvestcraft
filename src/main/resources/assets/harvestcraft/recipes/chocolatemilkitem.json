@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolatemilkitem"
+  },
+  "ingredients": [
+    {
+      "item": "#LISTALLMILK"
+    },
+    {
+      "item": "#FOODCOCOAPOWDER"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
