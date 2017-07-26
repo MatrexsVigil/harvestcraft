@@ -1,0 +1,8 @@
+HarvestCraft 1.12 Alpha
+-----------------
+WARNING:  ALL RECIPES ARE BROKEN except smelting and presser
+
+- Known Bug: Fruit Blocks are showing up in the Creative menu with broken textures; this only affects the Creative menu and nothing in game
+- Removed: Block: Crate from code, will not be coming back
+- Added: Code: Add missing Forge event hooks to BlockCrops growth updates (thanks TheAtomicOption)
+
