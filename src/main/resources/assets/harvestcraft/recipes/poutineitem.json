@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:poutineitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#FOODFRIES"
+      "type": "forge:ore_dict",
+      "ore": "foodFries"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     },
     {
-      "item": "#FOODGRAVY"
+      "type": "forge:ore_dict",
+      "ore": "foodGravy"
     }
   ],
   "type": "forge:ore_shapeless"

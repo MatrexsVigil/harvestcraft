@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:trailmixitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#LISTALLNUT"
+      "type": "forge:ore_dict",
+      "ore": "listAllnut"
     },
     {
-      "item": "#LISTALLNUT"
+      "type": "forge:ore_dict",
+      "ore": "listAllnut"
     },
     {
-      "item": "#FOODRAISINS"
+      "type": "forge:ore_dict",
+      "ore": "foodRaisins"
     },
     {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     }
   ],
   "type": "forge:ore_shapeless"

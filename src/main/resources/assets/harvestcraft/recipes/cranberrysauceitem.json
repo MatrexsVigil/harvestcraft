@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:cranberrysauceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPCRANBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropCranberry"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

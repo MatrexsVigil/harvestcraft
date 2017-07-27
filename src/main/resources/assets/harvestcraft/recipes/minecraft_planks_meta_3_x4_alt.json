@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "minecraft:planks",
+    "data": 3,
+    "count": 4
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "item": "harvestcraft:pampaperbark"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

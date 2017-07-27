@@ -1,22 +1,26 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "a  ",
+    " b ",
+    "  c"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSteel"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "c": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    }
+  },
   "result": {
     "item": "harvestcraft:cuttingboarditem"
   },
-  "pattern": [
-    "@  ",
-    " X ",
-    "  O"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "@": {
-      "item": "#INGOTCOPPER"
-    },
-    "X": {
-      "item": "#STICKWOOD"
-    },
-    "O": {
-      "item": "#PLANKWOOD"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

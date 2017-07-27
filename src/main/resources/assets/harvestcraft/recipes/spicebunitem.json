@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:spicebunitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#FOODGROUNDNUTMEG"
+      "type": "forge:ore_dict",
+      "ore": "foodGroundnutmeg"
     },
     {
-      "item": "#FOODGROUNDCINNAMON"
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
     },
     {
-      "item": "#FOODRAISINS"
+      "type": "forge:ore_dict",
+      "ore": "foodRaisins"
     }
   ],
   "type": "forge:ore_shapeless"

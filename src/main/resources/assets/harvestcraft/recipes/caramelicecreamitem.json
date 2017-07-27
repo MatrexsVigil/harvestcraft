@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:caramelicecreamitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLICECREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllicecream"
     },
     {
-      "item": "#FOODCARAMEL"
+      "type": "forge:ore_dict",
+      "ore": "foodCaramel"
     }
   ],
   "type": "forge:ore_shapeless"

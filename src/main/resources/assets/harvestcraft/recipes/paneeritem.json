@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:paneeritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#FOODVINEGAR"
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
     },
     {
-      "item": "#FOODLEMONAIDE"
+      "type": "forge:ore_dict",
+      "ore": "foodLemonaide"
     }
   ],
   "type": "forge:ore_shapeless"

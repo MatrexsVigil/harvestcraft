@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:grilledmushroomitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

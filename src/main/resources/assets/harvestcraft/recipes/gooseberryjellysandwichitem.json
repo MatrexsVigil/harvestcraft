@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:gooseberryjellysandwichitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLNUTBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "listAllnutbutter"
     },
     {
-      "item": "#FOODGOOSEBERRYJELLY"
+      "type": "forge:ore_dict",
+      "ore": "foodGooseberryjelly"
     },
     {
-      "item": "#BREAD"
+      "type": "forge:ore_dict",
+      "ore": "bread"
     }
   ],
   "type": "forge:ore_shapeless"

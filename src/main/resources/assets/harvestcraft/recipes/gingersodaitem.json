@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:gingersodaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODBUBBLYWATER"
+      "type": "forge:ore_dict",
+      "ore": "foodBubblywater"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#CROPGINGER"
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
     }
   ],
   "type": "forge:ore_shapeless"

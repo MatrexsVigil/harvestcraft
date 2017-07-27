@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:lambbarleysoupitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     },
     {
-      "item": "#LISTALLMUTTONRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllmuttonraw"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPCARROT"
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
     },
     {
-      "item": "#CROPBARLEY"
+      "type": "forge:ore_dict",
+      "ore": "cropBarley"
     }
   ],
   "type": "forge:ore_shapeless"

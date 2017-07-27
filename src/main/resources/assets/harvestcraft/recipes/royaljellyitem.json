@@ -2,10 +2,11 @@
   "result": {
     "item": "harvestcraft:royaljellyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:queenbeeitem",
-      "data": 0
+      "data": 32767
     }
   ],
   "type": "minecraft:crafting_shapeless"

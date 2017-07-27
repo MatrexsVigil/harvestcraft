@@ -2,30 +2,39 @@
   "result": {
     "item": "harvestcraft:dhalitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPPEAS"
+      "type": "forge:ore_dict",
+      "ore": "cropPeas"
     },
     {
-      "item": "#FOODGARAMMASALA"
+      "type": "forge:ore_dict",
+      "ore": "foodGarammasala"
     },
     {
-      "item": "#CROPCURRYLEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropCurryleaf"
     },
     {
-      "item": "#CROPMUSTARD"
+      "type": "forge:ore_dict",
+      "ore": "cropMustard"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPTOMATO"
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
     },
     {
-      "item": "#CROPGARLIC"
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
     }
   ],
   "type": "forge:ore_shapeless"

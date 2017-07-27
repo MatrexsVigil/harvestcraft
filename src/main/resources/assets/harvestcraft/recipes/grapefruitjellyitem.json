@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:grapefruitjellyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#CROPGRAPEFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "cropGrapefruit"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

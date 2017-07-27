@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:candledeco10",
+    "count": 4
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "item": "harvestcraft:candledeco1"
+    },
+    {
+      "item": "harvestcraft:candledeco1"
+    },
+    {
+      "item": "harvestcraft:candledeco1"
+    },
+    {
+      "item": "harvestcraft:candledeco1"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 6
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

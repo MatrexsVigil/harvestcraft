@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:sundayroastitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#FOODROASTCHICKEN"
+      "type": "forge:ore_dict",
+      "ore": "foodRoastchicken"
     },
     {
-      "item": "#FOODROASTPOTATOES"
+      "type": "forge:ore_dict",
+      "ore": "foodRoastpotatoes"
     },
     {
-      "item": "#LISTALLGREENVEGGIE"
+      "type": "forge:ore_dict",
+      "ore": "listAllgreenveggie"
     }
   ],
   "type": "forge:ore_shapeless"

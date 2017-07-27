@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:citrussaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLCITRUS"
+      "type": "forge:ore_dict",
+      "ore": "listAllcitrus"
     },
     {
-      "item": "#CROPLETTUCE"
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
     }
   ],
   "type": "forge:ore_shapeless"

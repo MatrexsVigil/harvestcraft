@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:broccolimacitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPBROCCOLI"
+      "type": "forge:ore_dict",
+      "ore": "cropBroccoli"
     },
     {
-      "item": "#FOODPASTA"
+      "type": "forge:ore_dict",
+      "ore": "foodPasta"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     }
   ],
   "type": "forge:ore_shapeless"

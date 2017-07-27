@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:chocolatedonutitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODDONUT"
+      "type": "forge:ore_dict",
+      "ore": "foodDonut"
     },
     {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     }
   ],
   "type": "forge:ore_shapeless"

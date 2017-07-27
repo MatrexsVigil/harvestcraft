@@ -2,33 +2,43 @@
   "result": {
     "item": "harvestcraft:cornedbeefitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#LISTALLBEEFRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
     },
     {
-      "item": "#FOODSALT"
+      "type": "forge:ore_dict",
+      "ore": "foodSalt"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#CROPCINNAMON"
+      "type": "forge:ore_dict",
+      "ore": "cropCinnamon"
     },
     {
-      "item": "#CROPMUSTARD"
+      "type": "forge:ore_dict",
+      "ore": "cropMustard"
     },
     {
-      "item": "#CROPPEPPERCORN"
+      "type": "forge:ore_dict",
+      "ore": "cropPeppercorn"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     },
     {
-      "item": "#CROPGINGER"
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
     }
   ],
   "type": "forge:ore_shapeless"

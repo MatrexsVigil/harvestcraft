@@ -1,16 +1,18 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "materialPressedwax"
+    }
+  },
   "result": {
     "item": "harvestcraft:pressedwax"
   },
-  "pattern": [
-    "XXX",
-    "XXX",
-    "XXX"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "X": {
-      "item": "#MATERIALPRESSEDWAX"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

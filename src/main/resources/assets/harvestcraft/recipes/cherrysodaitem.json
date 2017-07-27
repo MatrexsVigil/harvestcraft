@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:cherrysodaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODBUBBLYWATER"
+      "type": "forge:ore_dict",
+      "ore": "foodBubblywater"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#FOODCHERRYJUICE"
+      "type": "forge:ore_dict",
+      "ore": "foodCherryjuice"
     }
   ],
   "type": "forge:ore_shapeless"

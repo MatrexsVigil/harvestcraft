@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:pistachiobutteritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPPISTACHIO"
+      "type": "forge:ore_dict",
+      "ore": "cropPistachio"
     }
   ],
   "type": "forge:ore_shapeless"

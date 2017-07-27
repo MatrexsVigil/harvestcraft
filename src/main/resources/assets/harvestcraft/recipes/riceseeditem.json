@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:riceseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:riceitem"

@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:fishsticksitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#LISTALLFISHRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllfishraw"
     },
     {
-      "item": "#FOODBATTER"
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
     }
   ],
   "type": "forge:ore_shapeless"

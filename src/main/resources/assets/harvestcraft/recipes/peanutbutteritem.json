@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:peanutbutteritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPPEANUT"
+      "type": "forge:ore_dict",
+      "ore": "cropPeanut"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,27 +2,35 @@
   "result": {
     "item": "harvestcraft:beetburgeritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLBEEFCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefcooked"
     },
     {
-      "item": "#CROPBEET"
+      "type": "forge:ore_dict",
+      "ore": "cropBeet"
     },
     {
-      "item": "#FOODFRIEDEGG"
+      "type": "forge:ore_dict",
+      "ore": "foodFriedegg"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#CROPPINEAPPLE"
+      "type": "forge:ore_dict",
+      "ore": "cropPineapple"
     },
     {
-      "item": "#FOODTOAST"
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
     }
   ],
   "type": "forge:ore_shapeless"

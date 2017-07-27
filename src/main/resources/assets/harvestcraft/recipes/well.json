@@ -1,20 +1,22 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "b": {
+      "item": "minecraft:stone",
+      "data": 32767
+    }
+  },
   "result": {
     "item": "harvestcraft:well"
   },
-  "pattern": [
-    "XOX",
-    "XOX",
-    "XOX"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "X": {
-      "item": "#INGOTIRON"
-    },
-    "O": {
-      "item": "minecraft:stone",
-      "data": 0
-    }
-  }
+  "type": "forge:ore_shaped"
 }

@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:blackberryjuiceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPBLACKBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropBlackberry"
     },
     {
-      "item": "#CROPBLACKBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropBlackberry"
     }
   ],
   "type": "forge:ore_shapeless"

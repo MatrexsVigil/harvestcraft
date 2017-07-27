@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:fishsandwichitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#LISTALLFISHRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllfishraw"
     },
     {
-      "item": "#FOODMAYO"
+      "type": "forge:ore_dict",
+      "ore": "foodMayo"
     },
     {
-      "item": "#BREAD"
+      "type": "forge:ore_dict",
+      "ore": "bread"
     }
   ],
   "type": "forge:ore_shapeless"

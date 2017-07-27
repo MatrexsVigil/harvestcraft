@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:rawtofurkeyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODFIRMTOFU"
+      "type": "forge:ore_dict",
+      "ore": "foodFirmtofu"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     },
     {
       "item": "minecraft:bread"

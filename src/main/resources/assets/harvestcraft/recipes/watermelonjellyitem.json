@@ -2,9 +2,11 @@
   "result": {
     "item": "harvestcraft:watermelonjellyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
       "item": "minecraft:melon"
@@ -13,7 +15,8 @@
       "item": "minecraft:melon"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,15 +2,18 @@
   "result": {
     "item": "harvestcraft:zombiejerkyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "#FOODSALT"
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
     },
     {
-      "item": "#DUSTSALT"
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
     }
   ],
   "type": "forge:ore_shapeless"

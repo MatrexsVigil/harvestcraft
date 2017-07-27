@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:fishlettucewrapitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#CROPLETTUCE"
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
     },
     {
-      "item": "#LISTALLFISHCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllfishcooked"
     }
   ],
   "type": "forge:ore_shapeless"

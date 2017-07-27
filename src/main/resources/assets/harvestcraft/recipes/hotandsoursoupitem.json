@@ -2,30 +2,39 @@
   "result": {
     "item": "harvestcraft:hotandsoursoupitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#LISTALLPORKRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkraw"
     },
     {
-      "item": "#FOODSESAMEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodSesameoil"
     },
     {
-      "item": "#LISTALLMUSHROOM"
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
     },
     {
-      "item": "#CROPBAMBOOSHOOT"
+      "type": "forge:ore_dict",
+      "ore": "cropBambooshoot"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#FOODVINEGAR"
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
     },
     {
-      "item": "#FOODBLACKPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"

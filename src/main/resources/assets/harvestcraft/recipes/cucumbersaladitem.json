@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:cucumbersaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#CROPCUCUMBER"
+      "type": "forge:ore_dict",
+      "ore": "cropCucumber"
     },
     {
-      "item": "#FOODSPRINGSALAD"
+      "type": "forge:ore_dict",
+      "ore": "foodSpringsalad"
     }
   ],
   "type": "forge:ore_shapeless"

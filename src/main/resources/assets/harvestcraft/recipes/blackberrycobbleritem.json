@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:blackberrycobbleritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPBLACKBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropBlackberry"
     },
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:lettuceseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:lettuceitem"

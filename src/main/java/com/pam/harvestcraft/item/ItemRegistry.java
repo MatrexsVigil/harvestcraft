@@ -1597,7 +1597,7 @@ public final class ItemRegistry {
     public void onItemRegistry(RegistryEvent.Register<Item> e) {
         IForgeRegistry<Item> reg = e.getRegistry();
         reg.registerAll(itemlist.toArray(new Item[0]));        
-        reg.register(BlockRegistry.apiaryItemBlock);
+        /* reg.register(BlockRegistry.apiaryItemBlock);
         reg.register(BlockRegistry.beehiveItemBlock);
         reg.register(BlockRegistry.candledeco1ItemBlock);
         reg.register(BlockRegistry.candledeco2ItemBlock);
@@ -1634,6 +1634,6 @@ public final class ItemRegistry {
         reg.register(BlockRegistry.shippingbinItemBlock);
         reg.register(BlockRegistry.watertrapItemBlock);
         reg.register(BlockRegistry.waxcombItemBlock);
-        reg.register(BlockRegistry.wellItemBlock);
+        reg.register(BlockRegistry.wellItemBlock); */
     }
 }

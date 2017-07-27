@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:jellydonutitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODDONUT"
+      "type": "forge:ore_dict",
+      "ore": "foodDonut"
     },
     {
-      "item": "#FOODGRAPEJELLY"
+      "type": "forge:ore_dict",
+      "ore": "foodGrapejelly"
     }
   ],
   "type": "forge:ore_shapeless"

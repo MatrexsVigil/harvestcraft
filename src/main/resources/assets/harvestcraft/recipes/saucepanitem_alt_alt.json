@@ -1,18 +1,21 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "a ",
+    "b "
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
   "result": {
     "item": "harvestcraft:saucepanitem"
   },
-  "pattern": [
-    "@  ",
-    "X  "
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "@": {
-      "item": "#INGOTSTEEL"
-    },
-    "X": {
-      "item": "#STICKWOOD"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

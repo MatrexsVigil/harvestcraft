@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:beanburritoitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#CROPBEAN"
+      "type": "forge:ore_dict",
+      "ore": "cropBean"
     },
     {
-      "item": "#FOODTORTILLA"
+      "type": "forge:ore_dict",
+      "ore": "foodTortilla"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     }
   ],
   "type": "forge:ore_shapeless"

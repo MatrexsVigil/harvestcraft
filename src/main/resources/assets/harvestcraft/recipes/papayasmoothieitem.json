@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:papayasmoothieitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPPAPAYA"
+      "type": "forge:ore_dict",
+      "ore": "cropPapaya"
     },
     {
-      "item": "#CROPPAPAYA"
+      "type": "forge:ore_dict",
+      "ore": "cropPapaya"
     },
     {
       "item": "minecraft:snowball"

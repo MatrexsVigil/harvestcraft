@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:extremechiliitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODCHILI"
+      "type": "forge:ore_dict",
+      "ore": "foodChili"
     },
     {
-      "item": "#CROPCHILIPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
     }
   ],
   "type": "forge:ore_shapeless"

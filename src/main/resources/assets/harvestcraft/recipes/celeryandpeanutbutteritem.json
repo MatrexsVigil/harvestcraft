@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:celeryandpeanutbutteritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPCELERY"
+      "type": "forge:ore_dict",
+      "ore": "cropCelery"
     },
     {
-      "item": "#LISTALLNUTBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "listAllnutbutter"
     }
   ],
   "type": "forge:ore_shapeless"

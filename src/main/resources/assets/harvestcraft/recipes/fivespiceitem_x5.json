@@ -1,0 +1,34 @@
+{
+  "result": {
+    "item": "harvestcraft:fivespiceitem",
+    "count": 5
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPeppercorn"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCinnamon"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropNutmeg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

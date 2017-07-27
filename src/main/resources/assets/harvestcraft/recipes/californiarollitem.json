@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:californiarollitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLFISHRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllfishraw"
     },
     {
-      "item": "#CROPAVOCADO"
+      "type": "forge:ore_dict",
+      "ore": "cropAvocado"
     },
     {
-      "item": "#CROPCUCUMBER"
+      "type": "forge:ore_dict",
+      "ore": "cropCucumber"
     },
     {
-      "item": "#CROPSEAWEED"
+      "type": "forge:ore_dict",
+      "ore": "cropSeaweed"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     }
   ],
   "type": "forge:ore_shapeless"

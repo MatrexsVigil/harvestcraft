@@ -1,19 +1,22 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aba",
+    "a a",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "b": {
+      "item": "minecraft:piston",
+      "data": 32767
+    }
+  },
   "result": {
     "item": "harvestcraft:presser"
   },
-  "pattern": [
-    "#O#",
-    "# #",
-    "#O#"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "#": {
-      "item": "#INGOTIRON"
-    },
-    "O": {
-      "item": "minecraft:piston"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

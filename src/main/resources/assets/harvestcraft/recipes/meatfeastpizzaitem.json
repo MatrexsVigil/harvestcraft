@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:meatfeastpizzaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODPIZZA"
+      "type": "forge:ore_dict",
+      "ore": "foodPizza"
     },
     {
-      "item": "#FOODPEPPERONI"
+      "type": "forge:ore_dict",
+      "ore": "foodPepperoni"
     },
     {
-      "item": "#FOODPORKSAUSAGE"
+      "type": "forge:ore_dict",
+      "ore": "foodPorksausage"
     },
     {
-      "item": "#LISTALLBEEFCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefcooked"
     },
     {
-      "item": "#LISTALLCHICKENCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllchickencooked"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:banananutbreaditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPBANANA"
+      "type": "forge:ore_dict",
+      "ore": "cropBanana"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     },
     {
-      "item": "#CROPWALNUT"
+      "type": "forge:ore_dict",
+      "ore": "cropWalnut"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#FOODSALT"
+      "type": "forge:ore_dict",
+      "ore": "dustSalt"
     }
   ],
   "type": "forge:ore_shapeless"

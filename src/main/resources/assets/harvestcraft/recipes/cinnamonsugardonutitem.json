@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:cinnamonsugardonutitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODDONUT"
+      "type": "forge:ore_dict",
+      "ore": "foodDonut"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#FOODGROUNDCINNAMON"
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
     }
   ],
   "type": "forge:ore_shapeless"

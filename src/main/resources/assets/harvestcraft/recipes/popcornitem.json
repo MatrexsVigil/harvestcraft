@@ -2,12 +2,14 @@
   "result": {
     "item": "harvestcraft:popcornitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:cornitem"
     },
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     }
   ],
   "type": "forge:ore_shapeless"

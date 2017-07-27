@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:gingerbreaditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPGINGER"
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
     },
     {
-      "item": "#FOODBATTER"
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     },
     {
-      "item": "#FOODGROUNDCINNAMON"
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:homestylelunchitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODGRILLEDCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodGrilledcheese"
     },
     {
-      "item": "#FOODTOMATOSOUP"
+      "type": "forge:ore_dict",
+      "ore": "foodTomatosoup"
     }
   ],
   "type": "forge:ore_shapeless"

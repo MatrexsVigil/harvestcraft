@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:kiwiyogurtitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPKIWI"
+      "type": "forge:ore_dict",
+      "ore": "cropKiwi"
     },
     {
-      "item": "#FOODPLAINYOGURT"
+      "type": "forge:ore_dict",
+      "ore": "foodPlainyogurt"
     }
   ],
   "type": "forge:ore_shapeless"

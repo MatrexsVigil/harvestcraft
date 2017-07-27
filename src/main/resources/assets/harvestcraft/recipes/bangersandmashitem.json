@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:bangersandmashitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#FOODPORKSAUSAGE"
+      "type": "forge:ore_dict",
+      "ore": "foodPorksausage"
     },
     {
-      "item": "#FOODMASHEDPOTATOES"
+      "type": "forge:ore_dict",
+      "ore": "foodMashedpotatoes"
     }
   ],
   "type": "forge:ore_shapeless"

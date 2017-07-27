@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:beefwellingtonitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#LISTALLBEEFRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     },
     {
-      "item": "#LISTALLMUSHROOM"
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
     },
     {
-      "item": "#CROPSPINACH"
+      "type": "forge:ore_dict",
+      "ore": "cropSpinach"
     }
   ],
   "type": "forge:ore_shapeless"

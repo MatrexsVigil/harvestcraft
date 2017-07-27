@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:steakandchipsitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#LISTALLBEEFRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
     },
     {
-      "item": "#FOODFRIES"
+      "type": "forge:ore_dict",
+      "ore": "foodFries"
     }
   ],
   "type": "forge:ore_shapeless"

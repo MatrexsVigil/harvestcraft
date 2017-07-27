@@ -2,30 +2,19 @@
   "result": {
     "item": "harvestcraft:trailmixitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#LISTALLSEED"
+      "type": "forge:ore_dict",
+      "ore": "foodRoastedpumpkinseeds"
     },
     {
-      "item": "#LISTALLSEED"
+      "type": "forge:ore_dict",
+      "ore": "foodRaisins"
     },
     {
-      "item": "#LISTALLSEED"
-    },
-    {
-      "item": "#LISTALLSEED"
-    },
-    {
-      "item": "#LISTALLSEED"
-    },
-    {
-      "item": "#LISTALLSEED"
-    },
-    {
-      "item": "#FOODRAISINS"
-    },
-    {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     }
   ],
   "type": "forge:ore_shapeless"

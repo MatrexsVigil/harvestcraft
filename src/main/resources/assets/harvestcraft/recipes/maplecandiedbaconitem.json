@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:maplecandiedbaconitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#CROPMAPLESYRUP"
+      "type": "forge:ore_dict",
+      "ore": "cropMaplesyrup"
     }
   ],
   "type": "forge:ore_shapeless"

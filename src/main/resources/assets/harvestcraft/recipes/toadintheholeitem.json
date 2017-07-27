@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:toadintheholeitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#FOODYORKSHIREPUDDING"
+      "type": "forge:ore_dict",
+      "ore": "foodYorkshirepudding"
     },
     {
-      "item": "#FOODSAUSAGE"
+      "type": "forge:ore_dict",
+      "ore": "foodSausage"
     }
   ],
   "type": "forge:ore_shapeless"

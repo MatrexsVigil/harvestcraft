@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:hamsweetpicklesandwichitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODSWEETPICKLE"
+      "type": "forge:ore_dict",
+      "ore": "foodSweetpickle"
     },
     {
-      "item": "#BREAD"
+      "type": "forge:ore_dict",
+      "ore": "bread"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#FOODMAYO"
+      "type": "forge:ore_dict",
+      "ore": "foodMayo"
     }
   ],
   "type": "forge:ore_shapeless"

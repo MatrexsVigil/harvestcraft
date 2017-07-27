@@ -2,12 +2,14 @@
   "result": {
     "item": "harvestcraft:roastedpumpkinseedsitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "minecraft:pumpkin_seeds"
     },
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     }
   ],
   "type": "forge:ore_shapeless"

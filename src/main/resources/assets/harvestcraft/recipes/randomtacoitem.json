@@ -2,30 +2,39 @@
   "result": {
     "item": "harvestcraft:randomtacoitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLBEEFCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefcooked"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     },
     {
-      "item": "#CROPAVOCADO"
+      "type": "forge:ore_dict",
+      "ore": "cropAvocado"
     },
     {
-      "item": "#LISTALLSPICE"
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
     },
     {
-      "item": "#FOODLIMEJUICE"
+      "type": "forge:ore_dict",
+      "ore": "foodLimejuice"
     },
     {
-      "item": "#FOODTORTILLA"
+      "type": "forge:ore_dict",
+      "ore": "foodTortilla"
     }
   ],
   "type": "forge:ore_shapeless"

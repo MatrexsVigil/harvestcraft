@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:poachedpearitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#CROPPEAR"
+      "type": "forge:ore_dict",
+      "ore": "cropPear"
     },
     {
-      "item": "#FOODVANILLA"
+      "type": "forge:ore_dict",
+      "ore": "foodVanilla"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

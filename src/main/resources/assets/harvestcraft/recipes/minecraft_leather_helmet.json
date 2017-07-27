@@ -1,0 +1,17 @@
+{
+  "group": "harvestcraft",
+  "pattern": [
+    "aa",
+    "aa",
+    " a"
+  ],
+  "key": {
+    "a": {
+      "item": "harvestcraft:wovencottonitem"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_helmet"
+  },
+  "type": "minecraft:crafting_shaped"
+}

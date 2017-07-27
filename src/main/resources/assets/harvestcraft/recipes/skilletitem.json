@@ -1,19 +1,22 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "a  ",
+    " a ",
+    "  b"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
   "result": {
     "item": "harvestcraft:skilletitem"
   },
-  "pattern": [
-    "@  ",
-    " @ ",
-    "  X"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "@": {
-      "item": "#INGOTIRON"
-    },
-    "X": {
-      "item": "#STICKWOOD"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

@@ -2,24 +2,19 @@
   "result": {
     "item": "harvestcraft:stuffedeggplantitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPEGGPLANT"
+      "type": "forge:ore_dict",
+      "ore": "cropEggplant"
     },
     {
-      "item": "#CROPONION"
-    },
-    {
-      "item": "#CROPBELLPEPPER"
-    },
-    {
-      "item": "#FOODBUTTER"
-    },
-    {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
     }
   ],
   "type": "forge:ore_shapeless"

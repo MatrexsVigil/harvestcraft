@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:fruitsaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "listAllfruit"
     },
     {
-      "item": "#LISTALLFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "listAllfruit"
     }
   ],
   "type": "forge:ore_shapeless"

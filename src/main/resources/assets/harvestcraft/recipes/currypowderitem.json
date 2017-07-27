@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:currypowderitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMORTARANDPESTLE"
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
     },
     {
-      "item": "#CROPCURRYLEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropCurryleaf"
     }
   ],
   "type": "forge:ore_shapeless"

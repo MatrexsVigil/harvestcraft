@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:coleslawburgeritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODHAMBURGER"
+      "type": "forge:ore_dict",
+      "ore": "foodHamburger"
     },
     {
-      "item": "#FOODCOLESLAW"
+      "type": "forge:ore_dict",
+      "ore": "foodColeslaw"
     }
   ],
   "type": "forge:ore_shapeless"

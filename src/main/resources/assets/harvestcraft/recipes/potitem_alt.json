@@ -1,18 +1,22 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "ab",
+    "b ",
+    "bb"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "ore:ingotSteel"
+    }
+  },
   "result": {
     "item": "harvestcraft:potitem"
   },
-  "pattern": [
-    "X@@",
-    " @@"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "@": {
-      "item": "#INGOTIRON"
-    },
-    "X": {
-      "item": "#STICKWOOD"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:raspberrytrifleitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPRASPBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropRaspberry"
     },
     {
-      "item": "#LISTALLHEAVYCREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
     },
     {
-      "item": "#FOODVANILLA"
+      "type": "forge:ore_dict",
+      "ore": "foodVanilla"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     }
   ],
   "type": "forge:ore_shapeless"

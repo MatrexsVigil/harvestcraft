@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:coffeeconlecheitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODESPRESSO"
+      "type": "forge:ore_dict",
+      "ore": "foodEspresso"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#FOODGROUNDCINNAMON"
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
     }
   ],
   "type": "forge:ore_shapeless"

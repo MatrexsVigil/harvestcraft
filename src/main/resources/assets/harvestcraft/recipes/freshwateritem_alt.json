@@ -2,10 +2,12 @@
   "result": {
     "item": "harvestcraft:freshwateritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "minecraft:water_bucket"
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "type": "forge:ore_shapeless"
 }

@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:honeylemonlambitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#LISTALLMUTTONRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllmuttonraw"
     },
     {
-      "item": "#CROPLEMON"
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
     },
     {
-      "item": "#FOODMUSTARD"
+      "type": "forge:ore_dict",
+      "ore": "foodMustard"
     },
     {
-      "item": "#DROPHONEY"
+      "type": "forge:ore_dict",
+      "ore": "foodHoneydrop"
     }
   ],
   "type": "forge:ore_shapeless"

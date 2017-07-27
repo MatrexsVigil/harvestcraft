@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:powdereddonutitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODDONUT"
+      "type": "forge:ore_dict",
+      "ore": "foodDonut"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

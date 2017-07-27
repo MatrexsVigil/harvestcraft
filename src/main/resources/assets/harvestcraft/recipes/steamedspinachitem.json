@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:steamedspinachitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPSPINACH"
+      "type": "forge:ore_dict",
+      "ore": "cropSpinach"
     },
     {
-      "item": "#LISTALLWATER"
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
     }
   ],
   "type": "forge:ore_shapeless"

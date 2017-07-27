@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:deluxecheeseburgeritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODCHEESEBURGER"
+      "type": "forge:ore_dict",
+      "ore": "foodCheeseburger"
     },
     {
-      "item": "#CROPLETTUCE"
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
     },
     {
-      "item": "#CROPTOMATO"
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
     }
   ],
   "type": "forge:ore_shapeless"

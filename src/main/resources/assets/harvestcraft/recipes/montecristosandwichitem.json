@@ -2,30 +2,38 @@
   "result": {
     "item": "harvestcraft:montecristosandwichitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
       "item": "minecraft:bread"
     },
     {
-      "item": "#LISTALLTURKEYCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllturkeycooked"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#FOODMUSTARD"
+      "type": "forge:ore_dict",
+      "ore": "foodMustard"
     }
   ],
   "type": "forge:ore_shapeless"

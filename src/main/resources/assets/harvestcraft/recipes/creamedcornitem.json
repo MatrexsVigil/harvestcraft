@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:creamedcornitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#CROPCORN"
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#FOODHEAVYCREAM"
+      "type": "forge:ore_dict",
+      "ore": "foodHeavycream"
     }
   ],
   "type": "forge:ore_shapeless"

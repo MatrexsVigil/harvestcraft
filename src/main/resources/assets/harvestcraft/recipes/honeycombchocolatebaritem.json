@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:honeycombchocolatebaritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     },
     {
-      "item": "#FOODHONEYDROP"
+      "type": "forge:ore_dict",
+      "ore": "foodHoneydrop"
     }
   ],
   "type": "forge:ore_shapeless"

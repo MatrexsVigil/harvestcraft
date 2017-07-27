@@ -2,15 +2,18 @@
   "result": {
     "item": "harvestcraft:honeybreaditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
       "item": "minecraft:bread"
     },
     {
-      "item": "#FOODHONEYDROP"
+      "type": "forge:ore_dict",
+      "ore": "foodHoneydrop"
     }
   ],
   "type": "forge:ore_shapeless"

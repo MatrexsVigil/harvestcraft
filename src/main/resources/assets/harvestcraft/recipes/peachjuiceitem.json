@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:peachjuiceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPPEACH"
+      "type": "forge:ore_dict",
+      "ore": "cropPeach"
     },
     {
-      "item": "#CROPPEACH"
+      "type": "forge:ore_dict",
+      "ore": "cropPeach"
     }
   ],
   "type": "forge:ore_shapeless"

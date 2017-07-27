@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:pumpkinmuffinitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPPUMPKIN"
+      "type": "forge:ore_dict",
+      "ore": "cropPumpkin"
     },
     {
-      "item": "#FOODBATTER"
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
     }
   ],
   "type": "forge:ore_shapeless"

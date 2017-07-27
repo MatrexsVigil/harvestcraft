@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:trailmixitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODSALTEDSUNFLOWERSEEDS"
+      "type": "forge:ore_dict",
+      "ore": "foodSaltedsunflowerseeds"
     },
     {
-      "item": "#FOODRAISINS"
+      "type": "forge:ore_dict",
+      "ore": "foodRaisins"
     },
     {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,12 +2,14 @@
   "result": {
     "item": "harvestcraft:teaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:tealeafitem"
     },
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     }
   ],
   "type": "forge:ore_shapeless"

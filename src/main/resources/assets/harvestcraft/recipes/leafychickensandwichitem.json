@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:leafychickensandwichitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODCHICKENSANDWICH"
+      "type": "forge:ore_dict",
+      "ore": "foodChickensandwich"
     },
     {
-      "item": "#CROPLETTUCE"
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
     }
   ],
   "type": "forge:ore_shapeless"

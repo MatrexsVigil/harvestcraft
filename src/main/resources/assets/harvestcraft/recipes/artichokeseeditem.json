@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:artichokeseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:artichokeitem"

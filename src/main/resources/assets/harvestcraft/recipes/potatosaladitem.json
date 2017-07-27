@@ -2,15 +2,18 @@
   "result": {
     "item": "harvestcraft:potatosaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
       "item": "minecraft:baked_potato"
     },
     {
-      "item": "#FOODMAYO"
+      "type": "forge:ore_dict",
+      "ore": "foodMayo"
     }
   ],
   "type": "forge:ore_shapeless"

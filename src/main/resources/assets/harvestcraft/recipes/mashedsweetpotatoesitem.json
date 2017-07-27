@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:mashedsweetpotatoesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#CROPSWEETPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "cropSweetpotato"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     }
   ],
   "type": "forge:ore_shapeless"

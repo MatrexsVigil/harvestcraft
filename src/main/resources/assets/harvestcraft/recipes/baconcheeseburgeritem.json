@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:baconcheeseburgeritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODCHEESEBURGER"
+      "type": "forge:ore_dict",
+      "ore": "foodCheeseburger"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     }
   ],
   "type": "forge:ore_shapeless"

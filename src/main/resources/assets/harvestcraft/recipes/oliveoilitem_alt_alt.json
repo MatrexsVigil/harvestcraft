@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:oliveoilitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSunflower"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

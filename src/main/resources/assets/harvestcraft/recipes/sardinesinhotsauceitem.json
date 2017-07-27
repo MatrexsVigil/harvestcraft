@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:sardinesinhotsauceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#FOODSARDINERAW"
+      "type": "forge:ore_dict",
+      "ore": "foodSardineraw"
     },
     {
-      "item": "#FOODHOTSAUCE"
+      "type": "forge:ore_dict",
+      "ore": "foodHotsauce"
     }
   ],
   "type": "forge:ore_shapeless"

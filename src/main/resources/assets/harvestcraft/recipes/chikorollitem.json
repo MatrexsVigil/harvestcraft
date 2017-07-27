@@ -2,30 +2,39 @@
   "result": {
     "item": "harvestcraft:chikorollitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     },
     {
-      "item": "#LISTALLCHICKENCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllchickencooked"
     },
     {
-      "item": "#CROPCARROT"
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
     },
     {
-      "item": "#CROPCABBAGE"
+      "type": "forge:ore_dict",
+      "ore": "cropCabbage"
     },
     {
-      "item": "#CROPLEEK"
+      "type": "forge:ore_dict",
+      "ore": "cropLeek"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     }
   ],
   "type": "forge:ore_shapeless"

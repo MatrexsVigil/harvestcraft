@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:lambkebabitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLMUTTONCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllmuttoncooked"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPBELLPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
     },
     {
-      "item": "#STICKWOOD"
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,33 +2,43 @@
   "result": {
     "item": "harvestcraft:hoisinsauceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#CROPSWEETPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "cropSweetpotato"
     },
     {
-      "item": "#LISTALLWATER"
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#CROPSOYBEAN"
+      "type": "forge:ore_dict",
+      "ore": "cropSoybean"
     },
     {
-      "item": "#CROPSESAME"
+      "type": "forge:ore_dict",
+      "ore": "cropSesame"
     },
     {
-      "item": "#FOODVINEGAR"
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
     },
     {
-      "item": "#CROPGARLIC"
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
     },
     {
-      "item": "#CROPCHILIPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
     }
   ],
   "type": "forge:ore_shapeless"

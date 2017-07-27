@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:deluxechickencurryitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODCHICKENCURRY"
+      "type": "forge:ore_dict",
+      "ore": "foodChickencurry"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#FOODNAAN"
+      "type": "forge:ore_dict",
+      "ore": "foodNaan"
     },
     {
-      "item": "#FOODMANGOCHUTNEY"
+      "type": "forge:ore_dict",
+      "ore": "foodMangochutney"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:tortillaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#FOODCORNMEAL"
+      "type": "forge:ore_dict",
+      "ore": "foodCornmeal"
     },
     {
-      "item": "#LISTALLWATER"
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
     }
   ],
   "type": "forge:ore_shapeless"

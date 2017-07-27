@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:banana_sapling"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:bananaitem"

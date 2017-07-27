@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:onionhamburgeritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODHAMBURGER"
+      "type": "forge:ore_dict",
+      "ore": "foodHamburger"
     },
     {
-      "item": "#FOODFRIEDONIONS"
+      "type": "forge:ore_dict",
+      "ore": "foodFriedonions"
     }
   ],
   "type": "forge:ore_shapeless"

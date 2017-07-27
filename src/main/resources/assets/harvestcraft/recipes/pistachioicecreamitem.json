@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:pistachioicecreamitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLICECREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllicecream"
     },
     {
-      "item": "#CROPPISTACHIO"
+      "type": "forge:ore_dict",
+      "ore": "cropPistachio"
     }
   ],
   "type": "forge:ore_shapeless"

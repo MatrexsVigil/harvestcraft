@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:turkishdelightitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#LISTALLWATER"
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#CROPORANGE"
+      "type": "forge:ore_dict",
+      "ore": "cropOrange"
     },
     {
-      "item": "#CROPVANILLABEAN"
+      "type": "forge:ore_dict",
+      "ore": "cropVanillabean"
     },
     {
-      "item": "#CROPPISTACHIO"
+      "type": "forge:ore_dict",
+      "ore": "cropPistachio"
     }
   ],
   "type": "forge:ore_shapeless"

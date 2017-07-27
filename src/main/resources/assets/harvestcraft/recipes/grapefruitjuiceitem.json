@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:grapefruitjuiceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPGRAPEFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "cropGrapefruit"
     },
     {
-      "item": "#CROPGRAPEFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "cropGrapefruit"
     }
   ],
   "type": "forge:ore_shapeless"

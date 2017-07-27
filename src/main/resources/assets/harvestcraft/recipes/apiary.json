@@ -1,19 +1,21 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "b": {
+      "item": "minecraft:item_frame"
+    }
+  },
   "result": {
     "item": "harvestcraft:apiary"
   },
-  "pattern": [
-    "#O#",
-    "#O#",
-    "#O#"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "#": {
-      "item": "#PLANKWOOD"
-    },
-    "O": {
-      "item": "minecraft:item_frame"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

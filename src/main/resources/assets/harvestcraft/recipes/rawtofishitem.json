@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:rawtofishitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODFIRMTOFU"
+      "type": "forge:ore_dict",
+      "ore": "foodFirmtofu"
     },
     {
-      "item": "#CROPSEAWEED"
+      "type": "forge:ore_dict",
+      "ore": "cropSeaweed"
     },
     {
-      "item": "#CROPLEMON"
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     }
   ],
   "type": "forge:ore_shapeless"

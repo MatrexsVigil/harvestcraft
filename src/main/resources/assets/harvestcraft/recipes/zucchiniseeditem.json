@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:zucchiniseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:zucchiniitem"

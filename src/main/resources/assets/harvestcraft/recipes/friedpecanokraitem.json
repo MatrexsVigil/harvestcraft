@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:friedpecanokraitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#CROPOKRA"
+      "type": "forge:ore_dict",
+      "ore": "cropOkra"
     },
     {
-      "item": "#CROPPECAN"
+      "type": "forge:ore_dict",
+      "ore": "cropPecan"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     },
     {
-      "item": "#FOODBLACKPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"

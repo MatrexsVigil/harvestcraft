@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:maplesausageitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#LISTALLBEEFRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     },
     {
-      "item": "#CROPMAPLESYRUP"
+      "type": "forge:ore_dict",
+      "ore": "cropMaplesyrup"
     }
   ],
   "type": "forge:ore_shapeless"

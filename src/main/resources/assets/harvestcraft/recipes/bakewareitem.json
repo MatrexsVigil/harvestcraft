@@ -1,16 +1,18 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrick"
+    }
+  },
   "result": {
     "item": "harvestcraft:bakewareitem"
   },
-  "pattern": [
-    "@@@",
-    "@ @",
-    "@@@"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "@": {
-      "item": "#INGOTBRICK"
-    }
-  }
+  "type": "forge:ore_shaped"
 }
