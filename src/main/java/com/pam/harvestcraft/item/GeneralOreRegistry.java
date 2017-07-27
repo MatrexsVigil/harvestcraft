@@ -2,6 +2,7 @@ package com.pam.harvestcraft.item;
 
 import static com.pam.harvestcraft.HarvestCraft.config;
 
+import com.pam.bonecraft.BlockRegistry;
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.blocks.FruitRegistry;
@@ -1008,16 +1009,15 @@ public class GeneralOreRegistry {
     }
 
     private static void registerFoodOres() {
-    	//Item FluffyPuffSeeds = ForgeRegistries.ITEMS.getValue(new ResourceLocation("silentgems", "FluffyPuffSeeds"));
-    	
+    	Item FluffyPuffSeeds = ForgeRegistries.ITEMS.getValue(new ResourceLocation("silentgems", "FluffyPuffSeeds"));
+        OreDictionary.registerOre(listAllseed, Items.WHEAT_SEEDS);
+        OreDictionary.registerOre(listAllseed, Items.BEETROOT_SEEDS);
+        OreDictionary.registerOre(listAllseed, Items.PUMPKIN_SEEDS);
+        OreDictionary.registerOre(listAllseed, Items.MELON_SEEDS);
+        if (FluffyPuffSeeds != null)
+        	OreDictionary.registerOre(listAllseed, FluffyPuffSeeds);    	
         for (Item seed: CropRegistry.getSeeds().values()) {
             OreDictionary.registerOre(listAllseed, seed);
-            OreDictionary.registerOre(listAllseed, Items.WHEAT_SEEDS);
-            OreDictionary.registerOre(listAllseed, Items.BEETROOT_SEEDS);
-            OreDictionary.registerOre(listAllseed, Items.PUMPKIN_SEEDS);
-            OreDictionary.registerOre(listAllseed, Items.MELON_SEEDS);
-			//OreDictionary.registerOre(listAllseed, FluffyPuffSeeds);
-            
         }
 
         if (HarvestCraft.config.enableTofuAsMeatInRecipes) {
