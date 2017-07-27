@@ -2,7 +2,6 @@ package com.pam.harvestcraft.item;
 
 import static com.pam.harvestcraft.HarvestCraft.config;
 
-import com.pam.bonecraft.BlockRegistry;
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.blocks.FruitRegistry;
