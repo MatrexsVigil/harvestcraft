@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:mangochutneyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPMANGO"
+      "type": "forge:ore_dict",
+      "ore": "cropMango"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     },
     {
-      "item": "#CROPMUSTARD"
+      "type": "forge:ore_dict",
+      "ore": "cropMustard"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     }
   ],
   "type": "forge:ore_shapeless"

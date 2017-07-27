@@ -2,9 +2,11 @@
   "result": {
     "item": "harvestcraft:cocoapowderitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMORTARANDPESTLE"
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
     },
     {
       "item": "minecraft:dye",

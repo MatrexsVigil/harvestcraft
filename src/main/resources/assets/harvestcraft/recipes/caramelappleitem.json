@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:caramelappleitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPAPPLE"
+      "type": "forge:ore_dict",
+      "ore": "cropApple"
     },
     {
-      "item": "#FOODCARAMEL"
+      "type": "forge:ore_dict",
+      "ore": "foodCaramel"
     },
     {
-      "item": "#STICKWOOD"
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
     }
   ],
   "type": "forge:ore_shapeless"

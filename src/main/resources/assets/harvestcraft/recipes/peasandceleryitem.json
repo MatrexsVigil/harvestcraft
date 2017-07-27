@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:peasandceleryitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#CROPCELERY"
+      "type": "forge:ore_dict",
+      "ore": "cropCelery"
     },
     {
-      "item": "#CROPPEAS"
+      "type": "forge:ore_dict",
+      "ore": "cropPeas"
     },
     {
-      "item": "#CROPLEMON"
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
     },
     {
-      "item": "#FOODBLACKPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"

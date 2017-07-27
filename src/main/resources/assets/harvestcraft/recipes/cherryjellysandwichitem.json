@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:cherryjellysandwichitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLNUTBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "listAllnutbutter"
     },
     {
-      "item": "#FOODCHERRYJELLY"
+      "type": "forge:ore_dict",
+      "ore": "foodCherryjelly"
     },
     {
-      "item": "#BREAD"
+      "type": "forge:ore_dict",
+      "ore": "bread"
     }
   ],
   "type": "forge:ore_shapeless"

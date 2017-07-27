@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:limesmoothieitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPLIME"
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
     },
     {
-      "item": "#CROPLIME"
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
     },
     {
       "item": "minecraft:snowball"

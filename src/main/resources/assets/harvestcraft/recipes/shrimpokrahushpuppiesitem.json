@@ -2,27 +2,35 @@
   "result": {
     "item": "harvestcraft:shrimpokrahushpuppiesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODCORNMEAL"
+      "type": "forge:ore_dict",
+      "ore": "foodCornmeal"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     },
     {
-      "item": "#FOODSHRIMPRAW"
+      "type": "forge:ore_dict",
+      "ore": "foodShrimpraw"
     },
     {
-      "item": "#CROPOKRA"
+      "type": "forge:ore_dict",
+      "ore": "cropOkra"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:cornbreaditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#FOODCORNMEAL"
+      "type": "forge:ore_dict",
+      "ore": "foodCornmeal"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     }
   ],
   "type": "forge:ore_shapeless"

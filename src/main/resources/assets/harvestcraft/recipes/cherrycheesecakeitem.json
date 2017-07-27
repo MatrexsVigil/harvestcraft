@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:cherrycheesecakeitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPCHERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropCherry"
     },
     {
-      "item": "#FOODCHEESECAKE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheesecake"
     }
   ],
   "type": "forge:ore_shapeless"

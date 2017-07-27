@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:pumpkinoatsconesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     },
     {
-      "item": "#CROPOATS"
+      "type": "forge:ore_dict",
+      "ore": "cropOats"
     },
     {
-      "item": "#CROPPUMPKIN"
+      "type": "forge:ore_dict",
+      "ore": "cropPumpkin"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:vindalooitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#LISTALLMEATRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatraw"
     },
     {
-      "item": "#FOODCURRYPOWDER"
+      "type": "forge:ore_dict",
+      "ore": "foodCurrypowder"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     },
     {
-      "item": "#FOODBLACKPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     }
   ],
   "type": "forge:ore_shapeless"

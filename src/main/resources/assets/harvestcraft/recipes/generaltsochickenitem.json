@@ -2,27 +2,35 @@
   "result": {
     "item": "harvestcraft:generaltsochickenitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#LISTALLCHICKENRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
     },
     {
-      "item": "#CROPBROCCOLI"
+      "type": "forge:ore_dict",
+      "ore": "cropBroccoli"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     },
     {
-      "item": "#CROPCHILIPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     }
   ],
   "type": "forge:ore_shapeless"

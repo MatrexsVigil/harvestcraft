@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:gravyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:durianmuffinitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPDURIAN"
+      "type": "forge:ore_dict",
+      "ore": "cropDurian"
     },
     {
-      "item": "#FOODBATTER"
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
     }
   ],
   "type": "forge:ore_shapeless"

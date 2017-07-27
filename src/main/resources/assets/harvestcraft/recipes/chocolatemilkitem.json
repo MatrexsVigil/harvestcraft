@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:chocolatemilkitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#FOODCOCOAPOWDER"
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
     }
   ],
   "type": "forge:ore_shapeless"

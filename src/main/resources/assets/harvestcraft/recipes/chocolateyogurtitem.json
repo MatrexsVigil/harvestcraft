@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:chocolateyogurtitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODCOCOAPOWDER"
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
     },
     {
-      "item": "#FOODPLAINYOGURT"
+      "type": "forge:ore_dict",
+      "ore": "foodPlainyogurt"
     }
   ],
   "type": "forge:ore_shapeless"

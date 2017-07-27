@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:strawberrysaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPSTRAWBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropStrawberry"
     },
     {
-      "item": "#FOODFRUITSALAD"
+      "type": "forge:ore_dict",
+      "ore": "foodFruitsalad"
     }
   ],
   "type": "forge:ore_shapeless"

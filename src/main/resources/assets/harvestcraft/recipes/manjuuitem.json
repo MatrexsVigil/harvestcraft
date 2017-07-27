@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:manjuuitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#CROPBEAN"
+      "type": "forge:ore_dict",
+      "ore": "cropBean"
     }
   ],
   "type": "forge:ore_shapeless"

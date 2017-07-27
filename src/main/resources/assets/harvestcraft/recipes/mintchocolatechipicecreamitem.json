@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:mintchocolatechipicecreamitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLICECREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllicecream"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     },
     {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     }
   ],
   "type": "forge:ore_shapeless"

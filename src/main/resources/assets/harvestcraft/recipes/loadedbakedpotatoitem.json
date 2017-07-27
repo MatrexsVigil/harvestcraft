@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:loadedbakedpotatoitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODBUTTEREDPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "foodButteredpotato"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     }
   ],
   "type": "forge:ore_shapeless"

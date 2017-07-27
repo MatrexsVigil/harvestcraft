@@ -2,30 +2,39 @@
   "result": {
     "item": "harvestcraft:ploughmanslunchitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#BREAD"
+      "type": "forge:ore_dict",
+      "ore": "bread"
     },
     {
-      "item": "#CROPAPPLE"
+      "type": "forge:ore_dict",
+      "ore": "cropApple"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     },
     {
-      "item": "#FOODSWEETPICKLE"
+      "type": "forge:ore_dict",
+      "ore": "foodSweetpickle"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#FOODBOILEDEGG"
+      "type": "forge:ore_dict",
+      "ore": "foodBoiledegg"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:pepperoniitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#LISTALLSPICE"
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
     },
     {
-      "item": "#CROPBELLPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
     },
     {
-      "item": "#DUSTSALT"
+      "type": "forge:ore_dict",
+      "ore": "foodSalt"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,9 +2,11 @@
   "result": {
     "item": "harvestcraft:melonsmoothieitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
       "item": "minecraft:melon"

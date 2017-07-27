@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:strawberrymilkshakeitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#CROPSTRAWBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropStrawberry"
     },
     {
       "item": "minecraft:snowball"

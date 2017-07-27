@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:biscuitsandgravyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODBISCUIT"
+      "type": "forge:ore_dict",
+      "ore": "foodBiscuit"
     },
     {
-      "item": "#FOODGRAVY"
+      "type": "forge:ore_dict",
+      "ore": "foodGravy"
     }
   ],
   "type": "forge:ore_shapeless"

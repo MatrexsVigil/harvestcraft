@@ -1,23 +1,25 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "b": {
+      "item": "minecraft:log",
+      "data": 32767
+    },
+    "c": {
+      "item": "minecraft:emerald"
+    }
+  },
   "result": {
     "item": "harvestcraft:shippingbin"
   },
-  "pattern": [
-    "XOX",
-    "OEO",
-    "XOX"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "E": {
-      "item": "minecraft:emerald"
-    },
-    "X": {
-      "item": "#PLANKWOOD"
-    },
-    "O": {
-      "item": "minecraft:log",
-      "data": 0
-    }
-  }
+  "type": "forge:ore_shaped"
 }

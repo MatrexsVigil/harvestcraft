@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:picklesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPCUCUMBER"
+      "type": "forge:ore_dict",
+      "ore": "cropCucumber"
     },
     {
-      "item": "#ITEMSALT"
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
     },
     {
-      "item": "#FOODVINEGAR"
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
     }
   ],
   "type": "forge:ore_shapeless"

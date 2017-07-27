@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:pavlovaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#CROPLEMON"
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
     },
     {
-      "item": "#LISTALLHEAVYCREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
     },
     {
-      "item": "#CROPSTRAWBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropStrawberry"
     }
   ],
   "type": "forge:ore_shapeless"

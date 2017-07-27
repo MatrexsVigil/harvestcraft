@@ -2,12 +2,14 @@
   "result": {
     "item": "harvestcraft:vanillaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:vanillabeanitem"
     },
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     }
   ],
   "type": "forge:ore_shapeless"

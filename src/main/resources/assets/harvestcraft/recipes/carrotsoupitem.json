@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:carrotsoupitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPCARROT"
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
     },
     {
-      "item": "#LISTALLHEAVYCREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     }
   ],
   "type": "forge:ore_shapeless"

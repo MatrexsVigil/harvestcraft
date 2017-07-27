@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:meatystewitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#LISTALLMEATRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatraw"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     }
   ],
   "type": "forge:ore_shapeless"

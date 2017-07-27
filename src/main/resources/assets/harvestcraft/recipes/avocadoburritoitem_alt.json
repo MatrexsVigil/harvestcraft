@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:avocadoburritoitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#CROPAVOCADO"
+      "type": "forge:ore_dict",
+      "ore": "cropAvocado"
     },
     {
-      "item": "#FOODTORTILLA"
+      "type": "forge:ore_dict",
+      "ore": "foodTortilla"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     }
   ],
   "type": "forge:ore_shapeless"

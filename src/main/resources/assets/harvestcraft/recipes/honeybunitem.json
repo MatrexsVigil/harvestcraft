@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:honeybunitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#FOODHONEYDROP"
+      "type": "forge:ore_dict",
+      "ore": "foodHoneydrop"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     }
   ],
   "type": "forge:ore_shapeless"

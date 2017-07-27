@@ -1,20 +1,24 @@
 {
   "result": {
-    "item": "harvestcraft:veggiebaititem",
-    "count": 4
+    "item": "harvestcraft:veggiebaititem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#STRING"
+      "type": "forge:ore_dict",
+      "ore": "string"
     },
     {
-      "item": "#LISTALLVEGGIE"
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
     },
     {
-      "item": "#LISTALLVEGGIE"
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
     },
     {
-      "item": "#LISTALLVEGGIE"
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
     }
   ],
   "type": "forge:ore_shapeless"

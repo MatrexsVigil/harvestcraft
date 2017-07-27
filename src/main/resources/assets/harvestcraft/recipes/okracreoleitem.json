@@ -2,27 +2,35 @@
   "result": {
     "item": "harvestcraft:okracreoleitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#CROPOKRA"
+      "type": "forge:ore_dict",
+      "ore": "cropOkra"
     },
     {
-      "item": "#CROPGARLIC"
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
     },
     {
-      "item": "#CROPTOMATO"
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
     },
     {
-      "item": "#CROPBELLPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#LISTALLSPICE"
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:honeyglazedcarrotsitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#CROPCARROT"
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
     },
     {
-      "item": "#FOODHONEYDROP"
+      "type": "forge:ore_dict",
+      "ore": "foodHoneydrop"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     },
     {
-      "item": "#CROPLEMON"
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
     }
   ],
   "type": "forge:ore_shapeless"

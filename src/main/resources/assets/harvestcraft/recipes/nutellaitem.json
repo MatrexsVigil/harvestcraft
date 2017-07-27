@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:nutellaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     },
     {
-      "item": "#FOODGROUNDNUTMEG"
+      "type": "forge:ore_dict",
+      "ore": "foodGroundnutmeg"
     }
   ],
   "type": "forge:ore_shapeless"

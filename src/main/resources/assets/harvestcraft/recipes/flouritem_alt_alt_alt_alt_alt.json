@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:flouritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMORTARANDPESTLE"
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
     },
     {
-      "item": "#CROPBARLEY"
+      "type": "forge:ore_dict",
+      "ore": "cropWheat"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:vegemiteontoastitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODVEGEMITE"
+      "type": "forge:ore_dict",
+      "ore": "foodVegemite"
     },
     {
-      "item": "#FOODTOAST"
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
     }
   ],
   "type": "forge:ore_shapeless"

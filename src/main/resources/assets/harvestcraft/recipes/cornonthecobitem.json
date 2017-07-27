@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:cornonthecobitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPCORN"
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     }
   ],
   "type": "forge:ore_shapeless"

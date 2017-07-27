@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:eggsaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODBOILEDEGG"
+      "type": "forge:ore_dict",
+      "ore": "foodBoiledegg"
     },
     {
-      "item": "#FOODMAYO"
+      "type": "forge:ore_dict",
+      "ore": "foodMayo"
     }
   ],
   "type": "forge:ore_shapeless"

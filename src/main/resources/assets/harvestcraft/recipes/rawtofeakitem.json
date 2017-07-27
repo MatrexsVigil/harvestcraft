@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:rawtofeakitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODFIRMTOFU"
+      "type": "forge:ore_dict",
+      "ore": "foodFirmtofu"
     },
     {
-      "item": "#LISTALLMUSHROOM"
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
     },
     {
-      "item": "#FOODSOYSAUCE"
+      "type": "forge:ore_dict",
+      "ore": "foodSoysauce"
     },
     {
-      "item": "#FOODBLACKPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     }
   ],
   "type": "forge:ore_shapeless"

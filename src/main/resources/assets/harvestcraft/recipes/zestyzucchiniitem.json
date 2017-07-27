@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:zestyzucchiniitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPZUCCHINI"
+      "type": "forge:ore_dict",
+      "ore": "cropZucchini"
     },
     {
-      "item": "#FOODPASTA"
+      "type": "forge:ore_dict",
+      "ore": "foodPasta"
     },
     {
-      "item": "#CROPCHILIPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
     },
     {
-      "item": "#CROPGARLIC"
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     }
   ],
   "type": "forge:ore_shapeless"

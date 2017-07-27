@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:mustardseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:mustardseedsitem"

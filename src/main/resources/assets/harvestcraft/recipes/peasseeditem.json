@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:peasseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:peasitem"

@@ -1,25 +1,30 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "b": {
+      "item": "minecraft:trapdoor",
+      "data": 32767
+    },
+    "c": {
+      "type": "forge:ore_dict",
+      "ore": "string"
+    },
+    "d": {
+      "item": "minecraft:chest",
+      "data": 32767
+    }
+  },
   "result": {
     "item": "harvestcraft:groundtrap"
   },
-  "pattern": [
-    "XTX",
-    "OCO",
-    "XOX"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "C": {
-      "item": "minecraft:chest"
-    },
-    "T": {
-      "item": "minecraft:trapdoor"
-    },
-    "X": {
-      "item": "#STICKWOOD"
-    },
-    "O": {
-      "item": "#STRING"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

@@ -2,33 +2,43 @@
   "result": {
     "item": "harvestcraft:paneertikkamasalaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#FOODPANEER"
+      "type": "forge:ore_dict",
+      "ore": "foodPaneer"
     },
     {
-      "item": "#FOODGARAMMASALA"
+      "type": "forge:ore_dict",
+      "ore": "foodGarammasala"
     },
     {
-      "item": "#FOODCURRYPOWDER"
+      "type": "forge:ore_dict",
+      "ore": "foodCurrypowder"
     },
     {
-      "item": "#FOODCOCONUTCREAM"
+      "type": "forge:ore_dict",
+      "ore": "foodCoconutcream"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPBELLPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
     },
     {
-      "item": "#CROPTOMATO"
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
     },
     {
-      "item": "#CROPGINGER"
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
     }
   ],
   "type": "forge:ore_shapeless"

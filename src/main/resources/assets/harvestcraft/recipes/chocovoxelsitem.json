@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:chocovoxelsitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
       "item": "minecraft:cookie"

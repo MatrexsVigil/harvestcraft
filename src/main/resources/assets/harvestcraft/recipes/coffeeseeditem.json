@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:coffeeseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:coffeebeanitem"

@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:tunapotatoitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODBUTTEREDPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "foodButteredpotato"
     },
     {
-      "item": "#CROPCORN"
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
     },
     {
-      "item": "#LISTALLFISHCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllfishcooked"
     }
   ],
   "type": "forge:ore_shapeless"

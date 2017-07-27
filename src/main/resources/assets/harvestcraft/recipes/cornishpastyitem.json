@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:cornishpastyitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#LISTALLBEEFRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
     },
     {
-      "item": "#CROPPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     },
     {
-      "item": "#CROPRUTABAGA"
+      "type": "forge:ore_dict",
+      "ore": "cropRutabaga"
     },
     {
-      "item": "#FOODBLACKPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"

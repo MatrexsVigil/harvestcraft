@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:cottonseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:cottonitem"

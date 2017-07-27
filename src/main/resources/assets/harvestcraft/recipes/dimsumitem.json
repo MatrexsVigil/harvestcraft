@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:dimsumitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     },
     {
-      "item": "#CROPWATERCHESTNUT"
+      "type": "forge:ore_dict",
+      "ore": "cropWaterchestnut"
     },
     {
-      "item": "#LISTALLMUSHROOM"
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
     },
     {
-      "item": "#LISTALLMEATRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatraw"
     }
   ],
   "type": "forge:ore_shapeless"

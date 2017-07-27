@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:hashitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#LISTALLBEEFCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefcooked"
     },
     {
-      "item": "#CROPPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
     },
     {
-      "item": "#FOODKETCHUP"
+      "type": "forge:ore_dict",
+      "ore": "foodKetchup"
     }
   ],
   "type": "forge:ore_shapeless"

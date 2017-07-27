@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:bananasplititem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#CROPBANANA"
+      "type": "forge:ore_dict",
+      "ore": "cropBanana"
     },
     {
-      "item": "#FOODCOCOAPOWDER"
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
     },
     {
-      "item": "#CROPCHERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropCherry"
     },
     {
-      "item": "#LISTALLICECREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllicecream"
     },
     {
-      "item": "#CROPSTRAWBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropStrawberry"
     }
   ],
   "type": "forge:ore_shapeless"

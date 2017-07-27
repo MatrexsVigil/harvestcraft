@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:cactusfruitjuiceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPCACTUSFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "cropCactusfruit"
     },
     {
-      "item": "#CROPCACTUSFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "cropCactusfruit"
     }
   ],
   "type": "forge:ore_shapeless"

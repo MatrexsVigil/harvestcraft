@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:springsaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#CROPLETTUCE"
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
     },
     {
-      "item": "#CROPCUCUMBER"
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
     }
   ],
   "type": "forge:ore_shapeless"

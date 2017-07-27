@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:ricesoupitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     }
   ],
   "type": "forge:ore_shapeless"

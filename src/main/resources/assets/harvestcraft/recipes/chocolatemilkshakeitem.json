@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:chocolatemilkshakeitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#FOODCOCOAPOWDER"
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
     },
     {
       "item": "minecraft:snowball"

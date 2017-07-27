@@ -2,27 +2,35 @@
   "result": {
     "item": "harvestcraft:mcpamitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLBEEFCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefcooked"
     },
     {
-      "item": "#CROPLETTUCE"
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
     },
     {
-      "item": "#FOODGHERKIN"
+      "type": "forge:ore_dict",
+      "ore": "foodPickles"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#FOODTOAST"
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
     },
     {
-      "item": "#FOODSALADDRESSING"
+      "type": "forge:ore_dict",
+      "ore": "foodSaladdressing"
     }
   ],
   "type": "forge:ore_shapeless"

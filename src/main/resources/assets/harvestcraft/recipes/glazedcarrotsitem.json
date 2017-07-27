@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:glazedcarrotsitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#CROPCARROT"
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

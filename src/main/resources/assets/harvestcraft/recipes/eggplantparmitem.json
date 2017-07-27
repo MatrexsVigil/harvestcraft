@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:eggplantparmitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPEGGPLANT"
+      "type": "forge:ore_dict",
+      "ore": "cropEggplant"
     },
     {
-      "item": "#CROPTOMATO"
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
     },
     {
-      "item": "#FOODPASTA"
+      "type": "forge:ore_dict",
+      "ore": "foodPasta"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     }
   ],
   "type": "forge:ore_shapeless"

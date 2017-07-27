@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:pickledbeetsitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPBEET"
+      "type": "forge:ore_dict",
+      "ore": "cropBeet"
     },
     {
-      "item": "#FOODVINEGAR"
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
     },
     {
-      "item": "#FOODSALT"
+      "type": "forge:ore_dict",
+      "ore": "dustSalt"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:durianmilkshakeitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#CROPDURIAN"
+      "type": "forge:ore_dict",
+      "ore": "cropDurian"
     },
     {
       "item": "minecraft:snowball"

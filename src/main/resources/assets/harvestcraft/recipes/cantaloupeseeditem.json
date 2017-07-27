@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:cantaloupeseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:cantaloupeitem"

@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:starfruityogurtitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPSTARFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "cropStarfruit"
     },
     {
-      "item": "#FOODPLAINYOGURT"
+      "type": "forge:ore_dict",
+      "ore": "foodPlainyogurt"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:creamcookieitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     },
     {
-      "item": "#LISTALLHEAVYCREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#FOODCOCOAPOWDER"
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
     }
   ],
   "type": "forge:ore_shapeless"

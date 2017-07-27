@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:persimmonjuiceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPPERSIMMON"
+      "type": "forge:ore_dict",
+      "ore": "cropPersimmon"
     },
     {
-      "item": "#CROPPERSIMMON"
+      "type": "forge:ore_dict",
+      "ore": "cropPersimmon"
     }
   ],
   "type": "forge:ore_shapeless"

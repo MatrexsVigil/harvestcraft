@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:supremepizzaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODPIZZA"
+      "type": "forge:ore_dict",
+      "ore": "foodPizza"
     },
     {
-      "item": "#CROPBELLPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     }
   ],
   "type": "forge:ore_shapeless"

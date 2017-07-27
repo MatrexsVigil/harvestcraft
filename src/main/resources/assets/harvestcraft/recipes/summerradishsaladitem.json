@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:summerradishsaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#CROPRADISH"
+      "type": "forge:ore_dict",
+      "ore": "cropRadish"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPCUCUMBER"
+      "type": "forge:ore_dict",
+      "ore": "cropCucumber"
     },
     {
-      "item": "#FOODVINEGAR"
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
     }
   ],
   "type": "forge:ore_shapeless"

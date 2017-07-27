@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:delightedmealitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODDELUXECHEESEBURGER"
+      "type": "forge:ore_dict",
+      "ore": "foodDeluxecheeseburger"
     },
     {
-      "item": "#FOODFRIES"
+      "type": "forge:ore_dict",
+      "ore": "foodFries"
     },
     {
-      "item": "#LISTALLSMOOTHIE"
+      "type": "forge:ore_dict",
+      "ore": "listAllsmoothie"
     }
   ],
   "type": "forge:ore_shapeless"

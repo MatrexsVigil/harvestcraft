@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:spumoniicecreamitem",
+    "count": 3
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCherryicecream"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPistachioicecream"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVanillaicecream"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

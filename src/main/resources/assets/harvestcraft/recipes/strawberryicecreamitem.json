@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:strawberryicecreamitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLICECREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllicecream"
     },
     {
-      "item": "#CROPSTRAWBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropStrawberry"
     }
   ],
   "type": "forge:ore_shapeless"

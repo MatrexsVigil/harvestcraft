@@ -2,12 +2,14 @@
   "result": {
     "item": "harvestcraft:butteredpotatoitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "minecraft:baked_potato"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     }
   ],
   "type": "forge:ore_shapeless"

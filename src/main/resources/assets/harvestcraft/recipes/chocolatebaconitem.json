@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:chocolatebaconitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,12 +2,11 @@
   "result": {
     "item": "harvestcraft:oliveoilitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
-    },
-    {
-      "item": "#CROPOLIVE"
+      "type": "forge:ore_dict",
+      "ore": "foodSesameoil"
     }
   ],
   "type": "forge:ore_shapeless"

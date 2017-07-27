@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:neapolitanicecreamitem",
+    "count": 3
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodChocolateicecream"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodStrawberryicecream"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVanillaicecream"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

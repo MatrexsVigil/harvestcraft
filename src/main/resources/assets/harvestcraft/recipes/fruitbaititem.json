@@ -1,20 +1,24 @@
 {
   "result": {
-    "item": "harvestcraft:fruitbaititem",
-    "count": 4
+    "item": "harvestcraft:fruitbaititem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#STRING"
+      "type": "forge:ore_dict",
+      "ore": "string"
     },
     {
-      "item": "#LISTALLFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "listAllfruit"
     },
     {
-      "item": "#LISTALLFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "listAllfruit"
     },
     {
-      "item": "#LISTALLFRUIT"
+      "type": "forge:ore_dict",
+      "ore": "listAllfruit"
     }
   ],
   "type": "forge:ore_shapeless"

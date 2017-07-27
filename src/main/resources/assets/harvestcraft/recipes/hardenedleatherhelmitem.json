@@ -1,15 +1,17 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aa",
+    "aa",
+    " a"
+  ],
+  "key": {
+    "a": {
+      "item": "harvestcraft:hardenedleatheritem"
+    }
+  },
   "result": {
     "item": "harvestcraft:hardenedleatherhelmitem"
   },
-  "pattern": [
-    "XXX",
-    "X X"
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "X": {
-      "item": "harvestcraft:hardenedleatheritem"
-    }
-  }
+  "type": "minecraft:crafting_shaped"
 }

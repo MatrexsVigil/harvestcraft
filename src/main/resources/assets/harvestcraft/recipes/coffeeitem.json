@@ -2,12 +2,14 @@
   "result": {
     "item": "harvestcraft:coffeeitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:coffeebeanitem"
     },
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     }
   ],
   "type": "forge:ore_shapeless"

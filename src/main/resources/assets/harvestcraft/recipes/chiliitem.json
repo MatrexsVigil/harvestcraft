@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:chiliitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPBEAN"
+      "type": "forge:ore_dict",
+      "ore": "cropBean"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
     },
     {
-      "item": "#LISTALLBEEFCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefcooked"
     }
   ],
   "type": "forge:ore_shapeless"

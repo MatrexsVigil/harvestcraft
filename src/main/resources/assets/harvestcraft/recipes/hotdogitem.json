@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:hotdogitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#LISTALLPORKRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkraw"
     },
     {
-      "item": "#BREAD"
+      "type": "forge:ore_dict",
+      "ore": "bread"
     }
   ],
   "type": "forge:ore_shapeless"

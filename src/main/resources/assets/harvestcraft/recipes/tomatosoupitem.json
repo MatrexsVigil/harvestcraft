@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:tomatosoupitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPTOMATO"
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     }
   ],
   "type": "forge:ore_shapeless"

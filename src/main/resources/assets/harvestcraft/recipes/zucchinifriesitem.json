@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:zucchinifriesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPZUCCHINI"
+      "type": "forge:ore_dict",
+      "ore": "cropZucchini"
     },
     {
-      "item": "#FOODTOAST"
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     }
   ],
   "type": "forge:ore_shapeless"

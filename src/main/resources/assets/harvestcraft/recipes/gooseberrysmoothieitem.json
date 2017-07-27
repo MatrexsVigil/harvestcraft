@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:gooseberrysmoothieitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPGOOSEBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropGooseberry"
     },
     {
-      "item": "#CROPGOOSEBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropGooseberry"
     },
     {
       "item": "minecraft:snowball"

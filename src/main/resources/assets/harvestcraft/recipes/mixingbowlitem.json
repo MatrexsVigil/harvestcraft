@@ -1,18 +1,22 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "ab",
+    "a ",
+    "a "
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
   "result": {
     "item": "harvestcraft:mixingbowlitem"
   },
-  "pattern": [
-    "X@X",
-    " X "
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "@": {
-      "item": "#STICKWOOD"
-    },
-    "X": {
-      "item": "#PLANKWOOD"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

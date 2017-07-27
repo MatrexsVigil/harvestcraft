@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:lemonaideitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPLEMON"
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
     }
   ],
   "type": "forge:ore_shapeless"

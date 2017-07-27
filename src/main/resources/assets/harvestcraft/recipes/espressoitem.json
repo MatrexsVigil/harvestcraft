@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:espressoitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPCOFFEE"
+      "type": "forge:ore_dict",
+      "ore": "cropCoffee"
     },
     {
-      "item": "#CROPCOFFEE"
+      "type": "forge:ore_dict",
+      "ore": "cropCoffee"
     },
     {
-      "item": "#CROPCOFFEE"
+      "type": "forge:ore_dict",
+      "ore": "cropCoffee"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

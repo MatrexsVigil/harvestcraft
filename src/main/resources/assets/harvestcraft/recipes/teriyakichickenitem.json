@@ -2,27 +2,35 @@
   "result": {
     "item": "harvestcraft:teriyakichickenitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#LISTALLCHICKENRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#FOODSOYSAUCE"
+      "type": "forge:ore_dict",
+      "ore": "foodSoysauce"
     },
     {
-      "item": "#FOODHONEYDROP"
+      "type": "forge:ore_dict",
+      "ore": "dropHoney"
     },
     {
-      "item": "#CROPSCALLION"
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:batteredsausageitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODPORKSAUSAGE"
+      "type": "forge:ore_dict",
+      "ore": "foodPorksausage"
     },
     {
-      "item": "#FOODBATTER"
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
     }
   ],
   "type": "forge:ore_shapeless"

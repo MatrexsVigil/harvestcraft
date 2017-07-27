@@ -2,6 +2,7 @@
   "result": {
     "item": "harvestcraft:sweetpotatoseeditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:sweetpotatoitem"

@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:maplesyruppancakesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODPANCAKES"
+      "type": "forge:ore_dict",
+      "ore": "foodPancakes"
     },
     {
-      "item": "#CROPMAPLESYRUP"
+      "type": "forge:ore_dict",
+      "ore": "cropMaplesyrup"
     }
   ],
   "type": "forge:ore_shapeless"

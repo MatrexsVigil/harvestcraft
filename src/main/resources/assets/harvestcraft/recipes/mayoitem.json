@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:mayoitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     }
   ],
   "type": "forge:ore_shapeless"

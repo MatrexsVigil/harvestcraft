@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:saladdressingitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

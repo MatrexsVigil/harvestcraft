@@ -2,15 +2,18 @@
   "result": {
     "item": "harvestcraft:marzipanitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMORTARANDPESTLE"
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
     },
     {
       "item": "harvestcraft:honeyitem"
     },
     {
-      "item": "#CROPALMOND"
+      "type": "forge:ore_dict",
+      "ore": "cropAlmond"
     }
   ],
   "type": "forge:ore_shapeless"

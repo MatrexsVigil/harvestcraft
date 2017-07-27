@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:heartybreakfastitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#FOODFRIEDEGG"
+      "type": "forge:ore_dict",
+      "ore": "foodFriedegg"
     },
     {
-      "item": "#FOODTOAST"
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
     },
     {
-      "item": "#FOODPOTATOCAKES"
+      "type": "forge:ore_dict",
+      "ore": "foodPotatocakes"
     },
     {
-      "item": "#FOODCHOCOLATEMILK"
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
     }
   ],
   "type": "forge:ore_shapeless"

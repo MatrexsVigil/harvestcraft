@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:coconutshrimpitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#CROPCOCONUT"
+      "type": "forge:ore_dict",
+      "ore": "cropCoconut"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     },
     {
-      "item": "#FOODSHRIMPRAW"
+      "type": "forge:ore_dict",
+      "ore": "foodShrimpraw"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     }
   ],
   "type": "forge:ore_shapeless"

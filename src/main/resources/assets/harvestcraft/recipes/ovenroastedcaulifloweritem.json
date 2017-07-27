@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:ovenroastedcaulifloweritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPCAULIFLOWER"
+      "type": "forge:ore_dict",
+      "ore": "cropCauliflower"
     },
     {
-      "item": "#FOODOLIVEOIL"
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     },
     {
-      "item": "#CROPGARLIC"
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
     },
     {
-      "item": "#CROPLEMON"
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
     }
   ],
   "type": "forge:ore_shapeless"

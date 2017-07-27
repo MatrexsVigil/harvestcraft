@@ -2,30 +2,39 @@
   "result": {
     "item": "harvestcraft:cornedbeefhashitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#FOODCORNEDBEEF"
+      "type": "forge:ore_dict",
+      "ore": "foodCornedbeef"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPBELLPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
     },
     {
-      "item": "#CROPPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     },
     {
-      "item": "#FOODCHEESE"
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
     }
   ],
   "type": "forge:ore_shapeless"

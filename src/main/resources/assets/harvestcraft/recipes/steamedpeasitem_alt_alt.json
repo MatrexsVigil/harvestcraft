@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:steamedpeasitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPPEAS"
+      "type": "forge:ore_dict",
+      "ore": "cropPeas"
     },
     {
-      "item": "#LISTALLWATER"
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
     },
     {
-      "item": "#ITEMSALT"
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
     }
   ],
   "type": "forge:ore_shapeless"

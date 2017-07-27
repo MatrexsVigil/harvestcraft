@@ -1,16 +1,17 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "harvestcraft:honeycombitem"
+    }
+  },
   "result": {
     "item": "harvestcraft:honeycomb"
   },
-  "pattern": [
-    "XXX",
-    "XXX",
-    "XXX"
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "X": {
-      "item": "harvestcraft:honeycombitem"
-    }
-  }
+  "type": "minecraft:crafting_shaped"
 }

@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:potroastitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#LISTALLBEEFRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
     },
     {
-      "item": "#CROPPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
     },
     {
-      "item": "#CROPCARROT"
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     }
   ],
   "type": "forge:ore_shapeless"

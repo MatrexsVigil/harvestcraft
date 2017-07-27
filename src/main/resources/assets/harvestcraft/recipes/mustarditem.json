@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:mustarditem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPMUSTARD"
+      "type": "forge:ore_dict",
+      "ore": "cropMustard"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:fishdinneritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#CROPLEMON"
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
     },
     {
-      "item": "#FOODBATTER"
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
     },
     {
-      "item": "#LISTALLFISHRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllfishraw"
     },
     {
-      "item": "#FOODMAYO"
+      "type": "forge:ore_dict",
+      "ore": "foodMayo"
     }
   ],
   "type": "forge:ore_shapeless"

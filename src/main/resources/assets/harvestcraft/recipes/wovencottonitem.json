@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:wovencottonitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#STRING"
+      "type": "forge:ore_dict",
+      "ore": "string"
     },
     {
-      "item": "#STRING"
+      "type": "forge:ore_dict",
+      "ore": "string"
     }
   ],
   "type": "forge:ore_shapeless"

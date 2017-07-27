@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:bamboosteamedriceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#CROPBAMBOOSHOOT"
+      "type": "forge:ore_dict",
+      "ore": "cropBambooshoot"
     }
   ],
   "type": "forge:ore_shapeless"

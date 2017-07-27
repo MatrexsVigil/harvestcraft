@@ -1,18 +1,22 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "ab",
+    "a ",
+    "a "
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "stone"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
   "result": {
     "item": "harvestcraft:mortarandpestleitem"
   },
-  "pattern": [
-    "X@X",
-    " X "
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "@": {
-      "item": "#STICKWOOD"
-    },
-    "X": {
-      "item": "#STONE"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

@@ -1,23 +1,25 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "b": {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "c": {
+      "item": "minecraft:emerald"
+    }
+  },
   "result": {
     "item": "harvestcraft:market"
   },
-  "pattern": [
-    "XOX",
-    "OEO",
-    "XOX"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "E": {
-      "item": "minecraft:emerald"
-    },
-    "X": {
-      "item": "#PLANKWOOD"
-    },
-    "O": {
-      "item": "minecraft:wool",
-      "data": 0
-    }
-  }
+  "type": "forge:ore_shaped"
 }

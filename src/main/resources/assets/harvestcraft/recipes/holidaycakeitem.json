@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:holidaycakeitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#CROPCHERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropCherry"
     },
     {
-      "item": "#LISTALLHEAVYCREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     }
   ],
   "type": "forge:ore_shapeless"

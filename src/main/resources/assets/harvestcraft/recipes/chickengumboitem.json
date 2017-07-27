@@ -2,30 +2,39 @@
   "result": {
     "item": "harvestcraft:chickengumboitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPOKRA"
+      "type": "forge:ore_dict",
+      "ore": "cropOkra"
     },
     {
-      "item": "#LISTALLCHICKENRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
     },
     {
-      "item": "#CROPCELERY"
+      "type": "forge:ore_dict",
+      "ore": "cropCelery"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     },
     {
-      "item": "#LISTALLSPICE"
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
     },
     {
-      "item": "#CROPBELLPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
     }
   ],
   "type": "forge:ore_shapeless"

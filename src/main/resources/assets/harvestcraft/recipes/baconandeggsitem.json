@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:baconandeggsitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSKILLET"
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
     },
     {
-      "item": "#LISTALLPORKRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkraw"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     }
   ],
   "type": "forge:ore_shapeless"

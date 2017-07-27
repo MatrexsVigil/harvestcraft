@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:cornmealitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMORTARANDPESTLE"
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
     },
     {
-      "item": "#CROPCORN"
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
     }
   ],
   "type": "forge:ore_shapeless"

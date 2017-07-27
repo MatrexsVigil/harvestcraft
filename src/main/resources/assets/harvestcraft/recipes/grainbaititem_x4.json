@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "harvestcraft:grainbaititem",
+    "count": 4
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "string"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllgrain"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllgrain"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllgrain"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

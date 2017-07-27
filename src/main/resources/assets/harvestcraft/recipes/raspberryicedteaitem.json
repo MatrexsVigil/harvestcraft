@@ -2,15 +2,18 @@
   "result": {
     "item": "harvestcraft:raspberryicedteaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPTEA"
+      "type": "forge:ore_dict",
+      "ore": "cropTea"
     },
     {
       "item": "minecraft:snowball"
     },
     {
-      "item": "#CROPRASPBERRY"
+      "type": "forge:ore_dict",
+      "ore": "cropRaspberry"
     }
   ],
   "type": "forge:ore_shapeless"

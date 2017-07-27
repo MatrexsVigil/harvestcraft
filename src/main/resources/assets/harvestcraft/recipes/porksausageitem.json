@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:porksausageitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#LISTALLSPICE"
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
     },
     {
-      "item": "#FOODSALT"
+      "type": "forge:ore_dict",
+      "ore": "dustSalt"
     }
   ],
   "type": "forge:ore_shapeless"

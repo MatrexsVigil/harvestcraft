@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:sweetpotatosouffleitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPSWEETPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "cropSweetpotato"
     },
     {
-      "item": "#CROPPECAN"
+      "type": "forge:ore_dict",
+      "ore": "cropPecan"
     },
     {
-      "item": "#FOODDOUGH"
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     }
   ],
   "type": "forge:ore_shapeless"

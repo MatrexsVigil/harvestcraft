@@ -2,9 +2,11 @@
   "result": {
     "item": "harvestcraft:epicbaconitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
       "item": "minecraft:dye",

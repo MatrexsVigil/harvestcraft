@@ -2,24 +2,30 @@
   "result": {
     "item": "harvestcraft:charsiuitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#LISTALLPORKCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
     },
     {
-      "item": "#FOODHOISINSAUCE"
+      "type": "forge:ore_dict",
+      "ore": "foodHoisinsauce"
     },
     {
-      "item": "#FOODFIVESPICE"
+      "type": "forge:ore_dict",
+      "ore": "foodFivespice"
     },
     {
       "item": "harvestcraft:honeyitem"
     },
     {
-      "item": "#FOODSOYSAUCE"
+      "type": "forge:ore_dict",
+      "ore": "foodSoysauce"
     }
   ],
   "type": "forge:ore_shapeless"

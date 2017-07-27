@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:doughitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLWATER"
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     },
     {
-      "item": "#ITEMSALT"
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
     }
   ],
   "type": "forge:ore_shapeless"

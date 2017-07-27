@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:groundcinnamonitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMORTARANDPESTLE"
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
     },
     {
-      "item": "#CROPCINNAMON"
+      "type": "forge:ore_dict",
+      "ore": "cropCinnamon"
     }
   ],
   "type": "forge:ore_shapeless"

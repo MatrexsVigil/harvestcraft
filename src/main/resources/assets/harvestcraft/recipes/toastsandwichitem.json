@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:toastsandwichitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#FOODTOAST"
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
     },
     {
-      "item": "#FOODTOAST"
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:coconutmilkitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPCOCONUT"
+      "type": "forge:ore_dict",
+      "ore": "cropCoconut"
     }
   ],
   "type": "forge:ore_shapeless"

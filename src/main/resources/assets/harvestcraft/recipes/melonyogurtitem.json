@@ -2,12 +2,14 @@
   "result": {
     "item": "harvestcraft:melonyogurtitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "minecraft:melon"
     },
     {
-      "item": "#FOODPLAINYOGURT"
+      "type": "forge:ore_dict",
+      "ore": "foodPlainyogurt"
     }
   ],
   "type": "forge:ore_shapeless"

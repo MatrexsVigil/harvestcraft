@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:spicymustardporkitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#FOODMUSTARD"
+      "type": "forge:ore_dict",
+      "ore": "foodMustard"
     },
     {
-      "item": "#LISTALLPORKRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllporkraw"
     },
     {
-      "item": "#FOODSALT"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"

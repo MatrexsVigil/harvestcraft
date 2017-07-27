@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:kiwijuiceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPKIWI"
+      "type": "forge:ore_dict",
+      "ore": "cropKiwi"
     },
     {
-      "item": "#CROPKIWI"
+      "type": "forge:ore_dict",
+      "ore": "cropKiwi"
     }
   ],
   "type": "forge:ore_shapeless"

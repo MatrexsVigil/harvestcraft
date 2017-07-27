@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:beansontoastitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODTOAST"
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
     },
     {
-      "item": "#FOODBUTTER"
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     },
     {
-      "item": "#FOODBAKEDBEANS"
+      "type": "forge:ore_dict",
+      "ore": "foodBakedbeans"
     }
   ],
   "type": "forge:ore_shapeless"

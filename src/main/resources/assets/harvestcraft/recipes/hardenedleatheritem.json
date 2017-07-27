@@ -2,9 +2,11 @@
   "result": {
     "item": "harvestcraft:hardenedleatheritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#MATERIALPRESSEDWAX"
+      "type": "forge:ore_dict",
+      "ore": "materialPressedwax"
     },
     {
       "item": "minecraft:leather"

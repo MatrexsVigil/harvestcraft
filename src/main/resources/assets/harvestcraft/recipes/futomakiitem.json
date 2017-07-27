@@ -2,30 +2,39 @@
   "result": {
     "item": "harvestcraft:futomakiitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#FOODBOILEDEGG"
+      "type": "forge:ore_dict",
+      "ore": "foodBoiledegg"
     },
     {
-      "item": "#CROPCUCUMBER"
+      "type": "forge:ore_dict",
+      "ore": "cropCucumber"
     },
     {
-      "item": "#CROPWINTERSQUASH"
+      "type": "forge:ore_dict",
+      "ore": "cropWintersquash"
     },
     {
-      "item": "#CROPRADISH"
+      "type": "forge:ore_dict",
+      "ore": "cropRadish"
     },
     {
-      "item": "#CROPSEAWEED"
+      "type": "forge:ore_dict",
+      "ore": "cropSeaweed"
     },
     {
-      "item": "#CROPGINGER"
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     }
   ],
   "type": "forge:ore_shapeless"

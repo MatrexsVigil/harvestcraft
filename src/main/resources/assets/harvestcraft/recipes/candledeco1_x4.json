@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:candledeco1",
+    "count": 4
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "materialPressedwax"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

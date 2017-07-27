@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:orangesodaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODBUBBLYWATER"
+      "type": "forge:ore_dict",
+      "ore": "foodBubblywater"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#FOODORANGEJUICE"
+      "type": "forge:ore_dict",
+      "ore": "foodOrangejuice"
     }
   ],
   "type": "forge:ore_shapeless"

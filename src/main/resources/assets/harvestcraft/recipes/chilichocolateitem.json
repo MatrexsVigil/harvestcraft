@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:chilichocolateitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#FOODCHOCOLATEBAR"
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
     },
     {
-      "item": "#CROPCHILIPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
     }
   ],
   "type": "forge:ore_shapeless"

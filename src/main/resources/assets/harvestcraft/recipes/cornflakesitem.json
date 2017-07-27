@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:cornflakesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     },
     {
-      "item": "#CROPCORN"
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
     }
   ],
   "type": "forge:ore_shapeless"

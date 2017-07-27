@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:cashewchickenitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#LISTALLCHICKENRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
     },
     {
-      "item": "#CROPCASHEW"
+      "type": "forge:ore_dict",
+      "ore": "cropCashew"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#LISTALLPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "listAllpepper"
     }
   ],
   "type": "forge:ore_shapeless"

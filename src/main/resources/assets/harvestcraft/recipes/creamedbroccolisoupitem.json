@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:creamedbroccolisoupitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#CROPBROCCOLI"
+      "type": "forge:ore_dict",
+      "ore": "cropBroccoli"
     },
     {
-      "item": "#CROPCARROT"
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
     },
     {
-      "item": "#FOODFLOUR"
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
     },
     {
-      "item": "#FOODBLACKPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     }
   ],
   "type": "forge:ore_shapeless"

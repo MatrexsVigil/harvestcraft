@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:friesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#CROPPOTATO"
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
     },
     {
-      "item": "#ITEMSALT"
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
     }
   ],
   "type": "forge:ore_shapeless"

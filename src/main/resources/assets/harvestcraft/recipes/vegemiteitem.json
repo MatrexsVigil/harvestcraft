@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:vegemiteitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#CROPBARLEY"
+      "type": "forge:ore_dict",
+      "ore": "cropBarley"
     },
     {
-      "item": "#LISTALLWATER"
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     }
   ],
   "type": "forge:ore_shapeless"

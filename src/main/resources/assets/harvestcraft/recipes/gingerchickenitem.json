@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:gingerchickenitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#LISTALLCHICKENRAW"
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
     },
     {
-      "item": "#CROPGINGER"
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
     },
     {
-      "item": "#CROPSCALLION"
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
     },
     {
-      "item": "#FOODHONEYDROP"
+      "type": "forge:ore_dict",
+      "ore": "dropHoney"
     }
   ],
   "type": "forge:ore_shapeless"

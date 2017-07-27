@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:guacamoleitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#CROPAVOCADO"
+      "type": "forge:ore_dict",
+      "ore": "cropAvocado"
     },
     {
-      "item": "#CROPCHILIPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
     },
     {
-      "item": "#CROPTOMATO"
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPSPICELEAF"
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     }
   ],
   "type": "forge:ore_shapeless"

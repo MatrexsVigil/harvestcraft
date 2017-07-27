@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:limejuiceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPLIME"
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
     },
     {
-      "item": "#CROPLIME"
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
     }
   ],
   "type": "forge:ore_shapeless"

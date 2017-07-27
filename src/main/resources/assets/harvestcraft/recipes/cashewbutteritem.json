@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:cashewbutteritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPCASHEW"
+      "type": "forge:ore_dict",
+      "ore": "cropCashew"
     }
   ],
   "type": "forge:ore_shapeless"

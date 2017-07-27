@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "harvestcraft:stockitem",
+    "count": 3
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

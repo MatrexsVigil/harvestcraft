@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:oldworldveggiesoupitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#FOODSTOCK"
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
     },
     {
-      "item": "#CROPONION"
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
     },
     {
-      "item": "#CROPPEAS"
+      "type": "forge:ore_dict",
+      "ore": "cropPeas"
     },
     {
-      "item": "#CROPBARLEY"
+      "type": "forge:ore_dict",
+      "ore": "cropBarley"
     }
   ],
   "type": "forge:ore_shapeless"

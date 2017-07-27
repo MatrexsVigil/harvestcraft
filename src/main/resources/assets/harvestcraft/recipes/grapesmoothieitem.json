@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:grapesmoothieitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPGRAPE"
+      "type": "forge:ore_dict",
+      "ore": "cropGrape"
     },
     {
-      "item": "#CROPGRAPE"
+      "type": "forge:ore_dict",
+      "ore": "cropGrape"
     },
     {
       "item": "minecraft:snowball"

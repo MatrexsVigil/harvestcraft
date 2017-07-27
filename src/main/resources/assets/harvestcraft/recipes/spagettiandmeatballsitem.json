@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:spagettiandmeatballsitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#FOODSPAGETTI"
+      "type": "forge:ore_dict",
+      "ore": "foodSpagetti"
     },
     {
-      "item": "#LISTALLBEEFCOOKED"
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefcooked"
     }
   ],
   "type": "forge:ore_shapeless"

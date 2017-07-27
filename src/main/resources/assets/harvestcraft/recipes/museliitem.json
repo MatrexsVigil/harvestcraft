@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:museliitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLMIXINGBOWL"
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
     },
     {
-      "item": "#LISTALLGRAIN"
+      "type": "forge:ore_dict",
+      "ore": "listAllgrain"
     },
     {
-      "item": "#FOODRAISINS"
+      "type": "forge:ore_dict",
+      "ore": "foodRaisins"
     },
     {
-      "item": "#CROPPECAN"
+      "type": "forge:ore_dict",
+      "ore": "cropPecan"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#LISTALLMILK"
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -2,21 +2,27 @@
   "result": {
     "item": "harvestcraft:eggnogitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#LISTALLEGG"
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     },
     {
-      "item": "#FOODGROUNDNUTMEG"
+      "type": "forge:ore_dict",
+      "ore": "foodGroundnutmeg"
     },
     {
-      "item": "#CROPCINNAMON"
+      "type": "forge:ore_dict",
+      "ore": "cropCinnamon"
     },
     {
-      "item": "#LISTALLHEAVYCREAM"
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
     }
   ],
   "type": "forge:ore_shapeless"

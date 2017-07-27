@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:limeyogurtitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPLIME"
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
     },
     {
-      "item": "#FOODPLAINYOGURT"
+      "type": "forge:ore_dict",
+      "ore": "foodPlainyogurt"
     }
   ],
   "type": "forge:ore_shapeless"

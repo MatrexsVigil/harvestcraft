@@ -2,12 +2,15 @@
   "result": {
     "item": "harvestcraft:almondbutteritem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPALMOND"
+      "type": "forge:ore_dict",
+      "ore": "cropAlmond"
     }
   ],
   "type": "forge:ore_shapeless"

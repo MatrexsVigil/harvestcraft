@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:mixedsaladitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLCUTTINGBOARD"
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
     },
     {
-      "item": "#LISTALLVEGGIE"
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
     },
     {
-      "item": "#LISTALLVEGGIE"
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
     },
     {
-      "item": "#FOODSALADDRESSING"
+      "type": "forge:ore_dict",
+      "ore": "foodSaladdressing"
     }
   ],
   "type": "forge:ore_shapeless"

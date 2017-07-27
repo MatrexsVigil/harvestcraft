@@ -2,12 +2,14 @@
   "result": {
     "item": "harvestcraft:roastedchestnutitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
       "item": "harvestcraft:chestnutitem"
     },
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     }
   ],
   "type": "forge:ore_shapeless"

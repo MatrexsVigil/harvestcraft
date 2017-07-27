@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:chaiteaitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPTEA"
+      "type": "forge:ore_dict",
+      "ore": "cropTea"
     },
     {
-      "item": "#FOODGROUNDCINNAMON"
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
     },
     {
-      "item": "#FOODBLACKPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"

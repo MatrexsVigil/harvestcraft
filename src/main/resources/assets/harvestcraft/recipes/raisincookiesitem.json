@@ -2,18 +2,23 @@
   "result": {
     "item": "harvestcraft:raisincookiesitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLBAKEWARE"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
-      "item": "#FOODBATTER"
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
     },
     {
-      "item": "#LISTALLSUGAR"
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     },
     {
-      "item": "#FOODRAISINS"
+      "type": "forge:ore_dict",
+      "ore": "foodRaisins"
     }
   ],
   "type": "forge:ore_shapeless"

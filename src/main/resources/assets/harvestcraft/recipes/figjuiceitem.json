@@ -2,15 +2,19 @@
   "result": {
     "item": "harvestcraft:figjuiceitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLJUICER"
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
     },
     {
-      "item": "#CROPFIG"
+      "type": "forge:ore_dict",
+      "ore": "cropFig"
     },
     {
-      "item": "#CROPFIG"
+      "type": "forge:ore_dict",
+      "ore": "cropFig"
     }
   ],
   "type": "forge:ore_shapeless"

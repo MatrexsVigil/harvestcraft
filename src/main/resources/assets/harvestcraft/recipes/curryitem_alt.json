@@ -2,24 +2,31 @@
   "result": {
     "item": "harvestcraft:curryitem"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#TOOLSAUCEPAN"
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
     },
     {
-      "item": "#CROPRICE"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
-      "item": "#DUSTSALT"
+      "type": "forge:ore_dict",
+      "ore": "foodSalt"
     },
     {
-      "item": "#CROPCHILIPEPPER"
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
     },
     {
-      "item": "#FOODCOCONUTMILK"
+      "type": "forge:ore_dict",
+      "ore": "foodCoconutmilk"
     },
     {
-      "item": "#LISTALLSPICE"
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
     }
   ],
   "type": "forge:ore_shapeless"
