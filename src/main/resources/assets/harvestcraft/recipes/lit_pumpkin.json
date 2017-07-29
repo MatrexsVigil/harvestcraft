@@ -12,3 +12,20 @@
   ],
   "type": "forge:ore_shapeless"
 }
+
+{
+  "result": {
+    "item": "minecraft:lit_pumpkin"
+  }
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPumpkin"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "blockTorch"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

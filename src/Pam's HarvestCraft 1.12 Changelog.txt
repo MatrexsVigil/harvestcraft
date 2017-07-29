@@ -1,3 +1,14 @@
+HarvestCraft 1.12b
+-----------------
+- Even more recipes fixed (Thank you BrickWaffle!!!!!)
+
+
+HarvestCraft 1.12a
+-----------------
+- Most if not all recipes should be fixed now! (HUGE THANKS TO Syndaryl!!!!!)
+- Known Bug: Fruit Blocks are still weird in Creative Menu only
+- Not a Bug: Some config options that relate to recipes no longer work because you can delete un-wanted recipe JSON files yourself.  Will remove unworking config options later.
+
 HarvestCraft 1.12 Alpha
 -----------------
 WARNING:  ALL RECIPES ARE BROKEN except smelting and presser

@@ -5,13 +5,16 @@
   },
   "ingredients": [
     {
-      "item": "#CROPCOTTON"
+      "type": "forge:ore_dict",
+      "ore": "cropCotton"
     },
     {
-      "item": "#CROPCOTTON"
+      "type": "forge:ore_dict",
+      "ore": "cropCotton"
     },
     {
-      "item": "#CROPCOTTON"
+      "type": "forge:ore_dict",
+      "ore": "cropCotton"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -5,10 +5,12 @@
   },
   "ingredients": [
     {
-      "item": "#MATERIALCLOTH"
+      "type": "forge:ore_dict",
+      "ore": "materialCloth"
     },
     {
-      "item": "#MATERIALCLOTH"
+      "type": "forge:ore_dict",
+      "ore": "materialCloth"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -1,9 +1,9 @@
 {
   "group": "harvestcraft",
   "pattern": [
-    "a ",
-    "aa",
-    " a"
+    "a a",
+    "a a",
+    "   "
   ],
   "key": {
     "a": {

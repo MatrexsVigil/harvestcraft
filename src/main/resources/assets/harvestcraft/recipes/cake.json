@@ -1,25 +1,30 @@
 {
+  "group": "harvestcraft",
+  "pattern": [
+    "aaa",
+    "beb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+    "e": {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    "c": {
+      "type": "forge:ore_dict",
+      "ore": "flourEqualswheat"
+    }
+  },
   "result": {
     "item": "minecraft:cake"
   },
-  "pattern": [
-    "AAA",
-    "BEB",
-    "CCC"
-  ],
-  "type": "forge:ore_shaped",
-  "key": {
-    "A": {
-      "item": "#LISTALLMILK"
-    },
-    "B": {
-      "item": "#LISTALLSUGAR"
-    },
-    "C": {
-      "item": "#FLOUREQUALSWHEAT"
-    },
-    "E": {
-      "item": "#LISTALLEGG"
-    }
-  }
+  "type": "forge:ore_shaped"
 }

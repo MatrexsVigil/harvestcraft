@@ -1,13 +1,12 @@
 {
   "result": {
-    "item": "harvestcraft:cottonitem"
+    "item": "harvestcraft:cotton"
   },
+  "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "#CROPCOTTON"
-    },
-    {
-      "item": "#CROPCOTTON"
+      "type": "forge:ore_dict",
+      "ore": "cropCotton"
     }
   ],
   "type": "forge:ore_shapeless"

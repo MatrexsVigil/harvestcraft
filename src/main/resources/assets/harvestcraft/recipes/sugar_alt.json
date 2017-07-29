@@ -4,10 +4,12 @@
   },
   "ingredients": [
     {
-      "item": "#TOOLPOT"
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
     },
     {
-      "item": "#DROPHONEY"
+      "type": "forge:ore_dict",
+      "ore": "dropHoney"
     }
   ],
   "type": "forge:ore_shapeless"
