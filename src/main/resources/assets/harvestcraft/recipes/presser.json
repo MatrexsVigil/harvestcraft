@@ -8,7 +8,7 @@
   "key": {
     "a": {
       "type": "forge:ore_dict",
-      "ore": "ingotCopper"
+      "ore": "ingotIron"
     },
     "b": {
       "item": "minecraft:piston",

@@ -8,6 +8,7 @@ import com.pam.harvestcraft.blocks.FruitRegistry;
 import com.pam.harvestcraft.config.ConfigHandler;
 import com.pam.harvestcraft.item.GeneralOreRegistry;
 import com.pam.harvestcraft.item.ItemRegistry;
+import com.pam.harvestcraft.item.RecipeRegistry;
 //import com.pam.harvestcraft.item.RecipeRegistry;
 import com.pam.harvestcraft.item.SeedDropRegistry;
 import com.pam.harvestcraft.loottables.LootTableLoadEventHandler;
@@ -63,7 +64,7 @@ public class CommonProxy {
 
         GeneralOreRegistry.initOreRegistry();
 
-        //RecipeRegistry.registerRecipes();
+        RecipeRegistry.registerRecipes();
         SeedDropRegistry.getSeedDrops();
 
         MarketItems.registerItems();

@@ -11,8 +11,7 @@
       "ore": "stickWood"
     },
     "b": {
-      "item": "minecraft:trapdoor",
-      "data": 32767
+      "item": "minecraft:trapdoor"
     },
     "c": {
       "type": "forge:ore_dict",
@@ -28,3 +27,4 @@
   },
   "type": "forge:ore_shaped"
 }
+

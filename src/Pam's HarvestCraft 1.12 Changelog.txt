@@ -1,3 +1,12 @@
+HarvestCraft 1.12c
+-----------------
+- Fixed: Recipes: All recipes are now in the game.  I have clicked on all 900+ of them, I know they're there.
+- Right-click harvesting crops now fires HarvestDropsEvent (thanks Blay09)
+- Re-named all cooking tool recipes to be tool_nameitem
+- Removed all non-iron cooking tool/Presser block recipes (copper, steel, etc) because those ore dictionary labels don't seem to be working right
+- Added: Recipe: Presser: You can now press carrots to get juice and veggie bait (thanks 4AM-Campfire)
+- Fixed: Names: Lemon Meringue and Lemon Drizzle Cake now have names (thanks 4AM-Campfire)
+
 HarvestCraft 1.12b
 -----------------
 - Even more recipes fixed (Thank you BrickWaffle!!!!!)

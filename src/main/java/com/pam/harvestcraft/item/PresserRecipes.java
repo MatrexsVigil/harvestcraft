@@ -19,6 +19,7 @@ public class PresserRecipes {
         registerItemRecipe(ItemRegistry.waxcombItem, ItemRegistry.beeswaxItem, ItemRegistry.beeswaxItem);
         registerItemRecipe(ItemRegistry.honeycombItem, ItemRegistry.honeyItem, ItemRegistry.beeswaxItem);
         registerItemRecipe(Items.APPLE, ItemRegistry.applejuiceItem, ItemRegistry.fruitbaitItem);
+        registerItemRecipe(Items.CARROT, ItemRegistry.carrotjuiceItem, ItemRegistry.veggiebaitItem);
         registerItemRecipe(CropRegistry.getFood(CropRegistry.BLACKBERRY), ItemRegistry.blackberryjuiceItem, ItemRegistry.fruitbaitItem);
         registerItemRecipe(CropRegistry.getFood(CropRegistry.BLUEBERRY), ItemRegistry.blueberryjuiceItem, ItemRegistry.fruitbaitItem);
         registerItemRecipe(CropRegistry.getFood(CropRegistry.CACTUSFRUIT), ItemRegistry.cactusfruitjuiceItem, ItemRegistry.fruitbaitItem);

@@ -571,6 +571,7 @@ item.lemonaideitem.name=Lemonade
 item.lemonbaritem.name=Lemon Bar
 item.fishdinneritem.name=Fish Dinner
 item.lemonsmoothieitem.name=Lemon Smoothie
+item.lemonmeringueitem.name=Lemon Meringue
 item.candiedlemonitem.name=Candied Lemon
 item.lemonchickenitem.name=Lemon Chicken
         
@@ -1156,7 +1157,7 @@ item.hotsauceitem.name=Hot Sauce
 item.hummusitem.name=Hummus
 item.ironbrewitem.name=Iron Brew
 item.lasagnaitem.name=Lasagna
-item.lemondrizzelcakeitem.name=Lemon Drizzle Cake
+item.lemondrizzlecakeitem.name=Lemon Drizzle Cake
 item.meatloafitem.name=Meatloaf
 item.montecristosandwichitem.name=Monte Cristo Sandwich
 item.mushroomlasagnaitem.name=Mushroom Lasagna
