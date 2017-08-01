@@ -22,6 +22,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
@@ -82,6 +83,8 @@ public class RightClickHarvesting {
 					}
 				}
 
+			ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
+
 			// Reset growth level
 			world.setBlockState(blockPos, crops.withAge(0));
 
@@ -103,6 +106,8 @@ public class RightClickHarvesting {
 			// as one fruit stays planted.
 			if(drops.size() > 0)
 				drops.remove(drops.size() - 1);
+
+			ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
 
 			world.setBlockState(blockPos, blockState.withProperty(blockPamFruit.getAgeProperty(), 0), 3);
 
