@@ -3,6 +3,7 @@ package com.pam.harvestcraft.addons;
 import java.util.Iterator;
 import java.util.List;
 
+import com.google.common.collect.Iterables;
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.growables.BlockPamFruit;
 import com.pam.harvestcraft.blocks.growables.BlockPamFruitLog;
@@ -10,6 +11,7 @@ import com.pam.harvestcraft.blocks.growables.PamCropGrowable;
 
 import net.minecraft.block.BlockCarrot;
 import net.minecraft.block.BlockCrops;
+import net.minecraft.block.BlockNetherWart;
 import net.minecraft.block.BlockPotato;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -54,6 +56,10 @@ public class RightClickHarvesting {
 
 		if(blockState.getBlock() instanceof BlockCrops) {
 			harvestCrops(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+		}
+
+		if(blockState.getBlock() instanceof BlockNetherWart) {
+			harvestNetherWart(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
 		}
 
 		if(blockState.getBlock() instanceof BlockPamFruit || blockState.getBlock() instanceof BlockPamFruitLog) {
@@ -112,6 +118,38 @@ public class RightClickHarvesting {
 			world.setBlockState(blockPos, blockState.withProperty(blockPamFruit.getAgeProperty(), 0), 3);
 
 			for(ItemStack drop : drops) {
+				dropItem(drop, world, blockPos);
+			}
+		}
+	}
+
+	private static void harvestNetherWart(IBlockState blockState, EntityPlayer player, World world, BlockPos blockPos) {
+		final BlockNetherWart netherWart = (BlockNetherWart) blockState.getBlock();
+		if (blockState.getValue(BlockNetherWart.AGE) >= Iterables.getLast(BlockNetherWart.AGE.getAllowedValues())) {
+			final ItemStack stack = player.getHeldItemMainhand();
+			final int fortune = EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE, stack);
+
+			final List<ItemStack> drops = netherWart.getDrops(world, blockPos, blockState, fortune);
+
+			// This removes exactly one seed from drops in order to make this more fair compared to vanilla
+			// as one seed stays planted.
+			final Item seedItem = netherWart.getItemDropped(blockState, world.rand, fortune);
+			if (seedItem != null) {
+				for (Iterator<ItemStack> iterator = drops.iterator(); iterator.hasNext(); ) {
+					final ItemStack drop = iterator.next();
+
+					// Remove a seed, then break.
+					if (!(drop.getItem() == seedItem)) {
+						iterator.remove();
+						break;
+					}
+				}
+			}
+			ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
+
+			world.setBlockState(blockPos, blockState.withProperty(BlockNetherWart.AGE, 0));
+
+			for (ItemStack drop : drops) {
 				dropItem(drop, world, blockPos);
 			}
 		}
