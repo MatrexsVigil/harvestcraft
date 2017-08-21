@@ -5,11 +5,12 @@
   "group": "harvestcraft",
   "ingredients": [
     {
-      "item": "harvestcraft:asparagusitem"
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "cropAsparagus"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -40,8 +40,8 @@ public class ConfigHandler {
      * Defaults
      */
     private static final int defaultCropFoodRestore = 1;
-    private static final double defaultSaturationSmall = 0.6000000238418579D;
-    private static final double defaultSaturationMeal = 1.2000000476837158D;
+    private static final double defaultSaturationSmall = 0.6D;
+    private static final double defaultSaturationMeal = 1.2D;
     private static final double defaultSaturationMeatyMeal = 1.600000023841858D;
 
     /**

@@ -11,6 +11,14 @@
     {
       "type": "forge:ore_dict",
       "ore": "foodToast"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"

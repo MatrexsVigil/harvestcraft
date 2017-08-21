@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:rawtofickenitem"
+    "item": "harvestcraft:rawtofickenitem",
+    "count": 4
   },
   "group": "harvestcraft",
   "ingredients": [

@@ -66,6 +66,7 @@ public class LootHelper {
                     LootTableList.ENTITIES_SQUID,
                     squidEntries, true));
         }
+
     }
 
 

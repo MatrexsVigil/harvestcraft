@@ -1,5 +1,7 @@
 package com.pam.harvestcraft.proxy;
 
+import static com.pam.harvestcraft.HarvestCraft.config;
+
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.addons.RightClickHarvesting;
 import com.pam.harvestcraft.blocks.BlockRegistry;
@@ -9,7 +11,7 @@ import com.pam.harvestcraft.config.ConfigHandler;
 import com.pam.harvestcraft.item.GeneralOreRegistry;
 import com.pam.harvestcraft.item.ItemRegistry;
 import com.pam.harvestcraft.item.RecipeRegistry;
-//import com.pam.harvestcraft.item.RecipeRegistry;
+import com.pam.harvestcraft.item.RecipeRemoval;
 import com.pam.harvestcraft.item.SeedDropRegistry;
 import com.pam.harvestcraft.loottables.LootTableLoadEventHandler;
 import com.pam.harvestcraft.tileentities.MarketItems;
@@ -84,6 +86,8 @@ public class CommonProxy {
         }
         
         RightClickHarvesting.instance.register();
+        
+        
         
       //Closing container on item toss
         //MinecraftForge.EVENT_BUS.register(new ItemEvent());

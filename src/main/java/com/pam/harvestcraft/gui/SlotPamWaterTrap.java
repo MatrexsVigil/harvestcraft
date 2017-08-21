@@ -19,6 +19,6 @@ public class SlotPamWaterTrap extends SlotItemHandler {
 
 	@Override
 	public boolean isItemValid(ItemStack stack) {
-		return stack.getItem() == ItemRegistry.fishtrapbaitItem;
+		return stack.getItem() == ItemRegistry.fishtrapbaitItem || stack.getItem() == ItemRegistry.grubItem;
 	}
 }

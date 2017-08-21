@@ -1,9 +1,42 @@
+HarvestCraft 1.12.1a - STEP ONE of REBALANCING UPDATE
+-----------------
+NOTE:  All changed Vanilla items are completely compatible with recipes and such in Vanilla Minecraft, with HarvestCraft, and other mods.
+NOTE:  I've removed Vanilla recipes for bread, mushroom stew, cookies, pumpkin pie, rabbit stew, baked potato, and beetroot soup.  I've left all Vanilla meat/fish smelting recipes unchanged.
+
+- Changed Vanilla Items
+Wheat, Carrots, Potatoes, Beetroots, Melon Slices: Crop hunger pt restore, Crop saturation
+Raw Porkchop, Beef, Chicken, Rabbit, Mutton, Fish/Cod, Fish/Salmon, Fish/Clownfish, Fish/Pufferfish: 1 hunger pt, Snack saturation
+Cooked Porkchop, Beef, Chicken, Rabbit, Mutton, Fish/Cod, Fish/Salmon: 2 hunger pts, Snack saturation
+- Changed Vanilla Food and Recipes
+Bread: 3 hunger pts, Meal Saturation: Bakeware, Dough
+Mushroom Stew: 2 hunger pts, Meal Saturation: Does not return bowl: Pot, Mushroom, Mushroom
+Baked Potato: 2 hunger pts, Snack Saturation: Bakeware, Potato
+Cookie: 2 hunger pts, Meal Saturation: Bakeware, Wheat/Flour, Cocoa Powder
+Pumpkin Pie: 4 hunger pts, Meal Saturation: Bakeware, Pumpkin, Sugar, Egg
+Rabbit Stew: 4 hunger pts, Meal Saturation: Does not return bowl: Pot, Raw Rabbit, Carrot, Potato, Mushroom
+Beetroot Soup: 5 hunger pts, Meal Saturation: Does not return bowl: Can get by making Beet Soup and putting that in crafting grid
+- Added: Item: Harvest Pumpkin: Crop hunger pt restore, Crop saturation: Put three pumpkin blocks to get three Harvest Pumpkin items (these are for eating only): Reverse recipe to get pumpkin blocks back: Single Harvest Pumpkin in crafting grid nets only one pumpkin seed
+- Changed: Most simple items have been rebalanced hunger pt, saturation wise
+- Changed: Snack/Crop Saturation is set to 0.6D
+- Changed: Meal Saturation is now set to 1.2D
+- Changed: Only raw, unprocessed/uncooked foods are now snack saturation
+- Changed: All cooked/processed foods are now meal saturation
+- Changed: All meaty meal saturation foods are now just meal saturation
+- Changed: All Raw ToFakeMeats are now 1 hunger pt, All Cooked ToFakeMeats are now 2 hunger pts
+- Changed: Recipe: All Raw ToFakeMeat recipes give back a number of items equal to their ingredients
+- Changed: Recipe: Toast Sandwich: Bakeware, Toast, Toast, Butter, Black Pepper
+- Changed: Recipe: Pot, Skillet, Cutting Board, and Saucepan now use Bricks instead of Iron Ingots
+- Removed: Recipe: Nether Brick Bakeware recipe now gone
+- Added: Grub item (generated from Apiary) can now be used as bait in the Water Trap
+- Fixed: Recipe: Bug: Damper, Gherkin, and Hearty Breakfast can no longer be made with Copper Ingots instead of Salt
+
 HarvestCraft 1.12c
 -----------------
 - Fixed: Recipes: All recipes are now in the game.  I have clicked on all 900+ of them, I know they're there.
 - Right-click harvesting crops now fires HarvestDropsEvent (thanks Blay09)
 - Re-named all cooking tool recipes to be tool_nameitem
 - Removed all non-iron cooking tool/Presser block recipes (copper, steel, etc) because those ore dictionary labels don't seem to be working right
+- Not a Bug: All fruit tree saplings can be made with 3 fruits and any type of vanilla sapling
 - Added: Recipe: Presser: You can now press carrots to get juice and veggie bait (thanks 4AM-Campfire)
 - Fixed: Names: Lemon Meringue and Lemon Drizzle Cake now have names (thanks 4AM-Campfire)
 
