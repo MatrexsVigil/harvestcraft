@@ -61,6 +61,11 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 	}
 
 	@Override
+	public NBTTagCompound getUpdateTag() {
+		return writeToNBT(new NBTTagCompound());
+	}
+
+	@Override
 	public void update() {
 		boolean isRunning = runTime > 0;
 		boolean needsUpdate = false;
