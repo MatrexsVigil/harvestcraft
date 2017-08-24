@@ -2,6 +2,8 @@ package com.pam.harvestcraft.proxy;
 
 import static com.pam.harvestcraft.HarvestCraft.config;
 
+import java.util.Set;
+
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.addons.RightClickHarvesting;
 import com.pam.harvestcraft.blocks.BlockRegistry;
@@ -26,12 +28,18 @@ import com.pam.harvestcraft.worldgen.BeehiveWorldGen;
 import com.pam.harvestcraft.worldgen.BushWorldGen;
 import com.pam.harvestcraft.worldgen.FruitTreeWorldGen;
 
+import net.minecraft.entity.passive.EntityChicken;
+import net.minecraft.entity.passive.EntityPig;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class CommonProxy {
 
@@ -55,9 +63,18 @@ public class CommonProxy {
     }
 
     public void postInit(FMLPostInitializationEvent e) {
-    	//BlockList.addFromString(ConfigHandler.seed, "seed");
-       // BlockList.addFromString(ConfigHandler.crop, "crop");
-        //BlockList.addFromString(ConfigHandler.sapling, "sapling");
+    	Set<Item> temptationItems = ObfuscationReflectionHelper.getPrivateValue(EntityPig.class, null, "TEMPTATION_ITEMS", "field_184764_bw");
+	    temptationItems.add(ItemRegistry.harvestcarrotItem);
+	    temptationItems.add(ItemRegistry.harvestpotatoItem);
+	    temptationItems.add(ItemRegistry.harvestbeetItem);
+	    for (ItemStack stack : OreDictionary.getOres("listAllveggie")) {
+	        temptationItems.add(stack.getItem());
+	    }
+	    
+	    Set<Item> temptationItems2 = ObfuscationReflectionHelper.getPrivateValue(EntityChicken.class, null, "TEMPTATION_ITEMS", "field_184761_bD");
+	    for (ItemStack stack : OreDictionary.getOres("listAllseed")) {
+	        temptationItems2.add(stack.getItem());
+	    }
 
     }
 

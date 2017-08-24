@@ -1,3 +1,12 @@
+HarvestCraft 1.12.1b
+- Fixed: Carrots and Potatoes can be planted again
+- Fixed: Carrots, Potatoes, Beetroots can be used for Pig breeding again
+- Fixed: Meats are listed under their correct Ore Dictionary labels again
+- Fixed: Replaced Vanilla Food items now all have names
+- Added: Breeding: Pigs can now be bred with listAllveggie items, Chickens listAllseed items
+
+
+
 HarvestCraft 1.12.1a - STEP ONE of REBALANCING UPDATE
 -----------------
 NOTE:  All changed Vanilla items are completely compatible with recipes and such in Vanilla Minecraft, with HarvestCraft, and other mods.
@@ -16,7 +25,7 @@ Pumpkin Pie: 4 hunger pts, Meal Saturation: Bakeware, Pumpkin, Sugar, Egg
 Rabbit Stew: 4 hunger pts, Meal Saturation: Does not return bowl: Pot, Raw Rabbit, Carrot, Potato, Mushroom
 Beetroot Soup: 5 hunger pts, Meal Saturation: Does not return bowl: Can get by making Beet Soup and putting that in crafting grid
 - Added: Item: Harvest Pumpkin: Crop hunger pt restore, Crop saturation: Put three pumpkin blocks to get three Harvest Pumpkin items (these are for eating only): Reverse recipe to get pumpkin blocks back: Single Harvest Pumpkin in crafting grid nets only one pumpkin seed
-- Changed: Most simple items have been rebalanced hunger pt, saturation wise
+- Changed: Most simple items have been rebalanced hunger pt, saturation wise (this is a work in progress)
 - Changed: Snack/Crop Saturation is set to 0.6D
 - Changed: Meal Saturation is now set to 1.2D
 - Changed: Only raw, unprocessed/uncooked foods are now snack saturation

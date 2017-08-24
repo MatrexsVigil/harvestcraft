@@ -250,6 +250,39 @@ item.mortarandpestleitem.name=Mortar and Pestle
 item.mixingbowlitem.name=Mixing Bowl
 item.juiceritem.name=Juicer
 
+item.harvestappleitem.name=Apple
+item.harvestwheatitem.name=Wheat
+item.harvestpotatoitem.name=Potato
+item.harvestcarrotitem.name=Carrot
+item.harvestbeetitem.name=Beetroot
+item.harvestmelonitem.name=Melon Slice
+item.harvestpumpkinitem.name=Pumpkin
+    
+item.harvestbeefitem.name=Raw Beef
+item.harvestcookedbeefitem.name=Steak
+item.harvestchickenitem.name=Raw Chicken
+item.harvestcookedchickenitem.name=Cooked Chicken
+item.harvestporkchopitem.name=Raw Porkchop
+item.harvestcookedporkchopitem.name=Cooked Porkchop
+item.harvestrabbititem.name=Raw Rabbit
+item.harvestcookedrabbititem.name=Cooked Rabbit
+item.harvestmuttonitem.name=Raw Mutton
+item.harvestcookedmuttonitem.name=Cooked Mutton
+item.harvestfishitem.name=Raw Fish
+item.harvestcookedfisheditem.name=Cooked Fish
+item.harvestsalmonitem.name=Raw Salmon
+item.harvestcookedsalmonfisheditem.name=Cooked Salmon
+item.harvestclownfishitem.name=Clownfish
+item.harvestpufferfishitem.name=Pufferfish
+
+item.harvestmushroomstewitem.name=Mushroom Stew
+item.harvestbreaditem.name=Bread
+item.harvestcookieitem.name=Cookie
+item.harvestbakedpotatoitem.name=Baked Potato
+item.pumpkinpieitem.name=Pumpkin Pie
+item.rabbitstewitem.name=Rabbit Stew
+item.beetrootsoupitem.name=Beetroot Soup
+
 item.asparagusitem.name=Asparagus
 item.asparagusseeditem.name=Asparagus Seed
 item.grilledasparagusitem.name=Grilled Asparagus

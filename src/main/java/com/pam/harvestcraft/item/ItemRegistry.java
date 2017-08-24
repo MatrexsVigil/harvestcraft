@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.BlockRegistry;
@@ -17,14 +18,23 @@ import com.pam.harvestcraft.item.items.ItemPamCropBag;
 import com.pam.harvestcraft.item.items.ItemPamFood;
 import com.pam.harvestcraft.item.items.ItemPamPotionFood;
 import com.pam.harvestcraft.item.items.ItemPamTool;
+
+import net.minecraft.block.Block;
+import net.minecraft.entity.passive.EntityChicken;
+import net.minecraft.entity.passive.EntityPig;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemSeedFood;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public final class ItemRegistry {
@@ -34,6 +44,8 @@ public final class ItemRegistry {
 	public static final HashSet<Item> allFishRaw = new HashSet<Item>();
 	public static final HashSet<Item> allFood = new HashSet<Item>();
 	public static final HashSet<Item> allJuice = new HashSet<Item>();
+	
+	
 
 	// Items
 	public static Item cuttingboardItem;
@@ -54,8 +66,8 @@ public final class ItemRegistry {
 	
 	public static Item harvestappleItem;
 	public static Item harvestwheatItem;
-	public static Item harvestpotatoItem;
-	public static Item harvestcarrotItem;
+	public static ItemSeedFood harvestpotatoItem;
+	public static ItemSeedFood harvestcarrotItem;
 	public static Item harvestbeetItem;
 	public static Item harvestmelonItem;
 	public static Item harvestpumpkinItem;
@@ -75,9 +87,7 @@ public final class ItemRegistry {
 	public static Item harvestsalmonItem;
 	public static Item harvestcookedsalmonfishedItem;
 	public static Item harvestclownfishItem;
-	public static Item harvestcookedclownfishedItem;
 	public static Item harvestpufferfishItem;
-	public static Item harvestcookedpufferfishedItem;
 	
 	public static Item harvestmushroomstewItem;
 	public static Item harvestbreadItem;
@@ -816,11 +826,13 @@ public final class ItemRegistry {
 	private static void registerVanillaReplacementItems() {
 		harvestappleItem = registerItemFood("minecraft:apple", config.cropfoodRestore, config.cropsaturationRestore);
 		harvestwheatItem = registerItemFood("minecraft:wheat", config.cropfoodRestore, config.cropsaturationRestore);
-		harvestpotatoItem = registerItemFood("minecraft:potato", config.cropfoodRestore, config.cropsaturationRestore);
-		harvestcarrotItem = registerItemFood("minecraft:carrot", config.cropfoodRestore, config.cropsaturationRestore);
+		harvestpotatoItem = registerItemSeedFood("minecraft:potato", config.cropfoodRestore, config.cropsaturationRestore, Blocks.POTATOES, Blocks.FARMLAND);
+		harvestcarrotItem = registerItemSeedFood("minecraft:carrot", config.cropfoodRestore, config.cropsaturationRestore, Blocks.CARROTS, Blocks.FARMLAND);
 		harvestbeetItem = registerItemFood("minecraft:beetroot", config.cropfoodRestore, config.cropsaturationRestore);
 		harvestmelonItem = registerItemFood("minecraft:melon", config.cropfoodRestore, config.cropsaturationRestore);
 		harvestpumpkinItem = registerItemFood("harvestpumpkinitem", config.cropfoodRestore, config.cropsaturationRestore);
+		
+		
 		
 		harvestbeefItem = registerItemFood("minecraft:beef", 1, config.snacksaturation);
 		harvestcookedbeefItem = registerItemFood("minecraft:cooked_beef", 2, config.snacksaturation);
@@ -1621,6 +1633,12 @@ public final class ItemRegistry {
 		allFood.add(item);
 
 		return registerItem(item, registryName);
+	}
+	
+	private static ItemSeedFood registerItemSeedFood(String registryName, int amount, float saturation, Block crops, Block soil) {
+		final Item item = new ItemSeedFood(amount, saturation, crops, soil);
+		allFood.add(item);
+		return (ItemSeedFood) registerItem(item, registryName);
 	}
 
 	private static Item registerItemPamCakeFood(String registryName, int amount, float saturation,
