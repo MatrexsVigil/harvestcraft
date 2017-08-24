@@ -52,6 +52,11 @@ public class TileEntityPresser extends TileEntity implements ITickable {
 		return super.writeToNBT(compound);
 	}
 
+	@Override
+	public NBTTagCompound getUpdateTag() {
+		return writeToNBT(new NBTTagCompound());
+	}
+
 	@SideOnly(value = Side.CLIENT)
 	public int getCookProgressScaled(int scale) {
 		return cookTime * scale / 125;

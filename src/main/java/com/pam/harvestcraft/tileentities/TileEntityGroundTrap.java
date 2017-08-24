@@ -65,6 +65,11 @@ public class TileEntityGroundTrap extends TileEntity implements ITickable {
 		return compound;
 	}
 
+	@Override
+	public NBTTagCompound getUpdateTag() {
+		return writeToNBT(new NBTTagCompound());
+	}
+
 	public int countFlowers() {
 		byte radius = 2;
 		int count = 0;
