@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "minecraft:cookie"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "flourEqualswheat"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "minecraft:rabbit_stew"
+  },
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllrabbitraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "minecraft:pumpkin",
+    "count": 3
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "item": "harvestcraft:harvestpumpkinitem"
+    },
+	{
+      "item": "harvestcraft:harvestpumpkinitem"
+    },
+	{
+      "item": "harvestcraft:harvestpumpkinitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "minecraft:mushroom_stew"
+  },
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

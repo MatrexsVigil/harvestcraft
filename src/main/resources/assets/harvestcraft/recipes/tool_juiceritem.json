@@ -1,0 +1,21 @@
+{
+  "group": "harvestcraft",
+  "pattern": [
+    "a ",
+    "b "
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "stone"
+    },
+    "b": {
+      "item": "minecraft:stone_pressure_plate",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "harvestcraft:juiceritem"
+  },
+  "type": "forge:ore_shaped"
+}

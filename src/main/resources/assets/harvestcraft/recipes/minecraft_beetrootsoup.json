@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "minecraft:beetroot_soup"
+  },
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBeetsoup"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

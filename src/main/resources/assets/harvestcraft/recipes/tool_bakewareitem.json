@@ -1,0 +1,17 @@
+{
+  "group": "harvestcraft",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "harvestcraft:bakewareitem"
+  },
+  "type": "forge:ore_shaped"
+}

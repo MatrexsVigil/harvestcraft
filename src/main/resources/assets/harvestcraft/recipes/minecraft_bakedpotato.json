@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "minecraft:baked_potato"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

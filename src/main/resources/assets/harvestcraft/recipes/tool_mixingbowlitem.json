@@ -1,0 +1,22 @@
+{
+  "group": "harvestcraft",
+  "pattern": [
+    "   ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+  "result": {
+    "item": "harvestcraft:mixingbowlitem"
+  },
+  "type": "forge:ore_shaped"
+}

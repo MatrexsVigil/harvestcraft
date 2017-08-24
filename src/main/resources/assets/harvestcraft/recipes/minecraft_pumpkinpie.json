@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "minecraft:pumpkin_pie"
+  },
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPumpkin"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

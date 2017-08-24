@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:peanutbuttercookiesitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllnutbutter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

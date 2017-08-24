@@ -1,0 +1,21 @@
+{
+  "group": "harvestcraft",
+  "pattern": [
+    "abb",
+    " bb",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "harvestcraft:potitem"
+  },
+  "type": "forge:ore_shaped"
+}
