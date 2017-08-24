@@ -3,9 +3,12 @@ HarvestCraft 1.12.1b
 - Fixed: Carrots, Potatoes, Beetroots can be used for Pig breeding again
 - Fixed: Meats are listed under their correct Ore Dictionary labels again
 - Fixed: Replaced Vanilla Food items now all have names
-- Added: Breeding: Pigs can now be bred with listAllveggie items, Chickens listAllseed items
+- Fixed: Fix all tile entities not properly overriding getUpdateTag (thanks covers1624)
+- Fixed: Woven Cotton now has a recipe (2 string = 1 woven cotton)
+- Added: Breeding: Pigs can now be bred with listAllveggie items (thanks gegy1000)
+- Added: Breeding: Chickens can now be bred with listAllseed items (thanks gegy1000)
 
-
+- Added: You can now right-click harvest Netherwarts (thanks GiantTreeLP)
 
 HarvestCraft 1.12.1a - STEP ONE of REBALANCING UPDATE
 -----------------

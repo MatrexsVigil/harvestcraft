@@ -10,6 +10,7 @@ import com.pam.harvestcraft.blocks.BlockRegistry;
 import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.blocks.FruitRegistry;
 import com.pam.harvestcraft.config.ConfigHandler;
+import com.pam.harvestcraft.events.AnimalBreedingEvent;
 import com.pam.harvestcraft.item.GeneralOreRegistry;
 import com.pam.harvestcraft.item.ItemRegistry;
 import com.pam.harvestcraft.item.RecipeRegistry;
@@ -74,6 +75,8 @@ public class CommonProxy {
 	    for (ItemStack stack : OreDictionary.getOres("listAllseed")) {
 	        temptationItems2.add(stack.getItem());
 	    }
+	    
+	    
 
     }
 
@@ -103,13 +106,8 @@ public class CommonProxy {
         
         RightClickHarvesting.instance.register();
         
+        //MinecraftForge.EVENT_BUS.register(new AnimalBreedingEvent());
         
-        
-      //Closing container on item toss
-        //MinecraftForge.EVENT_BUS.register(new ItemEvent());
-        //For the pickup events
-        //MinecraftForge.EVENT_BUS.register(new ItemDropEvent());
-        //Player join and leave servers
-        //MinecraftForge.EVENT_BUS.register(new PlayerServerEventHandler());
+
     }
 }
