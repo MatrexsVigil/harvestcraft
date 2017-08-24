@@ -51,6 +51,11 @@ public class TileEntityShippingBin extends TileEntity {
 		return tagCompound;
 	}
 
+	@Override
+	public NBTTagCompound getUpdateTag() {
+		return writeToNBT(new NBTTagCompound());
+	}
+
 	public int getBrowsingInfo() {
 		return stockNum;
 	}
