@@ -7,7 +7,7 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:brick"
+      "item": "minecraft:iron_ingot"
     },
     "b": {
       "type": "forge:ore_dict",

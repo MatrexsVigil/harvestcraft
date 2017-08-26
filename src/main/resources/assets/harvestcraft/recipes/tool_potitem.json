@@ -11,7 +11,7 @@
       "ore": "stickWood"
     },
     "b": {
-      "item": "minecraft:brick"
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
