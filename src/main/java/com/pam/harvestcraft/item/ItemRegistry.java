@@ -868,7 +868,7 @@ public final class ItemRegistry {
 	}
 
 	private static void registerBeesItems() {
-		queenbeeItem = registerItem(new ItemPamBee(), "queenbeeitem");
+		queenbeeItem = registerItemPamBee("queenbeeitem");
 		grubItem = registerGenericItem("grubitem");
 		honeycombItem = registerGenericItem("honeycombitem");
 		honeyItem = registerItemFood("honeyitem", 4, config.snacksaturation);
@@ -1618,6 +1618,12 @@ public final class ItemRegistry {
 	private static Item registerItemTool(String registryName) {
 		final ItemPamTool item = new ItemPamTool();
 		item.setContainerItem(item);
+
+		return registerItem(item, registryName);
+	}
+	
+	private static Item registerItemPamBee(String registryName) {
+		final Item item = new ItemPamBee();
 
 		return registerItem(item, registryName);
 	}

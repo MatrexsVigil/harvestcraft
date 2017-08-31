@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 public class ItemPamBee extends Item {
     public ItemPamBee() {
         setMaxStackSize(1);
-        setMaxDamage(18);
+        setMaxDamage(38);
         setCreativeTab(HarvestCraft.modTab);
     }
 }

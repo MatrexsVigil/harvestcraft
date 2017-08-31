@@ -90,7 +90,7 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 			if(canRun()) {
 				++produceTime;
 
-				if(produceTime >= Math.floor(getRunTime())) {
+				if(produceTime >= Math.floor(getRunTime(queenBee))) {
 					produceTime = 0;
 					run();
 					needsUpdate = true;
@@ -140,13 +140,13 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 
 		if(!itemstackhandler.getStackInSlot(18).isEmpty()) {
 			if(itemstackhandler.getStackInSlot(18).getItem() == ItemRegistry.queenbeeItem
-					&& itemstackhandler.getStackInSlot(18).getItemDamage() == 17) {
+					&& itemstackhandler.getStackInSlot(18).getItemDamage() == 36) {
 				return new ItemStack(ItemRegistry.grubItem);
 			}
-			if(randomNum < 50) {
+			if(randomNum < 35) {
 				return new ItemStack(ItemRegistry.waxcombItem);
 			}
-			if(randomNum >= 50 && randomNum < 95) {
+			if(randomNum >= 35 && randomNum < 70) {
 				return new ItemStack(ItemRegistry.honeycombItem);
 			}
 			return new ItemStack(ItemRegistry.grubItem);
@@ -155,14 +155,14 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 		return null;
 	}
 
-	private int getRunTime(ItemStack stack) {
-		if(!stack.isEmpty() && stack.getItem() == ItemRegistry.queenbeeItem) {
-			return 3200;
-		}
-		return 0;
-	}
+	//private int getRunTime(ItemStack stack) {
+	//	if(!stack.isEmpty() && stack.getItem() == ItemRegistry.queenbeeItem) {
+	//		return 3500;
+	//	}
+	//	return 0;
+	//}
 
-	private int getRunTime() {
+	private int getRunTime(ItemStack stack) {
 		final int radius = 2;
 		// final World world = world;
 		final int varX = pos.getX();
@@ -184,11 +184,11 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 				final Block blockAtCoords = world.getBlockState(pos).getBlock();
 				if(blockAtCoords instanceof BlockFlower || blockAtCoords instanceof BlockCrops
 						|| blockAtCoords instanceof BlockBaseGarden) {
-					speed = (int) (speed * 0.95);
+					speed = (int) (speed * .85);
 				}
 				if(blockAtCoords != BlockRegistry.apiary)
 					continue;
-				speed = (int) (speed / 0.85);
+				speed = (int) (speed / 1.0);
 			}
 		}
 		return speed;

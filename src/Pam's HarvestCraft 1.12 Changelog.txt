@@ -2,9 +2,14 @@ HarvestCraft 1.12.1c
 -----------------
 - Fixed: Recipe: Banana Sapling
 - Fixed: Blocks: Blocks should now take a second to break, instead of instantly
-
 - Fixed: Apiary: Should drop contents when broken again
 - Fixed: Apairy: Should always produce some grubs again
+- Fixed: Apiary: Queen Bees should fill most (or all) of the apiary slots before running out
+- Changed: Apiary: Wax Combs 35% chance, Honey Combs 35% chance, Grubs 30% chance
+- Changed: Apiary: Runs slightly slower without flowers/crops, Runs much faster surrounded by flowers/crops
+
+
+- Fixed: Tile Entities: All TEs should work with automation (hoppers, etc) correctly
 
 HarvestCraft 1.12.1b
 -----------------

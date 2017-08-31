@@ -25,7 +25,7 @@ public class ContainerApiary extends Container {
 
 		for(int x = 0; x < 6; ++x) {
 			for(int y = 0; y < 3; ++y) {
-				addSlotToContainer(new SlotPamResult(
+				addSlotToContainer(new SlotPamApiaryOutput(
 						tileEntityApiary.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null), y + x * 3,
 						62 + 18 * x, 17 + 18 * y));
 			}
