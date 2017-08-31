@@ -3,6 +3,9 @@ HarvestCraft 1.12.1c
 - Fixed: Recipe: Banana Sapling
 - Fixed: Blocks: Blocks should now take a second to break, instead of instantly
 
+- Fixed: Apiary: Should drop contents when broken again
+- Fixed: Apairy: Should always produce some grubs again
+
 HarvestCraft 1.12.1b
 -----------------
 - Fixed: Carrots and Potatoes can be planted again

@@ -39,7 +39,7 @@ public class ApiaryBlock extends BlockContainerRotating {
 		// if(!keepInventory) {
 		TileEntity tileentity = worldIn.getTileEntity(pos);
 
-		if(tileentity instanceof TileEntityWaterTrap) {
+		if(tileentity instanceof TileEntityApiary) {
 			ItemStackUtils.dropInventoryItems(worldIn, pos,
 					tileentity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null));
 			worldIn.updateComparatorOutputLevel(pos, this);
