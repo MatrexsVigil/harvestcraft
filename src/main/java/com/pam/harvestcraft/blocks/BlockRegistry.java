@@ -409,6 +409,7 @@ public final class BlockRegistry {
         block.setRegistryName(registerName);
         block.setUnlocalizedName(registerName);
         block.setCreativeTab(HarvestCraft.modTab);
+        block.setHardness(1.0F);
         blocks.add(block);
 
         if (itemBlock != null)

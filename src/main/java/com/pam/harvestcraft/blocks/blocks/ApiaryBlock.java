@@ -4,6 +4,7 @@ import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.ItemStackUtils;
 import com.pam.harvestcraft.gui.GuiHandler;
 import com.pam.harvestcraft.tileentities.TileEntityApiary;
+import com.pam.harvestcraft.tileentities.TileEntityWaterTrap;
 
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -32,17 +33,18 @@ public class ApiaryBlock extends BlockContainerRotating {
 		return new TileEntityApiary();
 	}
 
+	@Override
 	public void breakBlock(World worldIn, BlockPos pos, IBlockState state) {
-		keepInventory = true;
-		if(!keepInventory) {
-			TileEntity tileentity = worldIn.getTileEntity(pos);
+		// keepInventory = true;
+		// if(!keepInventory) {
+		TileEntity tileentity = worldIn.getTileEntity(pos);
 
-			if(tileentity instanceof TileEntityApiary) {
-				ItemStackUtils.dropInventoryItems(worldIn, pos,
-						tileentity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null));
-				worldIn.updateComparatorOutputLevel(pos, this);
-			}
+		if(tileentity instanceof TileEntityWaterTrap) {
+			ItemStackUtils.dropInventoryItems(worldIn, pos,
+					tileentity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null));
+			worldIn.updateComparatorOutputLevel(pos, this);
 		}
+		// }
 
 		super.breakBlock(worldIn, pos, state);
 	}
