@@ -84,6 +84,8 @@ public class TileEntityWaterTrap extends TileEntity implements ITickable {
 						&& (offsetX != radius - 1 || offsetZ != -(radius - 1))
 						&& (offsetX != -(radius - 1) || offsetZ != radius - 1)) {
 					final BlockPos pos = new BlockPos(varX + offsetX, varY, varZ + offsetZ);
+					if (!world.isBlockLoaded(pos)) continue;
+					final Block blockAtCoords = world.getBlockState(pos).getBlock();
 					if (world.isBlockLoaded(pos) && world.getBlockState(pos).getBlock() == Blocks.WATER) {
 						count++;
 					}

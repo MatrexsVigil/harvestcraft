@@ -10,6 +10,8 @@ import net.minecraft.block.BlockCrops;
 import net.minecraft.block.BlockFlower;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.inventory.IInventory;
+import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.NetworkManager;
@@ -42,6 +44,7 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 		return super.getCapability(capability, facing);
 	}
 
+
 	@Override
 	public void readFromNBT(NBTTagCompound compound) {
 		super.readFromNBT(compound);
@@ -64,6 +67,7 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 	public NBTTagCompound getUpdateTag() {
 		return writeToNBT(new NBTTagCompound());
 	}
+
 
 	@Override
 	public void update() {
@@ -141,7 +145,8 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 		if(!itemstackhandler.getStackInSlot(18).isEmpty()) {
 			if(itemstackhandler.getStackInSlot(18).getItem() == ItemRegistry.queenbeeItem
 					&& itemstackhandler.getStackInSlot(18).getItemDamage() == 36) {
-				return new ItemStack(ItemRegistry.grubItem);
+				itemstackhandler.getStackInSlot(18).shrink(1);
+				return new ItemStack(ItemRegistry.queenbeeItem);
 			}
 			if(randomNum < 35) {
 				return new ItemStack(ItemRegistry.waxcombItem);
@@ -215,4 +220,5 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 	public String getGuiID() {
 		return "harvestcraft:apiary";
 	}
+
 }
