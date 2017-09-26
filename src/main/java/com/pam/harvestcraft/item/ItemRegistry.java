@@ -12,6 +12,7 @@ import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.BlockRegistry;
 import com.pam.harvestcraft.blocks.FruitRegistry;
 import com.pam.harvestcraft.blocks.blocks.BlockPamCake;
+import com.pam.harvestcraft.config.ConfigHandler;
 import com.pam.harvestcraft.item.items.ItemPamBee;
 import com.pam.harvestcraft.item.items.ItemPamCakeFood;
 import com.pam.harvestcraft.item.items.ItemPamCropBag;
@@ -27,6 +28,7 @@ import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemSeedFood;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
@@ -436,7 +438,6 @@ public final class ItemRegistry {
 	public static Item orangesodaItem;
 	public static Item rootbeersodaItem;
 	public static Item strawberrysodaItem;
-	public static Item caramelicecreamItem;
 	public static Item mintchocolatechipicemcreamItem;
 	public static Item strawberryicecreamItem;
 	public static Item vanillaicecreamItem;
@@ -447,7 +448,6 @@ public final class ItemRegistry {
 	public static Item lambbarleysoupItem;
 	public static Item honeylemonlambItem;
 	public static Item pumpkinoatsconesItem;
-	public static Item beefjerkyItem;
 	public static Item ovenroastedcauliflowerItem;
 	public static Item leekbaconsoupItem;
 	public static Item herbbutterparsnipsItem;
@@ -724,8 +724,101 @@ public final class ItemRegistry {
 	public static Item teriyakichickenItem;
 	public static Item toastedwesternItem;
 	public static Item turkishdelightItem;
-	
 
+	public static Item cornedbeefbreakfastItem;
+	public static Item greeneggsandhamItem;
+	public static Item spaghettidinnerItem;
+	public static Item theatreboxItem;
+	public static Item cookiesandmilkItem;
+	public static Item crackersandcheeseItem;
+	public static Item chickendinnerItem;
+	public static Item bbqplatterItem;
+	public static Item weekendpicnicItem;
+	public static Item corndogItem;
+	public static Item chilidogItem;
+	public static Item hamandcheesesandwichItem;
+	public static Item tunafishsandwichItem;
+	public static Item tunasaladItem;
+	public static Item gritsItem;
+	public static Item southernstylebreakfastItem;
+	public static Item chimichangaItem;
+	public static Item clamchowderItem;
+	public static Item breakfastburritoItem;
+	public static Item buttercookieItem;
+	public static Item sugarcookieItem;
+	public static Item potatochipsItem;
+	public static Item bbqpotatochipsItem;
+	public static Item sourcreamandonionpotatochipsItem;
+	public static Item cheddarandsourcreampotatochipsItem;
+	public static Item tortillachipsItem;
+	public static Item chipsandsalsaItem;
+	public static Item chipsanddipItem;
+	public static Item cheezepuffsItem;
+	public static Item surfandturfItem;
+	public static Item liverandonionsItem;
+	public static Item beefjerkyItem;
+	public static Item fortunecookieItem;
+	public static Item deviledeggItem;
+	public static Item mozzerellasticksItem;
+	public static Item gumboItem;
+	public static Item jambalayaItem;
+	public static Item succotashItem;
+	public static Item eggsbenedictItem;
+	public static Item friedgreentomatoesItem;
+	public static Item chickenandwafflesItem;
+	public static Item potatoesobrienItem;
+	public static Item tatertotsItem;
+	public static Item smoresItem;
+	public static Item thankfuldinnerItem;
+	public static Item steakfajitaItem;
+	public static Item ramenItem;
+	public static Item misosoupItem;
+	public static Item onigiriItem;
+	public static Item grilledcheesevegemitetoastItem;
+	public static Item monsterfrieddumplingsItem;
+	public static Item salisburysteakItem;
+	public static Item crispyricepuffcerealItem;
+	public static Item crispyricepuffbarsItem;
+	public static Item babaganoushItem;
+	public static Item berryvinaigrettesaladItem;
+	public static Item tomatoherbchickenItem;
+	public static Item pastagardeniaItem;
+	public static Item fiestacornsaladItem;
+	public static Item threebeansaladItem;
+	public static Item sweetandsourmeatballsItem;
+	public static Item pepperjellyItem;
+	public static Item pepperjellyandcrackersItem;
+	public static Item saltedcaramelItem;
+	public static Item caramelicecreamItem;
+	public static Item spidereyepieItem;
+	public static Item cheesyshrimpquinoaItem;
+	public static Item bulgogiItem;
+	public static Item omuriceItem;
+	public static Item koreandinnerItem;
+	public static Item pemmicanItem;
+	public static Item driedsoupItem;
+	public static Item crabkimbapItem;
+	public static Item froglegstirfryItem;
+	public static Item crawfishetoufeeItem;
+	public static Item haggisItem;
+	public static Item chickenkatsuItem;
+	public static Item chocolateorangeItem;
+	public static Item festivalbreadItem;
+	public static Item fruitcreamfestivalbreadItem;
+	public static Item phoItem;
+	public static Item bubbleteaItem;
+	public static Item duckrawItem;
+	public static Item duckcookedItem;
+	public static Item wontonsoupItem;
+	public static Item springrollItem;
+	public static Item meatystirfryItem;
+	public static Item potstickersItem;
+	public static Item orangeduckItem;
+	public static Item pekingduckItem;
+	public static Item stuffedduckItem;
+	public static Item rouxItem;
+	public static Item sundaychickendinnerItem;
+	
 	public static Item rawtofeakItem;
 	public static Item rawtofaconItem;
 	public static Item rawtofishItem;
@@ -756,14 +849,6 @@ public final class ItemRegistry {
 	public static Item pumpkincheesecakeItem;
 	public static Item lamingtonItem;
 	public static Item pavlovaItem;
-	
-	/*Spidereye pie, Cheesy Shrimp Quinoa, Bulgogi, Omurice, Korean Dinner, Pemmican, Dried Soup, 
-	 * Crab Kimbap, Frog Leg Stir Fry, Crawfish Etoufee, Haggis, Chicken Katsu, Chocolate Orange, 
-	 * Festival Bread, Fruit and Cream Festival Bread, Pho, Bubble Tea, Raw Duck, Cooked Duck, 
-	 * Wonton Soup, Spring Roll, Meaty Stir Fry, Pot Stickers, Orange Duck, Peking Duck, 
-	 * Stuffed Duck, Roux, Sunday Chicken
-	 * 
-	 */
 
 	public static Item queenbeeItem;
 	public static Item grubItem;
@@ -817,8 +902,12 @@ public final class ItemRegistry {
 		registerFoodItems();
 		registerBeesItems();
 		registerTools();
+		registerFish();
 		registerArmorItems();
-		registerVanillaReplacementItems();
+		if (ConfigHandler.enablevanillafoodBalance){
+			registerVanillaReplacementItems();
+		}
+		
 		
 		initialized = true;
 	}
@@ -834,30 +923,30 @@ public final class ItemRegistry {
 		
 		
 		
-		harvestbeefItem = registerItemFood("minecraft:beef", 1, config.snacksaturation);
-		harvestcookedbeefItem = registerItemFood("minecraft:cooked_beef", 2, config.snacksaturation);
-		harvestchickenItem = registerItemFood("minecraft:chicken", 1, config.snacksaturation);
-		harvestcookedchickenItem = registerItemFood("minecraft:cooked_chicken", 2, config.snacksaturation);
-		harvestporkchopItem = registerItemFood("minecraft:porkchop", 1, config.snacksaturation);
-		harvestcookedporkchopItem = registerItemFood("minecraft:cooked_porkchop", 2, config.snacksaturation);
-		harvestrabbitItem = registerItemFood("minecraft:rabbit", 1, config.snacksaturation);
-		harvestcookedrabbitItem = registerItemFood("minecraft:cooked_rabbit", 2, config.snacksaturation);
-		harvestmuttonItem = registerItemFood("minecraft:mutton", 1, config.snacksaturation);
-		harvestcookedmuttonItem = registerItemFood("minecraft:cooked_mutton", 2, config.snacksaturation);
-		harvestfishItem = registerItemFood("minecraft:cod", 1, config.snacksaturation);
-		harvestcookedfishedItem = registerItemFood("minecraft:cooked_cod", 2, config.snacksaturation);
-		harvestsalmonItem = registerItemFood("minecraft:salmon", 1, config.snacksaturation);
-		harvestcookedsalmonfishedItem = registerItemFood("minecraft:cooked_salmon", 2, config.snacksaturation);
-		harvestclownfishItem = registerItemFood("minecraft:clownfish", 1, config.snacksaturation);
-		harvestpufferfishItem = registerItemFood("minecraft:pufferfish", 1, config.snacksaturation);
+		harvestbeefItem = registerItemVanillaFood("minecraft:beef", 1, config.snacksaturation, true);
+		harvestcookedbeefItem = registerItemVanillaFood("minecraft:cooked_beef", 2, config.snacksaturation, true);
+		harvestchickenItem = registerItemVanillaFood("minecraft:chicken", 1, config.snacksaturation, true);
+		harvestcookedchickenItem = registerItemVanillaFood("minecraft:cooked_chicken", 2, config.snacksaturation, true);
+		harvestporkchopItem = registerItemVanillaFood("minecraft:porkchop", 1, config.snacksaturation, true);
+		harvestcookedporkchopItem = registerItemVanillaFood("minecraft:cooked_porkchop", 2, config.snacksaturation, true);
+		harvestrabbitItem = registerItemVanillaFood("minecraft:rabbit", 1, config.snacksaturation, true);
+		harvestcookedrabbitItem = registerItemVanillaFood("minecraft:cooked_rabbit", 2, config.snacksaturation, true);
+		harvestmuttonItem = registerItemVanillaFood("minecraft:mutton", 1, config.snacksaturation, true);
+		harvestcookedmuttonItem = registerItemVanillaFood("minecraft:cooked_mutton", 2, config.snacksaturation, true);
+		harvestfishItem = registerItemVanillaFood("minecraft:cod", 1, config.snacksaturation, false);
+		harvestcookedfishedItem = registerItemVanillaFood("minecraft:cooked_cod", 2, config.snacksaturation, false);
+		harvestsalmonItem = registerItemVanillaFood("minecraft:salmon", 1, config.snacksaturation, false);
+		harvestcookedsalmonfishedItem = registerItemVanillaFood("minecraft:cooked_salmon", 2, config.snacksaturation, false);
+		harvestclownfishItem = registerItemVanillaFood("minecraft:clownfish", 1, config.snacksaturation, false);
+		harvestpufferfishItem = registerItemVanillaFood("minecraft:pufferfish", 1, config.snacksaturation, false);
 		
-		harvestmushroomstewItem = registerItemFood("minecraft:mushroom_stew", 2, config.mealsaturation);
-		harvestbreadItem = registerItemFood("minecraft:bread", 3, config.mealsaturation);
-		harvestcookieItem = registerItemFood("minecraft:cookie", 2, config.mealsaturation);
-		harvestbakedpotatoItem = registerItemFood("minecraft:baked_potato", 2, config.mealsaturation);
-		pumpkinpieItem = registerItemFood("minecraft:pumpkin_pie", 4, config.mealsaturation);
-		rabbitstewItem = registerItemFood("minecraft:rabbit_stew", 6, config.mealsaturation);
-		beetrootsoupItem = registerItemFood("minecraft:beetroot_soup", 9, config.mealsaturation);
+		harvestmushroomstewItem = registerItemVanillaFood("minecraft:mushroom_stew", 2, config.mealsaturation, false);
+		harvestbreadItem = registerItemVanillaFood("minecraft:bread", 3, config.mealsaturation, false);
+		harvestcookieItem = registerItemVanillaFood("minecraft:cookie", 2, config.mealsaturation, false);
+		harvestbakedpotatoItem = registerItemVanillaFood("minecraft:baked_potato", 2, config.mealsaturation, false);
+		pumpkinpieItem = registerItemVanillaFood("minecraft:pumpkin_pie", 4, config.mealsaturation, false);
+		rabbitstewItem = registerItemVanillaFood("minecraft:rabbit_stew", 6, config.mealsaturation, false);
+		beetrootsoupItem = registerItemVanillaFood("minecraft:beetroot_soup", 9, config.mealsaturation, false);
 	}
 	private static void registerArmorItems() {
 		hardenedleatherItem = registerGenericItem("hardenedleatheritem");
@@ -1333,7 +1422,7 @@ public final class ItemRegistry {
 		spinachpieItem = registerItemFood("spinachpieitem", 8, config.mealsaturation);
 		steamedspinachItem = registerItemFood("steamedspinachitem", 2, config.mealsaturation);
 		vegemiteontoastItem = registerItemFood("vegemiteontoastitem", 7, config.mealsaturation);
-		registerFish();
+		
 
 		clamcookedItem = registerItemFood("clamcookeditem", 2, config.mealsaturation);
 		crabcookedItem = registerItemFood("crabcookeditem", 2, config.mealsaturation);
@@ -1503,6 +1592,98 @@ public final class ItemRegistry {
 		toastedwesternItem = registerItemFood("toastedwesternitem", 14, config.mealsaturation);
 		turkishdelightItem = registerItemFood("turkishdelightitem", 4, config.mealsaturation);
 		
+		cornedbeefbreakfastItem = registerItemFood("cornedbeefbreakfastItem", 4, config.mealsaturation);
+		greeneggsandhamItem = registerItemFood("greeneggsandhamItem", 4, config.mealsaturation);
+		spaghettidinnerItem = registerItemFood("spaghettidinnerItem", 4, config.mealsaturation);
+		theatreboxItem = registerItemFood("theatreboxItem", 4, config.mealsaturation);
+		cookiesandmilkItem = registerItemFood("cookiesandmilkItem", 4, config.mealsaturation);
+		crackersandcheeseItem = registerItemFood("crackersandcheeseItem", 4, config.mealsaturation);
+		chickendinnerItem = registerItemFood("chickendinnerItem", 4, config.mealsaturation);
+		bbqplatterItem = registerItemFood("bbqplatterItem", 4, config.mealsaturation);
+		weekendpicnicItem = registerItemFood("weekendpicnicItem", 4, config.mealsaturation);
+		corndogItem = registerItemFood("corndogItem", 4, config.mealsaturation);
+		chilidogItem = registerItemFood("chilidogItem", 4, config.mealsaturation);
+		hamandcheesesandwichItem = registerItemFood("hamandcheesesandwichItem", 4, config.mealsaturation);
+		tunafishsandwichItem = registerItemFood("tunafishsandwichItem", 4, config.mealsaturation);
+		tunasaladItem = registerItemFood("tunasaladItem", 4, config.mealsaturation);
+		gritsItem = registerItemFood("gritsItem", 4, config.mealsaturation);
+		southernstylebreakfastItem = registerItemFood("southernstylebreakfastItem", 4, config.mealsaturation);
+		chimichangaItem = registerItemFood("chimichangaItem", 4, config.mealsaturation);
+		clamchowderItem = registerItemFood("clamchowderItem", 4, config.mealsaturation);
+		breakfastburritoItem = registerItemFood("breakfastburritoItem", 4, config.mealsaturation);
+		buttercookieItem = registerItemFood("buttercookieItem", 4, config.mealsaturation);
+		sugarcookieItem = registerItemFood("sugarcookieItem", 4, config.mealsaturation);
+		potatochipsItem = registerItemFood("potatochipsItem", 4, config.mealsaturation);
+		bbqpotatochipsItem = registerItemFood("bbqpotatochipsItem", 4, config.mealsaturation);
+		sourcreamandonionpotatochipsItem = registerItemFood("sourcreamandonionpotatochipsItem", 4, config.mealsaturation);
+		cheddarandsourcreampotatochipsItem = registerItemFood("cheddarandsourcreampotatochipsItem", 4, config.mealsaturation);
+		tortillachipsItem = registerItemFood("tortillachipsItem", 4, config.mealsaturation);
+		chipsandsalsaItem = registerItemFood("chipsandsalsaItem", 4, config.mealsaturation);
+		chipsanddipItem = registerItemFood("chipsanddipItem", 4, config.mealsaturation);
+		cheezepuffsItem = registerItemFood("cheezepuffsItem", 4, config.mealsaturation);
+		surfandturfItem = registerItemFood("surfandturfItem", 4, config.mealsaturation);
+		liverandonionsItem = registerItemFood("liverandonionsItem", 4, config.mealsaturation);
+		fortunecookieItem = registerItemFood("fortunecookieItem", 4, config.mealsaturation);
+		deviledeggItem = registerItemFood("deviledeggItem", 4, config.mealsaturation);
+		mozzerellasticksItem = registerItemFood("mozzerellasticksItem", 4, config.mealsaturation);
+		gumboItem = registerItemFood("gumboItem", 4, config.mealsaturation);
+		jambalayaItem = registerItemFood("jambalayaItem", 4, config.mealsaturation);
+		succotashItem = registerItemFood("succotashItem", 4, config.mealsaturation);
+		eggsbenedictItem = registerItemFood("eggsbenedictItem", 4, config.mealsaturation);
+		friedgreentomatoesItem = registerItemFood("friedgreentomatoesItem", 4, config.mealsaturation);
+		chickenandwafflesItem = registerItemFood("chickenandwafflesItem", 4, config.mealsaturation);
+		potatoesobrienItem = registerItemFood("potatoesobrienItem", 4, config.mealsaturation);
+		tatertotsItem = registerItemFood("tatertotsItem", 4, config.mealsaturation);
+		smoresItem = registerItemFood("smoresItem", 4, config.mealsaturation);
+		thankfuldinnerItem = registerItemFood("thankfuldinnerItem", 4, config.mealsaturation);
+		steakfajitaItem = registerItemFood("steakfajitaItem", 4, config.mealsaturation);
+		ramenItem = registerItemFood("ramenItem", 4, config.mealsaturation);
+		misosoupItem = registerItemFood("misosoupItem", 4, config.mealsaturation);
+		onigiriItem = registerItemFood("onigiriItem", 4, config.mealsaturation);
+		grilledcheesevegemitetoastItem = registerItemFood("grilledcheesevegemitetoastItem", 4, config.mealsaturation);
+		monsterfrieddumplingsItem = registerItemFood("monsterfrieddumplingsItem", 4, config.mealsaturation);
+		salisburysteakItem = registerItemFood("salisburysteakItem", 4, config.mealsaturation);
+		crispyricepuffcerealItem = registerItemFood("crispyricepuffcerealItem", 4, config.mealsaturation);
+		crispyricepuffbarsItem = registerItemFood("crispyricepuffbarsItem", 4, config.mealsaturation);
+		babaganoushItem = registerItemFood("babaganoushItem", 4, config.mealsaturation);
+		berryvinaigrettesaladItem = registerItemFood("berryvinaigrettesaladItem", 4, config.mealsaturation);
+		tomatoherbchickenItem = registerItemFood("tomatoherbchickenItem", 4, config.mealsaturation);
+		pastagardeniaItem = registerItemFood("pastagardeniaItem", 4, config.mealsaturation);
+		fiestacornsaladItem = registerItemFood("fiestacornsaladItem", 4, config.mealsaturation);
+		threebeansaladItem = registerItemFood("threebeansaladItem", 4, config.mealsaturation);
+		sweetandsourmeatballsItem = registerItemFood("sweetandsourmeatballsItem", 4, config.mealsaturation);
+		pepperjellyItem = registerItemFood("pepperjellyItem", 4, config.mealsaturation);
+		pepperjellyandcrackersItem = registerItemFood("pepperjellyandcrackersItem", 4, config.mealsaturation);
+		saltedcaramelItem = registerItemFood("saltedcaramelItem", 4, config.mealsaturation);
+		spidereyepieItem = registerItemFood("spidereyepieItem", 4, config.mealsaturation);
+		cheesyshrimpquinoaItem = registerItemFood("cheesyshrimpquinoaItem", 4, config.mealsaturation);
+		bulgogiItem = registerItemFood("bulgogiItem", 4, config.mealsaturation);
+		omuriceItem = registerItemFood("omuriceItem", 4, config.mealsaturation);
+		koreandinnerItem = registerItemFood("koreandinnerItem", 4, config.mealsaturation);
+		pemmicanItem = registerItemFood("pemmicanItem", 4, config.mealsaturation);
+		driedsoupItem = registerItemFood("driedsoupItem", 4, config.mealsaturation);
+		crabkimbapItem = registerItemFood("crabkimbapItem", 4, config.mealsaturation);
+		froglegstirfryItem = registerItemFood("froglegstirfryItem", 4, config.mealsaturation);
+		crawfishetoufeeItem = registerItemFood("crawfishetoufeeItem", 4, config.mealsaturation);
+		haggisItem = registerItemFood("haggisItem", 4, config.mealsaturation);
+		chickenkatsuItem = registerItemFood("chickenkatsuItem", 4, config.mealsaturation);
+		chocolateorangeItem = registerItemFood("chocolateorangeItem", 4, config.mealsaturation);
+		festivalbreadItem = registerItemFood("		festivalbreadItem", 4, config.mealsaturation);
+		fruitcreamfestivalbreadItem = registerItemFood("fruitcreamfestivalbreadItem", 4, config.mealsaturation);
+		phoItem = registerItemFood("phoItem", 4, config.mealsaturation);
+		bubbleteaItem = registerItemFood("bubbleteaItem", 4, config.mealsaturation);
+		duckrawItem = registerItemFood("duckrawItem", 4, config.mealsaturation);
+		duckcookedItem = registerItemFood("duckcookedItem", 4, config.mealsaturation);
+		wontonsoupItem = registerItemFood("wontonsoupItem", 4, config.mealsaturation);
+		springrollItem = registerItemFood("springrollItem", 4, config.mealsaturation);
+		meatystirfryItem = registerItemFood("meatystirfryItem", 4, config.mealsaturation);
+		potstickersItem = registerItemFood("potstickersItem", 4, config.mealsaturation);
+		orangeduckItem = registerItemFood("orangeduckItem", 4, config.mealsaturation);
+		pekingduckItem = registerItemFood("pekingduckItem", 4, config.mealsaturation);
+		stuffedduckItem = registerItemFood("stuffedduckItem", 4, config.mealsaturation);
+		rouxItem = registerItemFood("rouxItem", 4, config.mealsaturation);
+
+		
 		
 		rawtofeakItem = registerItemFood("rawtofeakitem", 1, config.snacksaturation);
 		rawtofaconItem = registerItemFood("rawtofaconitem", 1, config.snacksaturation);
@@ -1634,6 +1815,13 @@ public final class ItemRegistry {
 		return registerItem(item, registryName);
 	}
 
+	private static Item registerItemVanillaFood(String registryName, int amount, float saturation, boolean isWolfsFavoriteMeat) {
+		final Item item = new ItemFood(amount, saturation, isWolfsFavoriteMeat);
+		allFood.add(item);
+
+		return registerItem(item, registryName);
+	}
+	
 	private static Item registerItemFood(String registryName, int amount, float saturation) {
 		final Item item = new ItemPamFood(amount, saturation);
 		allFood.add(item);

@@ -22,7 +22,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.FMLLog;
 
-public class BlockPamFruitLog extends Block implements IGrowable, PamCropGrowable {
+public class BlockPamFruitLog extends Block implements IGrowable, PamCropGrowable, net.minecraftforge.common.IShearable  {
 
 	private static final int MATURE_AGE = 2;
 	private final BlockPamSapling sapling;
@@ -160,6 +160,16 @@ public class BlockPamFruitLog extends Block implements IGrowable, PamCropGrowabl
 	@Override
 	public void grow(World worldIn, Random rand, BlockPos pos, IBlockState state) {
 		this.grow(worldIn, pos, state);
+	}
+	
+	@Override public boolean isShearable(ItemStack item, IBlockAccess world, BlockPos pos){ return true; }
+
+	@Override
+	public List<ItemStack> onSheared(ItemStack item, IBlockAccess world, BlockPos pos, int fortune) {
+		// TODO Auto-generated method stub
+		ArrayList<ItemStack> ret = new ArrayList<ItemStack>();
+        ret.add(new ItemStack(this, 1, 0));
+        return ret;
 	}
 
 }

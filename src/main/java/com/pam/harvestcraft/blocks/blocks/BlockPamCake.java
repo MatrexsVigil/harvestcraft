@@ -5,6 +5,7 @@ import java.util.Random;
 import javax.annotation.Nullable;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockCake;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyInteger;
@@ -25,7 +26,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class BlockPamCake extends Block {
+public class BlockPamCake extends BlockCake {
 	public int CUSTOMBITES;
 	public static final PropertyInteger BITES = PropertyInteger.create("bites", 0, 6);
 	protected static final AxisAlignedBB[] CAKE_AABB =
@@ -38,7 +39,7 @@ public class BlockPamCake extends Block {
 					new AxisAlignedBB(0.8125D, 0.0D, 0.0625D, 0.9375D, 0.5D, 0.9375D)};
 
 	public BlockPamCake(int CUSTOMBITES) {
-		super(Material.CAKE);
+		super();
 		this.setDefaultState(this.blockState.getBaseState().withProperty(BITES, Integer.valueOf(0)));
 		this.setTickRandomly(true);
 		this.CUSTOMBITES = CUSTOMBITES;

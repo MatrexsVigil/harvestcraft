@@ -224,7 +224,7 @@ public class TileEntityGroundTrap extends TileEntity implements ITickable {
 					case 8:
 						return new ItemStack(Items.CHICKEN, 1, 0);
 					case 9:
-						return new ItemStack(Items.CHICKEN, 1, 0);
+						return new ItemStack(ItemRegistry.duckrawItem, 1, 0);
 					case 10:
 						return new ItemStack(Items.FEATHER, 1, 0);
 				}
@@ -264,7 +264,7 @@ public class TileEntityGroundTrap extends TileEntity implements ITickable {
 	int getRunTime(ItemStack stack) {
 		if(!stack.isEmpty() && (stack.getItem() == ItemRegistry.grainbaitItem
 				|| stack.getItem() == ItemRegistry.fruitbaitItem || stack.getItem() == ItemRegistry.veggiebaitItem)) {
-			return 3200;
+			return getRunTime();
 		}
 
 		return 0;

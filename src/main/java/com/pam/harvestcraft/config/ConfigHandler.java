@@ -65,6 +65,8 @@ public class ConfigHandler {
     public static int saltrecipeAmount;
     public static boolean enableHCFish;
     
+    public static boolean enablevanillafoodBalance;
+    
     //public static boolean bagPickUp;
     //public static boolean hotbarBagPickUp;
     //public static boolean whitelist;
@@ -246,10 +248,11 @@ public class ConfigHandler {
     }
 
     private void initGeneralSettings() {
-        squiddropCalamari = config.get(CATEGORY_GENERAL, "squiddropCalamari", true).getBoolean();
+        squiddropCalamari = config.get(CATEGORY_GENERAL, "squiddropCalamari", true, "Enables squid mobs to drop raw calamari.").getBoolean();
         enableEasyHarvest = config.getBoolean("enableEasyHarvest", CATEGORY_GENERAL, true, "Enables harvesting by right-clicking.");
         saltrecipeAmount = config.get(CATEGORY_GENERAL, "saltrecipeAmount", 1).getInt();
         enableHCFish = config.getBoolean("enableHCFish", CATEGORY_GENERAL, true, "Enables catching of HarvestCraft fish using the normal fishing rod.");
+        enablevanillafoodBalance = config.getBoolean("enablevanillafoodBalance", CATEGORY_GENERAL, true, "Makes changes to vanilla food item and drop hunger restore and saturation values to be balanced with HarvestCraft food.");
     }
 
     private void initCropSettings() {
@@ -319,7 +322,7 @@ public class ConfigHandler {
 
         // Garden drop configuration
         gardenDropConfig.put("aridGarden", config.getStringList("aridGarden", "drops",
-                new String[]{"harvestcraft:cactusfruititem"}, ""));
+                new String[]{"harvestcraft:cactusfruititem", "minecraft:cactus", }, ""));
         gardenDropConfig.put("frostGarden", config.getStringList("frostGarden", "drops",
                 new String[]{"harvestcraft:raspberryitem", "harvestcraft:oatsitem", "harvestcraft:ryeitem",
                         "harvestcraft:celeryitem", "harvestcraft:peasitem", "harvestcraft:beetitem",

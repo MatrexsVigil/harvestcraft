@@ -1,5 +1,6 @@
 {
     "variants": {
+    	"inventory": [{ "model": "harvestcraft:fruits/starfruit_stage_0" }],
         "age=0": { "model": "harvestcraft:fruits/starfruit_stage_0" },
         "age=1": { "model": "harvestcraft:fruits/starfruit_stage_1" },
         "age=2": { "model": "harvestcraft:fruits/starfruit_stage_2" }

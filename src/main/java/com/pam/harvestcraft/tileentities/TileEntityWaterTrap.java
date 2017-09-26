@@ -144,7 +144,9 @@ public class TileEntityWaterTrap extends TileEntity implements ITickable {
 
 	private boolean canRun() {
 		if(!itemstackhandler.getStackInSlot(18).isEmpty()) {
-			if(itemstackhandler.getStackInSlot(18).getItem() == ItemRegistry.fishtrapbaitItem) {
+			if(itemstackhandler.getStackInSlot(18).getItem() == ItemRegistry.fishtrapbaitItem
+					|| itemstackhandler.getStackInSlot(18).getItem() == ItemRegistry.fishtrapbaitItem
+					|| itemstackhandler.getStackInSlot(18).getItem() == ItemRegistry.fishtrapbaitItem) {
 
 				if(countFlowers() >= 5) {
 					return true;
@@ -171,7 +173,7 @@ public class TileEntityWaterTrap extends TileEntity implements ITickable {
 		Random rnd = new Random();
 
 		if(!itemstackhandler.getStackInSlot(18).isEmpty()) {
-			int rndnum = rnd.nextInt(32);
+			int rndnum = rnd.nextInt(33);
 			switch(rndnum) {
 				case 0:
 					return new ItemStack(Items.FISH, 1, 0);
@@ -237,6 +239,8 @@ public class TileEntityWaterTrap extends TileEntity implements ITickable {
 					return new ItemStack(Items.FISH, 1, 0);
 				case 31:
 					return new ItemStack(ItemRegistry.greenheartfishItem, 1, 0);
+				case 32:
+					return new ItemStack(ItemRegistry.duckrawItem, 1, 0);
 			}
 
 		}
@@ -246,7 +250,7 @@ public class TileEntityWaterTrap extends TileEntity implements ITickable {
 
 	private int getRunTime(ItemStack stack) {
 		if(!stack.isEmpty() && stack.getItem() == ItemRegistry.fishtrapbaitItem) {
-			return 3200;
+			return getRunTime();
 		}
 		return 0;
 	}

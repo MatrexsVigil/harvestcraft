@@ -1215,62 +1215,109 @@ item.crackersandcheeseitem.name=Crackers and Cheese
 item.chickendinneritem.name=Chicken Dinner
 item.bbqplatteritem.name=BBQ Platter
 
-weekendpicnicitem
-corndogitem
-chilidogitem
-hamandcheesesandwichitem
-tunafishsandwichitem
-tunasaladitem
-gritsitem
-southernstylebreakfastitem
-chimichangaitem
-clamchowderitem
-breakfastburritoitem
-buttercookieitem
-sugarcookieitem
-potatochipsitem
-bbqpotatochipsitem
-sourcreamandonionpotatochipsitem
-cheddarandsourcreampotatochipsitem
-tortillachipsitem
-chipsandsalsaitem
-chipsanddipitem
-cheezepuffsitem
-surfandturfitem
-liverandonionsitem
-beefjerkyitem
-fortunecookieitem
-deviledeggitem
-mozzerellasticksitem
-gumboitem
-jambalayaitem
-succotashitem
-eggsbenedictitem
-friedgreentomatoesitem
-chickenandwafflesitem
-potatoesobrienitem
-tatertotsitem
-smoresitem
-thankfuldinneritem
-phoitem
-steakfajitaitem
-lasagnaitem
-ramenitem
-misosoupitem
-onigiriitem
-grilledcheesevegemitetoastitem
-monsterfrieddumplingsitem
-salisburysteakitem
-crispyricepuffcerealitem
-crispyricepuffbarsitem
-babaganoushitem
-berryvinaigrettesaladitem
-tomatoherbchickenitem
-pastagardeniaitem
-fiestacornsaladitem
-threebeansaladitem
-sweetandsourmeatballsitem
-pepperjellyitem
-pepperjellyandcrackersitem
-saltedcaramelitem
-caramelicecreamitem
+item.weekendpicnicitem.name=Weekend Picnic
+item.corndogitem.name=Corn Dog
+item.chilidogitem.name=Chili Dog
+item.hamandcheesesandwichitem.name=Ham and Cheese Sandwich
+item.tunafishsandwichitem.name=Tunafish Sandwich
+item.tunasaladitem.name=Tuna Salad
+item.gritsitem.name=Grits
+item.southernstylebreakfastitem.name=Southern Style Breakfast
+item.chimichangaitem.name=Chimichanga
+item.clamchowderitem.name=Clam Chowder
+item.breakfastburritoitem.name=Breakfast Burrito
+item.buttercookieitem.name=Butter Cookie
+item.sugarcookieitem.name=Sugar Cookie
+item.potatochipsitem.name=Potato Chips
+item.bbqpotatochipsitem.name=BBQ Potato Chips
+item.sourcreamandonionpotatochipsitem.name=Sour Cream and Onion Potato Chips
+item.cheddarandsourcreampotatochipsitem.name=Cheddar and Sour Cream Potato Chips
+item.tortillachipsitem.name=Tortilla Chips
+item.chipsandsalsaitem.name=Chips and Salsa
+item.chipsanddipitem.name=Chips and Dip
+item.cheezepuffsitem.name=Cheeze Puffs
+item.surfandturfitem.name=Surf and Turf
+item.liverandonionsitem.name=Liver and Onions
+item.fortunecookieitem.name=Fortune Cookie
+item.deviledeggitem.name=Deviled Egg
+item.mozzerellasticksitem.name=Mozzerella Sticks
+item.gumboitem.name=Gumbo
+item.jambalayaitem.name=Jambalaya
+item.succotashitem.name=Succotash
+item.eggsbenedictitem.name=Eggs Benedict
+item.friedgreentomatoesitem.name=Fried Green Tomatoes
+item.chickenandwafflesitem.name=Chicken and Waffles
+item.potatoesobrienitem.name=Potatoes O'Brien
+item.tatertotsitem.name=Tater Tots
+item.smoresitem.name=Smores
+item.thankfuldinneritem.name=Thankful Dinner
+item.steakfajitaitem.name=Steak Fajita
+item.ramenitem.name=Ramen
+item.misosoupitem.name=Miso Soup
+item.onigiriitem.name=Onigiri
+item.grilledcheesevegemitetoastitem.name=Grilled Cheese Vegemite Toast
+item.monsterfrieddumplingsitem.name=Monster Fried Dumplings
+item.salisburysteakitem.name=Salisbury Steak
+item.crispyricepuffcerealitem.name=Crispy Rice Puff Cereal
+item.crispyricepuffbarsitem.name=Crispy Rice Puff Bar
+item.babaganoushitem.name=Baba Ganoush
+item.berryvinaigrettesaladitem.name=Berry Vinaigrette Salad
+item.tomatoherbchickenitem.name=Tomato Herb Chicken
+item.pastagardeniaitem.name=Pasta Gardenia 
+item.fiestacornsaladitem.name=Fiesta Corn Salad
+item.threebeansaladitem.name=Three Been Salad
+item.sweetandsourmeatballsitem.name=Sweet and Sour Meatballs
+item.pepperjellyitem.name=Pepper Jelly
+item.pepperjellyandcrackersitem.name=Pepper Jelly and Crackers
+item.saltedcaramelitem.name=Salted Caramel
+item.spidereyepieitem.name=Spider Eye Pie
+item.cheesyshrimpquinoaitem.name=Cheesy Shrimp Quinoa
+item.bulgogiitem.name=Bulgogi
+item.omuriceitem.name=Omurice
+item.koreandinneritem.name=Korean Dinner
+item.pemmicanitem.name=Pemmican
+item.driedsoupitem.name=Dried Soup
+item.crabkimbapitem.name=Crab Kimbap
+item.froglegstirfryitem.name=Frog Leg Stirfry
+item.crawfishetoufeeitem.name=Crawfish Etoufee
+item.haggisitem.name=Haggis
+item.chickenkatsuitem.name=Chicken Katsu
+item.chocolateorangeitem.name=Chocolate Orange
+item.festivalbreaditem.name=Festival Bread
+item.fruitcreamfestivalbreaditem.name=Fruit Cream Festival Bread
+item.phoitem.name=Pho
+item.bubbleteaitem.name=Bubble Tea
+item.rawduckitem.name=Raw Duck
+item.cookedduckitem.name=Cooked Duck
+item.wontonsoupitem.name=Wonton Soup
+item.springrollitem.name=Spring Rolls
+item.meatystirfryitem.name=Meaty Stirfry
+item.potstickersitem.name=Pot Stickers
+item.orangeduckitem.name=Orange Duck
+item.pekingduckitem.name=Peking Duck
+item.stuffedduckitem.name=Stuffed Duck
+item.rouxitem.name=Roux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

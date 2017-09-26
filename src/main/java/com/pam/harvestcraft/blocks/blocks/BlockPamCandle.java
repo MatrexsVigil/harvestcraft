@@ -7,6 +7,6 @@ import net.minecraft.block.BlockTorch;
 public class BlockPamCandle extends BlockTorch {
 	public BlockPamCandle() {
 		setCreativeTab(HarvestCraft.modTab);
-		setLightLevel(7F);
+		setLightLevel(0.9375F);
 	}
 }

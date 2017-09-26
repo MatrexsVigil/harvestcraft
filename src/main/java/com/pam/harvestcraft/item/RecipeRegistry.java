@@ -36,6 +36,7 @@ public class RecipeRegistry {
 		addSmelting(ItemRegistry.calamarirawItem, ItemRegistry.calamaricookedItem);
 		addSmelting(ItemRegistry.turkeyrawItem, ItemRegistry.turkeycookedItem);
 		addSmelting(ItemRegistry.venisonrawItem, ItemRegistry.venisoncookedItem);
+		addSmelting(ItemRegistry.duckrawItem, ItemRegistry.duckcookedItem);
 		
 		addSmelting(ItemRegistry.anchovyrawItem, Items.COOKED_FISH);
 		addSmelting(ItemRegistry.bassrawItem, Items.COOKED_FISH);

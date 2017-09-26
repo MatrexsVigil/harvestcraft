@@ -57,10 +57,13 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 	@Override
 	@MethodsReturnNonnullByDefault
 	public NBTTagCompound writeToNBT(NBTTagCompound compound) {
+		super.writeToNBT(compound);
+
 		compound.setShort("RunTime", (short) runTime);
 		compound.setShort("ProduceTime", (short) produceTime);
 		compound.setTag("Items", itemstackhandler.serializeNBT());
-		return super.writeToNBT(compound);
+
+		return compound;
 	}
 
 	@Override
@@ -160,14 +163,14 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 		return null;
 	}
 
-	//private int getRunTime(ItemStack stack) {
-	//	if(!stack.isEmpty() && stack.getItem() == ItemRegistry.queenbeeItem) {
-	//		return 3500;
-	//	}
-	//	return 0;
-	//}
-
 	private int getRunTime(ItemStack stack) {
+		if(!stack.isEmpty() && stack.getItem() == ItemRegistry.queenbeeItem) {
+			return getRunTime();
+		}
+		return 0;
+	}
+
+	private int getRunTime() {
 		final int radius = 2;
 		// final World world = world;
 		final int varX = pos.getX();
