@@ -24,6 +24,7 @@ public class MessageShippingBinBrowse implements IMessage, IMessageHandler<Messa
 		this.z = z;
 	}
 
+	@Override
 	public void fromBytes(ByteBuf buf) {
 		this.itemNum = buf.readInt();
 		this.x = buf.readInt();
@@ -31,6 +32,7 @@ public class MessageShippingBinBrowse implements IMessage, IMessageHandler<Messa
 		this.z = buf.readInt();
 	}
 
+	@Override
 	public void toBytes(ByteBuf buf) {
 		buf.writeInt(this.itemNum);
 		buf.writeInt(this.x);
@@ -38,17 +40,19 @@ public class MessageShippingBinBrowse implements IMessage, IMessageHandler<Messa
 		buf.writeInt(this.z);
 	}
 
+	@Override
 	public IMessage onMessage(MessageShippingBinBrowse message, MessageContext ctx) {
 		EntityPlayerMP player = ctx.getServerHandler().player;
+		player.getServerWorld().addScheduledTask(() -> {
+			TileEntity tile_entity = player.world.getTileEntity(new BlockPos(message.x, message.y, message.z));
+			if((tile_entity instanceof TileEntityShippingBin)) {
+				TileEntityShippingBin tileEntityShippingBin = (TileEntityShippingBin) tile_entity;
+				tileEntityShippingBin.setBrowsingInfo(message.itemNum);
+			}
 
-		TileEntity tile_entity = player.world.getTileEntity(new BlockPos(message.x, message.y, message.z));
-		if((tile_entity instanceof TileEntityShippingBin)) {
-			TileEntityShippingBin tileEntityShippingBin = (TileEntityShippingBin) tile_entity;
-			tileEntityShippingBin.setBrowsingInfo(message.itemNum);
-		}
-
-		final IBlockState state = player.world.getBlockState(new BlockPos(message.x, message.y, message.z));
-		player.world.notifyBlockUpdate(new BlockPos(message.x, message.y, message.z), state, state, 3);
+			final IBlockState state = player.world.getBlockState(new BlockPos(message.x, message.y, message.z));
+			player.world.notifyBlockUpdate(new BlockPos(message.x, message.y, message.z), state, state, 3);
+		});
 		return null;
 	}
 
