@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:cheddarandsourcreampotatochipsitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPotatochips"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodHeavycream"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

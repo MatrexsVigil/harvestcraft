@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:koreandinneritem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBulgogi"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOmurice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodKimchi"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

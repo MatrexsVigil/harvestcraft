@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:salisburysteakitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOnionsoup"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

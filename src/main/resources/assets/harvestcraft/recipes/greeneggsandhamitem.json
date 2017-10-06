@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:greeneggsandhamitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dyeGreen"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

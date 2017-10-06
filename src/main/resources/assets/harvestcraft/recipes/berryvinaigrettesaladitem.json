@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:berryvinaigrettesaladitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllgreenveggie"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAlljuice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

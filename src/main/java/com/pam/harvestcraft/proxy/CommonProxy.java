@@ -108,6 +108,7 @@ public class CommonProxy {
         
         //MinecraftForge.EVENT_BUS.register(new AnimalBreedingEvent());
         
-
+        GameRegistry.registerFuelHandler(new HarvestCraftFuelHandler());
+        
     }
 }

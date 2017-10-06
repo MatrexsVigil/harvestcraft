@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:theatreboxitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsoda"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

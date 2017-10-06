@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:festivalbreaditem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

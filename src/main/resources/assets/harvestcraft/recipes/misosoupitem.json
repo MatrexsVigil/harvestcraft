@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:misosoupitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFirmtofu"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

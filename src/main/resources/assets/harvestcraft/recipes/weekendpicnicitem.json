@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:weekendpicnicitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFriedchicken"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPotatosalad"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPotatochips"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsoda"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSpringsalad"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

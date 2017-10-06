@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:hamandcheesesandwichitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBread"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

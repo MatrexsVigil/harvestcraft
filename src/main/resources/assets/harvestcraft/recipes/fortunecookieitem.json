@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "harvestcraft:fortunecookieitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+	{
+	"item": "minecraft:paper"
+	}
+  ],
+  "type": "forge:ore_shapeless"
+}

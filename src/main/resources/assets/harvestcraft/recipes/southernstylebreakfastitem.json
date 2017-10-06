@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:southernstylebreakfastitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGrits"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBiscuitsandgravy"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

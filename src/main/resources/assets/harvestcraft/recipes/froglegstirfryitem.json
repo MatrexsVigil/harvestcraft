@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:froglegstirfryitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFrograw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBroccoli"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

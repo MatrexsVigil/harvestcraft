@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:crawfishetoufeeitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCrayfishraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCelery"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

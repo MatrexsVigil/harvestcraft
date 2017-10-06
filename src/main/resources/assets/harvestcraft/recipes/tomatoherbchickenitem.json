@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:tomatoherbchickenitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:grilledcheesevegemitetoastitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGrilledcheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVegemite"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

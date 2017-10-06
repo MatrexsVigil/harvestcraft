@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:cheesyshrimpquinoaitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodShrimpraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllgrain"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

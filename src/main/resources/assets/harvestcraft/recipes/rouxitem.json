@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:rouxitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

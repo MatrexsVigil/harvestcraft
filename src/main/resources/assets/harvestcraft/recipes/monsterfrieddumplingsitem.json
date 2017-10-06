@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "harvestcraft:monsterfrieddumplingsitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,41 @@
+{
+  "result": {
+    "item": "harvestcraft:springrollitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodHoisinsauce"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPeanut"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCabbage"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

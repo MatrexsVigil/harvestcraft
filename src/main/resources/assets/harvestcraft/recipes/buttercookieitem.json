@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:buttercookieitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVanilla"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

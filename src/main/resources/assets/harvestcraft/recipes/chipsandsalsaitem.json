@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:chipsandsalsaitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodTortillachips"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSalsa"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

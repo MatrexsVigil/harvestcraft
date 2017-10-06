@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:eggsbenedictitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBiscuit"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

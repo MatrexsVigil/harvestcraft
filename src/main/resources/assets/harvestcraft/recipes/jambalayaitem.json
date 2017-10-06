@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:jambalayaitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSausage"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

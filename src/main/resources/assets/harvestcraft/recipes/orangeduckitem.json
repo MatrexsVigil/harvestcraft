@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:orangeduckitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllduckraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOrangejuice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCelery"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

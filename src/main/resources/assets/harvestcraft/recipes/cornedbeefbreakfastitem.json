@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:cornedbeefbreakfastitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCornedbeefhash"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodKetchup"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

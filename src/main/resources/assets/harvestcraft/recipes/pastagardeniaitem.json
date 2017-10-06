@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:pastagardeniaitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPasta"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

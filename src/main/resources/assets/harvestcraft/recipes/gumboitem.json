@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:gumboitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSausage"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCrabraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodHotsauce"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodShrimpraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

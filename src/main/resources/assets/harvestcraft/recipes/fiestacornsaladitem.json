@@ -1,0 +1,41 @@
+{
+  "result": {
+    "item": "harvestcraft:fiestacornsaladitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSoybean"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

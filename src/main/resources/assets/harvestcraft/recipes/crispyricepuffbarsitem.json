@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:crispyricepuffbarsitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodMarshmellows"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

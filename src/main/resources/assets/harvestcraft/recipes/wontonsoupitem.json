@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:wontonsoupitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSoysauce"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:meatystirfryitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatraw"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

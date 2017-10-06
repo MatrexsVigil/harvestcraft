@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:crackersandcheeseitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCrackers"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

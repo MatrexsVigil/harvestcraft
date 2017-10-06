@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:pemmicanitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPeanut"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllfruit"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dropHoney"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

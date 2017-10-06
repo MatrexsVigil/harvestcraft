@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:smoresitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCrackers"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodMarshmellows"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

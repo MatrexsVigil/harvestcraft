@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:fruitcreamfestivalbreaditem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFestivalbread"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllfruit"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodHeavycream"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

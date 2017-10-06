@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:chocolateorangeitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOrange"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:cookiesandmilkitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllcookie"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

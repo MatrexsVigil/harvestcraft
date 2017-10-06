@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:sourcreamandonionpotatochipsitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPotatochips"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodHeavycream"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

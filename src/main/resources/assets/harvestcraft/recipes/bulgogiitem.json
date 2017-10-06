@@ -1,0 +1,41 @@
+{
+  "result": {
+    "item": "harvestcraft:bulgogiitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSoysauce"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

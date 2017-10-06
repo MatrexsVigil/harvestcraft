@@ -1,15 +1,12 @@
 HarvestCraft 1.12.2a
 -----------------
+- Added: Secret: A quote from Sjin of the Yogscast
 - Changed: Fruit Blocks/Fruit Logs: Can now be sheared and placed under leaves, resets the fruit/log back to growing stage 0
 - Fixed: Fruit Blocks/Logs now have an icon when in inventory
+- Added: Fuel: Pressed Wax and Wax Blocks can now be used as fuel (4 items per wax, 40 items per block)
 - Added: Added Raw Duck to Water Trap, Ground Trap
 - Added: Items: Cornedbeef Breakfast, Green Eggs and Ham, Spaghetti Dinner, Theatre Box, Cookies and Milk, Crackers and Cheese, Chicken Dinner, BBQ Platter, Weekend Picnic, Corn Dog, Chili Dog, Ham and Cheese Sandwich, Tunafish Sandwich, Tuna Salad, Grits, Southern Style Breakfast, Chimichanga, Clam Chowder, Breakfast Burrito, Butter Cookie, 
 Sugar Cookie, Potato Chips, BBQ Potato Chips, Sour Cream and Onion Potato Chips, Chedder and Sour Cream Potato Chips, Tortilla Chips, Chips and Salsa, Chips and Dip, Cheeze Puffs, Surf and Turf, Liver and Onions, Fortune Cookie, Deviled Egg, Mozzerella Sticks, Gumbo, Jambalaya, Succotash, Eggs Benedict, Fried Green Tomatoes, Chicken and Waffles, Potatoes O'brien, Tater Tots, Smores, Thankful Dinner, Steak Fajita, Ramen, Miso Soup, Onigiri, Grilled Cheese Vegemite Toast, Monster Fried Dumplings, Salisbury Steak, Crispy Rice Puff Cereal, Crispy Rice Puff Bars, Babaganoush, Berry Vinaigrette Salad, Tomato Herb Chicken, Pasta Gardenia, Fiesta Corn Salad, Three Bean Salad, Sweet and Sour Meatballs, Pepper Jelly, Pepper Jelly and Crackers, Salted Caramel, Spider Eye Pie, Cheesy Shrimp Quinoa, Bulgogi, Omurice, Korean Dinner, Pemmican, Dried Soup, Crab Kimbap, Frog Leg Stir Fry, Crawfish Etoufee, Haggis, Chicken Katsu, Chocolate Orange, Festival Bread, Fruit Cream Festival Bread, Pho, Bubble Tea, Raw Duck, Cooked Duck, Wonton Soup, Spring Roll, Meaty Stir Fry, Pot Stickers, Orange Duck, Stuffed Duck, Roux
-
-correct food restore, recipes
-pressed wax = 4 items in forge
-pressed wax blocks = 40 items in forge
-
 
 HarvestCraft 1.12.1c
 -----------------

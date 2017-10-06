@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:friedgreentomatoesitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

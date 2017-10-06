@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:bbqpotatochipsitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPotatochips"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodKetchup"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

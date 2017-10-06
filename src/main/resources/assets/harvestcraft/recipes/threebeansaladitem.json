@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:threebeansaladitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBean"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBean"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBean"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

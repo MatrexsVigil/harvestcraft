@@ -1,5 +1,9 @@
 package com.pam.harvestcraft.blocks.blocks;
 
+import java.util.List;
+
+import javax.annotation.Nullable;
+
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.item.ItemRegistry;
 
@@ -7,6 +11,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Items;
@@ -20,7 +25,10 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class WellBlock extends Block {
 
@@ -33,6 +41,15 @@ public class WellBlock extends Block {
 
 		setHardness(1.0f);
 	}
+	
+	 @SideOnly(Side.CLIENT)
+	    public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn)
+	    {
+	        super.addInformation(stack, worldIn, tooltip, flagIn);
+	        tooltip.add(TextFormatting.GOLD + "Oh, maybe not very useful. - Sjin");
+	    }
+
+	
 
 	@Override
 	public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand,

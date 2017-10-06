@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:ramenitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodNoodles"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

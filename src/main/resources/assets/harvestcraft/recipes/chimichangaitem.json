@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:chimichangaitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodTaco"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSalsa"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodHeavycream"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

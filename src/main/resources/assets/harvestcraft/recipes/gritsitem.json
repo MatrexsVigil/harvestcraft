@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:gritsitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCornmeal"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

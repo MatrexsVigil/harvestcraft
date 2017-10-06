@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:crispyricepuffcerealitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

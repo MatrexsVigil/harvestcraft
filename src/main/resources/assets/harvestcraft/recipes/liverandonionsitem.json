@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:liverandonionsitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllfishcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
