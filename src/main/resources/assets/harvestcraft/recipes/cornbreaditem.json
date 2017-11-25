@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:cornbreaditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

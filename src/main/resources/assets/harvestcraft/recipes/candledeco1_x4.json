@@ -3,7 +3,7 @@
     "item": "harvestcraft:candledeco1",
     "count": 4
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_candledeco",
   "ingredients": [
     {
       "type": "forge:ore_dict",

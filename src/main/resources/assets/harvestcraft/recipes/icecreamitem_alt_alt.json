@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:icecreamitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_icecreamitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

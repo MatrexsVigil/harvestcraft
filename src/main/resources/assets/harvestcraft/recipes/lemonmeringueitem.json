@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:lemonmeringueitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

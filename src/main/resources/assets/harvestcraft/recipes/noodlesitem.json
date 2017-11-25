@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:noodlesitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

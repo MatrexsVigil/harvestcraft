@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:fig_sapling"
   },
-  "group": "harvestcraft",
+  "group": "harvestcraft_sapling",
   "ingredients": [
     {
       "item": "harvestcraft:figitem"

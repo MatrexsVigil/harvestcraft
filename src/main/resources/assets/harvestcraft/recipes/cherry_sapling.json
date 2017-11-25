@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:cherry_sapling"
   },
-  "group": "harvestcraft",
+  "group": "harvestcraft_sapling",
   "ingredients": [
     {
       "item": "harvestcraft:cherryitem"

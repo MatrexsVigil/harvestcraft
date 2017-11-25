@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:vegemiteitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

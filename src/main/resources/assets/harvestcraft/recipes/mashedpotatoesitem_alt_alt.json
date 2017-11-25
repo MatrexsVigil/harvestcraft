@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:mashedpotatoesitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_mashedpotatoesitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

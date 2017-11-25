@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:beetseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:beetitem"

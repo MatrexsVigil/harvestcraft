@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:rainbowcurryitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

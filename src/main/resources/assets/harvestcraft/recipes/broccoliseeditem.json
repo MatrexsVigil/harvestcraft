@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:broccoliseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:broccoliitem"

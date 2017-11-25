@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:gingerseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:gingeritem"

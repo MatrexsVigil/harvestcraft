@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:avocadoburritoitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_avocadoburritoitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

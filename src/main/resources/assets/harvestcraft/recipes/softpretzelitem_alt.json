@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:softpretzelitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_softpretzelitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:salmonpattiesitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

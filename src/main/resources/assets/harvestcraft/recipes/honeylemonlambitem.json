@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:honeylemonlambitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_honeylemonlambitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

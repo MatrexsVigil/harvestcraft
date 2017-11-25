@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:pizzaitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_pizzaitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

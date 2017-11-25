@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:pickledonionsitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_pickledonionsitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

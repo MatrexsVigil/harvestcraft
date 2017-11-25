@@ -3,7 +3,7 @@
     "item": "harvestcraft:plainyogurtitem",
     "count": 4
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_plainyogurtitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

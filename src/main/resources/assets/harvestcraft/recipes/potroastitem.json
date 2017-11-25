@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:potroastitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

@@ -3,7 +3,7 @@
     "item": "harvestcraft:harvestpumpkinitem",
     "count": 3
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "minecraft:pumpkin"

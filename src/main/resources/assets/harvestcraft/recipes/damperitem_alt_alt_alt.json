@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:damperitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_damperitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

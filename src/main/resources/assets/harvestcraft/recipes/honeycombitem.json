@@ -3,6 +3,7 @@
     "item": "harvestcraft:honeycombitem",
     "count": 9
   },
+  "group":"harvestcraft_honeycombitem",
   "ingredients": [
     {
       "item": "harvestcraft:honeycomb"

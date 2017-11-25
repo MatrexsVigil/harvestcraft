@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:toadintheholeitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

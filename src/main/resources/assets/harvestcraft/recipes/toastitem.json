@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:toastitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

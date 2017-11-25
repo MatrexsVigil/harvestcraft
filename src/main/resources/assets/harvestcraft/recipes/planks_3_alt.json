@@ -4,6 +4,7 @@
     "data": 3,
     "count": 4
   },
+  "group":"harvestcraft_planks",
   "ingredients": [
     {
       "item": "harvestcraft:pamcinnamon"

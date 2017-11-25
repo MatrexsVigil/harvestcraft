@@ -3,7 +3,7 @@
     "item": "harvestcraft:wovencottonitem",
     "count": 1
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_wovencottonitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

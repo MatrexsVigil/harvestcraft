@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:onionseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:onionitem"

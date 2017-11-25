@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:flouritem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_flouritem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

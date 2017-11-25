@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:cheezepuffsitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

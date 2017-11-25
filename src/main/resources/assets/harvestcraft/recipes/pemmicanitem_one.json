@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:pemmicanitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_pemmicanitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

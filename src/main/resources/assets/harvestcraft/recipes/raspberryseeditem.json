@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:raspberryseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:raspberryitem"

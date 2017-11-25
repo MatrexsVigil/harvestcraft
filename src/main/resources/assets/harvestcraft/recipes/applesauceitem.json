@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:applesauceitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

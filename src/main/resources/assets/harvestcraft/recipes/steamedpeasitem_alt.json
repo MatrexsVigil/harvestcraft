@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:steamedpeasitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_steamedpeasitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

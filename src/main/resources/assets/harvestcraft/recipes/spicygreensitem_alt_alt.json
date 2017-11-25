@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:spicygreensitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_spicygreensitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

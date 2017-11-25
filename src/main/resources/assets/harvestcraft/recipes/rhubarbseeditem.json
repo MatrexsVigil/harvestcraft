@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:rhubarbseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:rhubarbitem"

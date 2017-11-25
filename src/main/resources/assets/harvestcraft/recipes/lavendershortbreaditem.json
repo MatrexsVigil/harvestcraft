@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:lavendershortbreaditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

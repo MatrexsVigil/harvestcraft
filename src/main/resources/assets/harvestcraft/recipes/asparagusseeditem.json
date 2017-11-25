@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:asparagusseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:asparagusitem"

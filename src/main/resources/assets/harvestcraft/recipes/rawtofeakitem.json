@@ -3,7 +3,7 @@
     "item": "harvestcraft:rawtofeakitem",
     "count": 5
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

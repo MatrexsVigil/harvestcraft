@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:beeswaxitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_beeswaxitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

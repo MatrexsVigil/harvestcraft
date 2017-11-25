@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:liverandonionsitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

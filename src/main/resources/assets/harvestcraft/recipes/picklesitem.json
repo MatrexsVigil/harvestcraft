@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:picklesitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_picklesitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

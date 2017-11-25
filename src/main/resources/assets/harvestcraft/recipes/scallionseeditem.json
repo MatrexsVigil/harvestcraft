@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:scallionseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:scallionitem"

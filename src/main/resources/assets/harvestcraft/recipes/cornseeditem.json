@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:cornseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:cornitem"

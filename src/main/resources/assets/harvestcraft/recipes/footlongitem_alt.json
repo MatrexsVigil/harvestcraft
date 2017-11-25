@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:footlongitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_footlongitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

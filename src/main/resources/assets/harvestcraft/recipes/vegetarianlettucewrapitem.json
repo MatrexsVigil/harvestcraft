@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:vegetarianlettucewrapitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

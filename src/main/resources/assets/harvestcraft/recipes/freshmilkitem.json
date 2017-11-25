@@ -3,6 +3,7 @@
     "item": "harvestcraft:freshmilkitem",
     "count": 4
   },
+  "group":"harvestcraft_freshmilkitem",
   "ingredients": [
     {
       "item": "minecraft:milk_bucket"

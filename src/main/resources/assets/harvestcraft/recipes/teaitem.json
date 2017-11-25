@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:teaitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:tealeafitem"

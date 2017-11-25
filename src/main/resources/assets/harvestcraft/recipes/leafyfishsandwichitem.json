@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:leafyfishsandwichitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

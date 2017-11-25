@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:taffyitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_taffyitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

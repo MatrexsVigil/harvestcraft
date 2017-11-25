@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:porksausageitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_porksausageitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

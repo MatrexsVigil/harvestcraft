@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:pearyogurtitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
