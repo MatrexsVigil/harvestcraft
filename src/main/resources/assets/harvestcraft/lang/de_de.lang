@@ -527,7 +527,7 @@ item.spagettiitem.name=Spagetti
 item.spagettiandmeatballsitem.name=Spaghetti Bolognese
 item.tomatosoupitem.name=Tomatensuppe
 item.ketchupitem.name=Ketchup
-item.chickenparmasanitem.name=Hühnchen Parmesan
+item.chickenparmasanitem.name=Hähnchen Parmesan
 item.pizzaitem.name=Pizza
 
 item.springsaladitem.name=Frühlingssalat
@@ -667,7 +667,7 @@ item.spicygreensitem.name=Pikanter Salat
 
 item.garlicbreaditem.name=Knoblauchbrot
 item.garlicmashedpotatoesitem.name=Kartoffelbrei mit Knoblauch
-item.garlicchickenitem.name=Knoblauchhähnchen
+item.garlicchickenitem.name=Knoblauchhühnchen
 
 item.summerradishsaladitem.name=Radieschensalat
 item.summersquashwithradishitem.name=Kürbissalat mit Radieschen
@@ -717,7 +717,7 @@ item.coconutshrimpitem.name=Kokosgarnelen
 item.coconutyogurtitem.name=Kokosjoghurt
 
 item.orangejuiceitem.name=Orangensaft
-item.orangechickenitem.name=Orangenhühnchen
+item.orangechickenitem.name=Orangenhähnchen
 item.orangesmoothieitem.name=Orangen-Smoothie
 item.orangeyogurtitem.name=Orangenjoghurt
 
@@ -950,9 +950,9 @@ item.chocolatecaramelfudgeitem.name=Schoko-Karamelltoffee
 item.lavendershortbreaditem.name=Lavendel-Butterkeks
 item.beefwellingtonitem.name=Filet Wellington
 item.epicbaconitem.name=Epic Bacon
-item.manjuuitem.name=Manju
+item.manjuuitem.name=Manjū
 
-item.chickengumboitem.name=Hühnchen-Gumbo
+item.chickengumboitem.name=Hähnchen-Gumbo
 item.generaltsochickenitem.name=General-Tso-Hühnchen
 item.californiarollitem.name=California Roll
 item.futomakiitem.name=Futo-Maki
@@ -1140,7 +1140,7 @@ item.hoisinsauceitem.name=Hoisin-Soße
 item.fivespiceitem.name=Fünfgewürz
 item.charsiuitem.name=Char siu
 item.sweetandsoursauceitem.name=Süß-saure Soße
-item.sweetandsourchickenitem.name=Hühnchen süß-sauer
+item.sweetandsourchickenitem.name=Hähnchen süß-sauer
 item.baconandeggsitem.name=Spiegelei mit Speck
 item.biscuitsandgravyitem.name=Biscuits & Gravy
 item.applefritteritem.name=Apfelbeignet
