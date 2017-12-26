@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:hotsauceitem"
+    "item": "harvestcraft:paneeritem",
+    "count": 5
   },
   "group": "harvestcraft",
   "ingredients": [
@@ -10,7 +11,7 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllwater"
+      "ore": "listAllmilk"
     },
     {
       "type": "forge:ore_dict",
@@ -18,15 +19,7 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropChilipepper"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "cropGarlic"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "foodSalt"
+      "ore": "foodLemonaide"
     }
   ],
   "type": "forge:ore_shapeless"

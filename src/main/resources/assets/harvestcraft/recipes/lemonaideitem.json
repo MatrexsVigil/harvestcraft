@@ -11,6 +11,10 @@
     {
       "type": "forge:ore_dict",
       "ore": "cropLemon"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -1,3 +1,29 @@
+HarvestCraft 1.12.2b
+-----------------
+- Added: Config: topTierFood (Default: 10): This new config option defines which foods are considered top tier.  Choose between 5, 6, 7, 8, 9, or 10 for minimum number of shanks a food restores that become top tier.  Set to 0 to have no top tier foods.  Warning: Top Tier foods can ALWAYS BE EATEN so be careful you don't waste them.  Example: If you pick 5, any food that restores 5 or more shanks become top tier and give buffs.
+- Added: Top Tier Foods (those who meet the topTierFood threshold) now give multiple buffs upon eating.  All foods defined as top tier give the same buffs to allow diet variety.  Buffs given are Strength and Resistance.
+- Added: Config: buffTimeForTopTier (Default: 3600) This new config determines how long top tier food buffs last.  3600 is equal to 3 minutes.
+- Added: es_es Lang file by ivandpf!
+- Change: Food Restore: Every food in HarvestCraft has been rebalanced against the new vanilla Minecraft food restore numbers.  This 1200+ item change cannot be turned off in the config.
+- Change: Recipe: Toast: toolBakeware, bread, foodButter
+- Change: Recipe: Lemonaide: toolJuicer, cropLemon, listAllsugar
+- Change: Recipe: Toast Sandwich: foodToast, foodToast, foodBlackpepper
+- Change: Recipe: Plain Yogurt: toolPot, listAllmilk
+- Change: Recipe: Grilled Asparagus: toolSkillet, cropAsparagus
+- Change: Recipe: Grilled Eggplant: toolSkillet, cropEggplant
+- Change: Recipe: Grilled Mushroom: toolSkillet, listAllmushroom
+- Change: Recipe: Stuffed Eggplant: toolBakeware, cropEggplant, cropGarlic, cropBellpepper, foodButter, listAllegg
+- Change: Recipe: Pasta x5: toolMixingbowl, foodDough, foodButter
+- Change: Recipe: Noodles x3: toolCuttingboard, foodDough
+- Change: Recipe: Paneer x5: toolPot, listAllmilk, foodVinegar, foodLemonaide
+- Change: Recipe: Chocolate Bar x4: toolSaucepan, foodCocoapowder, foodButter, listAllmilk
+- Change: Recipe: Hot Sauce x6: toolPot, listAllwater, foodVinegar, cropChilipepper, cropGarlic, foodSalt
+- Change: Recipe: Hoisin Sauce x9: toolSaucepan, cropSweetpotato, listAllwater, listAllsugar, cropSoybean, cropSesame, foodVinegar, cropGarlic, cropChilipepper
+- Change: Recipe: Trail Mix: listAllseed/cropSunflower/foodRoastedsunflowerseeds/listAllnut, foodRaisins, foodChocolatebar
+- Change: Recipe: Raw Tofeak x6: toolCuttingboard, foodFirmtofu, listAllmushroom, foodSoysauce, foodBlackpepper, foodOliveoil
+- Change: Recipe: Raw Tofenison x7: toolCuttingboard, foodFirmtofu, foodFlour, foodOliveoil, listAllnut, foodSoysauce, listAllmushroom
+- Bug Fix: Sodas should now give 30 seconds of speed buff instead of 3 seconds.
+
 HarvestCraft 1.12.2a
 -----------------
 - Added: Secret: A quote from Sjin of the Yogscast

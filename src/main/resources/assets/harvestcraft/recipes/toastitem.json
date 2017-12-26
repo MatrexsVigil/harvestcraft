@@ -11,6 +11,10 @@
     {
       "type": "forge:ore_dict",
       "ore": "bread"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     }
   ],
   "type": "forge:ore_shapeless"

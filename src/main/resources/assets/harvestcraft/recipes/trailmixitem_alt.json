@@ -6,7 +6,7 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "foodSaltedsunflowerseeds"
+      "ore": "cropSunflower"
     },
     {
       "type": "forge:ore_dict",

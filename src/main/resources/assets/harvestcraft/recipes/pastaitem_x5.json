@@ -1,24 +1,21 @@
 {
   "result": {
-    "item": "harvestcraft:chocolatebaritem"
+    "item": "harvestcraft:pastaitem",
+    "count": 5
   },
   "group": "harvestcraft",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolSaucepan"
+      "ore": "toolMixingbowl"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodCocoapowder"
+      "ore": "foodDough"
     },
     {
       "type": "forge:ore_dict",
       "ore": "foodButter"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "listAllmilk"
     }
   ],
   "type": "forge:ore_shapeless"

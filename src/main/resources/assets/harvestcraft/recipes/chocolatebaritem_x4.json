@@ -1,24 +1,25 @@
 {
   "result": {
-    "item": "harvestcraft:paneeritem"
+    "item": "harvestcraft:chocolatebaritem",
+    "count": 4
   },
   "group": "harvestcraft",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolPot"
+      "ore": "toolSaucepan"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     },
     {
       "type": "forge:ore_dict",
       "ore": "listAllmilk"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "foodVinegar"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "foodLemonaide"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -14,7 +14,19 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropGarlic"
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
     }
   ],
   "type": "forge:ore_shapeless"

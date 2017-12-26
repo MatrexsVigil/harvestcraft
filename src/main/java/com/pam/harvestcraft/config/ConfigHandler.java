@@ -67,6 +67,9 @@ public class ConfigHandler {
     
     public static boolean enablevanillafoodBalance;
     
+    public static int topTierFood;
+    public static int buffTimeForTopTier;
+    
     //public static boolean bagPickUp;
     //public static boolean hotbarBagPickUp;
     //public static boolean whitelist;
@@ -253,6 +256,9 @@ public class ConfigHandler {
         saltrecipeAmount = config.get(CATEGORY_GENERAL, "saltrecipeAmount", 1).getInt();
         enableHCFish = config.getBoolean("enableHCFish", CATEGORY_GENERAL, true, "Enables catching of HarvestCraft fish using the normal fishing rod.");
         enablevanillafoodBalance = config.getBoolean("enablevanillafoodBalance", CATEGORY_GENERAL, true, "Makes changes to vanilla food item and drop hunger restore and saturation values to be balanced with HarvestCraft food.");
+        topTierFood = config.get(CATEGORY_GENERAL, "topTierFood", 10, 
+        		"Default: 10, Choose 5, 6, 7, 8, 9, or 10 shank foods which become top tier.  Foods at this level or above give buffs.  Top tier foods are always edible, so be careful!  Set to 0 to have no top tier foods.").getInt();
+        buffTimeForTopTier = config.get(CATEGORY_GENERAL, "buffTimeForTopTier", 3600, "Default: 3600 or 3 minutes").getInt();
     }
 
     private void initCropSettings() {

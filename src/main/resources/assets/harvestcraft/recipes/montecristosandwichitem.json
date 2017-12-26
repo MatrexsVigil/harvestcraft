@@ -9,7 +9,8 @@
       "ore": "toolSkillet"
     },
     {
-      "item": "minecraft:bread"
+      "type": "forge:ore_dict",
+      "ore": "bread"
     },
     {
       "type": "forge:ore_dict",

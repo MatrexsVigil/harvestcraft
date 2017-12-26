@@ -1,32 +1,33 @@
 {
   "result": {
-    "item": "harvestcraft:stuffedeggplantitem"
+    "item": "harvestcraft:hotsauceitem",
+    "count": 6
   },
   "group": "harvestcraft",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "toolPot"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropEggplant"
+      "ore": "listAllwater"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropOnion"
+      "ore": "foodVinegar"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropBellpepper"
+      "ore": "cropChilipepper"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodButter"
+      "ore": "cropGarlic"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllegg"
+      "ore": "foodSalt"
     }
   ],
   "type": "forge:ore_shapeless"
