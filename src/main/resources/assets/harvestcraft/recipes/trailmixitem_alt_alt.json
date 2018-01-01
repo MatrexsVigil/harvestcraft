@@ -10,10 +10,6 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllnut"
-    },
-    {
-      "type": "forge:ore_dict",
       "ore": "foodRaisins"
     },
     {

@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:hoisinsauceitem"
+    "item": "harvestcraft:hoisinsauceitem",
+    "count": 9
   },
 
   "ingredients": [

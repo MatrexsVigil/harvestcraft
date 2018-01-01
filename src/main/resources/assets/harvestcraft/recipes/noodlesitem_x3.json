@@ -1,20 +1,17 @@
 {
   "result": {
-    "item": "harvestcraft:toastitem"
+    "item": "harvestcraft:noodlesitem",
+    "count": 3
   },
 
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "toolCuttingboard"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "bread"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "foodButter"
+      "ore": "foodDough"
     }
   ],
   "type": "forge:ore_shapeless"

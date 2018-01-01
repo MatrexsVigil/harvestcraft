@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:paneeritem"
+    "item": "harvestcraft:paneeritem",
+    "count": 5
   },
 
   "ingredients": [

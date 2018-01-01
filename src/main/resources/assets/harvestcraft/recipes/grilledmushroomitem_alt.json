@@ -9,7 +9,7 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "toolSkillet"
     }
   ],
   "type": "forge:ore_shapeless"

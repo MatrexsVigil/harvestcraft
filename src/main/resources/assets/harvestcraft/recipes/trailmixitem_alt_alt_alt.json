@@ -10,26 +10,6 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllseed"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "listAllseed"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "listAllseed"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "listAllseed"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "listAllseed"
-    },
-    {
-      "type": "forge:ore_dict",
       "ore": "foodRaisins"
     },
     {

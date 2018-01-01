@@ -39,7 +39,7 @@ public class ItemPamPotionFood extends ItemFood {
             FMLLog.bigWarning("Could not set potion effect.");
             return this;
         }
-        setPotionEffect(new PotionEffect(potion, 60, 0), 0.8F);
+        setPotionEffect(new PotionEffect(potion, 600, 0), 0.8F);
 
         return this;
     }

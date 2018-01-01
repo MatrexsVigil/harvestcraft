@@ -5,7 +5,8 @@
 
   "ingredients": [
     {
-      "item": "harvestcraft:sesameseedsitem"
+      "type": "forge:ore_dict",
+      "ore": "cropSesame"
     },
     {
       "type": "forge:ore_dict",

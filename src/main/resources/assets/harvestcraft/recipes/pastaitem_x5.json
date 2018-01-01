@@ -1,16 +1,21 @@
 {
   "result": {
-    "item": "harvestcraft:noodlesitem"
+    "item": "harvestcraft:pastaitem",
+    "count": 5
   },
 
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolMixingbowl"
     },
     {
       "type": "forge:ore_dict",
       "ore": "foodDough"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
     }
   ],
   "type": "forge:ore_shapeless"
