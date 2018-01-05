@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:stuffingitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCelery"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

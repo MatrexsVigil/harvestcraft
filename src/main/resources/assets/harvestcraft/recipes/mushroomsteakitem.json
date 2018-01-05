@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:mushroomsteakitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

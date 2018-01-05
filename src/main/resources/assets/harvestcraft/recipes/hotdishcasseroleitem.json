@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:hotdishcasseroleitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodTatertots"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

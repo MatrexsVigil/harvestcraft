@@ -1,0 +1,41 @@
+{
+  "result": {
+    "item": "harvestcraft:enchiladaitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodTortilla"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

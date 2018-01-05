@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:hamandpineapplepizzaitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPineapple"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

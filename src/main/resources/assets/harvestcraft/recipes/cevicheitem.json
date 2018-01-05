@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:cevicheitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllfishraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSweetpotato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

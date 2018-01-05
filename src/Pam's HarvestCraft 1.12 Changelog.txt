@@ -1,3 +1,7 @@
+HarvestCraft 1.12.2c
+-----------------
+- Added: Items: Candied Pecans, Enchilada, Stuffing, Green Bean Casserole, Ham and Pineapple Pizza, Sauced Lamb Kebab, Cobblestone Cobbler, Crayfish Salad, Ceviche, Deluxe Nachoes, Baked Cactus, Garlic Steak, Mushroom Steak, Hot Dish Casserole, Sausage Bean Melt, Mettbrötchen
+
 HarvestCraft 1.12.2b
 -----------------
 - Added: Config: topTierFood (Default: 10): This new config option defines which foods are considered top tier.  Choose between 5, 6, 7, 8, 9, or 10 for minimum number of shanks a food restores that become top tier.  Set to 0 to have no top tier foods.  Warning: Top Tier foods can ALWAYS BE EATEN so be careful you don't waste them.  Example: If you pick 5, any food that restores 5 or more shanks become top tier and give buffs.

@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:saucedlambkebabitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodLambkebab"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodYogurt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,20 +1,24 @@
 {
   "result": {
-    "item": "harvestcraft:beefjerkyitem"
+    "item": "harvestcraft:candiedpecansitem"
   },
   "group": "harvestcraft",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolBakeware"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "itemSalt"
+      "ore": "cropPecan"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllbeefcooked"
+      "ore": "listAllsugar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
     }
   ],
   "type": "forge:ore_shapeless"

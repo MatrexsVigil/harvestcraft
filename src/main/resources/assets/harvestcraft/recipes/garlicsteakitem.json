@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:garlicsteakitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

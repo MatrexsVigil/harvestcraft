@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:deluxenachoesitem"
+  },
+  "group": "harvestcraft",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodChipsandsalsa"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatcooked"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
