@@ -14,23 +14,23 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropOnion"
+      "ore": "foodSoysauce"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropGarlic"
+      "ore": "foodSesameoil"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropRice"
+      "ore": "foodFivespice"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropApple"
+      "ore": "foodFlour"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropCarrot"
+      "ore": "foodSesameoil"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -1,3 +1,14 @@
+﻿HarvestCraft 1.12.2d
+-----------------
+- Fixed: Name: Raw Duck and Cooked Duck have correct names
+- Fixed: Recipe: Peking Duck finally has its own recipe, allowing you to finally make it and Stuffed Duck
+- Fixed: Recipe: Green Bean Casserole now has a recipe
+- Fixed: Recipe: Random broken recipes should be fixed from last version
+- Added: Config: cropGrowthSpeed (Default: 0.0): This number is added/subtracted from normal fertile crop growth (3.0) and adjacent fertile crop growth (4.0)
+- Added: Config: fruitGrowthSpeed (Default: 25): Lower is faster
+
+Adjusting the growth rate of crops, handling tree crops as a separate setting from farm crops
+
 HarvestCraft 1.12.2c
 -----------------
 - Added: Items: Candied Pecans, Enchilada, Stuffing, Green Bean Casserole, Ham and Pineapple Pizza, Sauced Lamb Kebab, Cobblestone Cobbler, Crayfish Salad, Ceviche, Deluxe Nachoes, Baked Cactus, Garlic Steak, Mushroom Steak, Hot Dish Casserole, Sausage Bean Melt, Mettbrötchen

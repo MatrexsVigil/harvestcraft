@@ -147,7 +147,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
             int currentGrowthLevel = getMetaFromState(state);
 
             if (currentGrowthLevel < getMatureAge()) {
-                float f = getGrowthChance(this, worldIn, pos);
+                float f = getGrowthChance(this, worldIn, pos) + ConfigHandler.cropGrowthSpeed;
 
                 if(net.minecraftforge.common.ForgeHooks.onCropsGrowPre(worldIn, pos, state, rand.nextInt((int)(50.0F / f) + 1) == 0)) {
                     worldIn.setBlockState(pos, this.getStateFromMeta(currentGrowthLevel + 1), 2);

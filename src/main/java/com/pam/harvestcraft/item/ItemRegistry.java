@@ -822,7 +822,7 @@ public final class ItemRegistry {
 	public static Item candiedpecansItem;
 	public static Item enchiladaItem;
 	public static Item stuffingItem;
-	public static Item greenbeencasseroleItem;
+	public static Item greenbeancasseroleItem;
 	public static Item hamandpineapplepizzaItem;
 	public static Item saucedlambkebabItem;
 	public static Item cobblestonecobblerItem;
@@ -1709,7 +1709,7 @@ public final class ItemRegistry {
 		
 		
 		stuffingItem = registerItemFood("stuffingitem", 8, config.mealsaturation);
-		greenbeencasseroleItem = registerItemFood("greenbeencasseroleitem", 6, config.mealsaturation);
+		greenbeancasseroleItem = registerItemFood("greenbeancasseroleitem", 6, config.mealsaturation);
 		hamandpineapplepizzaItem = registerItemFood("hamandpineapplepizzaitem", 9, config.mealsaturation);
 		
 		cobblestonecobblerItem = registerItemFood("cobblestonecobbleritem", 6, config.mealsaturation);

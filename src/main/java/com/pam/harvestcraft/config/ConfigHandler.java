@@ -43,6 +43,8 @@ public class ConfigHandler {
     private static final double defaultSaturationSmall = 0.6D;
     private static final double defaultSaturationMeal = 1.2D;
     private static final double defaultSaturationMeatyMeal = 1.600000023841858D;
+    private static final double defaultCropGrowthSpeed = 0.0D;
+    private static final double defaultFruitGrowthSpeed = 0.0D;
 
     /**
      * Config
@@ -52,6 +54,9 @@ public class ConfigHandler {
     public int cropfoodRestore;
     public float cropsaturationRestore;
     public static boolean cropsdropSeeds;
+    
+    public static float cropGrowthSpeed;
+    public static int fruitGrowthSpeed;
 
     public float snacksaturation;
     public float mealsaturation;
@@ -269,9 +274,12 @@ public class ConfigHandler {
         meatymealsaturation = (float) config.get(CATEGORY_CROPS, "meatymealsaturation", defaultSaturationMeatyMeal).getDouble();
         enablecropspecialplanting = config.get(CATEGORY_CROPS, "enablecropspecialplanting", true).getBoolean();
         cropsdropSeeds = config.get(CATEGORY_CROPS, "cropsdropSeeds", false).getBoolean();
+		cropGrowthSpeed = (float) config.get(CATEGORY_CROPS, "cropGrowthSpeed", defaultCropGrowthSpeed, "Default: 0.0, This number is added/subtracted from normal fertile crop growth (3.0) and adjacent fertile crop growth (4.0).").getDouble();
+        
     }
 
     private void initFoodTreesSettings() {
+    	fruitGrowthSpeed = config.get(CATEGORY_FRUIT_TREES, "fruitGrowthSpeed", 25, "Default: 25, Lower is faster").getInt();
         temperatefruittreeRarity = config.get(CATEGORY_FRUIT_TREES, "temperatefruittreeRarity", 48).getInt();
         tropicalfruittreeRarity = config.get(CATEGORY_FRUIT_TREES, "tropicalfruittreeRarity", 64).getInt();
         coniferousfruittreeRarity = config.get(CATEGORY_FRUIT_TREES, "coniferousfruittreeRarity", 48).getInt();

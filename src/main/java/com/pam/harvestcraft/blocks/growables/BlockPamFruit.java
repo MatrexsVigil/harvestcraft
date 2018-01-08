@@ -6,6 +6,8 @@ import java.util.Random;
 
 import javax.annotation.Nullable;
 
+import com.pam.harvestcraft.config.ConfigHandler;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.SoundType;
@@ -177,7 +179,7 @@ public class BlockPamFruit extends Block implements IGrowable, PamCropGrowable, 
 	public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
 		int i = state.getValue(AGE);
 
-		if(i < MATURE_AGE && rand.nextInt(25) == 0) {
+		if(i < MATURE_AGE && rand.nextInt(ConfigHandler.fruitGrowthSpeed) == 0) {
 			state = state.withProperty(AGE, i + 1);
 			worldIn.setBlockState(pos, state, 2);
 		}

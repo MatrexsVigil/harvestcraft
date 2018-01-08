@@ -1028,7 +1028,7 @@ public class GeneralOreRegistry {
 	public static final String foodCandiedpecans="foodCandiedpecans";
 	public static final String foodEnchilada="foodEnchilada";
 	public static final String foodStuffing="foodStuffing";
-	public static final String foodGreenbeencasserole="foodGreenbeencasserole";
+	public static final String foodGreenbeancasserole="foodGreenbeancasserole";
 	public static final String foodHamandpineapplepizza="foodHamandpineapplepizza";
 	public static final String foodSaucedlambkebab="foodSaucedlambkebab";
 	public static final String foodCobblestonecobbler="foodCobblestonecobbler";
@@ -2402,7 +2402,7 @@ public class GeneralOreRegistry {
     	OreDictionary.registerOre(foodCandiedpecans, ItemRegistry.candiedpecansItem);
     	OreDictionary.registerOre(foodEnchilada, ItemRegistry.enchiladaItem);
     	OreDictionary.registerOre(foodStuffing, ItemRegistry.stuffingItem);
-    	OreDictionary.registerOre(foodGreenbeencasserole, ItemRegistry.greenbeencasseroleItem);
+    	OreDictionary.registerOre(foodGreenbeancasserole, ItemRegistry.greenbeancasseroleItem);
     	OreDictionary.registerOre(foodHamandpineapplepizza, ItemRegistry.hamandpineapplepizzaItem);
     	OreDictionary.registerOre(foodSaucedlambkebab, ItemRegistry.saucedlambkebabItem);
     	OreDictionary.registerOre(foodCobblestonecobbler, ItemRegistry.cobblestonecobblerItem);
