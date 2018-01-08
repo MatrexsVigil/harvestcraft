@@ -3,7 +3,7 @@
     "item": "harvestcraft:candledeco8",
     "count": 4
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_candledeco",
   "ingredients": [
     {
       "item": "harvestcraft:candledeco1"

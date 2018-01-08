@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:cabbageseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:cabbageitem"

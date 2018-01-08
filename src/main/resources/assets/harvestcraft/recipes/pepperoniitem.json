@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:pepperoniitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_pepperoniitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:zombiejerkyitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_zombiejerkyitem",
   "ingredients": [
     {
       "item": "minecraft:rotten_flesh"

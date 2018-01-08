@@ -3,7 +3,7 @@
     "item": "harvestcraft:hoisinsauceitem",
     "count": 9
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

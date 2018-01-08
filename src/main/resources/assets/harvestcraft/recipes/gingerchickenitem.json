@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:gingerchickenitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_gingerchickenitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:beansandriceitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_beansandriceitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

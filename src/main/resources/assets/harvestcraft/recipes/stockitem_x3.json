@@ -3,7 +3,7 @@
     "item": "harvestcraft:stockitem",
     "count": 3
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_stockitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

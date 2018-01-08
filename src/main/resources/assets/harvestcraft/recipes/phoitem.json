@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:phoitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

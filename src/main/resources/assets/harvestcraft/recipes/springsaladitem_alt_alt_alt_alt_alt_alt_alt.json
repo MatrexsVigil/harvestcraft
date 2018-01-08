@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:springsaladitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_springsaladitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

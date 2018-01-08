@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:freshwateritem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_freshwateritem",
   "ingredients": [
     {
       "item": "minecraft:water_bucket"

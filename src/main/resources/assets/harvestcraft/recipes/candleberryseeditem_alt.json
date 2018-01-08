@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:candleberryseeditem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_candleberryseeditem",
   "ingredients": [
     {
       "item": "harvestcraft:candleberryitem"

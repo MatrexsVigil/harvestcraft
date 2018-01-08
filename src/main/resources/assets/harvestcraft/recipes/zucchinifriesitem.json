@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:zucchinifriesitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

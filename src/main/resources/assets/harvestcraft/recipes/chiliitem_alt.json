@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:chiliitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_chiliitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

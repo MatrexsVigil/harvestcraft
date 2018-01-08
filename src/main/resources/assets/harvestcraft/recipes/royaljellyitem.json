@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:royaljellyitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:queenbeeitem",

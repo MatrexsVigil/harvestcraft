@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:applefritteritem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

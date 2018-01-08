@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:maplesyruppancakesitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

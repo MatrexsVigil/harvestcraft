@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:delightedmealitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_delightedmealitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

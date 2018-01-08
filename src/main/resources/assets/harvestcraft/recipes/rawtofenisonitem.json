@@ -3,7 +3,7 @@
     "item": "harvestcraft:rawtofenisonitem",
     "count": 7
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

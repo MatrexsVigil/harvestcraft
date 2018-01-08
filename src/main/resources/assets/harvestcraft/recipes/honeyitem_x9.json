@@ -3,7 +3,7 @@
     "item": "harvestcraft:honeyitem",
     "count": 9
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_honeyitem",
   "ingredients": [
     {
       "item": "harvestcraft:honey"

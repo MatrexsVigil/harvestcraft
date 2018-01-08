@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:kiwijellyitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

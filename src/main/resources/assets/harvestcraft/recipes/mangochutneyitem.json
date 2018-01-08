@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:mangochutneyitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

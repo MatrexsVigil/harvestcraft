@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:queenbeeitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:grubitem"

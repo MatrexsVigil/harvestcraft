@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:banananutbreaditem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_banananutbreaditem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

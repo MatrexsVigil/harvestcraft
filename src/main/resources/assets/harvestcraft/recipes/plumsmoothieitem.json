@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:plumsmoothieitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

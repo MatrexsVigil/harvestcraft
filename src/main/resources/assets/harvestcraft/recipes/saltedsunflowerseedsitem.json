@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:saltedsunflowerseedsitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_saltedsunflowerseedsitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

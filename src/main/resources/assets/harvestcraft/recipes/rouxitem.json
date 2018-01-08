@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:rouxitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

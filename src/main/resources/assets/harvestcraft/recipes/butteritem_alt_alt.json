@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:butteritem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_butteritem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

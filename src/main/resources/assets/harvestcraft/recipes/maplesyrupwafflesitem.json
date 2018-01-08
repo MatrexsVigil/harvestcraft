@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:maplesyrupwafflesitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

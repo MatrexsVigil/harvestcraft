@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:ryeseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:ryeitem"

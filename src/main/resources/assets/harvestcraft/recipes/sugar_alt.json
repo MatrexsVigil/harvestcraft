@@ -2,6 +2,7 @@
   "result": {
     "item": "minecraft:sugar"
   },
+  "group":"harvestcraft_sugar",
   "ingredients": [
     {
       "type": "forge:ore_dict",

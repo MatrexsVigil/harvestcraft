@@ -2,7 +2,7 @@
   "result": {
     "item": "minecraft:bread"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

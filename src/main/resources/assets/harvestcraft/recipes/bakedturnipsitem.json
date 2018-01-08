@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:bakedturnipsitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_bakedturnipsitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

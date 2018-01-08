@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:leekseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:leekitem"

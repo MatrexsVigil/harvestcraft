@@ -3,7 +3,7 @@
     "item": "harvestcraft:beeswaxitem",
     "count": 9
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_beeswaxitem",
   "ingredients": [
     {
       "item": "harvestcraft:pressedwax"

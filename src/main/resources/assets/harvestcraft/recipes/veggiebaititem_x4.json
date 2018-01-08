@@ -3,7 +3,7 @@
     "item": "harvestcraft:veggiebaititem",
     "count": 4
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:jellydonutitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

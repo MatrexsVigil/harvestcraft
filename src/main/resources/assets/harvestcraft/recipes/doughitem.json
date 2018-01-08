@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:doughitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_doughitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

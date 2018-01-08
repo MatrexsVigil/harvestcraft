@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:parsnipseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:parsnipitem"

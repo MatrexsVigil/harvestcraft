@@ -3,7 +3,7 @@
     "item": "harvestcraft:neapolitanicecreamitem",
     "count": 3
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

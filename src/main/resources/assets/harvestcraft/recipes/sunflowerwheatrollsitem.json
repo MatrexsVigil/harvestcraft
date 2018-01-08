@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:sunflowerwheatrollsitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_sunflowerwheatrollsitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

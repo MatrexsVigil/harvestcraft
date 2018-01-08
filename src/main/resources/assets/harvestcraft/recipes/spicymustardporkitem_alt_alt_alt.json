@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:spicymustardporkitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_spicymustardporkitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

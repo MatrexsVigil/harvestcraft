@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:stuffedeggplantitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_stuffedeggplantitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

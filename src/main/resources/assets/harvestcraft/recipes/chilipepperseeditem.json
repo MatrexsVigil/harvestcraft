@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:chilipepperseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:chilipepperitem"

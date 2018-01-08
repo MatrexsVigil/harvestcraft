@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:trailmixitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_trailmixitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

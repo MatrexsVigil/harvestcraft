@@ -3,6 +3,7 @@
     "item": "harvestcraft:waxcombitem",
     "count": 9
   },
+  "group":"harvestcraft_waxcombitem",
   "ingredients": [
     {
       "item": "harvestcraft:waxcomb"

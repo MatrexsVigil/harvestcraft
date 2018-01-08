@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:blueberrymuffinitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

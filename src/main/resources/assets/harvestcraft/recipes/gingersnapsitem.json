@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:gingersnapsitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

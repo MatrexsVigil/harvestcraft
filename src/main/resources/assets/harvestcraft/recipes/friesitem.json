@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:friesitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_friesitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:baconmushroomburgeritem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_baconmushroomburgeritem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

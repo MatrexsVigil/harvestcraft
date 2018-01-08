@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:saladdressingitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_saladdressingitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

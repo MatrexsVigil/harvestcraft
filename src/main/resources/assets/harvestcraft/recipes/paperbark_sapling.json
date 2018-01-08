@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:paperbark_sapling"
   },
-  "group": "harvestcraft",
+  "group": "harvestcraft_sapling",
   "ingredients": [
     {
       "item": "minecraft:paper"

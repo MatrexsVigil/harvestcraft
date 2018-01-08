@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:bananamilkshakeitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

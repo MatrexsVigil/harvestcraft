@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:butteredpotatoitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "minecraft:baked_potato"

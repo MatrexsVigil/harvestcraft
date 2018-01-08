@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:chorizoitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_chorizoitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

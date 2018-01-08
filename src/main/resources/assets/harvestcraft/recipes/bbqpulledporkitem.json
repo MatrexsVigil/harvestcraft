@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:bbqpulledporkitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

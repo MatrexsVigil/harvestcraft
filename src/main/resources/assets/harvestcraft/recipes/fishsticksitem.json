@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:fishsticksitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:toastsandwichitem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

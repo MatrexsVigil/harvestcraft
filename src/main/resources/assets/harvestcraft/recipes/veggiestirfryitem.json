@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:veggiestirfryitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_veggiestirfryitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:pineappleseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:pineappleitem"

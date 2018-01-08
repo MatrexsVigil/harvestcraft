@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:peanutseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:peanutitem"

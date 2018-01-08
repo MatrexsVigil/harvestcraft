@@ -2,7 +2,7 @@
   "result": {
     "item": "minecraft:baked_potato"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

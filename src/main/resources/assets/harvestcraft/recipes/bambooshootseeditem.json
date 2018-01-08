@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:bambooshootseeditem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "item": "harvestcraft:bambooshootitem"

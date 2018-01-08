@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:clamchowderitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_clamchowderitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",

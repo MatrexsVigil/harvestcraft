@@ -3,7 +3,7 @@
     "item": "harvestcraft:hotsauceitem",
     "count": 6
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

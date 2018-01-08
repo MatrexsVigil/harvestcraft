@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:peanutbutteritem"
   },
-  "group": "harvestcraft",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",

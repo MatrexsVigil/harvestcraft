@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:gherkinitem"
   },
-  "group": "harvestcraft",
+  "group":"harvestcraft_gherkinitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",
