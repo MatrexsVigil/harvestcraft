@@ -24,6 +24,7 @@ public class GroundTrapBlock extends BlockContainerRotating {
 		super(Material.WOOD);
 		setSoundType(SoundType.WOOD);
 		setCreativeTab(HarvestCraft.modTab);
+		this.setHardness(1.0F);
 	}
 
 	@Override

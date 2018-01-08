@@ -1,20 +1,24 @@
 {
   "result": {
-    "item": "harvestcraft:honeybreaditem"
+    "item": "harvestcraft:honeyglazedhamitem"
   },
 
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolSaucepan"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "bread"
+      "ore": "listAllporkraw"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodHoneydrop"
+      "ore": "dropHoney"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -5,7 +5,8 @@
 
   "ingredients": [
     {
-      "item": "harvestcraft:riceitem"
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
     },
     {
       "type": "forge:ore_dict",

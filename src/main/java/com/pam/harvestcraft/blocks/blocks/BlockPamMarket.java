@@ -32,6 +32,7 @@ public class BlockPamMarket extends BlockContainer {
 		super(Material.WOOD);
 		setSoundType(SoundType.WOOD);
 		this.setCreativeTab(HarvestCraft.modTab);
+		this.setHardness(1.0F);
 	}
 
 	@Override

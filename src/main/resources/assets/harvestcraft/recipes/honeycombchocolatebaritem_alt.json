@@ -1,20 +1,20 @@
 {
   "result": {
-    "item": "harvestcraft:honeybreaditem"
+    "item": "harvestcraft:honeycombchocolatebaritem"
   },
 
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolSaucepan"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "bread"
+      "ore": "foodChocolatebar"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodHoneydrop"
+      "ore": "dropHoney"
     }
   ],
   "type": "forge:ore_shapeless"

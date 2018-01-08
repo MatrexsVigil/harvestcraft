@@ -5,7 +5,8 @@
 
   "ingredients": [
     {
-      "item": "harvestcraft:tealeafitem"
+      "type": "forge:ore_dict",
+      "ore": "cropTea"
     },
     {
       "type": "forge:ore_dict",

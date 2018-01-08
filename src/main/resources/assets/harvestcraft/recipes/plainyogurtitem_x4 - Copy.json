@@ -1,16 +1,16 @@
 {
   "result": {
-    "item": "harvestcraft:roastedchestnutitem"
+    "item": "harvestcraft:plainyogurtitem"
   },
-
+  "group":"harvestcraft_plainyogurtitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "cropChestnut"
+      "ore": "toolPot"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "listAllmilk"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -1,8 +1,8 @@
 {
   "result": {
-    "item": "harvestcraft:softpretzelitem"
+    "item": "harvestcraft:honeysoyribsitem"
   },
-  "group":"harvestcraft_softpretzelitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
@@ -10,19 +10,23 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodDough"
+      "ore": "listAllporkraw"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodButter"
+      "ore": "dropHoney"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllwater"
+      "ore": "foodSoysauce"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "itemSalt"
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
     }
   ],
   "type": "forge:ore_shapeless"

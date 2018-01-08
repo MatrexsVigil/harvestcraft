@@ -1,8 +1,8 @@
 {
   "result": {
-    "item": "harvestcraft:softpretzelitem"
+    "item": "harvestcraft:honeybunitem"
   },
-  "group":"harvestcraft_softpretzelitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
@@ -10,19 +10,19 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodDough"
-    },
-    {
-      "type": "forge:ore_dict",
       "ore": "foodButter"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllwater"
+      "ore": "listAllegg"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "itemSalt"
+      "ore": "dropHoney"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
     }
   ],
   "type": "forge:ore_shapeless"

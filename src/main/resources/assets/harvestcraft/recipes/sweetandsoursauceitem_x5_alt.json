@@ -1,28 +1,33 @@
 {
   "result": {
-    "item": "harvestcraft:softpretzelitem"
+    "item": "harvestcraft:sweetandsoursauceitem",
+    "count": 5
   },
-  "group":"harvestcraft_softpretzelitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "toolSaucepan"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodDough"
+      "ore": "foodKetchup"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodButter"
+      "ore": "dropHoney"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllwater"
+      "ore": "foodVinegar"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "itemSalt"
+      "ore": "foodSoysauce"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
     }
   ],
   "type": "forge:ore_shapeless"

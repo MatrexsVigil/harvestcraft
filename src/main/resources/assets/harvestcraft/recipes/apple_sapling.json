@@ -5,13 +5,16 @@
   "group": "harvestcraft_sapling",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "type": "forge:ore_dict",
+      "ore": "cropApple"
     },
     {
-      "item": "minecraft:apple"
+      "type": "forge:ore_dict",
+      "ore": "cropApple"
     },
     {
-      "item": "minecraft:apple"
+      "type": "forge:ore_dict",
+      "ore": "cropApple"
     },
     {
       "item": "minecraft:sapling",

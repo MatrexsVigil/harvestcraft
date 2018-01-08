@@ -70,7 +70,7 @@ public class BlockBaseGarden extends BlockBush {
         this.setCreativeTab(HarvestCraft.modTab);
         this.setSoundType(SoundType.PLANT);
         this.setTickRandomly(true);
-
+        this.setHardness(0.0F);
         BlockRegistry.registerBlock(name, this);
     }
 

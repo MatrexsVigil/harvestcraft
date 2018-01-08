@@ -1,17 +1,20 @@
 {
   "result": {
-    "item": "harvestcraft:plainyogurtitem",
-    "count": 2
+    "item": "harvestcraft:honeybreaditem"
   },
-  "group":"harvestcraft_plainyogurtitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "foodPlainyogurt"
+      "ore": "toolCuttingboard"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllmilk"
+      "ore": "bread"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dropHoney"
     }
   ],
   "type": "forge:ore_shapeless"

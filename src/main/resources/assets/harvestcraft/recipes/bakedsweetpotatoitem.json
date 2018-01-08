@@ -5,7 +5,8 @@
 
   "ingredients": [
     {
-      "item": "harvestcraft:sweetpotatoitem"
+      "type": "forge:ore_dict",
+      "ore": "cropSweetpotato"
     },
     {
       "type": "forge:ore_dict",

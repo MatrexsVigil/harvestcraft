@@ -9,6 +9,8 @@ import javax.annotation.Nullable;
 import com.pam.harvestcraft.config.ConfigHandler;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockBush;
+import net.minecraft.block.BlockLiquid;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -19,11 +21,14 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.common.EnumPlantType;
+import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -175,6 +180,7 @@ public class BlockPamFruit extends Block implements IGrowable, PamCropGrowable, 
 		return new BlockStateContainer(this, AGE);
 	}
 
+
 	@Override
 	public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
 		int i = state.getValue(AGE);
@@ -185,6 +191,7 @@ public class BlockPamFruit extends Block implements IGrowable, PamCropGrowable, 
 		}
 
 		super.updateTick(worldIn, pos, state, rand);
+		
 	}
 
 	private void grow(World worldIn, BlockPos pos, IBlockState state) {

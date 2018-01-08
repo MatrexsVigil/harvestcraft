@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "harvestcraft:honeybreaditem"
+    "item": "harvestcraft:honeysandwichitem"
   },
 
   "ingredients": [
@@ -10,11 +10,15 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "bread"
+      "ore": "listAllnutbutter"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodHoneydrop"
+      "ore": "dropHoney"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "bread"
     }
   ],
   "type": "forge:ore_shapeless"

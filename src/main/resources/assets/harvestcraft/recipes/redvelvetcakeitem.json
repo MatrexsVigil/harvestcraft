@@ -29,8 +29,8 @@
       "data": 1
     },
     {
-      "item": "minecraft:dye",
-      "data": 1
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
     }
   ],
   "type": "forge:ore_shapeless"

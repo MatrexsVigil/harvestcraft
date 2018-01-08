@@ -30,4 +30,10 @@ public class GuiPresser extends GuiContainer {
         drawTexturedModalRect(x + 76, y + 8, 176, 18, progress + 1, 16);
 
     }
+    
+    @Override
+    public void drawScreen(int mouseX, int mouseY, float partialTicks) {
+        super.drawScreen(mouseX, mouseY, partialTicks);
+        renderHoveredToolTip(mouseX, mouseY);
+    }
 }

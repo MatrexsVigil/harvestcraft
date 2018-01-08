@@ -312,13 +312,13 @@ public final class BlockRegistry {
 	}
 
 	private static void registerMarket() {
-		pamMarket = new BlockPamMarket().setHardness(1.0F).setResistance(1.0F);
+		pamMarket = new BlockPamMarket();
 		marketItemBlock = new ItemBlock(pamMarket);
 		ItemRegistry.items.put(marketItemName, marketItemBlock);
 
 		registerBlock(marketItemName, marketItemBlock, pamMarket);
 
-		pamShippingbin = new BlockPamShippingBin().setHardness(1.0F).setResistance(1.0F);
+		pamShippingbin = new BlockPamShippingBin();
 		shippingbinItemBlock = new ItemBlock(pamShippingbin);
 		ItemRegistry.items.put(shippingbinItemName, shippingbinItemBlock);
 
@@ -409,7 +409,6 @@ public final class BlockRegistry {
         block.setRegistryName(registerName);
         block.setUnlocalizedName(registerName);
         block.setCreativeTab(HarvestCraft.modTab);
-        block.setHardness(1.0F);
         blocks.add(block);
 
         if (itemBlock != null)

@@ -18,6 +18,10 @@
     },
     {
       "type": "forge:ore_dict",
+      "ore": "listAllwater"
+    },
+    {
+      "type": "forge:ore_dict",
       "ore": "dustSalt"
     }
   ],

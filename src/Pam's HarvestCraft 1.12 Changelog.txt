@@ -1,13 +1,27 @@
 ﻿HarvestCraft 1.12.2d
 -----------------
+Note: You will need to regen your Config file in order to get the new config options
+
+- Fixed: Blocks: Gardens now break instantly again when punched
 - Fixed: Name: Raw Duck and Cooked Duck have correct names
+- Fixed: Name: Three Bean Casserole and Grapefruit Juice names are fixed by Luke616
+- Fixed: WorldGen: Fixed editing of main thread by kashike
 - Fixed: Recipe: Peking Duck finally has its own recipe, allowing you to finally make it and Stuffed Duck
 - Fixed: Recipe: Green Bean Casserole now has a recipe
-- Fixed: Recipe: Random broken recipes should be fixed from last version
+- Fixed: Recipe: Fixed recipe grouping by F43nd1r
+- Fixed: Recipe: Soft Pretzels now require listAllwater as well
+- Fixed: Recipe: Tofacon now accepts itemSalt, dustSalt, and foodSalt OreDictionary'd salts
+- Fixed: Recipe: Roasted Chestnut, Popcorn, Raisins, Tea, Coffee, Ricecake, Grilled Asparagus, Baked Sweet Potato now use correct cropX Ore Dictionary listings
+- Fixed: Recipe: All honey recipes now use foodHoneydrop and dropHoney (from Forestry) for all recipes
+- Fixed: Recipe: Plain Yogurt x4 can also be made by putting Plain Yogurt + Leather in crafting grid
+- Fixed: Recipe: Red Velvet Cake now requires foodCocoapowder in place of one of the dyes by ReverseStateMonad
+- Removed: Recipe: Removed Plain Yogurt + listAllmilk = 2 Plain Yogurt recipe
 - Added: Config: cropGrowthSpeed (Default: 0.0): This number is added/subtracted from normal fertile crop growth (3.0) and adjacent fertile crop growth (4.0)
 - Added: Config: fruitGrowthSpeed (Default: 25): Lower is faster
+- Added: Lang: Added zh_tw.lang file by HaeDon
+- Added: Lang: Added pl_pl.lang file by EliogabalusPL
+- Added: Blocks: Beehives can now be sheared
 
-Adjusting the growth rate of crops, handling tree crops as a separate setting from farm crops
 
 HarvestCraft 1.12.2c
 -----------------

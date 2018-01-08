@@ -1,28 +1,33 @@
 {
   "result": {
-    "item": "harvestcraft:softpretzelitem"
+    "item": "harvestcraft:rawtofaconitem",
+    "count": 5
   },
-  "group":"harvestcraft_softpretzelitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "toolCuttingboard"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodDough"
+      "ore": "foodFirmtofu"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodButter"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "listAllwater"
+      "ore": "foodOliveoil"
     },
     {
       "type": "forge:ore_dict",
       "ore": "itemSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
     }
   ],
   "type": "forge:ore_shapeless"

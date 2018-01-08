@@ -50,6 +50,7 @@ public class CommonProxy {
         MinecraftForge.EVENT_BUS.register(new BlockRegistry());
         ItemRegistry.registerItems();
         MinecraftForge.EVENT_BUS.register(new ItemRegistry());
+        GeneralOreRegistry.initOreRegistry();
         //ModItems.init();
         
     }
@@ -83,7 +84,7 @@ public class CommonProxy {
     public void onBlocksAndItemsLoaded() {
         HarvestCraft.config.configureGardenDrops();
 
-        GeneralOreRegistry.initOreRegistry();
+        
 
         RecipeRegistry.registerRecipes();
         SeedDropRegistry.getSeedDrops();

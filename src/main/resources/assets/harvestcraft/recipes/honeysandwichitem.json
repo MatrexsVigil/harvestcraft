@@ -13,7 +13,8 @@
       "ore": "listAllnutbutter"
     },
     {
-      "item": "harvestcraft:honeyitem"
+      "type": "forge:ore_dict",
+      "ore": "foodHoneydrop"
     },
     {
       "type": "forge:ore_dict",

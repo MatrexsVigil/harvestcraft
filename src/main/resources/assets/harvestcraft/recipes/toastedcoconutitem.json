@@ -5,7 +5,7 @@
 
   "ingredients": [
     {
-      "item": "harvestcraft:coconutitem"
+      "item": "cropCoconut"
     },
     {
       "type": "forge:ore_dict",

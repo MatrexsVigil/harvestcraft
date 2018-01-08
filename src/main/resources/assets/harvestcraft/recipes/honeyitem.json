@@ -1,12 +1,12 @@
 {
   "result": {
-    "item": "harvestcraft:honeyitem",
-    "count": 9
+    "item": "harvestcraft:honeyitem"
   },
   "group":"harvestcraft_honeyitem",
   "ingredients": [
     {
-      "item": "harvestcraft:honey"
+      "type": "forge:ore_dict",
+      "ore": "foodHoneydrop"
     }
   ],
   "type": "minecraft:crafting_shapeless"

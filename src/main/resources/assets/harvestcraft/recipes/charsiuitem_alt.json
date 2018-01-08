@@ -1,28 +1,32 @@
 {
   "result": {
-    "item": "harvestcraft:softpretzelitem"
+    "item": "harvestcraft:charsiuitem"
   },
-  "group":"harvestcraft_softpretzelitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "toolSaucepan"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodDough"
+      "ore": "listAllporkcooked"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodButter"
+      "ore": "foodHoisinsauce"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllwater"
+      "ore": "foodFivespice"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "itemSalt"
+      "ore": "dropHoney"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSoysauce"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -1,20 +1,20 @@
 {
   "result": {
-    "item": "harvestcraft:honeybreaditem"
+    "item": "harvestcraft:marzipanitem"
   },
 
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolMortarandpestle"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "bread"
+      "ore": "dropHoney"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodHoneydrop"
+      "ore": "cropAlmond"
     }
   ],
   "type": "forge:ore_shapeless"
