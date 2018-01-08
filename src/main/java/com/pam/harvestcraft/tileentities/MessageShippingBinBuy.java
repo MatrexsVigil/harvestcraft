@@ -48,26 +48,27 @@ public class MessageShippingBinBuy implements IMessage, IMessageHandler<MessageS
 	@Override
 	public IMessage onMessage(MessageShippingBinBuy message, MessageContext ctx) {
 		final EntityPlayerMP player = ctx.getServerHandler().player;
+		player.getServerWorld().addScheduledTask(() -> {
+			final TileEntity tile_entity = player.world.getTileEntity(new BlockPos(message.x, message.y, message.z));
+			if((tile_entity instanceof TileEntityShippingBin)) {
+				final TileEntityShippingBin tileEntityShippingBin = (TileEntityShippingBin) tile_entity;
+				final ShippingBinData data = ShippingBinItems.getData(message.itemNum);
+				final int price = data.getPrice();
 
-		final TileEntity tile_entity = player.world.getTileEntity(new BlockPos(message.x, message.y, message.z));
-		if((tile_entity instanceof TileEntityShippingBin)) {
-			final TileEntityShippingBin tileEntityShippingBin = (TileEntityShippingBin) tile_entity;
-			final ShippingBinData data = ShippingBinItems.getData(message.itemNum);
-			final int price = data.getPrice();
+				if(message.shouldClear) {
+					tileEntityShippingBin.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.getStackInSlot(0).setCount(0);
+				}
+				else {
+					tileEntityShippingBin.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.getStackInSlot(0).shrink(price);
+				}
 
-			if(message.shouldClear) {
-				tileEntityShippingBin.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
-						.getStackInSlot(0).setCount(0);
+				final EntityItem var14 =
+						new EntityItem(player.world, player.posX, player.posY + 1.0D, player.posZ, data.getItem().copy());
+				player.world.spawnEntity(var14);
 			}
-			else {
-				tileEntityShippingBin.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
-						.getStackInSlot(0).shrink(price);
-			}
-
-			final EntityItem var14 =
-					new EntityItem(player.world, player.posX, player.posY + 1.0D, player.posZ, data.getItem().copy());
-			player.world.spawnEntity(var14);
-		}
+		});
 		return null;
 	}
 }

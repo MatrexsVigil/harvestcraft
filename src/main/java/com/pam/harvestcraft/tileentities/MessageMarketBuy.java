@@ -48,26 +48,27 @@ public class MessageMarketBuy implements IMessage, IMessageHandler<MessageMarket
 	@Override
 	public IMessage onMessage(MessageMarketBuy message, MessageContext ctx) {
 		final EntityPlayerMP player = ctx.getServerHandler().player;
+		player.getServerWorld().addScheduledTask(() -> {
+			final TileEntity tile_entity = player.world.getTileEntity(new BlockPos(message.x, message.y, message.z));
+			if((tile_entity instanceof TileEntityMarket)) {
+				final TileEntityMarket tileEntityMarket = (TileEntityMarket) tile_entity;
+				final MarketData data = MarketItems.getData(message.itemNum);
+				final int price = data.getPrice();
 
-		final TileEntity tile_entity = player.world.getTileEntity(new BlockPos(message.x, message.y, message.z));
-		if((tile_entity instanceof TileEntityMarket)) {
-			final TileEntityMarket tileEntityMarket = (TileEntityMarket) tile_entity;
-			final MarketData data = MarketItems.getData(message.itemNum);
-			final int price = data.getPrice();
+				if(message.shouldClear) {
+					tileEntityMarket.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).getStackInSlot(0)
+							.setCount(0);
+				}
+				else {
+					tileEntityMarket.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).getStackInSlot(0)
+							.shrink(price);
+				}
 
-			if(message.shouldClear) {
-				tileEntityMarket.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).getStackInSlot(0)
-						.setCount(0);
+				final EntityItem var14 =
+						new EntityItem(player.world, player.posX, player.posY + 1.0D, player.posZ, data.getItem().copy());
+				player.world.spawnEntity(var14);
 			}
-			else {
-				tileEntityMarket.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).getStackInSlot(0)
-						.shrink(price);
-			}
-
-			final EntityItem var14 =
-					new EntityItem(player.world, player.posX, player.posY + 1.0D, player.posZ, data.getItem().copy());
-			player.world.spawnEntity(var14);
-		}
+		});
 		return null;
 	}
 }
