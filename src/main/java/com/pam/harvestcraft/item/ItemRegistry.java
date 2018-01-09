@@ -2430,6 +2430,7 @@ public final class ItemRegistry {
     @SubscribeEvent
     public void onItemRegistry(RegistryEvent.Register<Item> e) {
         IForgeRegistry<Item> reg = e.getRegistry();
-        reg.registerAll(itemlist.toArray(new Item[0]));        
+        reg.registerAll(itemlist.toArray(new Item[0]));
+        GeneralOreRegistry.initOreRegistry();
     }
 }

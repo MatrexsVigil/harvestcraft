@@ -50,7 +50,7 @@ public class CommonProxy {
         MinecraftForge.EVENT_BUS.register(new BlockRegistry());
         ItemRegistry.registerItems();
         MinecraftForge.EVENT_BUS.register(new ItemRegistry());
-        GeneralOreRegistry.initOreRegistry();
+        //GeneralOreRegistry.initOreRegistry(); Moved to line 2434 of ItemRegistry
         //ModItems.init();
         
     }

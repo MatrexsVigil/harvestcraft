@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "harvestcraft:freshmilkitem",
+    "count": 1
+  },
+  "group":"harvestcraft_freshmilkitem",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolJuicer"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropAlmond"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

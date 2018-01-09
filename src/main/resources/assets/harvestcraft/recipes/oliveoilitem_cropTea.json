@@ -10,7 +10,7 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropSunflower"
+      "ore": "cropTea"
     }
   ],
   "type": "forge:ore_shapeless"

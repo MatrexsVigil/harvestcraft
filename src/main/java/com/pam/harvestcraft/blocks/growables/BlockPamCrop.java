@@ -3,6 +3,7 @@ package com.pam.harvestcraft.blocks.growables;
 import java.util.List;
 import java.util.Random;
 
+import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.config.ConfigHandler;
 
 import net.minecraft.block.Block;
@@ -87,6 +88,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 	}
 
 	private boolean isSuitableSoilBlock(Block soilBlock) {
+
 		return soilBlock == Blocks.FARMLAND;
 	}
 

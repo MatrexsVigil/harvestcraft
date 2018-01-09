@@ -6,7 +6,7 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolJuicer"
+      "ore": "toolMortarandpestle"
     },
     {
       "type": "forge:ore_dict",

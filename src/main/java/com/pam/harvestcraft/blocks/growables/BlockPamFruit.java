@@ -116,6 +116,30 @@ public class BlockPamFruit extends Block implements IGrowable, PamCropGrowable, 
 	public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, World worldIn, BlockPos pos) {
 		return NULL_AABB;
 	}
+	
+	public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos)
+    {
+        if (!this.canBlockStay(worldIn, pos))
+        {
+        	this.dropBlock(worldIn, pos, state);
+        }
+        
+    }
+	
+	private boolean canBlockStay(World worldIn, BlockPos pos)
+    {
+        return worldIn.getBlockState(pos.up()).getMaterial().isSolid();
+    }
+	
+	private void dropBlock(World worldIn, BlockPos pos, IBlockState state)
+    {
+		if (!(state.getValue(AGE) != 3))
+		{
+			
+		}
+        worldIn.setBlockState(pos, Blocks.AIR.getDefaultState(), 3);
+        this.dropBlockAsItem(worldIn, pos, state, 0);
+    }
 
 	@Override
 	public List<ItemStack> getDrops(IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
