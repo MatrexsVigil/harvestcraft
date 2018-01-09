@@ -1,16 +1,17 @@
 {
   "result": {
-    "item": "harvestcraft:toastedcoconutitem"
+    "item": "harvestcraft:beeswaxitem",
+    "count": 1
   },
-
+  "group":"harvestcraft_beeswaxitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "cropCoconut"
+      "ore": "toolPot"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "cropCandle"
     }
   ],
   "type": "forge:ore_shapeless"

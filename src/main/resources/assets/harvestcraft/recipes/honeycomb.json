@@ -7,7 +7,7 @@
   ],
   "key": {
     "a": {
-      "item": "harvestcraft:honeycombitem"
+      "item" : "harvestcraft:honeycombitem"
     }
   },
   "result": {

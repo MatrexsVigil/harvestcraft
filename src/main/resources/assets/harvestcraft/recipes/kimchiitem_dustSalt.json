@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:kimchiitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCabbage"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRadish"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSesame"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

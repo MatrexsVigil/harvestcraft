@@ -1,8 +1,8 @@
 {
   "result": {
-    "item": "harvestcraft:springsaladitem"
+    "item": "harvestcraft:saltedcaramelitem"
   },
-  "group":"harvestcraft_springsaladitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
@@ -10,11 +10,11 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropLettuce"
+      "ore": "foodCaramel"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllveggie"
+      "ore": "foodSalt"
     }
   ],
   "type": "forge:ore_shapeless"

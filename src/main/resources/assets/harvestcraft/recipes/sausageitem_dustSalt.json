@@ -1,8 +1,8 @@
 {
   "result": {
-    "item": "harvestcraft:springsaladitem"
+    "item": "harvestcraft:sausageitem"
   },
-  "group":"harvestcraft_springsaladitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
@@ -10,11 +10,15 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropLettuce"
+      "ore": "listAllmeatraw"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllveggie"
+      "ore": "dustSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
     }
   ],
   "type": "forge:ore_shapeless"

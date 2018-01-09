@@ -1,4 +1,27 @@
-﻿HarvestCraft 1.12.2d
+﻿HarvestCraft 1.12.2e
+-----------------
+ALL RECIPES SHOULD NOW BE WORKING
+
+Note: You will need to regen your Config file in order to get any changes to the Config file
+
+- Fixed: Config: Removed useless config options (bait amounts, fresh water amounts, salt amounts, etc).  To change the amount a recipe gives you, open the recipe JSON in the JAR file in a text editor and change the count amount. (reported by bushbaby1234)
+- Fixed: Recipe: Grilled Mushroom now uses cropWhitemushroom instead of harvestcraft:whitemushroomitem
+- Fixed: Recipe: All recipes with alternate versions have now been re-named foodname_alternate item (example: friesitem_foodSalt, friesitem_dustSalt, friesitem_itemSalt, etc)
+- Fixed: Recipe: Sweet and Sour Sauce now uses foodHoneydrop and dropHoney instead of harvestcraft:honeyitem
+- Fixed: Recipe: All salt recipes should have three versions for dustSalt, foodSalt, and itemSalt Ore Dictionary (reported by Chunkey)
+- Fixed: Recipe: Fruit logs (maple, cinnamon, paperbark) should now convert to planks correctly
+- Fixed: Recipe: Fixed recipes for making and unmaking Honey Block, Pressed Wax Block, Honeycomb Block, Waxcomb Block
+- Fixed: Recipe: Recipes to make Pressed Wax with cropCandle fixed (toolPot, 1:1, toolPot, 8:8)
+- Fixed: Recipe: Toasted Coconut now uses cropCoconut correctly
+- Added: Recipe: Added Flour recipes for cropAlmond, cropCoconut, cropChestnut, listAllwheat, cropBean, cropBanana, cropPeas, cropSoybean
+- Added: Recipe: Added Cooking Oil recipes for cropAvocado, listAllseed(2:2 ratio)
+- Added: Recipe: Added Roasted Root Veggie Medley recipes for cropRutabaga, cropBeet, cropRhubarb
+- Added: Recipe: Added Spicy Greens Recipe for cropSpinach, cropAsparagus
+- Changed: Recipe: Spring Salad now requires toolCuttingboard, cropLettuce, listAllveggie (instead of having a dozen specific recipes)
+- Changed: Recipe: Veggie Stir Fry now requires listAllmushroom or listAllvegie instead of specific recipes
+- Removed: Recipe: Removed double cropSpiceleaf Salad Dressing Recipe (not intended)
+
+HarvestCraft 1.12.2d
 -----------------
 Note: You will need to regen your Config file in order to get the new config options
 

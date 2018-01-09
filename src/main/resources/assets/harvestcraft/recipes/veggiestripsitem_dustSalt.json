@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:veggiestripsitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllspice"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

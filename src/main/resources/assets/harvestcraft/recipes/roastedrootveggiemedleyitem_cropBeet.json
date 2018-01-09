@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:roastedrootveggiemedleyitem"
+  },
+  "group":"harvestcraft_roastedrootveggiemedleyitem",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBeet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

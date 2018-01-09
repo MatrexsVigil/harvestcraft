@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:spicygreensitem"
+  },
+  "group":"harvestcraft_spicygreensitem",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodMustard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpinach"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

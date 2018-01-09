@@ -1,20 +1,21 @@
 {
   "result": {
-    "item": "harvestcraft:springsaladitem"
+    "item": "harvestcraft:oliveoilitem",
+    "count": 2
   },
-  "group":"harvestcraft_springsaladitem",
+  "group":"harvestcraft_oliveoilitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolJuicer"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropLettuce"
+      "ore": "listAllseed"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllveggie"
+      "ore": "listAllseed"
     }
   ],
   "type": "forge:ore_shapeless"

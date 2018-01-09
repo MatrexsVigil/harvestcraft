@@ -258,7 +258,6 @@ public class ConfigHandler {
     private void initGeneralSettings() {
         squiddropCalamari = config.get(CATEGORY_GENERAL, "squiddropCalamari", true, "Enables squid mobs to drop raw calamari.").getBoolean();
         enableEasyHarvest = config.getBoolean("enableEasyHarvest", CATEGORY_GENERAL, true, "Enables harvesting by right-clicking.");
-        saltrecipeAmount = config.get(CATEGORY_GENERAL, "saltrecipeAmount", 1).getInt();
         enableHCFish = config.getBoolean("enableHCFish", CATEGORY_GENERAL, true, "Enables catching of HarvestCraft fish using the normal fishing rod.");
         enablevanillafoodBalance = config.getBoolean("enablevanillafoodBalance", CATEGORY_GENERAL, true, "Makes changes to vanilla food item and drop hunger restore and saturation values to be balanced with HarvestCraft food.");
         topTierFood = config.get(CATEGORY_GENERAL, "topTierFood", 10, 
@@ -502,8 +501,6 @@ public class ConfigHandler {
     }
 
     private void initMiscRecipesSettings() {
-        freshmilkfrombucket = config.get(CATEGORY_MISC_RECIPES, "freshmilkfrombucket", 4).getInt();
-        freshwaterfrombucket = config.get(CATEGORY_MISC_RECIPES, "freshwaterfrombucket", 1).getInt();
         enablesaltfromwaterbucketrecipe = config.get(CATEGORY_MISC_RECIPES, "enablesaltfromwaterbucketrecipe", true).getBoolean();
         enablecroptoseedRecipe = config.get(CATEGORY_MISC_RECIPES, "enablecroptoseedRecipe", true).getBoolean();
         enableTofuAsMeatInRecipes = config.get(CATEGORY_MISC_RECIPES, "enabletofuasmeatinRecipes", true).getBoolean();
@@ -511,10 +508,6 @@ public class ConfigHandler {
         enablelistAllwaterfreshwater = config.get(CATEGORY_MISC_RECIPES, "enablelistAllwaterfreshwater", true).getBoolean();
         enablelistAllwatervanillawaterbucket = config.get(CATEGORY_MISC_RECIPES, "enablelistAllwatervanillawaterbucket", true).getBoolean();
         marketblockrecipeItem = config.get(CATEGORY_MISC_RECIPES, "marketblockrecipeItem", 0).getInt();
-        fishtrapbaitrecipeamount = config.get("miscellaneous recipes", "fishtrapbaitrecipeamount", 4).getInt();
-        grainbaitrecipeamount = config.get("miscellaneous recipes", "grainbaitrecipeamount", 4).getInt();
-        veggiebaitrecipeamount = config.get("miscellaneous recipes", "veggiebaitrecipeamount", 4).getInt();
-        fruitbaitrecipeamount = config.get("miscellaneous recipes", "fruitbaitrecipeamount", 4).getInt();
     }
 
     private void initSeedDropFromGrassSetting(String key, String item) {

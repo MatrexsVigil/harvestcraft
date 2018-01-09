@@ -1,20 +1,24 @@
 {
   "result": {
-    "item": "harvestcraft:springsaladitem"
+    "item": "harvestcraft:soysauceitem"
   },
-  "group":"harvestcraft_springsaladitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolJuicer"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropLettuce"
+      "ore": "cropSoybean"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllveggie"
+      "ore": "listAllwater"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustSalt"
     }
   ],
   "type": "forge:ore_shapeless"

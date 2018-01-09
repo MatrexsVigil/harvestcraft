@@ -1,0 +1,34 @@
+{
+  "result": {
+    "item": "harvestcraft:hotsauceitem",
+    "count": 6
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

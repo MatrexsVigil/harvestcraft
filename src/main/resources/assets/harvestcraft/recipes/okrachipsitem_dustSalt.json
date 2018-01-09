@@ -1,20 +1,24 @@
 {
   "result": {
-    "item": "harvestcraft:springsaladitem"
+    "item": "harvestcraft:okrachipsitem"
   },
-  "group":"harvestcraft_springsaladitem",
+
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolBakeware"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "cropLettuce"
+      "ore": "cropOkra"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllveggie"
+      "ore": "dustSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     }
   ],
   "type": "forge:ore_shapeless"

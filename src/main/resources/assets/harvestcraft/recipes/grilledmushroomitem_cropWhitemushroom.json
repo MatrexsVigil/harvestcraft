@@ -1,16 +1,16 @@
 {
   "result": {
-    "item": "harvestcraft:toastedcoconutitem"
+    "item": "harvestcraft:grilledmushroomitem"
   },
-
+  "group":"harvestcraft_grilledmushroomitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "cropCoconut"
+      "ore": "cropWhitemushroom"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "toolSkillet"
     }
   ],
   "type": "forge:ore_shapeless"

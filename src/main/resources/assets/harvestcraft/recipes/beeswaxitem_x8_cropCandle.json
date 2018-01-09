@@ -1,0 +1,46 @@
+{
+  "result": {
+    "item": "harvestcraft:beeswaxitem",
+    "count": 8
+  },
+  "group":"harvestcraft_beeswaxitem",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCandle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCandle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCandle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCandle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCandle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCandle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCandle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCandle"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

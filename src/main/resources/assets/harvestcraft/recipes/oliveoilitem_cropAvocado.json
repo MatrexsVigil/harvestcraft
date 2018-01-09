@@ -1,16 +1,16 @@
 {
   "result": {
-    "item": "harvestcraft:toastedcoconutitem"
+    "item": "harvestcraft:oliveoilitem"
   },
-
+  "group":"harvestcraft_oliveoilitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "cropCoconut"
+      "ore": "toolJuicer"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "toolBakeware"
+      "ore": "cropAvocado"
     }
   ],
   "type": "forge:ore_shapeless"
