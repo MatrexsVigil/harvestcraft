@@ -59,6 +59,7 @@ public class FruitRegistry {
 	public static final String STARFRUIT = "starfruit";
 	public static final String VANILLABEAN = "vanillabean";
 	public static final String WALNUT = "walnut";
+	public static final String SPIDERWEB = "spiderweb";
 
 	public static final String CINNAMON = "cinnamon";
 	public static final String MAPLE = "maple";
@@ -101,6 +102,7 @@ public class FruitRegistry {
 		registeringFruits.put(STARFRUIT, SaplingType.WARM);
 		registeringFruits.put(VANILLABEAN, SaplingType.WARM);
 		registeringFruits.put(WALNUT, SaplingType.TEMPERATE);
+		registeringFruits.put(SPIDERWEB, SaplingType.TEMPERATE);
 
 		registeringLogFruits.put(CINNAMON, SaplingType.WARM);
 		registeringLogFruits.put(MAPLE, SaplingType.COLD);
@@ -203,7 +205,7 @@ public class FruitRegistry {
 			warmSaplings.put(fruitName, sapling);
 		}
 
-		final BlockPamFruit pamFruit;
+		BlockPamFruit pamFruit;
 
 		/**
 		 * switch (fruitName) {
@@ -225,6 +227,10 @@ public class FruitRegistry {
 		if(fruitName.equals(APPLE)) {
 			pamFruit = new BlockPamFruit(sapling, Items.APPLE);
 			foodItems.put(fruitName, Items.APPLE);
+		}
+		if(fruitName.equals(SPIDERWEB)) {
+			pamFruit = new BlockPamFruit(sapling, Items.STRING);
+			foodItems.put(fruitName, Items.STRING);
 		}
 		else {
 			final Item foodItem =
