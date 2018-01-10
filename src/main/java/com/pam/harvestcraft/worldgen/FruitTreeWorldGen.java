@@ -37,7 +37,7 @@ public class FruitTreeWorldGen implements IWorldGenerator {
                 && (!BiomeDictionary.hasType(biome, BiomeDictionary.Type.SPOOKY))
                 && (!BiomeDictionary.hasType(biome, BiomeDictionary.Type.MOUNTAIN))) {
             {
-                switch (random.nextInt(9)) {
+                switch (random.nextInt(10)) {
                     case 0:
                         if (config.appletreeGeneration) {
                             generateFruitTree(world, random, FruitRegistry.APPLE, x, z);
@@ -81,6 +81,11 @@ public class FruitTreeWorldGen implements IWorldGenerator {
                     case 8:
                         if (config.gooseberrytreeGeneration) {
                             generateFruitTree(world, random, FruitRegistry.GOOSEBERRY, x, z);
+                            return;
+                        }
+                    case 9:
+                        if (config.spiderwebtreeGeneration) {
+                            generateFruitTree(world, random, FruitRegistry.SPIDERWEB, x, z);
                             return;
                         }
                 }

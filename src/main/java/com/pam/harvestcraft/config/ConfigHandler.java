@@ -148,6 +148,7 @@ public class ConfigHandler {
     public boolean vanillabeantreeGeneration;
     public boolean walnuttreeGeneration;
     public boolean gooseberrytreeGeneration;
+    public boolean spiderwebtreeGeneration;
     public boolean enablecropspecialplanting;
 
     // Market configuration
@@ -318,6 +319,7 @@ public class ConfigHandler {
         vanillabeantreeGeneration = config.get(CATEGORY_FRUIT_TREES, "vanillabeantreeGeneration", true).getBoolean();
         walnuttreeGeneration = config.get(CATEGORY_FRUIT_TREES, "walnuttreeGeneration", true).getBoolean();
         gooseberrytreeGeneration = config.get(CATEGORY_FRUIT_TREES, "gooseberrytreeGeneration", true).getBoolean();
+        spiderwebtreeGeneration = config.get(CATEGORY_FRUIT_TREES, "spiderwebtreeGeneration", true).getBoolean();
     }
 
     private void initGardenSettings() {

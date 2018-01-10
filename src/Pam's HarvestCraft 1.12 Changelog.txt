@@ -1,5 +1,9 @@
 ﻿HarvestCraft 1.12.2e
 -----------------
+- Added: Fruit Tree: Added a Spider Web 'fruit' tree, that grows in temperate areas with spider web 'fruits' that drop string when mature and right-clicked (sapling crafted with any sapling and three string) Disable in config with spiderwebtreeGeneration
+
+HarvestCraft 1.12.2e
+-----------------
 ALL RECIPES SHOULD NOW BE WORKING
 
 Note: You will need to regen your Config file in order to get any changes to the Config file
