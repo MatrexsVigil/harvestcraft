@@ -82,6 +82,7 @@ harvestcraft.tile.pamStarfruit.name=Sternfrucht
 harvestcraft.tile.pamVanillabean.name=Vanilleschote
 harvestcraft.tile.pamWalnut.name=Walnüsse
 harvestcraft.tile.pamGooseberry.name=Stachelbeere
+tile.pamspiderweb.name=Spinnennetz
 
 tile.almond_sapling.name=Mandelbaumsetzling
 tile.apple_sapling.name=Apfelbaumsetzling
@@ -119,6 +120,7 @@ tile.starfruit_sapling.name=Sternfruchtbaumsetzling
 tile.vanillabean_sapling.name=Vanillebaumsetzling
 tile.walnut_sapling.name=Walnussbaumsetzling
 tile.gooseberry_sapling.name=Stachelbeersetzling
+tile.spiderweb_sapling.name=Spinnennetzsetzling
 
 harvestcraft.tile.pamblackberryCrop.name=Brombeerpflanze
 harvestcraft.tile.pamblueberryCrop.name=Blaubeerpflanze
