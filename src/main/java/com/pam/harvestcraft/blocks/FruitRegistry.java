@@ -227,7 +227,7 @@ public class FruitRegistry {
 		if(fruitName.equals(APPLE)) {
 			pamFruit = new BlockPamFruit(sapling, Items.APPLE);
 			foodItems.put(fruitName, Items.APPLE);
-		}
+		} else
 		if(fruitName.equals(SPIDERWEB)) {
 			pamFruit = new BlockPamFruit(sapling, Items.STRING);
 			foodItems.put(fruitName, Items.STRING);

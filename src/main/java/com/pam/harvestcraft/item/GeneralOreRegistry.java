@@ -1131,6 +1131,12 @@ public class GeneralOreRegistry {
         for (Item seed: CropRegistry.getSeeds().values()) {
             OreDictionary.registerOre(listAllseed, seed);
         }
+        
+        if (HarvestCraft.config.enablebeegrubaslistAllmeat)
+        {
+        	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.grubItem);
+        	OreDictionary.registerOre(listAllmeatcooked, ItemRegistry.cookedgrubItem);
+        }
 
         if (HarvestCraft.config.enableTofuAsMeatInRecipes) {
         	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.rawtofeakItem);

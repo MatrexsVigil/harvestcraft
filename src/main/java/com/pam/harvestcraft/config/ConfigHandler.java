@@ -226,6 +226,8 @@ public class ConfigHandler {
     // Beehive config
     public boolean enableBeehiveGeneration;
     public int beehiveRarity;
+    public boolean queenbeelastresultequalsQueen;
+    public boolean enablebeegrubaslistAllmeat;
 
 
     public ConfigHandler(Configuration config) {
@@ -254,6 +256,8 @@ public class ConfigHandler {
     private void initBeesSettings() {
         enableBeehiveGeneration = config.getBoolean(CATEGORY_BEE, "enableBeehiveGeneration", true, "Enable generation of beehives.");
         beehiveRarity = config.getInt(CATEGORY_BEE, "beehiveRarity", 10, 0, Short.MAX_VALUE, "The higher the value, the more beehives are generated.");
+        queenbeelastresultequalsQueen = config.get(CATEGORY_BEE, "apiarylastresultequalsQueen", true, "If true, the last item produced by a queen bee will be another queen bee.").getBoolean();
+        enablebeegrubaslistAllmeat  = config.getBoolean(CATEGORY_BEE, "enablebeegrubaslistAllmeat", true, "Allows grubs and cooked grubs to be used in listAllrawmeat and listAllcookedmeat.");
     }
 
     private void initGeneralSettings() {

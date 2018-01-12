@@ -869,6 +869,7 @@ public final class ItemRegistry {
 
 	public static Item queenbeeItem;
 	public static Item grubItem;
+	public static Item cookedgrubItem;
 	public static Item honeycombItem;
 	public static Item waxcombItem;
 	public static Item royaljellyItem;
@@ -976,6 +977,7 @@ public final class ItemRegistry {
 	private static void registerBeesItems() {
 		queenbeeItem = registerItemPamBee("queenbeeitem");
 		grubItem = registerGenericItem("grubitem");
+		cookedgrubItem = registerItemFood("cookedgrubItem", 2, config.snacksaturation);
 		honeycombItem = registerGenericItem("honeycombitem");
 		honeyItem = registerItemFood("honeyitem", 2, config.snacksaturation);
 		waxcombItem = registerGenericItem("waxcombitem");

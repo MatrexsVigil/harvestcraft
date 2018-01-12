@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "harvestcraft:cookedgrubitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "item": "harvestcraft:grubitem"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

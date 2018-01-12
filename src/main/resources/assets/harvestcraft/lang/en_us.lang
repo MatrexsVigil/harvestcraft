@@ -237,6 +237,7 @@ item.honeyitem.name=Honey
 item.beeswaxitem.name=Pressed Wax
 item.royaljellyitem.name=Royal Jelly
 item.grubitem.name=Bee Grub
+item.cookedgrubitem.name=Cooked Grub
 
 item.grainbaititem.name=Grain Bait
 item.veggiebaititem.name=Veggie Bait
