@@ -29,7 +29,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 
 	private static final int MATURE_AGE = 3;
 
-	private static final PropertyInteger AGE = PropertyInteger.create("age", 0, MATURE_AGE);
+	public static final PropertyInteger AGE = PropertyInteger.create("age", 0, MATURE_AGE);
 
 	private static final AxisAlignedBB[] CROPS_AABB =
 			new AxisAlignedBB[] {new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.125D, 1.0D),
