@@ -1,4 +1,11 @@
-﻿HarvestCraft 1.12.2e
+﻿HarvestCraft 1.12.2g
+-----------------
+NOTE: Automation for other blocks coming next update 
+
+- Fixed: Presser: The Presser can now be automated!  Input slot is accessed from top, sides while both Output slots are accessed from the bottom.  Tested with hoppers!
+- Fixed some issues with Hunger Overhaul interacting with HarvestCraft (PR by alexbegt)
+
+HarvestCraft 1.12.2f
 -----------------
 - Added: Fruit Tree: Added a Spider Web 'fruit' tree, that grows in temperate areas with spider web 'fruits' that drop string when mature and right-clicked (sapling crafted with any sapling and three string) Disable in config with spiderwebtreeGeneration
 

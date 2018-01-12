@@ -1,7 +1,9 @@
 package com.pam.harvestcraft.tileentities;
 
+import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import com.pam.harvestcraft.gui.SlotPamPresser;
 import com.pam.harvestcraft.item.PresserRecipes;
 
 import net.minecraft.entity.player.EntityPlayer;
@@ -13,33 +15,69 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ITickable;
 import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.items.wrapper.RangedWrapper;
 
 public class TileEntityPresser extends TileEntity implements ITickable {
 
-	private ItemStackHandler itemstackhandler = new ItemStackHandler(3);
+	//private ItemStackHandler itemstackhandler = new ItemStackHandler(3);
 	public short cookTime;
 
-	@Override
-	public boolean hasCapability(Capability<?> capability, EnumFacing facing) {
-		return capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY || super.hasCapability(capability, facing);
-	}
+	@CapabilityInject(IItemHandler.class)
+    public static Capability<IItemHandler> ITEMS_CAP;
 
-	@Override
-	public <T> T getCapability(Capability<T> capability, EnumFacing facing) {
-		if(capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY) {
-			return CapabilityItemHandler.ITEM_HANDLER_CAPABILITY.cast(itemstackhandler);
-		}
-		return super.getCapability(capability, facing);
-	}
+    private final ItemStackHandler itemstackhandler = new ItemStackHandler(3);
+    private final RangedWrapper top = new RangedWrapper(itemstackhandler, 0, 1);
+    
+    private final RangedWrapper bottom = new RangedWrapper(itemstackhandler, 1, 3)
+    {
+        @Nonnull
+        @Override
+        public ItemStack insertItem(int slot, @Nonnull ItemStack stack, boolean simulate)
+        {
+            return stack;
+        }
+    };
+    
+    public ItemStackHandler getInventory()
+    {
+        return itemstackhandler;
+    }
+
+    @Override
+    public boolean hasCapability(Capability<?> capability, @Nullable EnumFacing facing)
+    {
+        if (capability == ITEMS_CAP)
+            return true;
+
+        return super.hasCapability(capability, facing);
+    }
+
+    @Nullable
+    @Override
+    @SuppressWarnings("unchecked")
+    public <T> T getCapability(Capability<T> capability, @Nullable EnumFacing facing)
+    {
+        if (capability == ITEMS_CAP)
+        {
+            if (facing == EnumFacing.UP) return (T)top;
+            if (facing == EnumFacing.DOWN) return (T)bottom;
+            if (facing != null) return (T)top;
+            return (T)itemstackhandler;
+        }
+
+        return super.getCapability(capability, facing);
+    }
 
 	@Override
 	public void readFromNBT(NBTTagCompound compound) {
 		
-		itemstackhandler.deserializeNBT((NBTTagCompound) compound.getTag("Items"));
+		ITEMS_CAP.readNBT(itemstackhandler, null, compound.getTag("Items"));
 		cookTime = compound.getShort("CookTime");
 		super.readFromNBT(compound);
 	}
@@ -47,7 +85,7 @@ public class TileEntityPresser extends TileEntity implements ITickable {
 	@Override
 	public NBTTagCompound writeToNBT(NBTTagCompound compound) {
 		compound.setShort("CookTime", cookTime);
-		compound.setTag("Items", itemstackhandler.serializeNBT());
+		compound.setTag("Items", ITEMS_CAP.writeNBT(itemstackhandler, null));
 
 		return super.writeToNBT(compound);
 	}
