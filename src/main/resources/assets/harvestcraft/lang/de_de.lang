@@ -237,6 +237,7 @@ item.honeyitem.name=Honig
 item.beeswaxitem.name=Gepresstes Wachs
 item.royaljellyitem.name=Königinnenfuttersaft
 item.grubitem.name=Bienenlarve
+item.cookedgrubitem.name=Gebackene Larve
 
 item.grainbaititem.name=Getreideköder
 item.veggiebaititem.name=Veggieköder
