@@ -237,6 +237,7 @@ item.honeyitem.name=Miel
 item.beeswaxitem.name=Cera Prensada
 item.royaljellyitem.name=Jalea Real
 item.grubitem.name=Larva de Abeja
+item.cookedgrubitem.name=Larva de Abeja Cocinada
 
 item.grainbaititem.name=Cebo de Grano
 item.veggiebaititem.name=Cebo de Vegetales

@@ -1,4 +1,8 @@
-﻿HarvestCraft 1.12.2h
+﻿HarvestCraft 1.12.2j
+-----------------
+- Fixed: Everything: Fixed the mod not loading
+
+HarvestCraft 1.12.2h
 -----------------
 NOTE: Automation for Traps, Market, Shipping Bin coming next update 
 
