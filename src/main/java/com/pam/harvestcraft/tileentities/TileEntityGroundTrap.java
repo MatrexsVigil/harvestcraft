@@ -233,7 +233,7 @@ public class TileEntityGroundTrap extends TileEntity implements ITickable {
 					case 7:
 						return new ItemStack(Items.CHICKEN, 1, 0);
 					case 8:
-						return new ItemStack(Items.CHICKEN, 1, 0);
+						return new ItemStack(ItemRegistry.duckrawItem, 1, 0);
 					case 9:
 						return new ItemStack(ItemRegistry.turkeyrawItem, 1, 0);
 					case 10:
@@ -290,7 +290,7 @@ public class TileEntityGroundTrap extends TileEntity implements ITickable {
 					case 8:
 						return new ItemStack(Items.CHICKEN, 1, 0);
 					case 9:
-						return new ItemStack(Items.CHICKEN, 1, 0);
+						return new ItemStack(ItemRegistry.duckrawItem, 1, 0);
 					case 10:
 						return new ItemStack(Items.FEATHER, 1, 0);
 				}

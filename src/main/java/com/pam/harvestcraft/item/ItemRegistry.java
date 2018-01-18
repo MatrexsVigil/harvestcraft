@@ -977,7 +977,7 @@ public final class ItemRegistry {
 	private static void registerBeesItems() {
 		queenbeeItem = registerItemPamBee("queenbeeitem");
 		grubItem = registerGenericItem("grubitem");
-		cookedgrubItem = registerItemFood("cookedgrubItem", 2, config.snacksaturation);
+		cookedgrubItem = registerItemFood("cookedgrubitem", 2, config.snacksaturation);
 		honeycombItem = registerGenericItem("honeycombitem");
 		honeyItem = registerItemFood("honeyitem", 2, config.snacksaturation);
 		waxcombItem = registerGenericItem("waxcombitem");

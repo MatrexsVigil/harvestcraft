@@ -1,7 +1,13 @@
-﻿HarvestCraft 1.12.2l
+﻿HarvestCraft 1.12.2L
 -----------------
+NOTICE:  I will not be automating the Market or Shipping Bin.  The Well is not something that can be automated.  All other 'machines' have now been automated.
+
+- Added: Ground Trap: Added raw duck as a result to all three types of bait
+- Fixed: Water Trap: Added mussels and sardines to the Water Trap (reported by wamc2017)
+- Fixed: Item: Cooked Grub should have the right name (reported by xbony2)
 - Fixed: Recipes: Tool recipes should now be less picky about where you put the materials in the crafting grid (PR by josephcsible)
-- Fixed: Cake Blocks: (PR by josephcsible)
+- Fixed: Cake Blocks: getItem fixed (PR by josephcsible)
+- Fixed: Cake Blocks: Now have hardness of 0.5 to reduce instant breaking of wanted cakes
 - Removed: Saturation text ('snack', 'light meal', etc) since all foods restore the same saturation level now
 
 HarvestCraft 1.12.2k

@@ -43,6 +43,7 @@ public class BlockPamCake extends BlockCake {
 		this.setDefaultState(this.blockState.getBaseState().withProperty(BITES, Integer.valueOf(0)));
 		this.setTickRandomly(true);
 		this.CUSTOMBITES = CUSTOMBITES;
+		this.setHardness(0.5F);
 	}
 
 	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
