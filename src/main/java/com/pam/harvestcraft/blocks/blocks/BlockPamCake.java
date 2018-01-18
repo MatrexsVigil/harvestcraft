@@ -121,7 +121,7 @@ public class BlockPamCake extends BlockCake {
 	}
 
 	public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state) {
-		return new ItemStack(Items.CAKE);
+		return new ItemStack(Item.getItemFromBlock(this));
 	}
 
 	/**
