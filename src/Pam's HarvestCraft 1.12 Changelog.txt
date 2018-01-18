@@ -1,6 +1,7 @@
 ﻿HarvestCraft 1.12.2l
 -----------------
-
+- Fixed: Recipes: Tool recipes should now be less picky about where you put the materials in the crafting grid (PR by josephcsible)
+- Fixed: Cake Blocks: (PR by josephcsible)
 - Removed: Saturation text ('snack', 'light meal', etc) since all foods restore the same saturation level now
 
 HarvestCraft 1.12.2k
