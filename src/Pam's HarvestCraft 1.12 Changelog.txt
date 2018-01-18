@@ -1,4 +1,13 @@
-﻿HarvestCraft 1.12.2j
+﻿HarvestCraft 1.12.2l
+-----------------
+
+- Removed: Saturation text ('snack', 'light meal', etc) since all foods restore the same saturation level now
+
+HarvestCraft 1.12.2k
+-----------------
+- Fixed: Traps: The Ground and Water Traps can now be automated!  Input slot is accessed from top, sides while both Output slots are accessed from the bottom.  Tested with hoppers!
+
+HarvestCraft 1.12.2j
 -----------------
 - Fixed: Everything: Fixed the mod not loading
 
@@ -7,7 +16,7 @@ HarvestCraft 1.12.2h
 NOTE: Automation for Traps, Market, Shipping Bin coming next update 
 
 - Fixed: Blocks: Apple fruit block should now drop the correct apple item
-- Fixed: Presser: The Apiary can now be automated!  Input slot is accessed from top, sides while both Output slots are accessed from the bottom.  Tested with hoppers!
+- Fixed: Apiary: The Apiary can now be automated!  Input slot is accessed from top, sides while both Output slots are accessed from the bottom.  Tested with hoppers!
 - Added: Config: queenbeelastresultequalsQueen [Default: True]: Determines if a queen bee's last result will be another queen bee or a random item (grub, waxcomb, or honey comb)
 - Added: Config: enablebeegrubaslistAllmeat [Default: True]: Adds grubitem and cookedgrubitem to the listAllmeatraw and listAllmeatcooked OreDictionary to be used in food recipes
 - Added: Item: Cooked Grub (Recipe: toolBakeware, grubitem)  You can remove the recipe from the recipe folder in the JAR file if you don't want to allow this

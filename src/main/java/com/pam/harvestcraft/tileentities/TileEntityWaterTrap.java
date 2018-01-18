@@ -2,6 +2,9 @@ package com.pam.harvestcraft.tileentities;
 
 import java.util.Random;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+
 import com.pam.harvestcraft.blocks.BlockRegistry;
 import com.pam.harvestcraft.item.ItemRegistry;
 
@@ -21,33 +24,69 @@ import net.minecraft.util.ITickable;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.items.wrapper.RangedWrapper;
 
 public class TileEntityWaterTrap extends TileEntity implements ITickable {
 
-	private ItemStackHandler itemstackhandler = new ItemStackHandler(19);
+	//private ItemStackHandler itemstackhandler = new ItemStackHandler(19);
 	public int runTime = 0;
 	public int currentBeeRunTime = 0;
 	public int produceTime = 0;
 
-	@Override
-	public boolean hasCapability(Capability<?> capability, EnumFacing facing) {
-		return capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY || super.hasCapability(capability, facing);
-	}
+	@CapabilityInject(IItemHandler.class)
+    public static Capability<IItemHandler> ITEMS_CAP;
 
-	@Override
-	public <T> T getCapability(Capability<T> capability, EnumFacing facing) {
-		if(capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY) {
-			return CapabilityItemHandler.ITEM_HANDLER_CAPABILITY.cast(itemstackhandler);
-		}
-		return super.getCapability(capability, facing);
-	}
+    private final ItemStackHandler itemstackhandler = new ItemStackHandler(19);
+    private final RangedWrapper top = new RangedWrapper(itemstackhandler, 18, 19);
+    
+    private final RangedWrapper bottom = new RangedWrapper(itemstackhandler, 0, 18)
+    {
+        @Nonnull
+        @Override
+        public ItemStack insertItem(int slot, @Nonnull ItemStack stack, boolean simulate)
+        {
+            return stack;
+        }
+    };
+    
+    public ItemStackHandler getInventory()
+    {
+        return itemstackhandler;
+    }
+
+    @Override
+    public boolean hasCapability(Capability<?> capability, @Nullable EnumFacing facing)
+    {
+        if (capability == ITEMS_CAP)
+            return true;
+
+        return super.hasCapability(capability, facing);
+    }
+
+    @Nullable
+    @Override
+    @SuppressWarnings("unchecked")
+    public <T> T getCapability(Capability<T> capability, @Nullable EnumFacing facing)
+    {
+        if (capability == ITEMS_CAP)
+        {
+            if (facing == EnumFacing.UP) return (T)top;
+            if (facing == EnumFacing.DOWN) return (T)bottom;
+            if (facing != null) return (T)top;
+            return (T)itemstackhandler;
+        }
+
+        return super.getCapability(capability, facing);
+    }
 
 	@Override
 	public void readFromNBT(NBTTagCompound compound) {
 		super.readFromNBT(compound);
-		itemstackhandler.deserializeNBT((NBTTagCompound) compound.getTag("Items"));
+		ITEMS_CAP.readNBT(itemstackhandler, null, compound.getTag("Items"));
 		runTime = compound.getShort("RunTime");
 		produceTime = compound.getShort("ProduceTime");
 		currentBeeRunTime = getRunTime(itemstackhandler.getStackInSlot(1));
@@ -58,7 +97,7 @@ public class TileEntityWaterTrap extends TileEntity implements ITickable {
 	public NBTTagCompound writeToNBT(NBTTagCompound compound) {
 		compound.setShort("RunTime", (short) runTime);
 		compound.setShort("ProduceTime", (short) produceTime);
-		compound.setTag("Items", itemstackhandler.serializeNBT());
+		compound.setTag("Items", ITEMS_CAP.writeNBT(itemstackhandler, null));
 
 		return super.writeToNBT(compound);
 	}
