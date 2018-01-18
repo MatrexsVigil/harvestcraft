@@ -2,8 +2,7 @@
 
   "pattern": [
     "aaa",
-    "a a",
-    "   "
+    "a a"
   ],
   "key": {
     "a": {
