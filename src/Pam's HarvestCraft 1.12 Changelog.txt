@@ -1,14 +1,18 @@
 ﻿HarvestCraft 1.12.2m
 -----------------
 
+Note: You will need to regen your Config file in order to get any changes to the Config file
+
 - Fixed: Crops: AGE is now CROPS_AGE to fix issues with Hunger Overhaul (PR by alexbegt)
-Add raw tofuduk, cooked tofuduk
-Add porkrinds, cracklins
-Fix config issues with beekeeping label being switched with the actual config thing
-Option to have crops be just food instead of seedfood
-Option to cook squid into cooked fish
-Add green heart fish smelting
-Change fish bait recipe to 3 string, 1 fish = 4 bait
+- Fixed: Config: All beekeeping config options should now show up properly under Beekeeping label and work correctly
+- Added: Item: Raw Tofuduck (makes 5, toolCuttingboard, foodFirmtofu, cropSeaweed, bread, cropSpiceleaf) and Cooked Tofuduck
+- Added: Item: Pork Rinds and Cracklins (uses materialPigskin from Pam's Pig Skin, recipes will still show up without mod but cannot be crafted without the mod installed)
+- Added: Config: smeltsquidintocookedFish[Default:false]: Enable to have raw calamari smelt into cooked fish instead
+- Added: Smelting: Green Heart Fish can now be smelted to cooked fish
+- Changed: Recipe: All bait recipes are now 3 string, 1 item = 4 bait to make them more worth while
+- Change: Recipe: Raw Tofurkey now uses bread OreDictionary label in recipe, now makes 5
+- Removed: Recipe: Cooked Grub (now smelted like all other cooked meats)
+
 
 HarvestCraft 1.12.2L
 -----------------

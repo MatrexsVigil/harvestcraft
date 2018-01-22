@@ -1041,6 +1041,8 @@ public class GeneralOreRegistry {
 	public static final String foodHotdishcasserole="foodHotdishcasserole";
 	public static final String foodSausagebeanmelt="foodSausagebeanmelt";
 	public static final String foodMettbrotchen="foodMettbrotchen";
+	public static final String foodPorkrinds="foodPorkrinds";
+	public static final String foodCracklins="foodCracklins";
 
     public static void initOreRegistry() {
         registerGeneralOres();
@@ -1146,7 +1148,7 @@ public class GeneralOreRegistry {
             OreDictionary.registerOre(listAllmeatraw, ItemRegistry.rawtofabbitItem);
             OreDictionary.registerOre(listAllmeatraw, ItemRegistry.rawtofurkeyItem);
             OreDictionary.registerOre(listAllmeatraw, ItemRegistry.rawtofenisonItem);
-            
+            OreDictionary.registerOre(listAllmeatraw, ItemRegistry.rawtofuduckItem);
             
             OreDictionary.registerOre(listAllmeatcooked, ItemRegistry.cookedtofeakItem);
             OreDictionary.registerOre(listAllmeatcooked, ItemRegistry.cookedtofaconItem);
@@ -1155,6 +1157,7 @@ public class GeneralOreRegistry {
             OreDictionary.registerOre(listAllmeatcooked, ItemRegistry.cookedtofabbitItem);
             OreDictionary.registerOre(listAllmeatcooked, ItemRegistry.cookedtofurkeyItem);
             OreDictionary.registerOre(listAllmeatcooked, ItemRegistry.cookedtofenisonItem);
+            OreDictionary.registerOre(listAllmeatcooked, ItemRegistry.cookedtofuduckItem);
             
             OreDictionary.registerOre(listAllchickenraw, ItemRegistry.rawtofickenItem);
             OreDictionary.registerOre(listAllegg, ItemRegistry.rawtofeegItem);
@@ -1171,6 +1174,8 @@ public class GeneralOreRegistry {
             OreDictionary.registerOre(listAllrabbitcooked, ItemRegistry.cookedtofabbitItem);
             OreDictionary.registerOre(listAllvenisonraw, ItemRegistry.rawtofenisonItem);
             OreDictionary.registerOre(listAllvenisoncooked, ItemRegistry.cookedtofenisonItem);
+            OreDictionary.registerOre(listAllduckraw, ItemRegistry.rawtofuduckItem);
+            OreDictionary.registerOre(listAllduckcooked, ItemRegistry.cookedtofuduckItem);
             registerOres(listAllfishraw, ItemRegistry.rawtofishItem);
             OreDictionary.registerOre(listAllfishcooked, ItemRegistry.cookedtofishItem);
         }
@@ -2421,6 +2426,8 @@ public class GeneralOreRegistry {
     	OreDictionary.registerOre(foodHotdishcasserole, ItemRegistry.hotdishcasseroleItem);
     	OreDictionary.registerOre(foodSausagebeanmelt, ItemRegistry.sausagebeanmeltItem);
     	OreDictionary.registerOre(foodMettbrotchen, ItemRegistry.mettbrotchenItem);
+    	OreDictionary.registerOre(foodPorkrinds, ItemRegistry.porkrindsItem);
+    	OreDictionary.registerOre(foodCracklins, ItemRegistry.cracklinsItem);
     }
 
     private static void registerOres(String key, Object... items) {

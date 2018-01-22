@@ -836,6 +836,9 @@ public final class ItemRegistry {
 	public static Item sausagebeanmeltItem;
 	public static Item mettbrotchenItem;
 	
+	public static Item porkrindsItem;
+	public static Item cracklinsItem;
+	
 	public static Item rawtofeakItem;
 	public static Item rawtofaconItem;
 	public static Item rawtofishItem;
@@ -845,6 +848,7 @@ public final class ItemRegistry {
 	public static Item rawtofabbitItem;
 	public static Item rawtofurkeyItem;
 	public static Item rawtofenisonItem;
+	public static Item rawtofuduckItem;
 
 	public static Item cookedtofeakItem;
 	public static Item cookedtofaconItem;
@@ -855,6 +859,7 @@ public final class ItemRegistry {
 	public static Item cookedtofabbitItem;
 	public static Item cookedtofurkeyItem;
 	public static Item cookedtofenisonItem;
+	public static Item cookedtofuduckItem;
 
 	public static Item carrotcakeItem;
 	public static Item cheesecakeItem;
@@ -1725,6 +1730,9 @@ public final class ItemRegistry {
 		sausagebeanmeltItem = registerItemFood("sausagebeanmeltitem", 10, config.mealsaturation);
 		mettbrotchenItem = registerItemFood("mettbrotchenitem", 8, config.mealsaturation);
 		
+		porkrindsItem = registerItemFood("porkrindsitem", 4, config.mealsaturation);
+		cracklinsItem = registerItemFood("cracklinsitem", 5, config.mealsaturation);
+		
 		rawtofeakItem = registerItemFood("rawtofeakitem", 1, config.snacksaturation);
 		rawtofaconItem = registerItemFood("rawtofaconitem", 1, config.snacksaturation);
 		//rawtofishItem = registerItemFood("rawtofishitem", 1, config.snacksaturation);
@@ -1734,6 +1742,7 @@ public final class ItemRegistry {
 		rawtofabbitItem = registerItemFood("rawtofabbititem", 1, config.snacksaturation);
 		rawtofurkeyItem = registerItemFood("rawtofurkeyitem", 1, config.snacksaturation);
 		rawtofenisonItem = registerItemFood("rawtofenisonitem", 1, config.snacksaturation);
+		rawtofuduckItem = registerItemFood("rawtofuduckitem", 1, config.snacksaturation);
 
 		cookedtofeakItem = registerItemFood("cookedtofeakitem", 2, config.mealsaturation);
 		cookedtofaconItem = registerItemFood("cookedtofaconitem", 2, config.mealsaturation);
@@ -1744,6 +1753,7 @@ public final class ItemRegistry {
 		cookedtofabbitItem = registerItemFood("cookedtofabbititem", 2, config.mealsaturation);
 		cookedtofurkeyItem = registerItemFood("cookedtofurkeyitem", 2, config.mealsaturation);
 		cookedtofenisonItem = registerItemFood("cookedtofenisonitem", 2, config.mealsaturation);
+		cookedtofuduckItem = registerItemFood("cookedtofuduckitem", 2, config.snacksaturation);
 
 		carrotcakeItem = registerItemPamCakeFood("carrotcakeitem", 5, config.mealsaturation, BlockRegistry.carrotcake);
 		holidaycakeItem =

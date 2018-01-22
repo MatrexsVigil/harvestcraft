@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.blocks.BlockBaseGarden;
 import com.pam.harvestcraft.blocks.growables.BlockPamCrop;
 import com.pam.harvestcraft.blocks.growables.BlockPamFruit;
@@ -35,7 +36,6 @@ public class ItemModels {
             registerItemModels(getItem(garden), new ItemModelList("gardens/")
                     .add(0, garden.getName()));
         }
-
         for (BlockPamCrop crop : CropRegistry.getCrops().values()) {
             registerItemModels(getItem(crop), new ItemModelList("crops/")
                     .add(0, crop.getStageId(0))

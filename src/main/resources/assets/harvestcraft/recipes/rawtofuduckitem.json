@@ -1,7 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:rawtofurkeyitem",
-    "count": 5
+    "item": "harvestcraft:rawtofuduckitem",
+    "count": 6
   },
 
   "ingredients": [
@@ -15,11 +15,15 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodOliveoil"
+      "ore": "cropSeaweed"
     },
     {
       "type": "forge:ore_dict",
       "ore": "bread"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     }
   ],
   "type": "forge:ore_shapeless"

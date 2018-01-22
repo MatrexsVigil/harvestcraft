@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.blocks.blocks.BlockBaseGarden;
 
@@ -50,6 +51,7 @@ public class ConfigHandler {
      * Config
      */
     public boolean squiddropCalamari;
+    public boolean smeltsquidintocookedFish;
 
     public int cropfoodRestore;
     public float cropsaturationRestore;
@@ -86,11 +88,7 @@ public class ConfigHandler {
 
     public boolean enablelistAllwaterfreshwater;
     public boolean enablelistAllwatervanillawaterbucket;
-    
-    public static int fishtrapbaitrecipeamount;
-    public static int grainbaitrecipeamount;
-    public static int veggiebaitrecipeamount;
-    public static int fruitbaitrecipeamount;
+
 
     public final HashMap<String, Boolean> seedDropFromGrass = new HashMap<String, Boolean>();
 
@@ -254,14 +252,15 @@ public class ConfigHandler {
     }
 
     private void initBeesSettings() {
-        enableBeehiveGeneration = config.getBoolean(CATEGORY_BEE, "enableBeehiveGeneration", true, "Enable generation of beehives.");
-        beehiveRarity = config.getInt(CATEGORY_BEE, "beehiveRarity", 10, 0, Short.MAX_VALUE, "The higher the value, the more beehives are generated.");
-        queenbeelastresultequalsQueen = config.get(CATEGORY_BEE, "apiarylastresultequalsQueen", true, "If true, the last item produced by a queen bee will be another queen bee.").getBoolean();
-        enablebeegrubaslistAllmeat  = config.getBoolean(CATEGORY_BEE, "enablebeegrubaslistAllmeat", true, "Allows grubs and cooked grubs to be used in listAllrawmeat and listAllcookedmeat.");
+        enableBeehiveGeneration = config.getBoolean("enableBeehiveGeneration", CATEGORY_BEE, true, "Enable generation of beehives.");
+        beehiveRarity = config.getInt("beehiveRarity", CATEGORY_BEE, 10, 0, Short.MAX_VALUE, "The higher the value, the more beehives are generated.");
+        queenbeelastresultequalsQueen = config.getBoolean("apiarylastresultequalsQueen", CATEGORY_BEE, true, "If true, the last item produced by a queen bee will be another queen bee.");
+        enablebeegrubaslistAllmeat  = config.getBoolean("enablebeegrubaslistAllmeat", CATEGORY_BEE, true, "Allows grubs and cooked grubs to be used in listAllrawmeat and listAllcookedmeat.");
     }
 
     private void initGeneralSettings() {
-        squiddropCalamari = config.get(CATEGORY_GENERAL, "squiddropCalamari", true, "Enables squid mobs to drop raw calamari.").getBoolean();
+        squiddropCalamari = config.getBoolean("squiddropCalamari", CATEGORY_GENERAL, true, "Enables squid mobs to drop raw calamari.");
+        smeltsquidintocookedFish = config.getBoolean("smeltsquidintocookedFish", CATEGORY_GENERAL, false, "Enable to have raw calamari smelt into cooked fish instead.");
         enableEasyHarvest = config.getBoolean("enableEasyHarvest", CATEGORY_GENERAL, true, "Enables harvesting by right-clicking.");
         enableHCFish = config.getBoolean("enableHCFish", CATEGORY_GENERAL, true, "Enables catching of HarvestCraft fish using the normal fishing rod.");
         enablevanillafoodBalance = config.getBoolean("enablevanillafoodBalance", CATEGORY_GENERAL, true, "Makes changes to vanilla food item and drop hunger restore and saturation values to be balanced with HarvestCraft food.");
@@ -443,6 +442,8 @@ public class ConfigHandler {
     private void initSeedDropSettings() {
         seedrarity = config.get(CATEGORY_SEEDS, "seedrarity", 1).getInt();
 
+        
+        
         initSeedDropFromGrassSetting("asparagusseeddropfromgrass", CropRegistry.ASPARAGUS);
         initSeedDropFromGrassSetting("barleyseeddropfromgrass", CropRegistry.BARLEY);
         initSeedDropFromGrassSetting("beanseeddropfromgrass", CropRegistry.BEAN);

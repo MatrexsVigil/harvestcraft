@@ -33,10 +33,15 @@ public class RecipeRegistry {
 
 	private static void registerSmelting() {
 
+		if (HarvestCraft.config.smeltsquidintocookedFish)
+		{
+			addSmelting(ItemRegistry.calamarirawItem, Items.COOKED_FISH);
+		}
 		addSmelting(ItemRegistry.calamarirawItem, ItemRegistry.calamaricookedItem);
 		addSmelting(ItemRegistry.turkeyrawItem, ItemRegistry.turkeycookedItem);
 		addSmelting(ItemRegistry.venisonrawItem, ItemRegistry.venisoncookedItem);
 		addSmelting(ItemRegistry.duckrawItem, ItemRegistry.duckcookedItem);
+		addSmelting(ItemRegistry.grubItem, ItemRegistry.cookedgrubItem);
 		
 		addSmelting(ItemRegistry.anchovyrawItem, Items.COOKED_FISH);
 		addSmelting(ItemRegistry.bassrawItem, Items.COOKED_FISH);
@@ -54,6 +59,7 @@ public class RecipeRegistry {
 		addSmelting(ItemRegistry.tunarawItem, Items.COOKED_FISH);
 		addSmelting(ItemRegistry.walleyerawItem, Items.COOKED_FISH);
 		addSmelting(ItemRegistry.sardinerawItem, Items.COOKED_FISH);
+		addSmelting(ItemRegistry.greenheartfishItem, Items.COOKED_FISH);
 		addSmelting(ItemRegistry.clamrawItem, ItemRegistry.clamcookedItem);
 		addSmelting(ItemRegistry.crabrawItem, ItemRegistry.crabcookedItem);
 		addSmelting(ItemRegistry.crayfishrawItem, ItemRegistry.crayfishcookedItem);
@@ -75,6 +81,7 @@ public class RecipeRegistry {
 			addSmelting(ItemRegistry.rawtofabbitItem, ItemRegistry.cookedtofabbitItem);
 			addSmelting(ItemRegistry.rawtofurkeyItem, ItemRegistry.cookedtofurkeyItem);
 			addSmelting(ItemRegistry.rawtofenisonItem, ItemRegistry.cookedtofenisonItem);
+			addSmelting(ItemRegistry.rawtofuduckItem, ItemRegistry.cookedtofuduckItem);
 		}
 	}
 

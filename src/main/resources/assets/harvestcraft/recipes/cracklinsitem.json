@@ -1,17 +1,16 @@
 {
   "result": {
-    "item": "harvestcraft:rawtofurkeyitem",
-    "count": 5
+    "item": "harvestcraft:cracklinsitem"
   },
 
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
+      "ore": "toolPot"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodFirmtofu"
+      "ore": "listAllporkraw"
     },
     {
       "type": "forge:ore_dict",
@@ -19,7 +18,11 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "bread"
+      "ore": "materialPigskin"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
     }
   ],
   "type": "forge:ore_shapeless"

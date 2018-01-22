@@ -11,11 +11,11 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllgrain"
+      "ore": "string"
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllgrain"
+      "ore": "string"
     },
     {
       "type": "forge:ore_dict",

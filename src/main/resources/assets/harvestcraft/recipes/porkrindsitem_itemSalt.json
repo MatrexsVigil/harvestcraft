@@ -1,17 +1,12 @@
 {
   "result": {
-    "item": "harvestcraft:rawtofurkeyitem",
-    "count": 5
+    "item": "harvestcraft:porkrindsitem"
   },
 
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolCuttingboard"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "foodFirmtofu"
+      "ore": "toolPot"
     },
     {
       "type": "forge:ore_dict",
@@ -19,7 +14,15 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "bread"
+      "ore": "materialPigskin"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
     }
   ],
   "type": "forge:ore_shapeless"
