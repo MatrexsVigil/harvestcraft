@@ -1,4 +1,16 @@
-﻿HarvestCraft 1.12.2L
+﻿HarvestCraft 1.12.2m
+-----------------
+
+- Fixed: Crops: AGE is now CROPS_AGE to fix issues with Hunger Overhaul (PR by alexbegt)
+Add raw tofuduk, cooked tofuduk
+Add porkrinds, cracklins
+Fix config issues with beekeeping label being switched with the actual config thing
+Option to have crops be just food instead of seedfood
+Option to cook squid into cooked fish
+Add green heart fish smelting
+Change fish bait recipe to 3 string, 1 fish = 4 bait
+
+HarvestCraft 1.12.2L
 -----------------
 NOTICE:  I will not be automating the Market or Shipping Bin.  The Well is not something that can be automated.  All other 'machines' have now been automated.
 
