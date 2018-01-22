@@ -29,7 +29,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 
 	private static final int MATURE_AGE = 3;
 
-	public static final PropertyInteger AGE = PropertyInteger.create("age", 0, MATURE_AGE);
+	public static final PropertyInteger CROPS_AGE = PropertyInteger.create("age", 0, MATURE_AGE);
 
 	private static final AxisAlignedBB[] CROPS_AABB =
 			new AxisAlignedBB[] {new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.125D, 1.0D),
@@ -84,7 +84,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 	@Override
 	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
 		// CROPS_AABB is based on an age range from 0 to 7. Times two should fix that issue.
-		return CROPS_AABB[state.getValue(AGE) * 2];
+		return CROPS_AABB[state.getValue(CROPS_AGE) * 2];
 	}
 
 	private boolean isSuitableSoilBlock(Block soilBlock) {
@@ -94,7 +94,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 
 	@Override
 	public PropertyInteger getAgeProperty() {
-		return AGE;
+		return CROPS_AGE;
 	}
 
 	@Override
@@ -203,7 +203,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 
 	@Override
 	public BlockStateContainer createBlockState() {
-		return new BlockStateContainer(this, AGE);
+		return new BlockStateContainer(this, CROPS_AGE);
 	}
 
 	private int getRandomInt(World world) {
@@ -281,7 +281,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 
 	@Override
 	public IBlockState withAge(int age) {
-		return getDefaultState().withProperty(AGE, age);
+		return getDefaultState().withProperty(CROPS_AGE, age);
 	}
 
 	@Override
