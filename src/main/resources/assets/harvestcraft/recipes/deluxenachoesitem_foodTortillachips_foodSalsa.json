@@ -2,7 +2,7 @@
   "result": {
     "item": "harvestcraft:deluxenachoesitem"
   },
-  "group": "harvestcraft",
+  "group": "harvestcraft_deluxenachoesitem",
   "ingredients": [
     {
       "type": "forge:ore_dict",
