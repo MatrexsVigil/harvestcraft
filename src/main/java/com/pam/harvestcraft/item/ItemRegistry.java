@@ -67,6 +67,8 @@ public final class ItemRegistry {
 	public static Item calamarirawItem;
 	public static Item calamaricookedItem;
 	
+	public static Item garliccoinItem;
+	
 	public static Item harvestappleItem;
 	public static Item harvestwheatItem;
 	public static ItemSeedFood harvestpotatoItem;
@@ -996,6 +998,8 @@ public final class ItemRegistry {
 	}
 
 	private static void registerFoodItems() {
+		
+		garliccoinItem = registerGenericItem("garliccoinitem");
 		
 		ediblerootItem = registerItemFood("ediblerootitem", config.cropfoodRestore, config.cropsaturationRestore);
 		sunflowerseedsItem =

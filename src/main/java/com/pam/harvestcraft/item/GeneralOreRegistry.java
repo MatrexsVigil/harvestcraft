@@ -56,6 +56,8 @@ public class GeneralOreRegistry {
     public static final String toolMortarandpestle = "toolMortarandpestle";
     public static final String toolMixingbowl = "toolMixingbowl";
     public static final String toolJuicer = "toolJuicer";
+    
+    public static final String coinGarlic = "coinGarlic";
 
     public static final String cropCotton = "cropCotton";
     public static final String seedCotton = "seedCotton";
@@ -1058,6 +1060,8 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(toolMortarandpestle,  ItemRegistry.mortarandpestleItem);
         OreDictionary.registerOre(toolMixingbowl,  ItemRegistry.mixingbowlItem);
         OreDictionary.registerOre(toolJuicer,  ItemRegistry.juicerItem);
+        
+        OreDictionary.registerOre(coinGarlic,  ItemRegistry.garliccoinItem);
 
         OreDictionary.registerOre(cropCotton, CropRegistry.getFood(CropRegistry.COTTON));
         OreDictionary.registerOre(seedCotton,  CropRegistry.getSeed(CropRegistry.COTTON));
@@ -2225,6 +2229,7 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(foodShrimpokrahushpuppies, ItemRegistry.shrimpokrahushpuppiesItem);
         OreDictionary.registerOre(foodSoysauce, ItemRegistry.soysauceItem);
         OreDictionary.registerOre(foodSweetpickle, ItemRegistry.sweetpickleItem);
+		OreDictionary.registerOre(foodPickles, ItemRegistry.sweetpickleItem);
         OreDictionary.registerOre(foodVeggiestrips, ItemRegistry.veggiestripsItem);
         OreDictionary.registerOre(foodVindaloo, ItemRegistry.vindalooItem);
         OreDictionary.registerOre(listAllnutbutter, ItemRegistry.almondbutterItem);

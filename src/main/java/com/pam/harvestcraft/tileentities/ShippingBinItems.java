@@ -167,6 +167,8 @@ public class ShippingBinItems {
                 return new ItemStack(Items.APPLE);
             case 7:
                 return new ItemStack(Items.DYE);
+            case 8:
+				return new ItemStack(ItemRegistry.garliccoinItem);
             case 0:
             default:
                 return new ItemStack(Items.EMERALD);

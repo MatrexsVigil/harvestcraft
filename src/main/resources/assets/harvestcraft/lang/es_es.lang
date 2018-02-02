@@ -288,7 +288,6 @@ item.minecraft:beetroot_soup.name=Estofado de Remolacha
 
 item.asparagusitem.name=Espárrago
 item.asparagusseeditem.name=Semilla de Espárrago
-
 item.grilledasparagusitem.name=Espárrago a la Parrilla
 item.barleyitem.name=Cebada
 item.barleyseeditem.name=Semilla de Cebada
@@ -1093,7 +1092,7 @@ item.okrachipsitem.name=Ocra Frita
 item.okracreoleitem.name=Ocra Criolla
 item.pistachiobutteritem.name=Mantequilla de Pistacho
 item.ploughmanslunchitem.name=Almuerzo Ploughman
-item.porklomeinitem.name=Pork Lo Mein
+item.porklomeinitem.name=Lo Mein con Carne de Cerdo
 item.salmonpattiesitem.name=Hamburguesa de Salmón
 item.sausageitem.name=Salchicha
 item.sausagerollitem.name=Rollo de Salchicha
@@ -1167,6 +1166,7 @@ item.rawtofickenitem.name=Pollo con Tofu Firme Crudo
 item.rawtofabbititem.name=Conejo con Tofu Firme Crudo
 item.rawtofurkeyitem.name=Pavo con Tofu Firme Crudo
 item.rawtofenisonitem.name=Venado con Tofu Firme Crudo
+item.rawtofuduckitem.name=Pato con Tofu Firme Crudo
 
 item.cookedtofeakitem.name=Filete con Tofu Firme Cocinado
 item.cookedtofaconitem.name=Tocino con Tofu Firme Cocinado
@@ -1177,6 +1177,7 @@ item.cookedtofickenitem.name=Pollo con Tofu Firme Cocinado
 item.cookedtofabbititem.name=Conejo con Tofu Firme Cocinado
 item.cookedtofurkeyitem.name=Pavo con Tofu Firme Cocinado
 item.cookedtofenisonitem.name=Venado con Tofu Firme Cocinado
+item.cookedtofuduckitem.name=Pato con Tofu Firme Cocinado
 
 item.anchovypepperonipizzaitem.name=Pizza con Pepperoni y Anchoas
 item.chocovoxelsitem.name=Cereales con Leche y Chocolate
@@ -1318,3 +1319,6 @@ item.mushroomsteakitem.name=Filete con Champiñones
 item.hotdishcasseroleitem.name=Cazuela de Hotdish
 item.sausagebeanmeltitem.name=Salchicha con Judía Fundida
 item.mettbrotchenitem.name=Mettbrötchen
+
+item.porkrindsitem.name=Cortezas de Cerdo
+item.cracklinsitem.name=Chicharrones

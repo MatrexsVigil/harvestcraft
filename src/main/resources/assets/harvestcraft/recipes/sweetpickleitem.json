@@ -14,14 +14,6 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodSalt"
-    },
-    {
-      "type": "forge:ore_dict",
-      "ore": "cropSpiceleaf"
-    },
-    {
-      "type": "forge:ore_dict",
       "ore": "cropCucumber"
     },
     {

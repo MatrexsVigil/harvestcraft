@@ -1,4 +1,15 @@
-﻿HarvestCraft 1.12.2m
+﻿HarvestCraft 1.12.2o
+-----------------
+- Added: Item: Garlic Coin: Made with one garlic, one gold nugget, can be set as currency for the Market/Shipping Bin
+
+
+HarvestCraft 1.12.2n
+-----------------
+- Changed: Recipe: Sweet Pickle recipe changed (toolPot, cropCucumber, foodVinegar, listAllsugar)
+- Changed: Item: Sweet Pickle now restores 4 pts (2 shanks)
+- Changed: OreDictionary: Sweet Pickle now classified as both foodSweetpickle, foodPickles
+
+HarvestCraft 1.12.2m
 -----------------
 
 Note: You will need to regen your Config file in order to get any changes to the Config file

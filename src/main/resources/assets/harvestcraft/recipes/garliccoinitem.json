@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:garliccoinitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "nuggetGold"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
