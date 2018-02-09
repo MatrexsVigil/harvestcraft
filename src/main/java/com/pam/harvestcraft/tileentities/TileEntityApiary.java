@@ -190,7 +190,7 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 		{
 			if(!itemstackhandler.getStackInSlot(18).isEmpty()) {
 				if(itemstackhandler.getStackInSlot(18).getItem() == ItemRegistry.queenbeeItem
-						&& itemstackhandler.getStackInSlot(18).getItemDamage() == 36) {
+						&& itemstackhandler.getStackInSlot(18).getItemDamage() >= 36) {
 					itemstackhandler.getStackInSlot(18).shrink(1);
 						return new ItemStack(ItemRegistry.queenbeeItem);	
 				}
@@ -207,7 +207,7 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 		
 		if(!itemstackhandler.getStackInSlot(18).isEmpty()) {
 			if(itemstackhandler.getStackInSlot(18).getItem() == ItemRegistry.queenbeeItem
-					&& itemstackhandler.getStackInSlot(18).getItemDamage() == 36) {
+					&& itemstackhandler.getStackInSlot(18).getItemDamage() >= 36) {
 				itemstackhandler.getStackInSlot(18).shrink(1);
 				if(randomNum < 35) {
 					return new ItemStack(ItemRegistry.waxcombItem);
