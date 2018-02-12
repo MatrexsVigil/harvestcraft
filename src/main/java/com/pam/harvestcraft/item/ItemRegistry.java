@@ -841,6 +841,9 @@ public final class ItemRegistry {
 	public static Item porkrindsItem;
 	public static Item cracklinsItem;
 	
+	public static Item chorusfruitsoupItem;
+	//public static Item gigapickleItem;
+	
 	public static Item rawtofeakItem;
 	public static Item rawtofaconItem;
 	public static Item rawtofishItem;
@@ -1736,6 +1739,9 @@ public final class ItemRegistry {
 		
 		porkrindsItem = registerItemFood("porkrindsitem", 4, config.mealsaturation);
 		cracklinsItem = registerItemFood("cracklinsitem", 5, config.mealsaturation);
+		
+		chorusfruitsoupItem = registerItemFood("chorusfruitsoupitem", 4, config.mealsaturation);
+		//gigapickleItem = registerItemFood("gigapickleitem", 4, config.mealsaturation);
 		
 		rawtofeakItem = registerItemFood("rawtofeakitem", 1, config.snacksaturation);
 		rawtofaconItem = registerItemFood("rawtofaconitem", 1, config.snacksaturation);

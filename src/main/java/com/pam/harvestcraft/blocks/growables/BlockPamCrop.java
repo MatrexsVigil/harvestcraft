@@ -3,7 +3,9 @@ package com.pam.harvestcraft.blocks.growables;
 import java.util.List;
 import java.util.Random;
 
+import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.config.ConfigHandler;
+import com.pam.harvestcraft.item.ItemRegistry;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockCrops;
@@ -131,7 +133,23 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 			FMLLog.bigWarning("No food has been set up for %s.", getUnlocalizedName());
 			return new Item();
 		}
+		/*if (this.registerName == CropRegistry.GIGAPICKLE)
+		{
 
+			int i = RANDOM.nextInt(2);
+			if (i == 0)
+			{
+				return ItemRegistry.picklesItem;
+			}
+			if (i == 1)
+			{
+				return ItemRegistry.sweetpickleItem;
+			}
+			if (i == 2)
+			{
+				return CropRegistry.getFood(CropRegistry.GIGAPICKLE);
+			}
+		}*/
 		return food;
 	}
 

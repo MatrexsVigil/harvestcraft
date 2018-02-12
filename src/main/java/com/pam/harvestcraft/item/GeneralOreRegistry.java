@@ -257,6 +257,8 @@ public class GeneralOreRegistry {
     public static final String seedSesameseed="seedSesameseed";
     public static final String cropWaterchestnut="cropWaterchestnut";
     public static final String seedWaterchestnut="seedWaterchestnut";
+    public static final String cropGigapickle="foodGigapickle";
+    public static final String seedGigapickle="seedGigapickle";
     public static final String cropAvocado="cropAvocado";
     public static final String cropBanana="cropBanana";
     public static final String cropCherry="cropCherry";
@@ -1045,6 +1047,8 @@ public class GeneralOreRegistry {
 	public static final String foodMettbrotchen="foodMettbrotchen";
 	public static final String foodPorkrinds="foodPorkrinds";
 	public static final String foodCracklins="foodCracklins";
+	public static final String foodChorusfruitsoup="foodChorusfruitsoup";
+	
 
     public static void initOreRegistry() {
         registerGeneralOres();
@@ -1575,6 +1579,9 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(cropSesame, CropRegistry.getFood(CropRegistry.SESAME));
         OreDictionary.registerOre(seedSesameseed, CropRegistry.getSeed(CropRegistry.SESAME));
         OreDictionary.registerOre(cropWaterchestnut, CropRegistry.getFood(CropRegistry.WATERCHESTNUT));
+        OreDictionary.registerOre(seedGigapickle, CropRegistry.getSeed(CropRegistry.GIGAPICKLE));
+        OreDictionary.registerOre(cropGigapickle, CropRegistry.getFood(CropRegistry.GIGAPICKLE));
+    	OreDictionary.registerOre(foodPickles, CropRegistry.getFood(CropRegistry.GIGAPICKLE));
 
         OreDictionary.registerOre(seedWaterchestnut, CropRegistry.getSeed(CropRegistry.WATERCHESTNUT));
         OreDictionary.registerOre(cropAvocado, FruitRegistry.getFood(FruitRegistry.AVOCADO));
@@ -2052,16 +2059,19 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(foodApricotjelly, ItemRegistry.apricotjellyItem);
         OreDictionary.registerOre(foodApricotjellysandwich, ItemRegistry.apricotjellysandwichItem);
         OreDictionary.registerOre(foodApricotsmoothie, ItemRegistry.apricotsmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.apricotsmoothieItem);
         OreDictionary.registerOre(foodFigbar, ItemRegistry.figbarItem);
         OreDictionary.registerOre(foodFigjelly, ItemRegistry.figjellyItem);
         OreDictionary.registerOre(foodFigjellysandwich, ItemRegistry.figjellysandwichItem);
         OreDictionary.registerOre(foodFigsmoothie, ItemRegistry.figsmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.figsmoothieItem);
         OreDictionary.registerOre(foodFigyogurt, ItemRegistry.figyogurtItem);
         OreDictionary.registerOre(foodFigjuice, ItemRegistry.figjuiceItem);
         OreDictionary.registerOre(foodGrapefruitjuice, ItemRegistry.grapefruitjuiceItem);
         OreDictionary.registerOre(foodGrapefruitjelly, ItemRegistry.grapefruitjellyItem);
         OreDictionary.registerOre(foodGrapefruitjellysandwich, ItemRegistry.grapefruitjellysandwichItem);
         OreDictionary.registerOre(foodGrapefruitjellysmoothie, ItemRegistry.grapefruitsmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.grapefruitsmoothieItem);
         OreDictionary.registerOre(foodGrapefruityogurt, ItemRegistry.grapefruityogurtItem);
         OreDictionary.registerOre(foodGrapefruitsoda, ItemRegistry.grapefruitsodaItem);
 		OreDictionary.registerOre(listAllsoda, ItemRegistry.grapefruitsodaItem);
@@ -2071,6 +2081,7 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(foodPersimmonjuice, ItemRegistry.persimmonjuiceItem);
         OreDictionary.registerOre(foodPersimmonyogurt, ItemRegistry.persimmonyogurtItem);
         OreDictionary.registerOre(foodPersimmonsmoothie, ItemRegistry.persimmonsmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.persimmonsmoothieItem);
         OreDictionary.registerOre(foodPersimmonjelly, ItemRegistry.persimmonjellyItem);
         OreDictionary.registerOre(foodPersimmonjellysanwich, ItemRegistry.persimmonjellysandwichItem);
         OreDictionary.registerOre(foodPistachiobakedsalmon, ItemRegistry.pistachiobakedsalmonItem);
@@ -2208,6 +2219,7 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(foodGooseberrypie, ItemRegistry.gooseberrypieItem);
         OreDictionary.registerOre(foodGooseberrysmoothie, ItemRegistry.gooseberrysmoothieItem);
         OreDictionary.registerOre(listAllsmoothie, ItemRegistry.gooseberrysmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.gooseberrysmoothieItem);
         OreDictionary.registerOre(foodGooseberryyogurt, ItemRegistry.gooseberryyogurtItem);
         OreDictionary.registerOre(foodGreenheartfish, ItemRegistry.greenheartfishItem);
         OreDictionary.registerOre(foodHamsweetpicklesandwich, ItemRegistry.hamsweetpicklesandwichItem);
@@ -2237,16 +2249,20 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(listAllnutbutter, ItemRegistry.chestnutbutterItem);
         OreDictionary.registerOre(listAllnutbutter, ItemRegistry.pistachiobutterItem);
         OreDictionary.registerOre(foodApplesmoothie, ItemRegistry.applesmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.applesmoothieItem);
         OreDictionary.registerOre(foodCheeseontoast, ItemRegistry.cheeseontoastItem);
         OreDictionary.registerOre(foodChocolateroll, ItemRegistry.chocolaterollItem);
         OreDictionary.registerOre(foodCoconutcream, ItemRegistry.coconutcreamItem);
         OreDictionary.registerOre(foodCoconutsmoothie, ItemRegistry.coconutsmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.coconutsmoothieItem);
         OreDictionary.registerOre(foodCracker, ItemRegistry.crackerItem);
         OreDictionary.registerOre(foodCranberrysmoothie, ItemRegistry.cranberrysmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.cranberrysmoothieItem);
         OreDictionary.registerOre(foodCranberryyogurt, ItemRegistry.cranberryyogurtItem);
         OreDictionary.registerOre(foodDeluxechickencurry, ItemRegistry.deluxechickencurryItem);
         OreDictionary.registerOre(foodGarammasala, ItemRegistry.garammasalaItem);
         OreDictionary.registerOre(foodGrapesmoothie, ItemRegistry.grapesmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.grapesmoothieItem);
         OreDictionary.registerOre(foodGravy, ItemRegistry.gravyItem);
         OreDictionary.registerOre(foodHoneysandwich, ItemRegistry.honeysandwichItem);
         OreDictionary.registerOre(foodJamroll, ItemRegistry.jamrollItem);
@@ -2258,9 +2274,11 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(foodPearjelly, ItemRegistry.pearjellyItem);
         OreDictionary.registerOre(foodPearjellysandwich, ItemRegistry.pearjellysandwichItem);
         OreDictionary.registerOre(foodPearsmoothie, ItemRegistry.pearsmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.pearsmoothieItem);
         OreDictionary.registerOre(foodPlumjelly, ItemRegistry.plumjellyItem);
         OreDictionary.registerOre(foodPlumjellysandwich, ItemRegistry.plumjellysandwichItem);
         OreDictionary.registerOre(foodPlumsmoothie, ItemRegistry.plumsmoothieItem);
+        OreDictionary.registerOre(listAllsmoothie, ItemRegistry.plumsmoothieItem);
         OreDictionary.registerOre(foodPotatoandleeksoup, ItemRegistry.potatoandleeksoupItem);
         OreDictionary.registerOre(foodToadinthehole, ItemRegistry.toadintheholeItem);
         OreDictionary.registerOre(foodTunapotato, ItemRegistry.tunapotatoItem);
@@ -2433,6 +2451,9 @@ public class GeneralOreRegistry {
     	OreDictionary.registerOre(foodMettbrotchen, ItemRegistry.mettbrotchenItem);
     	OreDictionary.registerOre(foodPorkrinds, ItemRegistry.porkrindsItem);
     	OreDictionary.registerOre(foodCracklins, ItemRegistry.cracklinsItem);
+    	
+    	OreDictionary.registerOre(foodChorusfruitsoup, ItemRegistry.chorusfruitsoupItem);
+    	
     }
 
     private static void registerOres(String key, Object... items) {

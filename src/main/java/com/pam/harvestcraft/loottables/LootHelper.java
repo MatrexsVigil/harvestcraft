@@ -66,6 +66,16 @@ public class LootHelper {
                     LootTableList.ENTITIES_SQUID,
                     squidEntries, true));
         }
+        
+        if (HarvestCraft.config.enablegigapickleCrop)
+        {
+        	final ArrayList<LootEntryItem> dungeonchestEntries = new ArrayList<LootEntryItem>();
+        	dungeonchestEntries.add(createLootEntryItem(CropRegistry.getSeed(CropRegistry.GIGAPICKLE), 10, 0));
+        	additionalLootPools.add(new CustomLootPool(
+        			LootTableList.CHESTS_SIMPLE_DUNGEON,
+        			dungeonchestEntries, false));
+        			
+        }
 
     }
 

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "harvestcraft:chorusfruitsoupitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

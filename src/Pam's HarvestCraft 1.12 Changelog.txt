@@ -1,6 +1,19 @@
-﻿HarvestCraft 1.12.2o
+﻿HarvestCraft 1.12.2p
 -----------------
-- Added: Item: Garlic Coin: Made with one garlic, one gold nugget, can be set as currency for the Market/Shipping Bin
+
+Note: You will need to regen your Config file in order to get any changes to the Config file
+
+- Fixed: Recipe: You should now be able to put any HC fish in the crafting grid to get a vanilla MC fish back
+- Fixed: Ore Dictionary: All smoothies should now be listed as listAllsmoothie
+- Added: Food: Chorus Fruit Soup (toolPot, minecraft:chorus_fruit): Restores 4 food (the same as normal chorus fruit but doesn't make you teleport)
+- Added: Crop: Added Giga Pickle crop (can be disabled in config): Find the seeds in Dungeon chests, drops giga pickles: Cannot make more seeds
+- Added: Config: enablegigapickleCrop [Default: True] Disable to keep giga pickle crop seeds from appearing in dungeon chests
+- Added: Item: Giga Pickle: Drops from the special dungeon chest loot only Giga Pickle crop, restores 1/2 shank like other crops, however can be used in food recipes in place of a pickle
+
+
+HarvestCraft 1.12.2o
+-----------------
+- Added: Item: Garlic Coin: Made with one garlic, one gold nugget, can be set as currency for the Market/Shipping Bin (set Market currency to 8)
 
 
 HarvestCraft 1.12.2n

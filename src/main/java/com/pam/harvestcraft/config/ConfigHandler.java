@@ -68,6 +68,7 @@ public class ConfigHandler {
     public int freshwaterfrombucket;
     public boolean enablesaltfromwaterbucketrecipe;
     public int seedrarity;
+    public boolean enablegigapickleCrop;
     
     public static int saltrecipeAmount;
     public static boolean enableHCFish;
@@ -278,7 +279,7 @@ public class ConfigHandler {
         enablecropspecialplanting = config.get(CATEGORY_CROPS, "enablecropspecialplanting", true).getBoolean();
         cropsdropSeeds = config.get(CATEGORY_CROPS, "cropsdropSeeds", false).getBoolean();
 		cropGrowthSpeed = (float) config.get(CATEGORY_CROPS, "cropGrowthSpeed", defaultCropGrowthSpeed, "Default: 0.0, This number is added/subtracted from normal fertile crop growth (3.0) and adjacent fertile crop growth (4.0).").getDouble();
-        
+		enablegigapickleCrop = config.get(CATEGORY_CROPS, "enablegigapickleCrop", true, "Disable to keep giga pickle crop seeds from appearing in dungeon chests").getBoolean();
     }
 
     private void initFoodTreesSettings() {

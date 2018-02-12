@@ -212,6 +212,8 @@ tile.holidaycake.name=Pastel Festivo
 tile.pumpkincheesecake.name=Tarta de Queso y Calabaza
 
 # Items
+item.garliccoinitem.name=Moneda de Ajo
+
 item.cottonitem.name=Algodón
 item.wovencottonitem.name=Tejido de Algodón
 item.cottonseeditem.name=Semilla de Algodón
