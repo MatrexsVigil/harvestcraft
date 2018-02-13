@@ -183,6 +183,8 @@ harvestcraft.tile.pamcurryleafCrop.name=咖喱叶作物
 harvestcraft.tile.pamsesameseedsCrop.name=芝麻作物
 harvestcraft.tile.pamwaterchestnutCrop.name=荸荠作物
 
+harvestcraft.tile.pampicklecrop.name=咸菜作物
+
 tile.candleDeco1.name=白色蜡烛
 tile.candleDeco2.name=橙色蜡烛
 tile.candleDeco3.name=品红色蜡烛
@@ -212,6 +214,8 @@ tile.holidaycake.name=节日蛋糕
 tile.pumpkincheesecake.name=南瓜奶酪蛋糕
 
 # Items
+item.garliccoinitem.name=Garlic Coin
+
 item.cottonitem.name=棉花
 item.wovencottonitem.name=梭织棉
 item.cottonseeditem.name=棉花种子
@@ -419,6 +423,8 @@ item.sesameseedsitem.name=芝麻
 item.sesameseedsseeditem.name=芝麻种子
 item.waterchestnutitem.name=荸荠
 item.waterchestnutseeditem.name=荸荠种子
+item.gigapickleitem.name=咸菜
+item.gigapickleseeditem.name=咸菜种子
 
 item.almonditem.name=杏仁
 item.apricotitem.name=杏
@@ -1322,3 +1328,4 @@ item.mettbrotchenitem.name=肉末洋葱面包
 
 item.porkrindsitem.name=猪皮
 item.cracklinsitem.name=猪皮
+item.chorusfruitsoupitem.name=紫颂果汤
