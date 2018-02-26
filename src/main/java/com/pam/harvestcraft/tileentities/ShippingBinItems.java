@@ -114,6 +114,11 @@ public class ShippingBinItems {
     
     private static void registerMeat() {
         final ItemStack currency = getCurrency(HarvestCraft.config.marketcurrencyMeat, CurrencyType.MEAT);
+
+        registerItems(new ShippingBinData(currency, new ItemStack(ItemRegistry.duckrawItem), HarvestCraft.config.shippingbinmeatPrice));
+        registerItems(new ShippingBinData(currency, new ItemStack(ItemRegistry.turkeyrawItem), HarvestCraft.config.shippingbinmeatPrice));
+        registerItems(new ShippingBinData(currency, new ItemStack(ItemRegistry.venisonrawItem), HarvestCraft.config.shippingbinmeatPrice));
+	    
         if (ConfigHandler.shippingbinenablevanillaMCMeat)
         {
         	registerItems(new ShippingBinData(currency, new ItemStack(Items.BEEF), HarvestCraft.config.shippingbinmeatPrice));
