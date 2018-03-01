@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:freshwateritem"
+    "item": "harvestcraft:freshwateritem",
+    "count": 1
   },
   "group":"harvestcraft_freshwateritem",
   "ingredients": [

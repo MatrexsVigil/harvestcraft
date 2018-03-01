@@ -18,6 +18,9 @@ tile.watertrap.name=Water Trap
 
 tile.well.name=Well
 
+tile.waterfilter.name=Water Filter
+tile.grinder.name=Grinder
+
 tile.crate.name=Crate
 
 harvestcraft.tile.salt.name=Salt Ore

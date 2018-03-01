@@ -1,4 +1,41 @@
-﻿HarvestCraft 1.12.2p
+﻿Fix DesertCraft ticking block issue
+Patreon Food 
+- Akutuq - Raw Venison, Cooking Oil, a Snowball and any type of berry in a mixing bowl.
+- Szechuan Eggplant & Tofu with Rice - Pot, cooking oil, Eggplant, tofu, 	rice (jasmine), garlic, chilli, ginger, vinegar
+- Morue orange en papillote
+Takoyaki (Pot, Batter, Cooked Octopus, Scallion, Chili Pepper, Seaweed, Mayo, Hoisin Sauce (4 hunger points))
+ Oyster (Fishing/Water Trap, (1 hunger point))
+ Cooked Oyster (Furnace, Oyster (2 hunger points))
+ Oyster Sauce x4 (Saucepan, Oyster, Water/Fresh Water, Sugar/Honey, Salt)
+ Green Tea (Pot, Tea Leaf, Spice Leaf (4 hunger points))
+ Earl Grey Tea (Pot, Tea Leaf, Orange (4 hunger points))
+ Egg Roll (Pot, Dough, Cabbage, Cooked Pork/Cooked Tofacon (5 hunger points))
+ Cantonese Noodles (Skillet, Noodles, Raw Beef/Raw Tofeak, Egg/Raw Tofeeg, Corn, Carrot, Cabbage, [mushroom], Oyster Sauce (10 hunger points))
+ Mee Sua (Skillet, Noodles, Cooked Pork/Cooked Tofacon, Corn, Carrot, Scallions Oyster Sauce, Coconut Milk (10 hunger points))
+ Cantonese Greens (Pot, Cabbage/Broccoli, oyster sauce (4 hunger, 2 saturation))
+ Springfield Cashew Chicken (Skillet, Fried Chicken, Cashew, Oyster Sauce, Rice (16 hunger points))
+ Dango (Mochi, Mochi, Mochi, Stick (4 hunger points))
+ Egg Tart (Bakeware, Dough, Egg/Raw Tofeeg, Sugar, Water/Fresh Water, Milk/Fresh Milk/Soy Milk (4 hunger points))
+ Squid Ink Spaghetti (Saucepan, Pasta, Ink Sac (4 hunger points))
+ Steak Tartare (Cutting Board, Raw Beef/Raw Tofeak, Egg/Raw Tofeeg, Onion, Black Pepper (5 hunger points))
+
+HarvestCraft 1.12.2r
+-----------------
+- Fixed: Recipe: Water Filter recipe fixed
+- Added: Block: Grinder: Made with three iron bars on each side with an undamaged iron sword in the top slot, redstone repeater in the bottom, Use like the presser but for meats, spices, flour, and other grindable items, Automatable like the presser
+
+
+HarvestCraft 1.12.2q
+-----------------
+
+Note: You will need to regen your Config file in order to get any changes to the Config file
+
+- Added: Block: Water Filter: Made with eight iron bars around stone, Surround by at least 5 water blocks (like a water trap) and use Woven Cloth to passively generate Fresh Water and Salt, automatable like Water Trap
+- Added: Config: waterfilterfreshwaterAmount[Default: 8] How many Fresh Water you get per Woven Cloth in the Water Filter.  Default 8.  Use whole numbers between 0 and 64.
+- Added: Config: waterfiltersaltAmount[Default: 8] How many Salt you get per Woven Cloth in the Water Filter.  Default 8.  Use whole numbers between 0 and 64.
+- Added: Config: waterfilterTime[Default: 516] How long the Water Filter takes to run.  Default 516.  For comparison, the Presser time is 125.
+
+HarvestCraft 1.12.2p
 -----------------
 
 Note: You will need to regen your Config file in order to get any changes to the Config file

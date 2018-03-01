@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestcraft:grinder" },
+    "facing=south": { "model": "harvestcraft:grinder", "y": 180 },
+    "facing=west":  { "model": "harvestcraft:grinder", "y": 270 },
+    "facing=east":  { "model": "harvestcraft:grinder", "y": 90 }
+  }
+}

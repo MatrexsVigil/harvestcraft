@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestcraft:waterfilter" },
+    "facing=south": { "model": "harvestcraft:waterfilter", "y": 180 },
+    "facing=west":  { "model": "harvestcraft:waterfilter", "y": 270 },
+    "facing=east":  { "model": "harvestcraft:waterfilter", "y": 90 }
+  }
+}

@@ -5,6 +5,7 @@ import com.pam.harvestcraft.tileentities.TileEntityGroundTrap;
 import com.pam.harvestcraft.tileentities.TileEntityMarket;
 import com.pam.harvestcraft.tileentities.TileEntityPresser;
 import com.pam.harvestcraft.tileentities.TileEntityShippingBin;
+import com.pam.harvestcraft.tileentities.TileEntityWaterFilter;
 import com.pam.harvestcraft.tileentities.TileEntityWaterTrap;
 
 import net.minecraft.entity.player.EntityPlayer;
@@ -22,9 +23,7 @@ public class GuiHandler implements IGuiHandler {
 	public static final int GUIID_PRESSER = 3;
 	public static final int GUIID_GROUND_TRAP = 4;
 	public static final int GUIID_WATER_TRAP = 5;
-	public static final int GUIID_SEED_BAG = 6;
-	public static final int GUIID_CROP_BAG = 7;
-	public static final int GUIID_SAPLING_BAG = 8;
+	public static final int GUIID_WATERFILTER = 6;
 
 	@Override
 	public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
@@ -47,6 +46,9 @@ public class GuiHandler implements IGuiHandler {
 		}
 		else if(ID == GUIID_WATER_TRAP) {
 			return new ContainerWaterTrap(player.inventory, (TileEntityWaterTrap) tileEntity);
+		}
+		else if(ID == GUIID_WATERFILTER) {
+			return new ContainerWaterFilter(player.inventory, (TileEntityWaterFilter) tileEntity);
 		}
 		/*else if (ID == GUIID_SEED_BAG) {
 			return new ContainerSeedBag(player, player.inventory, new ItemPamSeedBag(getStack(player)));
@@ -81,6 +83,9 @@ public class GuiHandler implements IGuiHandler {
 		}
 		else if(ID == GUIID_WATER_TRAP) {
 			return new GuiWaterTrap(player.inventory, (TileEntityWaterTrap) tileEntity);
+		}
+		else if(ID == GUIID_WATERFILTER) {
+			return new GuiWaterFilter(player.inventory, (TileEntityWaterFilter) tileEntity);
 		}
 		/*else if (ID == GUIID_SEED_BAG) {
 			return new GuiSeedBagInventory((ContainerSeedBag) new ContainerSeedBag(player, player.inventory, new ItemPamSeedBag(getStack(player))));
