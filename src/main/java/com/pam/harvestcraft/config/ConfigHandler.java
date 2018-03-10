@@ -70,6 +70,10 @@ public class ConfigHandler {
     public int seedrarity;
     public boolean enablegigapickleCrop;
     
+    public int waterfilterfreshwaterAmount;
+    public int waterfiltersaltAmount;
+    public int waterfilterTime;
+    
     public static int saltrecipeAmount;
     public static boolean enableHCFish;
     
@@ -268,6 +272,9 @@ public class ConfigHandler {
         topTierFood = config.get(CATEGORY_GENERAL, "topTierFood", 10, 
         		"Default: 10, Choose 5, 6, 7, 8, 9, or 10 shank foods which become top tier.  Foods at this level or above give buffs.  Top tier foods are always edible, so be careful!  Set to 0 to have no top tier foods.").getInt();
         buffTimeForTopTier = config.get(CATEGORY_GENERAL, "buffTimeForTopTier", 3600, "Default: 3600 or 3 minutes").getInt();
+        waterfilterfreshwaterAmount = config.get(CATEGORY_GENERAL, "waterfilterfreshwaterAmount", 8, "How many Fresh Water you get per Woven Cloth in the Water Filter.  Default 8.  Use whole numbers between 0 and 64.").getInt();
+        waterfiltersaltAmount = config.get(CATEGORY_GENERAL, "waterfiltersaltAmount", 8, "How many Salt you get per Woven Cloth in the Water Filter.  Default 8.  Use whole numbers between 0 and 64.").getInt();
+        waterfilterTime = config.get(CATEGORY_GENERAL, "waterfilterTime", 516, "How long the Water Filter takes to run.  Default 516.  For comparison, the Presser time is 125.").getInt();
     }
 
     private void initCropSettings() {

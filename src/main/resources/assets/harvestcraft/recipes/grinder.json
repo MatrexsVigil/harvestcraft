@@ -1,0 +1,24 @@
+{
+
+  "pattern": [
+    "aba",
+    "a a",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "b": {
+      "item": "minecraft:iron_sword"
+    },
+    "c": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "harvestcraft:grinder"
+  },
+  "type": "forge:ore_shaped"
+}

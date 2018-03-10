@@ -23,6 +23,7 @@ import com.pam.harvestcraft.tileentities.TileEntityGroundTrap;
 import com.pam.harvestcraft.tileentities.TileEntityMarket;
 import com.pam.harvestcraft.tileentities.TileEntityPresser;
 import com.pam.harvestcraft.tileentities.TileEntityShippingBin;
+import com.pam.harvestcraft.tileentities.TileEntityWaterFilter;
 import com.pam.harvestcraft.tileentities.TileEntityWaterTrap;
 import com.pam.harvestcraft.worldgen.BeehiveWorldGen;
 import com.pam.harvestcraft.worldgen.BushWorldGen;
@@ -99,6 +100,7 @@ public class CommonProxy {
         GameRegistry.registerTileEntity(TileEntityPresser.class, "PamPresser");
         GameRegistry.registerTileEntity(TileEntityGroundTrap.class, "PamGroundTrap");
         GameRegistry.registerTileEntity(TileEntityWaterTrap.class, "PamWaterTrap");
+        GameRegistry.registerTileEntity(TileEntityWaterFilter.class, "PamWaterFilter");
 
         if (ConfigHandler.enableHCFish)
         {

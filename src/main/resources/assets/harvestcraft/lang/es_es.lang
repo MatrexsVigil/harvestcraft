@@ -183,6 +183,8 @@ harvestcraft.tile.pamcurryleafcrop.name=Cultivo de Hoja de Curry
 harvestcraft.tile.pamsesameseedscrop.name=Cultivo de Semillas de Sésamo
 harvestcraft.tile.pamwaterchestnutcrop.name=Cultivo de Castaña de Agua
 
+harvestcraft.tile.pampicklecrop.name=Cultivo de Pepinillo
+
 tile.candleDeco1.name=Vela Blanca
 tile.candleDeco2.name=Vela Naranja
 tile.candleDeco3.name=Vela Magenta
@@ -421,6 +423,8 @@ item.sesameseedsitem.name=Semillas de Sésamo
 item.sesameseedsseeditem.name=Semilla de Semillas de Sésamo
 item.waterchestnutitem.name=Castaña de Agua
 item.waterchestnutseeditem.name=Semilla de Castaña de Agua
+item.gigapickleitem.name=Giga Pepinillo
+item.gigapickleseeditem.name=Semilla de Giga Pepinillo
         
 item.almonditem.name=Almendra
 item.apricotitem.name=Albaricoque
@@ -1324,3 +1328,4 @@ item.mettbrotchenitem.name=Mettbrötchen
 
 item.porkrindsitem.name=Cortezas de Cerdo
 item.cracklinsitem.name=Chicharrones
+item.chorusfruitsoupitem.name=Sopa de Fruta Coral
