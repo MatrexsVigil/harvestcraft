@@ -6,7 +6,7 @@ harvestcraft.tile.pot.name=锅
 
 tile.beehive.name=蜂窝
 tile.apiary.name=蜂房
-tile.presser.name=压制机
+tile.presser.name=压榨机
 
 tile.honey.name=蜂蜜块
 tile.honeycomb.name=蜂巢块
@@ -23,8 +23,8 @@ tile.crate.name=板条箱
 harvestcraft.tile.salt.name=盐矿石
 harvestcraft.tile.pamcompressedsaltBlock.name=浓缩盐块
 
-tile.market.name=市场
-tile.shippingbin.name=货运箱
+tile.market.name=农贸市场
+tile.shippingbin.name=出货箱
 
 harvestcraft.tile.oven.name=烤箱
 
@@ -1304,7 +1304,7 @@ item.wontonsoupitem.name=馄饨
 item.springrollitem.name=春卷
 item.meatystirfryitem.name=肉炒
 item.potstickersitem.name=锅贴
-item.orangeduckitem.name=酱鸭
+item.orangeduckitem.name=橙子鸭
 item.pekingduckitem.name=北京烤鸭
 item.stuffedduckitem.name=卤鸭
 item.rouxitem.name=油面糊
