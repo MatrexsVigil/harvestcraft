@@ -5,13 +5,13 @@ import java.util.HashMap;
 
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.growables.BlockPamCrop;
+import com.pam.harvestcraft.item.items.ItemPamItemSeeds;
 import com.pam.harvestcraft.item.ItemRegistry;
 import com.pam.harvestcraft.item.items.ItemPamSeedFood;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSeedFood;
-import net.minecraft.item.ItemSeeds;
 import net.minecraftforge.fml.common.FMLLog;
 
 public class CropRegistry {
@@ -213,6 +213,6 @@ public class CropRegistry {
 	}
 
 	private static Item createSeed(BlockPamCrop cropBlock) {
-		return new ItemSeeds(cropBlock, Blocks.FARMLAND);
+		return new ItemPamItemSeeds(cropBlock, Blocks.FARMLAND);
 	}
 }
