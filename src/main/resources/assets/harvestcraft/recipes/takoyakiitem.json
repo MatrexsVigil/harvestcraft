@@ -1,0 +1,41 @@
+{
+  "result": {
+    "item": "harvestcraft:takoyakiitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOctopuscooked"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropSeaweed"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMayo"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodHoisinsauce"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

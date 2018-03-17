@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:oystersauceitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOysterraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

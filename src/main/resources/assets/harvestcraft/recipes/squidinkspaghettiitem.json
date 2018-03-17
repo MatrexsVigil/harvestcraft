@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:squidinkspaghettiitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPasta"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 0
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
