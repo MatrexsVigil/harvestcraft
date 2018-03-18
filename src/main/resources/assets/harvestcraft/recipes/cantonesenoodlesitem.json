@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:cantonesenoodlesitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodNoodles"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCabbage"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOystersauce"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

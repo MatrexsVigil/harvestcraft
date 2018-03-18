@@ -212,7 +212,7 @@ public class TileEntityWaterTrap extends TileEntity implements ITickable {
 		Random rnd = new Random();
 
 		if(!itemstackhandler.getStackInSlot(18).isEmpty()) {
-			int rndnum = rnd.nextInt(35);
+			int rndnum = rnd.nextInt(36);
 			switch(rndnum) {
 				case 0:
 					return new ItemStack(Items.FISH, 1, 0);
@@ -284,6 +284,8 @@ public class TileEntityWaterTrap extends TileEntity implements ITickable {
 					return new ItemStack(ItemRegistry.musselrawItem, 1, 0);
 				case 34:
 					return new ItemStack(ItemRegistry.sardinerawItem, 1, 0);
+				case 35:
+					return new ItemStack(ItemRegistry.oysterrawItem, 1, 0);
 			}
 
 		}

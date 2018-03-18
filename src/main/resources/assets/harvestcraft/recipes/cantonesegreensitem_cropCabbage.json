@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:cantonesegreensitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCabbage"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOystersauce"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

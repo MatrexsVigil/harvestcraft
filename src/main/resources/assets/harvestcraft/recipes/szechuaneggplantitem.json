@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:szechuaneggplantitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropEggplant"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFirmtofu"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
