@@ -18,6 +18,9 @@ tile.watertrap.name=渔栅
 
 tile.well.name=水井
 
+tile.waterfilter.name=滤水器
+tile.grinder.name=绞肉机
+
 tile.crate.name=板条箱
 
 harvestcraft.tile.salt.name=盐矿石
@@ -1329,3 +1332,30 @@ item.mettbrotchenitem.name=肉末洋葱面包
 item.porkrindsitem.name=猪皮
 item.cracklinsitem.name=猪皮
 item.chorusfruitsoupitem.name=紫颂果汤
+
+item.akutuqitem.name=爱斯基摩冰淇淋
+item.cantonesegreensitem.name=粤菜
+item.cantonesenoodlesitem.name=粤面
+item.dangoitem.name=団子
+item.earlgreyteaitem.name=格雷伯爵茶
+item.eggrollitem.name=蛋卷
+item.eggtartitem.name=蛋挞
+item.greenteaitem.name=绿茶
+item.groundbeefitem.name=牛肉馅
+item.groundchickenitem.name=鸡肉馅
+item.groundduckitem.name=鸭肉馅
+item.groundfishitem.name=鱼肉馅
+item.groundmuttonitem.name=羊肉馅
+item.groundporkitem.name=猪肉馅
+item.groundrabbititem.name=兔肉馅
+item.groundturkeyitem.name=火鸡肉馅
+item.groundvenisonitem.name=鹿肉馅
+item.meesuaitem.name=潮汕咸面线
+item.oystercookeditem.name=熟蚝
+item.oysterrawitem.name=生蚝
+item.oystersauceitem.name=蚝油
+item.springfieldcashewchickenitem.name=斯普林菲尔德腰果鸡丁
+item.squidinkspaghettiitem.name=鱿鱼汁意大利面条
+item.steaktartareitem.name=鞑靼牛排
+item.szechuaneggplantitem.name=四川炒茄子
+item.takoyakiitem.name=章鱼烧
