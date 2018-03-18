@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:springfieldcashewchickenitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFriedchicken"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCashew"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOystersauce"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

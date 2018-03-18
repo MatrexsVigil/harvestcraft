@@ -70,6 +70,7 @@ public class RecipeRegistry {
 		addSmelting(ItemRegistry.snailrawItem, ItemRegistry.snailcookedItem);
 		addSmelting(ItemRegistry.turtlerawItem, ItemRegistry.turtlecookedItem);
 		addSmelting(ItemRegistry.musselrawItem, ItemRegistry.musselcookedItem);
+		addSmelting(ItemRegistry.oysterrawItem, ItemRegistry.oystercookedItem);
 		
 		if(HarvestCraft.config.enableTofuAsMeatInRecipes) {
 			addSmelting(ItemRegistry.rawtofeakItem, ItemRegistry.cookedtofeakItem);

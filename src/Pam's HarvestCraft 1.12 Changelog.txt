@@ -1,4 +1,22 @@
-﻿HarvestCraft 1.12.2p
+﻿HarvestCraft 1.12.2r
+-----------------
+- Fixed: Recipe: Water Filter recipe fixed
+- Added: Block: Grinder: Made with three iron bars on each side with an undamaged iron sword in the top slot, redstone repeater in the bottom, Use like the presser but for meats, spices, flour, and other grindable items, Automatable like the presser
+- Added: Item: Ground Beef, Ground Chicken, Ground Duck, Ground Fish, Ground Mutton, Ground Pork, Ground Rabbit, Ground Turkey, Ground Venison - Put meats in the Grinder to get double ground meat, however ground meat cannot be eaten/cooked by itself but can be used in all recipes that normally call for that kind of meat
+- Added: Item: Raw Oyster, Cooked Oyster: Caught in the Water Trap
+- Added: Item: Akutuq, Cantonese Greens, Cantonese Noodles, Dango, , Egg Roll, Egg Tart, Green Tea, Mee Sua, Oyster Sauce, Springfield Cashew Chicken, Squid Ink Spaghetti, Szechuan Eggplant, Takoyaki
+
+HarvestCraft 1.12.2q
+-----------------
+
+Note: You will need to regen your Config file in order to get any changes to the Config file
+
+- Added: Block: Water Filter: Made with eight iron bars around stone, Surround by at least 5 water blocks (like a water trap) and use Woven Cloth to passively generate Fresh Water and Salt, automatable like Water Trap
+- Added: Config: waterfilterfreshwaterAmount[Default: 8] How many Fresh Water you get per Woven Cloth in the Water Filter.  Default 8.  Use whole numbers between 0 and 64.
+- Added: Config: waterfiltersaltAmount[Default: 8] How many Salt you get per Woven Cloth in the Water Filter.  Default 8.  Use whole numbers between 0 and 64.
+- Added: Config: waterfilterTime[Default: 516] How long the Water Filter takes to run.  Default 516.  For comparison, the Presser time is 125.
+
+HarvestCraft 1.12.2p
 -----------------
 
 Note: You will need to regen your Config file in order to get any changes to the Config file

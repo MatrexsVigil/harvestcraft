@@ -1,0 +1,21 @@
+{
+
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "stone"
+    },
+    "b": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "harvestcraft:waterfilter"
+  },
+  "type": "forge:ore_shaped"
+}

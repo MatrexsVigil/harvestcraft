@@ -87,8 +87,8 @@ public class PresserRecipes {
     }
 
     private static void registerItemRecipe(Item input, Item leftItem, Item rightItem) {
-        final ItemStack outputLeft = leftItem != null ? new ItemStack(leftItem) : null;
-        final ItemStack outputRight = rightItem != null ? new ItemStack(rightItem) : null;
+        final ItemStack outputLeft = leftItem != null ? new ItemStack(leftItem) : ItemStack.EMPTY;
+        final ItemStack outputRight = rightItem != null ? new ItemStack(rightItem) : ItemStack.EMPTY;
 
         makeItemStackRecipe(new ItemStack(input, 1, 32767), outputLeft, outputRight);
     }

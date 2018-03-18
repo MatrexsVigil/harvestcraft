@@ -1049,6 +1049,33 @@ public class GeneralOreRegistry {
 	public static final String foodCracklins="foodCracklins";
 	public static final String foodChorusfruitsoup="foodChorusfruitsoup";
 	
+	public static final String foodAkutuq="foodAkutuq";
+	public static final String foodCantonesegreens="foodCantonesegreens";
+	public static final String foodCantonesenoodles="foodCantonesenoodles";
+	public static final String foodDango="foodDango";
+	public static final String foodEarlgreytea="foodEarlgreytea";
+	public static final String foodEggroll="foodEggroll";
+	public static final String foodEggtart="foodEggtart";
+	public static final String foodGreentea="foodGreentea";
+	public static final String foodGroundbeef="foodGroundbeef";
+	public static final String foodGroundchicken="foodGroundchicken";
+	public static final String foodGroundduck="foodGroundduck";
+	public static final String foodGroundfish="foodGroundfish";
+	public static final String foodGroundmutton="foodGroundmutton";
+	public static final String foodGroundpork="foodGroundpork";
+	public static final String foodGroundrabbit="foodGroundrabbit";
+	public static final String foodGroundturkey="foodGroundturkey";
+	public static final String foodGroundvenison="foodGroundvenison";
+	public static final String foodMeesua="foodMeesua";
+	public static final String foodOystercooked="foodOystercooked";
+	public static final String foodOysterraw="foodOysterraw";
+	public static final String foodOystersauce="foodOystersauce";
+	public static final String foodSpringfieldcashewchicken="foodSpringfieldcashewchicken";
+	public static final String foodSquidinkspaghetti="foodSquidinkspaghetti";
+	public static final String foodSteaktartare="foodSteaktartare";
+	public static final String foodSzechuaneggplant="foodSzechuaneggplant";
+	public static final String foodTakoyaki="foodTakoyaki";
+	
 
     public static void initOreRegistry() {
         registerGeneralOres();
@@ -1274,6 +1301,37 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(listAllvenisoncooked, ItemRegistry.venisoncookedItem);
         OreDictionary.registerOre(listAllduckraw, ItemRegistry.duckrawItem);
         OreDictionary.registerOre(listAllduckcooked, ItemRegistry.duckcookedItem);
+        
+        OreDictionary.registerOre(listAllbeefraw, ItemRegistry.groundbeefItem);
+    	OreDictionary.registerOre(listAllchickenraw, ItemRegistry.groundchickenItem);
+    	OreDictionary.registerOre(listAllduckraw, ItemRegistry.groundduckItem);
+    	OreDictionary.registerOre(listAllfishraw, ItemRegistry.groundfishItem);
+    	OreDictionary.registerOre(listAllmuttonraw, ItemRegistry.groundmuttonItem);
+    	OreDictionary.registerOre(listAllporkraw, ItemRegistry.groundporkItem);
+    	OreDictionary.registerOre(listAllrabbitraw, ItemRegistry.groundrabbitItem);
+    	OreDictionary.registerOre(listAllturkeyraw, ItemRegistry.groundturkeyItem);
+    	OreDictionary.registerOre(listAllvenisonraw, ItemRegistry.groundvenisonItem);
+    	
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundbeefItem);
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundchickenItem);
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundduckItem);
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundfishItem);
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundmuttonItem);
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundporkItem);
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundrabbitItem);
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundturkeyItem);
+    	OreDictionary.registerOre(listAllmeatraw, ItemRegistry.groundvenisonItem);
+    	
+    	OreDictionary.registerOre(foodGroundbeef, ItemRegistry.groundbeefItem);
+    	OreDictionary.registerOre(foodGroundchicken, ItemRegistry.groundchickenItem);
+    	OreDictionary.registerOre(foodGroundduck, ItemRegistry.groundduckItem);
+    	OreDictionary.registerOre(foodGroundfish, ItemRegistry.groundfishItem);
+    	OreDictionary.registerOre(foodGroundmutton, ItemRegistry.groundmuttonItem);
+    	OreDictionary.registerOre(foodGroundpork, ItemRegistry.groundporkItem);
+    	OreDictionary.registerOre(foodGroundrabbit, ItemRegistry.groundrabbitItem);
+    	OreDictionary.registerOre(foodGroundturkey, ItemRegistry.groundturkeyItem);
+    	OreDictionary.registerOre(foodGroundvenison, ItemRegistry.groundvenisonItem);
+        
         OreDictionary.registerOre(listAllheavycream, ItemRegistry.heavycreamItem);
         OreDictionary.registerOre(listAllicecream, ItemRegistry.icecreamItem);
         OreDictionary.registerOre(listAllmilk, Items.MILK_BUCKET);
@@ -2453,6 +2511,24 @@ public class GeneralOreRegistry {
     	OreDictionary.registerOre(foodCracklins, ItemRegistry.cracklinsItem);
     	
     	OreDictionary.registerOre(foodChorusfruitsoup, ItemRegistry.chorusfruitsoupItem);
+    	
+    	OreDictionary.registerOre(foodAkutuq, ItemRegistry.akutuqItem);
+    	OreDictionary.registerOre(foodCantonesegreens, ItemRegistry.cantonesegreensItem);
+    	OreDictionary.registerOre(foodCantonesenoodles, ItemRegistry.cantonesenoodlesItem);
+    	OreDictionary.registerOre(foodDango, ItemRegistry.dangoItem);
+    	OreDictionary.registerOre(foodEarlgreytea, ItemRegistry.earlgreyteaItem);
+    	OreDictionary.registerOre(foodEggroll, ItemRegistry.eggrollItem);
+    	OreDictionary.registerOre(foodEggtart, ItemRegistry.eggtartItem);
+    	OreDictionary.registerOre(foodGreentea, ItemRegistry.greenteaItem);
+    	OreDictionary.registerOre(foodMeesua, ItemRegistry.meesuaItem);
+    	OreDictionary.registerOre(foodOystercooked, ItemRegistry.oystercookedItem);
+    	OreDictionary.registerOre(foodOysterraw, ItemRegistry.oysterrawItem);
+    	OreDictionary.registerOre(foodOystersauce, ItemRegistry.oystersauceItem);
+    	OreDictionary.registerOre(foodSpringfieldcashewchicken, ItemRegistry.springfieldcashewchickenItem);
+    	OreDictionary.registerOre(foodSquidinkspaghetti, ItemRegistry.squidinkspaghettiItem);
+    	OreDictionary.registerOre(foodSteaktartare, ItemRegistry.steaktartareItem);
+    	OreDictionary.registerOre(foodSzechuaneggplant, ItemRegistry.szechuaneggplantItem);
+    	OreDictionary.registerOre(foodTakoyaki, ItemRegistry.takoyakiItem);
     	
     }
 

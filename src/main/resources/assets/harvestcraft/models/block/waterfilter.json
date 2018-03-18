@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "harvestcraft:blocks/waterfiltertop",
+        "down": "harvestcraft:blocks/waterfilterbottom",
+        "north": "harvestcraft:blocks/waterfilterfront",
+        "south": "harvestcraft:blocks/waterfilterside",
+        "west": "harvestcraft:blocks/waterfilterside",
+        "east": "harvestcraft:blocks/waterfilterside",
+        "particle": "harvestcraft:blocks/waterfilterside"
+    }
+}

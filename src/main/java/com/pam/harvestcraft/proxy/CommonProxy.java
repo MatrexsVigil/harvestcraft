@@ -19,10 +19,12 @@ import com.pam.harvestcraft.loottables.LootTableLoadEventHandler;
 import com.pam.harvestcraft.tileentities.MarketItems;
 import com.pam.harvestcraft.tileentities.ShippingBinItems;
 import com.pam.harvestcraft.tileentities.TileEntityApiary;
+import com.pam.harvestcraft.tileentities.TileEntityGrinder;
 import com.pam.harvestcraft.tileentities.TileEntityGroundTrap;
 import com.pam.harvestcraft.tileentities.TileEntityMarket;
 import com.pam.harvestcraft.tileentities.TileEntityPresser;
 import com.pam.harvestcraft.tileentities.TileEntityShippingBin;
+import com.pam.harvestcraft.tileentities.TileEntityWaterFilter;
 import com.pam.harvestcraft.tileentities.TileEntityWaterTrap;
 import com.pam.harvestcraft.worldgen.BeehiveWorldGen;
 import com.pam.harvestcraft.worldgen.BushWorldGen;
@@ -99,7 +101,9 @@ public class CommonProxy {
         GameRegistry.registerTileEntity(TileEntityPresser.class, "PamPresser");
         GameRegistry.registerTileEntity(TileEntityGroundTrap.class, "PamGroundTrap");
         GameRegistry.registerTileEntity(TileEntityWaterTrap.class, "PamWaterTrap");
-
+        GameRegistry.registerTileEntity(TileEntityWaterFilter.class, "PamWaterFilter");
+        GameRegistry.registerTileEntity(TileEntityGrinder.class, "PamGrinder");
+        
         if (ConfigHandler.enableHCFish)
         {
         MinecraftForge.EVENT_BUS.register(new LootTableLoadEventHandler());
