@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:earlgreyteaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTea"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropOrange"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

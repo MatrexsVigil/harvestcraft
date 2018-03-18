@@ -1,29 +1,10 @@
-﻿Fix DesertCraft ticking block issue
-Patreon Food 
-- Akutuq - Raw Venison, Cooking Oil, a Snowball and any type of berry in a mixing bowl.
-- Szechuan Eggplant & Tofu with Rice - Pot, cooking oil, Eggplant, tofu, 	rice (jasmine), garlic, chilli, ginger, vinegar
-- Morue orange en papillote
-Takoyaki (Pot, Batter, Cooked Octopus, Scallion, Chili Pepper, Seaweed, Mayo, Hoisin Sauce (4 hunger points))
- Oyster (Fishing/Water Trap, (1 hunger point))
- Cooked Oyster (Furnace, Oyster (2 hunger points))
- Oyster Sauce x4 (Saucepan, Oyster, Water/Fresh Water, Sugar/Honey, Salt)
- Green Tea (Pot, Tea Leaf, Spice Leaf (4 hunger points))
- Earl Grey Tea (Pot, Tea Leaf, Orange (4 hunger points))
- Egg Roll (Pot, Dough, Cabbage, Cooked Pork/Cooked Tofacon (5 hunger points))
- Cantonese Noodles (Skillet, Noodles, Raw Beef/Raw Tofeak, Egg/Raw Tofeeg, Corn, Carrot, Cabbage, [mushroom], Oyster Sauce (10 hunger points))
- Mee Sua (Skillet, Noodles, Cooked Pork/Cooked Tofacon, Corn, Carrot, Scallions Oyster Sauce, Coconut Milk (10 hunger points))
- Cantonese Greens (Pot, Cabbage/Broccoli, oyster sauce (4 hunger, 2 saturation))
- Springfield Cashew Chicken (Skillet, Fried Chicken, Cashew, Oyster Sauce, Rice (16 hunger points))
- Dango (Mochi, Mochi, Mochi, Stick (4 hunger points))
- Egg Tart (Bakeware, Dough, Egg/Raw Tofeeg, Sugar, Water/Fresh Water, Milk/Fresh Milk/Soy Milk (4 hunger points))
- Squid Ink Spaghetti (Saucepan, Pasta, Ink Sac (4 hunger points))
- Steak Tartare (Cutting Board, Raw Beef/Raw Tofeak, Egg/Raw Tofeeg, Onion, Black Pepper (5 hunger points))
-
-HarvestCraft 1.12.2r
+﻿HarvestCraft 1.12.2r
 -----------------
 - Fixed: Recipe: Water Filter recipe fixed
 - Added: Block: Grinder: Made with three iron bars on each side with an undamaged iron sword in the top slot, redstone repeater in the bottom, Use like the presser but for meats, spices, flour, and other grindable items, Automatable like the presser
-
+- Added: Item: Ground Beef, Ground Chicken, Ground Duck, Ground Fish, Ground Mutton, Ground Pork, Ground Rabbit, Ground Turkey, Ground Venison - Put meats in the Grinder to get double ground meat, however ground meat cannot be eaten/cooked by itself but can be used in all recipes that normally call for that kind of meat
+- Added: Item: Raw Oyster, Cooked Oyster: Caught in the Water Trap
+- Added: Item: Akutuq, Cantonese Greens, Cantonese Noodles, Dango, , Egg Roll, Egg Tart, Green Tea, Mee Sua, Oyster Sauce, Springfield Cashew Chicken, Squid Ink Spaghetti, Szechuan Eggplant, Takoyaki
 
 HarvestCraft 1.12.2q
 -----------------

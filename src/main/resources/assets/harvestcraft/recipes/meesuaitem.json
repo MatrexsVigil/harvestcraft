@@ -1,0 +1,41 @@
+{
+  "result": {
+    "item": "harvestcraft:meesuaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodNoodles"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllcookedpork"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCorn"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOystersauce"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCoconutmilk"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

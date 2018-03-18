@@ -844,6 +844,35 @@ public final class ItemRegistry {
 	public static Item chorusfruitsoupItem;
 	//public static Item gigapickleItem;
 	
+	public static Item akutuqItem;
+	public static Item cantonesegreensItem;
+	public static Item cantonesenoodlesItem;
+	public static Item dangoItem;
+	public static Item earlgreyteaItem;
+	public static Item eggrollItem;
+	public static Item eggtartItem;
+	public static Item greenteaItem;
+	public static Item meesuaItem;
+	public static Item oystercookedItem;
+	public static Item oysterrawItem;
+	public static Item oystersauceItem;
+	public static Item springfieldcashewchickenItem;
+	public static Item squidinkspaghettiItem;
+	public static Item steaktartareItem;
+	public static Item szechuaneggplantItem;
+	public static Item takoyakiItem;
+	
+	public static Item groundbeefItem;
+	public static Item groundchickenItem;
+	public static Item groundduckItem;
+	public static Item groundfishItem;
+	public static Item groundmuttonItem;
+	public static Item groundporkItem;
+	public static Item groundrabbitItem;
+	public static Item groundturkeyItem;
+	public static Item groundvenisonItem;
+	
+	
 	public static Item rawtofeakItem;
 	public static Item rawtofaconItem;
 	public static Item rawtofishItem;
@@ -1467,6 +1496,7 @@ public final class ItemRegistry {
 		shrimpcookedItem = registerItemFood("shrimpcookeditem", 2, config.mealsaturation);
 		snailcookedItem = registerItemFood("snailcookeditem", 2, config.mealsaturation);
 		turtlecookedItem = registerItemFood("turtlecookeditem", 2, config.mealsaturation);
+		oystercookedItem = registerItemFood("oystercookeditem", 2, config.mealsaturation);
 		
 		appleciderItem = registerItemFood("applecideritem", 2, config.mealsaturation);
 		bangersandmashItem = registerItemFood("bangersandmashitem", 9, config.mealsaturation);
@@ -1743,6 +1773,29 @@ public final class ItemRegistry {
 		chorusfruitsoupItem = registerItemFood("chorusfruitsoupitem", 4, config.mealsaturation);
 		//gigapickleItem = registerItemFood("gigapickleitem", 4, config.mealsaturation);
 		
+		akutuqItem = registerItemFood("akutuqitem", 5, config.mealsaturation);
+		cantonesegreensItem = registerItemFood("cantonesegreensitem", 2, config.mealsaturation);
+		
+		earlgreyteaItem = registerItemFood("earlgreyteaitem", 2, config.mealsaturation);
+		eggrollItem = registerItemFood("eggrollitem", 6, config.mealsaturation);
+		eggtartItem = registerItemFood("eggtartitem", 8, config.mealsaturation);
+		greenteaItem = registerItemFood("greenteaitem", 2, config.mealsaturation);
+		meesuaItem = registerItemFood("meesuaitem", 8, config.mealsaturation);
+		oystersauceItem = registerItemFood("oystersauceitem", 4, config.mealsaturation);
+		squidinkspaghettiItem = registerItemFood("squidinkspaghettiitem", 2, config.mealsaturation);
+		steaktartareItem = registerItemFood("steaktartareitem", 6, config.mealsaturation);
+		szechuaneggplantItem = registerItemFood("szechuaneggplantitem", 9, config.mealsaturation);
+
+		groundbeefItem = registerGenericItem("groundbeefitem");
+		groundchickenItem = registerGenericItem("groundchickenitem");
+		groundduckItem = registerGenericItem("groundduckitem");
+		groundfishItem = registerGenericItem("groundfishitem");
+		groundmuttonItem = registerGenericItem("groundmuttonitem");
+		groundporkItem = registerGenericItem("groundporkitem");
+		groundrabbitItem = registerGenericItem("groundrabbititem");
+		groundturkeyItem = registerGenericItem("groundturkeyitem");
+		groundvenisonItem = registerGenericItem("groundvenisonitem");
+		
 		rawtofeakItem = registerItemFood("rawtofeakitem", 1, config.snacksaturation);
 		rawtofaconItem = registerItemFood("rawtofaconitem", 1, config.snacksaturation);
 		//rawtofishItem = registerItemFood("rawtofishitem", 1, config.snacksaturation);
@@ -1801,7 +1854,11 @@ public final class ItemRegistry {
 								chipsandsalsaItem = registerTopTierFood("chipsandsalsaitem", 10, config.mealsaturation);
 								crawfishetoufeeItem = registerTopTierFood("crawfishetoufeeitem", 10, config.mealsaturation);
 								saucedlambkebabItem = registerTopTierFood("saucedlambkebabitem", 10, config.mealsaturation);
+								cantonesenoodlesItem = registerTopTierFood("cantonesenoodlesitem", 10, config.mealsaturation);
+								dangoItem = registerTopTierFood("dangoitem", 10, config.mealsaturation);
+								takoyakiItem = registerTopTierFood("takoyakiitem", 10, config.mealsaturation);
 								
+								springfieldcashewchickenItem = registerTopTierFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 								enchiladaItem = registerTopTierFood("enchiladaitem", 11, config.mealsaturation);
 								pizzaItem = registerTopTierFood("pizzaitem", 11, config.mealsaturation);
 								onionsoupItem = registerTopTierFood("onionsoupitem", 11, config.mealsaturation);
@@ -1873,7 +1930,11 @@ public final class ItemRegistry {
 							chipsandsalsaItem = registerItemFood("chipsandsalsaitem", 10, config.mealsaturation);
 							crawfishetoufeeItem = registerItemFood("crawfishetoufeeitem", 10, config.mealsaturation);
 							saucedlambkebabItem = registerItemFood("saucedlambkebabitem", 10, config.mealsaturation);
+							cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
+							dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
+							takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
 							
+							springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 							enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
 							pizzaItem = registerItemFood("pizzaitem", 11, config.mealsaturation);
 							onionsoupItem = registerItemFood("onionsoupitem", 11, config.mealsaturation);
@@ -1945,7 +2006,11 @@ public final class ItemRegistry {
 						chipsandsalsaItem = registerItemFood("chipsandsalsaitem", 10, config.mealsaturation);
 						crawfishetoufeeItem = registerItemFood("crawfishetoufeeitem", 10, config.mealsaturation);
 						saucedlambkebabItem = registerItemFood("saucedlambkebabitem", 10, config.mealsaturation);
+						cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
+						dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
+						takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
 						
+						springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 						enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
 						pizzaItem = registerItemFood("pizzaitem", 11, config.mealsaturation);
 						onionsoupItem = registerItemFood("onionsoupitem", 11, config.mealsaturation);
@@ -2017,7 +2082,11 @@ public final class ItemRegistry {
 					chipsandsalsaItem = registerItemFood("chipsandsalsaitem", 10, config.mealsaturation);
 					crawfishetoufeeItem = registerItemFood("crawfishetoufeeitem", 10, config.mealsaturation);
 					saucedlambkebabItem = registerItemFood("saucedlambkebabitem", 10, config.mealsaturation);
+					cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
+					dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
+					takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
 					
+					springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 					enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
 					pizzaItem = registerItemFood("pizzaitem", 11, config.mealsaturation);
 					onionsoupItem = registerItemFood("onionsoupitem", 11, config.mealsaturation);
@@ -2089,7 +2158,11 @@ public final class ItemRegistry {
 				chipsandsalsaItem = registerItemFood("chipsandsalsaitem", 10, config.mealsaturation);
 				crawfishetoufeeItem = registerItemFood("crawfishetoufeeitem", 10, config.mealsaturation);
 				saucedlambkebabItem = registerItemFood("saucedlambkebabitem", 10, config.mealsaturation);
+				cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
+				dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
+				takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
 				
+				springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 				enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
 				pizzaItem = registerItemFood("pizzaitem", 11, config.mealsaturation);
 				onionsoupItem = registerItemFood("onionsoupitem", 11, config.mealsaturation);
@@ -2161,7 +2234,11 @@ public final class ItemRegistry {
 			chipsandsalsaItem = registerItemFood("chipsandsalsaitem", 10, config.mealsaturation);
 			crawfishetoufeeItem = registerItemFood("crawfishetoufeeitem", 10, config.mealsaturation);
 			saucedlambkebabItem = registerItemFood("saucedlambkebabitem", 10, config.mealsaturation);
+			cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
+			dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
+			takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
 			
+			springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 			enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
 			pizzaItem = registerItemFood("pizzaitem", 11, config.mealsaturation);
 			onionsoupItem = registerItemFood("onionsoupitem", 11, config.mealsaturation);
@@ -2233,7 +2310,11 @@ public final class ItemRegistry {
 			chipsandsalsaItem = registerItemFood("chipsandsalsaitem", 10, config.mealsaturation);
 			crawfishetoufeeItem = registerItemFood("crawfishetoufeeitem", 10, config.mealsaturation);
 			saucedlambkebabItem = registerItemFood("saucedlambkebabitem", 10, config.mealsaturation);
+			cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
+			dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
+			takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
 			
+			springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 			enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
 			pizzaItem = registerItemFood("pizzaitem", 11, config.mealsaturation);
 			onionsoupItem = registerItemFood("onionsoupitem", 11, config.mealsaturation);
@@ -2329,6 +2410,7 @@ public final class ItemRegistry {
 		sardinerawItem = registerRawFish("sardinerawitem");
 		musselrawItem = registerRawFish("musselrawitem");
 		rawtofishItem = registerRawFish("rawtofishitem");
+		oysterrawItem = registerRawFish("oysterrawitem");
 		
 	}
 

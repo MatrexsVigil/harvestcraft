@@ -13,6 +13,7 @@ import com.pam.harvestcraft.blocks.blocks.BlockPamCake;
 import com.pam.harvestcraft.blocks.blocks.BlockPamCandle;
 import com.pam.harvestcraft.blocks.blocks.BlockPamMarket;
 import com.pam.harvestcraft.blocks.blocks.BlockPamShippingBin;
+import com.pam.harvestcraft.blocks.blocks.GrinderBlock;
 import com.pam.harvestcraft.blocks.blocks.GroundTrapBlock;
 import com.pam.harvestcraft.blocks.blocks.PresserBlock;
 import com.pam.harvestcraft.blocks.blocks.WaterFilterBlock;
@@ -58,6 +59,11 @@ public final class BlockRegistry {
 	public static final String waterfilterItemName = "waterfilter";
 	public static Block waterfilter;
 	public static ItemBlock waterfilterItemBlock;
+	
+	// Grinder
+	public static final String grinderItemName = "grinder";
+	public static Block grinder;
+	public static ItemBlock grinderItemBlock;
 
 	// Bee features
 	public static BeehiveBlock beehive;
@@ -149,6 +155,7 @@ public final class BlockRegistry {
 		registerWell();
 		registerTraps();
 		registerWaterFilter();
+		registerGrinder();
 		registerBeeFeatures();
 		registerGardens();
 		registerPresser();
@@ -189,6 +196,13 @@ public final class BlockRegistry {
 		waterfilterItemBlock = new ItemBlock(waterfilter);
 		ItemRegistry.items.put(WaterFilterBlock.registryName, waterfilterItemBlock);
 		registerBlock(WaterFilterBlock.registryName, waterfilterItemBlock, waterfilter);
+	}
+	
+	private static void registerGrinder() {
+		grinder = new GrinderBlock();
+		grinderItemBlock = new ItemBlock(grinder);
+		ItemRegistry.items.put(GrinderBlock.registryName, grinderItemBlock);
+		registerBlock(GrinderBlock.registryName, grinderItemBlock, grinder);
 	}
 
 	private static void registerBeeFeatures() {
