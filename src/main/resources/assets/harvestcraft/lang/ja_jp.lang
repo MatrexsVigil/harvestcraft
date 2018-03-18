@@ -19,6 +19,7 @@ tile.watertrap.name=かご網
 tile.well.name=井戸
 
 tile.waterfilter.name=濾過装置
+tile.grinder.name=グラインダー
 
 tile.crate.name=かご
 
@@ -1204,7 +1205,6 @@ item.hummusitem.name=フムス
 item.ironbrewitem.name=アイアン・ブルー
 item.lasagnaitem.name=ラザニア
 item.lemondrizzlecakeitem.name=レモンドリズルケーキ
-item.lemonmeringueitem.name=レモンメレンゲ
 item.meatloafitem.name=ミートローフ
 item.montecristosandwichitem.name=モンテクリストサンドイッチ
 item.mushroomlasagnaitem.name=マッシュルームのラザニア
@@ -1333,6 +1333,32 @@ item.porkrindsitem.name=ポーク・ラインズ
 item.cracklinsitem.name=ポーク・クラックリング
 item.chorusfruitsoupitem.name=コーラスフルーツのスープ
 
+item.akutuqitem.name=アグダク
+item.cantonesegreensitem.name=広東風葉物炒め
+item.cantonesenoodlesitem.name=広東風焼きそば
+item.dangoitem.name=団子
+item.earlgreyteaitem.name=アールグレイをホットで
+item.eggrollitem.name=エッグロール
+item.eggtartitem.name=エッグタルト
+item.greenteaitem.name=緑茶
+item.groundbeefitem.name=牛ひき肉
+item.groundchickenitem.name=鶏ひき肉
+item.groundduckitem.name=アヒルひき肉
+item.groundfishitem.name=すり身
+item.groundmuttonitem.name=羊ひき肉
+item.groundporkitem.name=豚ひき肉
+item.groundrabbititem.name=兎ひき肉
+item.groundturkeyitem.name=七面鳥ひき肉
+item.groundvenisonitem.name=鹿ひき肉
+item.meesuaitem.name=麺線
+item.oystercookeditem.name=焼き牡蠣
+item.oysterrawitem.name=生の牡蠣
+item.oystersauceitem.name=オイスターソース
+item.springfieldcashewchickenitem.name=スプリングフィールド風鶏肉のカシューナッツ炒め
+item.squidinkspaghettiitem.name=イカスミのスパゲッティ
+item.steaktartareitem.name=タルタルステーキ
+item.szechuaneggplantitem.name=麻婆茄子
+item.takoyakiitem.name=たこ焼き
 
 
 
