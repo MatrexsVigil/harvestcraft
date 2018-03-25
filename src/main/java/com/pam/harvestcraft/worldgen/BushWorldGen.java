@@ -29,27 +29,27 @@ public class BushWorldGen implements IWorldGenerator {
             return;
         }
 
-        if (config.enablearidgardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SANDY)) || (BiomeDictionary.hasType(biome, BiomeDictionary.Type.MESA))) {
+        if (config.enablearidgardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SANDY) || BiomeDictionary.hasType(biome, BiomeDictionary.Type.MESA))) {
             generateGarden(BlockRegistry.getGarden(BlockRegistry.aridGarden), world, random, x, z);
         }
 
-        if (config.enablefrostgardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SNOWY)) || (BiomeDictionary.hasType(biome, BiomeDictionary.Type.MOUNTAIN))) {
+        if (config.enablefrostgardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SNOWY) || BiomeDictionary.hasType(biome, BiomeDictionary.Type.MOUNTAIN))) {
             generateGarden(BlockRegistry.getGarden(BlockRegistry.frostGarden), world, random, x, z);
         }
 
-        if (config.enableshadedgardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.FOREST)) || (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SPOOKY))) {
+        if (config.enableshadedgardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.FOREST) || BiomeDictionary.hasType(biome, BiomeDictionary.Type.SPOOKY))) {
             generateGarden(BlockRegistry.getGarden(BlockRegistry.shadedGarden), world, random, x, z);
         }
 
-        if (config.enablesoggygardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SWAMP)) || (BiomeDictionary.hasType(biome, BiomeDictionary.Type.RIVER))) {
+        if (config.enablesoggygardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SWAMP) || BiomeDictionary.hasType(biome, BiomeDictionary.Type.RIVER))) {
             generateGarden(BlockRegistry.getGarden(BlockRegistry.soggyGarden), world, random, x, z);
         }
 
-        if (config.enabletropicalgardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.JUNGLE)) || (BiomeDictionary.hasType(biome, BiomeDictionary.Type.OCEAN))) {
+        if (config.enabletropicalgardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.JUNGLE) || BiomeDictionary.hasType(biome, BiomeDictionary.Type.OCEAN))) {
             generateGarden(BlockRegistry.getGarden(BlockRegistry.tropicalGarden), world, random, x, z);
         }
 
-        if (config.enablewindygardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.PLAINS)) || (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SAVANNA))) {
+        if (config.enablewindygardenGeneration && (BiomeDictionary.hasType(biome, BiomeDictionary.Type.PLAINS) || BiomeDictionary.hasType(biome, BiomeDictionary.Type.SAVANNA))) {
             generateGarden(BlockRegistry.getGarden(BlockRegistry.windyGarden), world, random, x, z);
         }
     }
