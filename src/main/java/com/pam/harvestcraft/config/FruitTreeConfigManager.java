@@ -116,7 +116,6 @@ public class FruitTreeConfigManager {
             biomeNames.append("[" + x.getRegistryName().toString() + "], ");
             FMLLog.log.info(
                     x.getRegistryName().toString() + ";" +
-                            x.getBiomeName() + ";" +
                             x.getTempCategory() + ";" +
                             x.getTemperature() + ";" +
                             x.isHighHumidity() + ";" +
