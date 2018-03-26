@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:peanutbutteritem"
+    "item": "harvestcraft:peanutbutteritem",
+    "count": 2
   },
 
   "ingredients": [

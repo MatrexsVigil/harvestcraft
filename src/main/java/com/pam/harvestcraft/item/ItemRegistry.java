@@ -1186,7 +1186,7 @@ public final class ItemRegistry {
 		chilipoppersItem = registerItemFood("chilipoppersitem", 6, config.mealsaturation);
 		extremechiliItem = registerItemFood("extremechiliitem", 5, config.mealsaturation);
 		chilichocolateItem = registerItemFood("chilichocolateitem", 2, config.mealsaturation);
-		lemonaideItem = registerPotionFood("lemonaideitem", 2, config.mealsaturation);
+		lemonaideItem = registerPotionFood("lemonaideitem", 3, config.mealsaturation);
 		lemonbarItem = registerItemFood("lemonbaritem", 5, config.mealsaturation);
 		fishdinnerItem = registerItemFood("fishdinneritem", 7, config.mealsaturation);
 		lemonsmoothieItem = registerItemFood("lemonsmoothieitem", 3, config.mealsaturation);

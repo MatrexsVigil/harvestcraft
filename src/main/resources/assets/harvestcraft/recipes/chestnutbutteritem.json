@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:chestnutbutteritem"
+    "item": "harvestcraft:chestnutbutteritem",
+    "count": 2
   },
 
   "ingredients": [

@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:pistachiobutteritem"
+    "item": "harvestcraft:pistachiobutteritem",
+    "count": 2
   },
 
   "ingredients": [

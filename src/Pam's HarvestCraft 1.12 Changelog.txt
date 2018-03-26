@@ -1,7 +1,16 @@
 ﻿HarvestCraft 1.12.2s
 -----------------
-- Fixed: Recipe: Mee Sua recipe fixed
+NOTE: You will need to regen your config in order to get all of the brand new options for Fruit Trees thanks to fllo
 
+- Fixed: Recipe: Mee Sua recipe fixed
+- Fixed: Bug: No more infinite Queen Bees (PR by AjaxVM)
+- Fixed: Config: Fruit trees have WAAAAAY more config options (PR by fllo)
+- Fixed: Spawning: Gardens should no longer spawn when disabled (PR by fllo)
+- Added: Language: en_ud.lang (PR by The-Fireplace)
+- Changed: Recipe: Lemonaide now requires two lemons (PR by JSW-TheOtherOne)
+- Changed: Item: Lemonaide now restores 3 food (up from 2)
+- Changed: Recipe: All nut butters now require Cooking Oil (PR by JSW-TheOtherOne)
+- Changed: Recipe: All nut butters now give 2 items
 
 HarvestCraft 1.12.2r
 -----------------

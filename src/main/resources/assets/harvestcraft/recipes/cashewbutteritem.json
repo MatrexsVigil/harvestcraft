@@ -1,6 +1,7 @@
 {
   "result": {
-    "item": "harvestcraft:cashewbutteritem"
+    "item": "harvestcraft:cashewbutteritem",
+    "count": 2
   },
 
   "ingredients": [
