@@ -39,7 +39,6 @@ public class BlockPamSapling extends BlockBush implements IGrowable {
 
     // Caching information for sapling.
     private final BlockPlanks.EnumType planks;
-    private final int rarity;
     private final IBlockState logState;
     private final IBlockState leavesState;
 
@@ -55,17 +54,14 @@ public class BlockPamSapling extends BlockBush implements IGrowable {
         switch (saplingType) {
             case WARM:
                 planks = BlockPlanks.EnumType.JUNGLE;
-                rarity = HarvestCraft.config.tropicalfruittreeRarity;
                 break;
 
             case COLD:
                 planks = BlockPlanks.EnumType.SPRUCE;
-                rarity = HarvestCraft.config.coniferousfruittreeRarity;
                 break;
             case TEMPERATE:
             default:
                 planks = BlockPlanks.EnumType.OAK;
-                rarity = HarvestCraft.config.temperatefruittreeRarity;
         }
 
         logState = Blocks.LOG.getDefaultState().withProperty(BlockOldLog.VARIANT, planks);
@@ -150,7 +146,6 @@ public class BlockPamSapling extends BlockBush implements IGrowable {
     }
 
     public void worldGenTree(World world, Random random, int x, int z) {
-        if (random.nextFloat() > rarity / 64.0f) return;
 
         final BlockPos pos = WorldGenHelper.getGroundPos(world, x, z);
         if (pos == null) return;

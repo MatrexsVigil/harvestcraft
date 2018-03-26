@@ -121,7 +121,7 @@ public class BlockPamFruitLog extends Block implements IGrowable, PamCropGrowabl
 	public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
 		int i = state.getValue(AGE);
 
-		if(i < MATURE_AGE && rand.nextInt(ConfigHandler.fruitGrowthSpeed) == 0) {
+		if(i < MATURE_AGE && rand.nextInt(HarvestCraft.fruitTreeConfigManager.getFruitGrowthSpeed()) == 0) {
 			state = state.withProperty(AGE, i + 1);
 			worldIn.setBlockState(pos, state, 2);
 		}

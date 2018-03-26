@@ -1,6 +1,7 @@
 package com.pam.harvestcraft;
 
 import com.pam.harvestcraft.config.ConfigHandler;
+import com.pam.harvestcraft.config.FruitTreeConfigManager;
 import com.pam.harvestcraft.gui.GuiHandler;
 import com.pam.harvestcraft.item.ItemRegistry;
 import com.pam.harvestcraft.proxy.CommonProxy;
@@ -20,6 +21,8 @@ import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+import java.io.File;
+
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class HarvestCraft {
 
@@ -37,10 +40,15 @@ public class HarvestCraft {
 	};
 
 	public static ConfigHandler config;
+	public static FruitTreeConfigManager fruitTreeConfigManager;
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		config = new ConfigHandler(new Configuration(event.getSuggestedConfigurationFile()));
+
+        fruitTreeConfigManager = new FruitTreeConfigManager(
+        		new Configuration(
+        				new File(event.getModConfigurationDirectory(), Reference.MODID + "_fruittree" + ".cfg")));
 		proxy.preInit(event);
 		NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
 		//final SimpleNetworkWrapper NETWORKINSTANCE = NetworkRegistry.INSTANCE.newSimpleChannel(Reference.MODID);
@@ -48,6 +56,7 @@ public class HarvestCraft {
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
+		fruitTreeConfigManager.Configure();
 		proxy.init(event);
 	}
 

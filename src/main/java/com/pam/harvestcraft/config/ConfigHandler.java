@@ -7,7 +7,6 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.blocks.blocks.BlockBaseGarden;
 
@@ -23,7 +22,6 @@ public class ConfigHandler {
     private static final String CATEGORY_GENERAL = "general";
     private static final String CATEGORY_CROPS = "crops";
     private static final String CATEGORY_GARDENS = "gardens";
-    private static final String CATEGORY_FRUIT_TREES = "fruit trees";
     private static final String CATEGORY_SALT = "salt";
     private static final String CATEGORY_BEE = "beekeeping";
     private static final String CATEGORY_MARKET_SALES = "market sales";
@@ -45,7 +43,6 @@ public class ConfigHandler {
     private static final double defaultSaturationMeal = 1.2D;
     private static final double defaultSaturationMeatyMeal = 1.600000023841858D;
     private static final double defaultCropGrowthSpeed = 0.0D;
-    private static final double defaultFruitGrowthSpeed = 0.0D;
 
     /**
      * Config
@@ -58,7 +55,6 @@ public class ConfigHandler {
     public static boolean cropsdropSeeds;
     
     public static float cropGrowthSpeed;
-    public static int fruitGrowthSpeed;
 
     public float snacksaturation;
     public float mealsaturation;
@@ -112,46 +108,6 @@ public class ConfigHandler {
     public boolean enablewindygardenGeneration;
     public boolean enableshadedgardenGeneration;
     public boolean enablesoggygardenGeneration;
-    public int temperatefruittreeRarity;
-    public int tropicalfruittreeRarity;
-    public int coniferousfruittreeRarity;
-    public boolean appletreeGeneration;
-    public boolean almondtreeGeneration;
-    public boolean apricottreeGeneration;
-    public boolean avocadotreeGeneration;
-    public boolean bananatreeGeneration;
-    public boolean cashewtreeGeneration;
-    public boolean cherrytreeGeneration;
-    public boolean chestnuttreeGeneration;
-    public boolean cinnamontreeGeneration;
-    public boolean coconuttreeGeneration;
-    public boolean datetreeGeneration;
-    public boolean dragonfruittreeGeneration;
-    public boolean duriantreeGeneration;
-    public boolean figtreeGeneration;
-    public boolean grapefruittreeGeneration;
-    public boolean lemontreeGeneration;
-    public boolean limetreeGeneration;
-    public boolean mapletreeGeneration;
-    public boolean mangotreeGeneration;
-    public boolean nutmegtreeGeneration;
-    public boolean olivetreeGeneration;
-    public boolean orangetreeGeneration;
-    public boolean papayatreeGeneration;
-    public boolean paperbarktreeGeneration;
-    public boolean peachtreeGeneration;
-    public boolean peartreeGeneration;
-    public boolean pecantreeGeneration;
-    public boolean peppercorntreeGeneration;
-    public boolean persimmontreeGeneration;
-    public boolean pistachiotreeGeneration;
-    public boolean plumtreeGeneration;
-    public boolean pomegranatetreeGeneration;
-    public boolean starfruittreeGeneration;
-    public boolean vanillabeantreeGeneration;
-    public boolean walnuttreeGeneration;
-    public boolean gooseberrytreeGeneration;
-    public boolean spiderwebtreeGeneration;
     public boolean enablecropspecialplanting;
 
     // Market configuration
@@ -245,7 +201,6 @@ public class ConfigHandler {
         initGeneralSettings();
         initCropSettings();
         initSeedDropSettings();
-        initFoodTreesSettings();
         initGardenSettings();
         initMarketSettings();
         initBeesSettings();
@@ -285,52 +240,8 @@ public class ConfigHandler {
         meatymealsaturation = (float) config.get(CATEGORY_CROPS, "meatymealsaturation", defaultSaturationMeatyMeal).getDouble();
         enablecropspecialplanting = config.get(CATEGORY_CROPS, "enablecropspecialplanting", true).getBoolean();
         cropsdropSeeds = config.get(CATEGORY_CROPS, "cropsdropSeeds", false).getBoolean();
-		cropGrowthSpeed = (float) config.get(CATEGORY_CROPS, "cropGrowthSpeed", defaultCropGrowthSpeed, "Default: 0.0, This number is added/subtracted from normal fertile crop growth (3.0) and adjacent fertile crop growth (4.0).").getDouble();
-		enablegigapickleCrop = config.get(CATEGORY_CROPS, "enablegigapickleCrop", true, "Disable to keep giga pickle crop seeds from appearing in dungeon chests").getBoolean();
-    }
-
-    private void initFoodTreesSettings() {
-    	fruitGrowthSpeed = config.get(CATEGORY_FRUIT_TREES, "fruitGrowthSpeed", 25, "Default: 25, Lower is faster").getInt();
-        temperatefruittreeRarity = config.get(CATEGORY_FRUIT_TREES, "temperatefruittreeRarity", 48).getInt();
-        tropicalfruittreeRarity = config.get(CATEGORY_FRUIT_TREES, "tropicalfruittreeRarity", 64).getInt();
-        coniferousfruittreeRarity = config.get(CATEGORY_FRUIT_TREES, "coniferousfruittreeRarity", 48).getInt();
-        appletreeGeneration = config.get(CATEGORY_FRUIT_TREES, "appletreeGeneration", true).getBoolean();
-        almondtreeGeneration = config.get(CATEGORY_FRUIT_TREES, "almondtreeGeneration", true).getBoolean();
-        apricottreeGeneration = config.get(CATEGORY_FRUIT_TREES, "apricottreeGeneration", true).getBoolean();
-        avocadotreeGeneration = config.get(CATEGORY_FRUIT_TREES, "avocadotreeGeneration", true).getBoolean();
-        bananatreeGeneration = config.get(CATEGORY_FRUIT_TREES, "bananatreeGeneration", true).getBoolean();
-        cashewtreeGeneration = config.get(CATEGORY_FRUIT_TREES, "cashewtreeGeneration", true).getBoolean();
-        cherrytreeGeneration = config.get(CATEGORY_FRUIT_TREES, "cherrytreeGeneration", true).getBoolean();
-        chestnuttreeGeneration = config.get(CATEGORY_FRUIT_TREES, "chestnuttreeGeneration", true).getBoolean();
-        cinnamontreeGeneration = config.get(CATEGORY_FRUIT_TREES, "cinnamontreeGeneration", true).getBoolean();
-        coconuttreeGeneration = config.get(CATEGORY_FRUIT_TREES, "coconuttreeGeneration", true).getBoolean();
-        datetreeGeneration = config.get(CATEGORY_FRUIT_TREES, "datetreeGeneration", true).getBoolean();
-        dragonfruittreeGeneration = config.get(CATEGORY_FRUIT_TREES, "dragonfruittreeGeneration", true).getBoolean();
-        duriantreeGeneration = config.get(CATEGORY_FRUIT_TREES, "duriantreeGeneration", true).getBoolean();
-        figtreeGeneration = config.get(CATEGORY_FRUIT_TREES, "figtreeGeneration", true).getBoolean();
-        grapefruittreeGeneration = config.get(CATEGORY_FRUIT_TREES, "grapefruittreeGeneration", true).getBoolean();
-        lemontreeGeneration = config.get(CATEGORY_FRUIT_TREES, "lemontreeGeneration", true).getBoolean();
-        limetreeGeneration = config.get(CATEGORY_FRUIT_TREES, "limetreeGeneration", true).getBoolean();
-        mapletreeGeneration = config.get(CATEGORY_FRUIT_TREES, "mapletreeGeneration", true).getBoolean();
-        mangotreeGeneration = config.get(CATEGORY_FRUIT_TREES, "mangotreeGeneration", true).getBoolean();
-        nutmegtreeGeneration = config.get(CATEGORY_FRUIT_TREES, "nutmegtreeGeneration", true).getBoolean();
-        olivetreeGeneration = config.get(CATEGORY_FRUIT_TREES, "olivetreeGeneration", true).getBoolean();
-        orangetreeGeneration = config.get(CATEGORY_FRUIT_TREES, "orangetreeGeneration", true).getBoolean();
-        papayatreeGeneration = config.get(CATEGORY_FRUIT_TREES, "papayatreeGeneration", true).getBoolean();
-        paperbarktreeGeneration = config.get(CATEGORY_FRUIT_TREES, "paperbarktreeGeneration", true).getBoolean();
-        peachtreeGeneration = config.get(CATEGORY_FRUIT_TREES, "peachtreeGeneration", true).getBoolean();
-        peartreeGeneration = config.get(CATEGORY_FRUIT_TREES, "peartreeGeneration", true).getBoolean();
-        pecantreeGeneration = config.get(CATEGORY_FRUIT_TREES, "pecantreeGeneration", true).getBoolean();
-        peppercorntreeGeneration = config.get(CATEGORY_FRUIT_TREES, "peppercorntreeGeneration", true).getBoolean();
-        persimmontreeGeneration = config.get(CATEGORY_FRUIT_TREES, "persimmontreeGeneration", true).getBoolean();
-        pistachiotreeGeneration = config.get(CATEGORY_FRUIT_TREES, "pistachiotreeGeneration", true).getBoolean();
-        plumtreeGeneration = config.get(CATEGORY_FRUIT_TREES, "plumtreeGeneration", true).getBoolean();
-        pomegranatetreeGeneration = config.get(CATEGORY_FRUIT_TREES, "pomegranatetreeGeneration", true).getBoolean();
-        starfruittreeGeneration = config.get(CATEGORY_FRUIT_TREES, "starfruittreeGeneration", true).getBoolean();
-        vanillabeantreeGeneration = config.get(CATEGORY_FRUIT_TREES, "vanillabeantreeGeneration", true).getBoolean();
-        walnuttreeGeneration = config.get(CATEGORY_FRUIT_TREES, "walnuttreeGeneration", true).getBoolean();
-        gooseberrytreeGeneration = config.get(CATEGORY_FRUIT_TREES, "gooseberrytreeGeneration", true).getBoolean();
-        spiderwebtreeGeneration = config.get(CATEGORY_FRUIT_TREES, "spiderwebtreeGeneration", true).getBoolean();
+        cropGrowthSpeed = (float) config.get(CATEGORY_CROPS, "cropGrowthSpeed", defaultCropGrowthSpeed, "Default: 0.0, This number is added/subtracted from normal fertile crop growth (3.0) and adjacent fertile crop growth (4.0).").getDouble();
+        enablegigapickleCrop = config.get(CATEGORY_CROPS, "enablegigapickleCrop", true, "Disable to keep giga pickle crop seeds from appearing in dungeon chests").getBoolean();
     }
 
     private void initGardenSettings() {
