@@ -18,6 +18,9 @@ tile.watertrap.name=Wasserfalle
 
 tile.well.name=Brunnen
 
+tile.waterfilter.name=Wasserfilter
+tile.grinder.name=Mühle
+
 tile.crate.name=Kiste
 
 harvestcraft.tile.salt.name=Salzerz
@@ -181,6 +184,8 @@ harvestcraft.tile.pamcurryleafCrop.name=Currypflanze
 harvestcraft.tile.pamsesameseedsCrop.name=Sesampflanze
 harvestcraft.tile.pamwaterchestnutCrop.name=Wasserkastanienpflanze
 
+harvestcraft.tile.pampicklecrop.name=Essiggurkenpflanze
+
 tile.candleDeco1.name=Weiße Kerze
 tile.candleDeco2.name=Orange Kerze
 tile.candleDeco3.name=Magenta Kerze
@@ -210,6 +215,8 @@ tile.holidaycake.name=Holiday-Kuchen
 tile.pumpkincheesecake.name=Kürbiskäsekuchen
 
 # Items
+item.garliccoinitem.name=Knoblauch Münze
+
 item.cottonitem.name=Baumwolle
 item.wovencottonitem.name=Gewebte Baumwolle
 item.cottonseeditem.name=Baumwollsamen
@@ -417,6 +424,8 @@ item.sesameseedsitem.name=Sesamkörner
 item.sesameseedsseeditem.name=Sesamsamen
 item.waterchestnutitem.name=Wasserkastanie
 item.waterchestnutseeditem.name=Wasserkastaniensamen
+item.gigapickleitem.name=Riesige Essiggurke
+item.gigapickleseeditem.name=Riesige Essiggurkensamen
 
 item.almonditem.name=Mandel
 item.apricotitem.name=Aprikose
@@ -1164,6 +1173,7 @@ item.rawtofickenitem.name=Rohes Tofu-Hühnchen
 item.rawtofabbititem.name=Rohes Tofu-Kaninchen
 item.rawtofurkeyitem.name=Roher Tofu-Truthahn
 item.rawtofenisonitem.name=Rohes Tofu-Wild
+item.rawtofuduckitem.name=Rohe Tofu-Ente
 
 item.cookedtofeakitem.name=Gebratenes Tofu-Steak
 item.cookedtofaconitem.name=Gebratener Tofu-Speck
@@ -1174,6 +1184,7 @@ item.cookedtofickenitem.name=Gebratenes Tofu-Hühnchen
 item.cookedtofabbititem.name=Gebratenes Tofu-Kaninchen
 item.cookedtofurkeyitem.name=Gebratener Tofu-Truthahn
 item.cookedtofenisonitem.name=Gebratenes Tofu-Wild
+item.cookedtofuduckitem.name=Gebratene Tofu-Ente
 
 item.anchovypepperonipizzaitem.name=Pepperoni-Sardellen Pizza
 item.chocovoxelsitem.name=Schokostückchen Müsli
@@ -1315,3 +1326,34 @@ item.mushroomsteakitem.name=Pilz Steak
 item.hotdishcasseroleitem.name=Warmer Auflauf
 item.sausagebeanmeltitem.name=Wurstbohnenschmelze
 item.mettbrotchenitem.name=Mettbrötchen
+
++item.porkrindsitem.name=Schwarte
++item.cracklinsitem.name=Fritierte Schwarte
+item.chorusfruitsoupitem.name=Chorusfruchtsuppe
+
+item.akutuqitem.name=Akutaq
+item.cantonesegreensitem.name=Kantonesische Grüne
+item.cantonesenoodlesitem.name=Kantonesische Nudeln
+item.dangoitem.name=Dango
+item.earlgreyteaitem.name=Tee, Earl Grey, Heiß
+item.eggrollitem.name=Frühlingsrolle
+item.eggtartitem.name=Eiertarte
+item.greenteaitem.name=Grüner Tee
+item.groundbeefitem.name=Rinderhack
+item.groundchickenitem.name=Hühnerhack
+item.groundduckitem.name=Entenhack
+item.groundfishitem.name=Fischhack
+item.groundmuttonitem.name=Hammelhack
+item.groundporkitem.name=Schweinehack
+item.groundrabbititem.name=Hasenhack
+item.groundturkeyitem.name=Truthahnhack
+item.groundvenisonitem.name=Wildhack
+item.meesuaitem.name=Misua
+item.oystercookeditem.name=Gekochte Auster
+item.oysterrawitem.name=Rohe Auster
+item.oystersauceitem.name=Austernsoße
+item.springfieldcashewchickenitem.name=Springfield Cashew-Hühnchen
+item.squidinkspaghettiitem.name=Tintenfarbe Spaghetti
+item.steaktartareitem.name=Steak Tartar
+item.szechuaneggplantitem.name=Sichuan-Aubergine
+item.takoyakiitem.name=Takoyaki
