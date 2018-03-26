@@ -1,4 +1,9 @@
-﻿HarvestCraft 1.12.2r
+﻿HarvestCraft 1.12.2s
+-----------------
+- Fixed: Recipe: Mee Sua recipe fixed
+
+
+HarvestCraft 1.12.2r
 -----------------
 - Fixed: Recipe: Water Filter recipe fixed
 - Added: Block: Grinder: Made with three iron bars on each side with an undamaged iron sword in the top slot, redstone repeater in the bottom, Use like the presser but for meats, spices, flour, and other grindable items, Automatable like the presser
