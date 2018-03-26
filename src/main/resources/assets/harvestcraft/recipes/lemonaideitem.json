@@ -14,6 +14,10 @@
     },
     {
       "type": "forge:ore_dict",
+      "ore": "cropLemon"
+    },
+    {
+      "type": "forge:ore_dict",
       "ore": "listAllsugar"
     }
   ],

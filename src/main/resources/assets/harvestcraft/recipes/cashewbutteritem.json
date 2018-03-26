@@ -11,6 +11,10 @@
     {
       "type": "forge:ore_dict",
       "ore": "cropCashew"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
     }
   ],
   "type": "forge:ore_shapeless"
