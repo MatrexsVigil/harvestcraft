@@ -21,6 +21,7 @@ import net.minecraft.init.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
@@ -43,10 +44,6 @@ public class RightClickHarvesting {
 		if(!HarvestCraft.config.enableEasyHarvest)
 			return;
 
-		if(event.getWorld().isRemote) {
-			return;
-		}
-
 		if(event.getEntityPlayer() == null)
 			return;
 		if(event.getHand() != EnumHand.MAIN_HAND)
@@ -55,15 +52,21 @@ public class RightClickHarvesting {
 		final IBlockState blockState = event.getWorld().getBlockState(event.getPos());
 
 		if(blockState.getBlock() instanceof BlockCrops) {
-			harvestCrops(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+			if(!event.getWorld().isRemote) harvestCrops(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+			event.setCancellationResult(EnumActionResult.SUCCESS);
+			event.setCanceled(true);
 		}
 
-		if(blockState.getBlock() instanceof BlockNetherWart) {
-			harvestNetherWart(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+		else if(blockState.getBlock() instanceof BlockNetherWart) {
+			if(!event.getWorld().isRemote) harvestNetherWart(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+			event.setCancellationResult(EnumActionResult.SUCCESS);
+			event.setCanceled(true);
 		}
 
-		if(blockState.getBlock() instanceof BlockPamFruit || blockState.getBlock() instanceof BlockPamFruitLog) {
-			harvestFruit(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+		else if(blockState.getBlock() instanceof BlockPamFruit || blockState.getBlock() instanceof BlockPamFruitLog) {
+			if(!event.getWorld().isRemote) harvestFruit(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+			event.setCancellationResult(EnumActionResult.SUCCESS);
+			event.setCanceled(true);
 		}
 	}
 
