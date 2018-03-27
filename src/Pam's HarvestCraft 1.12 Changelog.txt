@@ -1,4 +1,9 @@
-﻿HarvestCraft 1.12.2s
+﻿HarvestCraft 1.12.2t
+-----------------
+
+- Fixed: Bug: Fixed serious crashing issue (PR by fllo)
+
+HarvestCraft 1.12.2s
 -----------------
 NOTE: You will need to regen your config in order to get all of the brand new options for Fruit Trees thanks to fllo
 
