@@ -89,6 +89,9 @@ public class ConfigHandler {
 
     public boolean enablelistAllwaterfreshwater;
     public boolean enablelistAllwatervanillawaterbucket;
+    
+    public boolean enablemaplesyrupslimeballPresser;
+    public boolean enablehoneyslimeballPresser;
 
 
     public final HashMap<String, Boolean> seedDropFromGrass = new HashMap<String, Boolean>();
@@ -434,6 +437,8 @@ public class ConfigHandler {
         enablelistAllwaterfreshwater = config.get(CATEGORY_MISC_RECIPES, "enablelistAllwaterfreshwater", true).getBoolean();
         enablelistAllwatervanillawaterbucket = config.get(CATEGORY_MISC_RECIPES, "enablelistAllwatervanillawaterbucket", true).getBoolean();
         marketblockrecipeItem = config.get(CATEGORY_MISC_RECIPES, "marketblockrecipeItem", 0).getInt();
+        enablemaplesyrupslimeballPresser = config.get(CATEGORY_MISC_RECIPES, "enablemaplesyrupslimeballPresser", true).getBoolean();
+        enablehoneyslimeballPresser = config.get(CATEGORY_MISC_RECIPES, "enablehoneyslimeballPresser", true).getBoolean();
     }
 
     private void initSeedDropFromGrassSetting(String key, String item) {

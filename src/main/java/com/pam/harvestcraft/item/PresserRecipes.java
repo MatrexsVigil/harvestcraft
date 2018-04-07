@@ -3,6 +3,7 @@ package com.pam.harvestcraft.item;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.blocks.FruitRegistry;
 
@@ -83,7 +84,15 @@ public class PresserRecipes {
         //Coconut Milk
         registerItemRecipe(FruitRegistry.getFood(FruitRegistry.COCONUT), ItemRegistry.coconutmilkItem, ItemRegistry.veggiebaitItem);
         
-        
+        //Slime Ball
+        if (HarvestCraft.config.enablemaplesyrupslimeballPresser)
+        {
+        	registerItemRecipe(FruitRegistry.getFood(FruitRegistry.MAPLE), Items.SLIME_BALL, ItemRegistry.freshwaterItem);
+        }
+        if (HarvestCraft.config.enablehoneyslimeballPresser)
+        {
+        	registerItemRecipe(ItemRegistry.honeyItem, Items.SLIME_BALL, ItemRegistry.freshwaterItem);
+        }
     }
 
     private static void registerItemRecipe(Item input, Item leftItem, Item rightItem) {
