@@ -1,5 +1,5 @@
 {
-    "parent": "block/cross",
+    "parent": "harvestcraft:block/pamscross",
     "textures": {
         "cross": "harvestcraft:blocks/saplings/coconut_sapling"
     }
