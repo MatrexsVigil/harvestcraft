@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/cross",
+    "parent": "harvestcraft:block/crossgarden",
     "textures": {
         "cross": "harvestcraft:blocks/gardens/windygarden"
     }
