@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:peanutbuttercupitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPeanutbutter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

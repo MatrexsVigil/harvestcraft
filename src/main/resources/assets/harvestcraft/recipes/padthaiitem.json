@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:padthaiitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodNoodles"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPeanut"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAlltofu"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLime"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

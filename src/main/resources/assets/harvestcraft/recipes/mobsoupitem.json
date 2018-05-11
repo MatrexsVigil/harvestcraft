@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:mobsoupitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

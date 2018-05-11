@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "harvestcraft:netherstartoastitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

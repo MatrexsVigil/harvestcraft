@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:pitepaltitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropBarley"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "dustSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

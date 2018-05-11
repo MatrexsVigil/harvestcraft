@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "harvestcraft:glisteningsaladitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:speckled_melon"
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:chickenpaellaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodShrimpraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

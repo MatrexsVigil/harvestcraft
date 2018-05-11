@@ -1,0 +1,39 @@
+{
+  "result": {
+    "item": "harvestcraft:minerstewitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

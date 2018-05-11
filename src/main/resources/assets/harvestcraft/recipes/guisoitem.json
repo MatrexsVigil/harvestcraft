@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:guisoitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodNoodles"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSweetpotato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

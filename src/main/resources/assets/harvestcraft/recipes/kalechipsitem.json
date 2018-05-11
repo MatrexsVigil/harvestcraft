@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:kalechipsitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropKale"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

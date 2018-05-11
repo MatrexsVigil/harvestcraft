@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:groiledcheesesandwichitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodVegemite"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBread"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:pinkelitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllporkraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropWheat"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

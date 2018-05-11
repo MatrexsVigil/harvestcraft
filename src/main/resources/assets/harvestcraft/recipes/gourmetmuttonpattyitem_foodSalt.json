@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:gourmetmuttonpattyitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGroundmutton"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "seedMustard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

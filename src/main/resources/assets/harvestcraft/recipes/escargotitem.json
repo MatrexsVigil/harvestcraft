@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:escargotitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSnailraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodShrimpraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,32 +1,14 @@
 ﻿HarvestCraft 1.12.2u
 -----------------
 
+- Fixed: Recipe: Converting a HC fish to a MC fish now uses listAllfishfresh instead of listAllfishraw to avoid using Ground Fish to make infinite fish
+- Added: Crop: Kale
 - Added: Config: enablemaplesyrupslimeballPresser [Default: true] Allows you to press maple syrup into a Slimeball and Fresh Water
-- Added: Config: enablehoneyslimeballPresser [Default: true] Allows you to press maple syrup into a Slimeball and Fresh Water
+- Added: Config: enablehoneyslimeballPresser [Default: true] Allows you to press honey into a Slimeball and Fresh Water
+- Added: OreDictionary: All HC/Vanilla fish (but not ground fish) listed as listAllfishfresh as well as listAllfishraw
+- Added: OreDictionary: All tofu also listed under listAlltofu now
+- Added: Items: Bacon Pancakes, Black Paella, Blazing Soup, Brioche Bun, Chicken Paella, Epic BLT, Escargot, Glistening Salad, Gourmet Beef Burger, Gourmet Beef Patty, Gourmet Mutton Burger, Gourmet Mutton Patty, Gourmet Pork Burger, Gourmet Pork Patty, Gourmet Venison Burger, Gourmet Venison Patty, Groiled Cheese Sandwich, Guiso, Jellied Eel, Kale Chips, Kohl und Pinkel, Meatloaf sandwich, Miner's Stew, Mob Soup, Netherstar on Toast, Pad Thai, Paradise Burger, Peanut Butter and Banana Sandwich, Peanut Butter Cup, Pinkel, Pitepalt, Sauerbraten, Slime Pie, Strawberry Rhubarb Pie, Tiropita, Rose Petal Tea
 
-Paradise Cheeseburger - steak in the middle, cheese on the right of the steak, pickle on the left, bread on the top and bottom middle; finally, lettuce, tomato and ketchup(to represent Heinz 57) in any 3 corner slots.  Feeds as much as the deluxe burger
-
-1. gourmet beef patty - ground beef, salt, black pepper, spice leaf, mustard seeds
-2. gourmet pork patty - ground pork, salt, black pepper, spice leaf, mustard seeds
-3. gourmet lamb patty - ground lamb, salt, black pepper, spice leaf, mustard seeds
-4. gourmet venison patty - ground venison, salt, black pepper, spice leaf, mustard seeds
-5. brioche burger bun (flour, eggs, butter, milk, water, heavy cream, sugar ) golden/orange colour to it.
-6. gourmet venison burger - venison patty, brioche burger bun, pickled beets, mango chutney, spinach, cheese
-7. gourmet lamb burger - lamb patty, brioche burger bun, spice leaf, cheese, tomato, spinach, grilled mushrooms
-8. gourmet pork burger - pork patty, brioche burger bun, tomato, lettuce, avocado, fried onions
-9. gourmet beef burger - beef patty, brioche burger bun, cheese, lettuce, cucmber, pickles, chilli pepper, tomato.
-10. glistening salad - golden carrot, glistering melon, golden apple
-11. blazin' soup - stock, blaze powder, nether wart
-12. mob soup - bone, rotten flesh, fermented spider eye, ender pearl
-13. nether star on toast - toast, nether star and more butter 
-14. slime pie - slimeball, dough, mushrooms, lily pad
-15. miners stew - iron ingot, gold ingot, redstone, lapis, diamond, coal, flint, stock, rotten flesh
-
-Black Paella (Pot, Raw Calamari, Ink Sac, Rice, Stock, Garlic, Chili Pepper (6 hunger points))
-Chicken Paella (Pot, Raw Chicken/Raw Toficken/Ground Chicken, Raw Shrimp, Rice, Stock, Onion, Spice Leaf (6 hunger points))
-Jellied Eel (Saucepan, Raw Eel, Water/Fresh Water, Vinegar, Ground Nutmeg (2 hunger points))
-Escargot (Skillet, Raw Snail, Garlic, Butter (2 hunger points))
-Peanut Butter Cups (Cutting Board, Chocolate, Peanut Butter (2 hunger points))
 
 
 

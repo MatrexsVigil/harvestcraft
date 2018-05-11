@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:gourmetvenisonburgeritem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGourmetvenisonpatty"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBriochebun"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPickledbeets"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodMangochutney"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpinach"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

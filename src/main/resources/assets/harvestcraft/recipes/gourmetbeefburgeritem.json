@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:gourmetbeefburgeritem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGourmetbeefpatty"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBriochebun"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropCucumber"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPickles"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

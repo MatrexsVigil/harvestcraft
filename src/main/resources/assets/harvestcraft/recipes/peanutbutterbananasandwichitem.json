@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:peanutbutterbananasandwichitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBread"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodPeanutbutter"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBanana"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
