@@ -1,6 +1,6 @@
 itemGroup.harvestcraft=HarvestCraft
 
-# Blocks
+
 harvestcraft.harvestcraft.tile.cuttingboard.name=まな板
 harvestcraft.tile.pot.name=ポット
 
@@ -185,6 +185,7 @@ harvestcraft.tile.pamseaweedcrop.name=海藻の収穫物
 harvestcraft.tile.pamcurryleafcrop.name=カレーリーフの収穫物
 harvestcraft.tile.pamsesameseedscrop.name=ゴマの収穫物
 harvestcraft.tile.pamwaterchestnutcrop.name=白ぐわいの収穫物
+harvestcraft.tile.pamkalecrop.name=ケールの収穫物
 
 harvestcraft.tile.pampicklecrop.name=ピクルスの収穫物
 
@@ -216,7 +217,7 @@ tile.pavlovacake.name=パブロバ
 tile.holidaycake.name=クリスマスケーキ
 tile.pumpkincheesecake.name=パンプキンチーズケーキ
 
-# Items
+
 item.garliccoinitem.name=ガーリックコイン
 
 item.cottonitem.name=綿花
@@ -426,6 +427,9 @@ item.sesameseedsitem.name=ゴマ
 item.sesameseedsseeditem.name=ゴマの種
 item.waterchestnutitem.name=白ぐわい
 item.waterchestnutseeditem.name=白ぐわいの種
+item.kaleitem.name=ケール
+item.kaleseeditem.name=ケールの種
+
 item.gigapickleitem.name=ギガピクルス
 item.gigapickleseeditem.name=ギガピクルスの種
         
@@ -1359,8 +1363,42 @@ item.squidinkspaghettiitem.name=イカスミのスパゲッティ
 item.steaktartareitem.name=タルタルステーキ
 item.szechuaneggplantitem.name=麻婆茄子
 item.takoyakiitem.name=たこ焼き
-
-
+item.baconpancakesitem.name=ベーコンパンケーキ
+item.blackpaellaitem.name=アロス・ネグロ
+item.blazingsoupitem.name=ブレイジングスープ
+item.briochebunitem.name=ブリオッシュバンズ
+item.chickenpaellaitem.name=チキンパエリア
+item.epicbltitem.name=まいうーBLT
+item.escargotitem.name=エスカルゴの前菜
+item.glisteningsaladitem.name=きらめくサラダ
+item.gourmetbeefburgeritem.name=ぜいたくビーフバーガー
+item.gourmetbeefpattyitem.name=ぜいたくビーフパティ
+item.gourmetmuttonburgeritem.name=ぜいたくマトンバーガー
+item.gourmetmuttonpattyitem.name=ぜいたくマトンパティ
+item.gourmetporkburgeritem.name=ぜいたくポークバーガー
+item.gourmetporkpattyitem.name=ぜいたくポークパティ
+item.gourmetvenisonburgeritem.name=ぜいたく鹿肉バーガー
+item.gourmetvenisonpattyitem.name=ぜいたく鹿肉パティ
+item.groiledcheesesandwichitem.name=直火焼きチーズサンド
+item.guisoitem.name=カルボナーダ
+item.jelliedeelitem.name=ウナギのゼリー寄せ
+item.kalechipsitem.name=ケールチップス
+item.kohlundpinkelitem.name=グリュンコールとピンケルソーセージ
+item.meatloafsandwichitem.name=ミートローフサンドイッチ
+item.minerstewitem.name=鉱夫のシチュー
+item.mobsoupitem.name=モブスープ
+item.netherstartoastitem.name=トーストのネザースター乗せ
+item.padthaiitem.name=パッタイ
+item.paradiseburgeritem.name=パラダイスバーガー
+item.peanutbutterbananasandwichitem.name=ピーナッツバターとバナナのサンドイッチ
+item.peanutbuttercupitem.name=ピーナッツバターカップ
+item.pinkelitem.name=ピンケルソーセージ
+item.pitepaltitem.name=ピーテパルト
+item.sauerbratenitem.name=ザウアーブラーテン
+item.slimepieitem.name=スライムパイ
+item.strawberryrhubarbpieitem.name=イチゴとルバーブのパイ
+item.tiropitaitem.name=ティロピタ
+item.rosepetalteaitem.name=ローズペタルティー
 
 
 
