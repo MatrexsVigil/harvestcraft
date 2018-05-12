@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:gourmetporkpattyitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGroundpork"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "seedMustard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

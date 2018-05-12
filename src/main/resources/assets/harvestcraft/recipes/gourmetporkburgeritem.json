@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:gourmetporkburgeritem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGourmetporkpatty"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBriochebun"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropAvocado"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFriedonions"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,4 +1,18 @@
-﻿HarvestCraft 1.12.2t
+﻿HarvestCraft 1.12.2u
+-----------------
+
+- Fixed: Recipe: Converting a HC fish to a MC fish now uses listAllfishfresh instead of listAllfishraw to avoid using Ground Fish to make infinite fish
+- Added: Crop: Kale
+- Added: Config: enablemaplesyrupslimeballPresser [Default: true] Allows you to press maple syrup into a Slimeball and Fresh Water
+- Added: Config: enablehoneyslimeballPresser [Default: true] Allows you to press honey into a Slimeball and Fresh Water
+- Added: OreDictionary: All HC/Vanilla fish (but not ground fish) listed as listAllfishfresh as well as listAllfishraw
+- Added: OreDictionary: All tofu also listed under listAlltofu now
+- Added: Items: Bacon Pancakes, Black Paella, Blazing Soup, Brioche Bun, Chicken Paella, Epic BLT, Escargot, Glistening Salad, Gourmet Beef Burger, Gourmet Beef Patty, Gourmet Mutton Burger, Gourmet Mutton Patty, Gourmet Pork Burger, Gourmet Pork Patty, Gourmet Venison Burger, Gourmet Venison Patty, Groiled Cheese Sandwich, Guiso, Jellied Eel, Kale Chips, Kohl und Pinkel, Meatloaf sandwich, Miner's Stew, Mob Soup, Netherstar on Toast, Pad Thai, Paradise Burger, Peanut Butter and Banana Sandwich, Peanut Butter Cup, Pinkel, Pitepalt, Sauerbraten, Slime Pie, Strawberry Rhubarb Pie, Tiropita, Rose Petal Tea
+
+
+
+
+HarvestCraft 1.12.2t
 -----------------
 
 - Fixed: Bug: Fixed serious crashing issue (PR by fllo)

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:rosepetalteaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTea"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

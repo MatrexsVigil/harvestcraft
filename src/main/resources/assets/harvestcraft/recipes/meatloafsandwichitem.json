@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:meatloafsandwichitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodMeatloaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBread"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodKetchup"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

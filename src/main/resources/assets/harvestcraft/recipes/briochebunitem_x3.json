@@ -1,0 +1,42 @@
+{
+  "result": {
+    "item": "harvestcraft:briochebunitem",
+    "count": 3
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodHeavycream"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

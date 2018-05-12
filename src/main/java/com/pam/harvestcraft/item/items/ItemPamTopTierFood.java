@@ -7,6 +7,7 @@ import javax.annotation.Nullable;
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.Reference;
 import com.pam.harvestcraft.config.ConfigHandler;
+import com.pam.harvestcraft.item.ItemRegistry;
 
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
@@ -46,6 +47,14 @@ public class ItemPamTopTierFood extends ItemFood {
     {
     	par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.getPotionFromResourceLocation("strength"), ConfigHandler.buffTimeForTopTier, 0));
     	par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.getPotionFromResourceLocation("resistance"), ConfigHandler.buffTimeForTopTier, 0));
+    	
+    	if (this == ItemRegistry.glisteningsaladItem)
+    	{
+    		par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.getPotionFromResourceLocation("strength"), ConfigHandler.buffTimeForTopTier, 0));
+        	par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.getPotionFromResourceLocation("resistance"), ConfigHandler.buffTimeForTopTier, 0));
+        	par3EntityPlayer.addPotionEffect(new PotionEffect(Potion.getPotionFromResourceLocation("regeneration"), ConfigHandler.buffTimeForTopTier, 0));
+        	
+    	}
     }
 
     /*

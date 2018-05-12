@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:epicbltitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropLettuce"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodEpicbacon"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

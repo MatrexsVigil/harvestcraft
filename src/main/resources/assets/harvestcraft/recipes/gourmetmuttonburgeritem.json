@@ -1,0 +1,41 @@
+{
+  "result": {
+    "item": "harvestcraft:gourmetmuttonburgeritem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGourmetmuttonpatty"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodBriochebun"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropSpinach"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodGrilledmushrooms"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

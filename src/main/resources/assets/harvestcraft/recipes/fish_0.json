@@ -6,7 +6,7 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "listAllfishraw"
+      "ore": "listAllfishfresh"
     }
   ],
   "type": "forge:ore_shapeless"

@@ -861,6 +861,42 @@ public final class ItemRegistry {
 	public static Item steaktartareItem;
 	public static Item szechuaneggplantItem;
 	public static Item takoyakiItem;
+	public static Item baconpancakesItem;
+	public static Item blackpaellaItem;
+	public static Item blazingsoupItem;
+	public static Item briochebunItem;
+	public static Item chickenpaellaItem;
+	public static Item epicbltItem;
+	public static Item escargotItem;
+	public static Item glisteningsaladItem;
+	public static Item gourmetbeefburgerItem;
+	public static Item gourmetbeefpattyItem;
+	public static Item gourmetmuttonburgerItem;
+	public static Item gourmetmuttonpattyItem;
+	public static Item gourmetporkburgerItem;
+	public static Item gourmetporkpattyItem;
+	public static Item gourmetvenisonburgerItem;
+	public static Item gourmetvenisonpattyItem;
+	public static Item groiledcheesesandwichItem;
+	public static Item guisoItem;
+	public static Item jelliedeelItem;
+	public static Item kalechipsItem;
+	public static Item kohlundpinkelItem;
+	public static Item meatloafsandwichItem;
+	public static Item minerstewItem;
+	public static Item mobsoupItem;
+	public static Item netherstartoastItem;
+	public static Item padthaiItem;
+	public static Item paradiseburgerItem;
+	public static Item peanutbutterbananasandwichItem;
+	public static Item peanutbuttercupItem;
+	public static Item pinkelItem;
+	public static Item pitepaltItem;
+	public static Item sauerbratenItem;
+	public static Item slimepieItem;
+	public static Item strawberryrhubarbpieItem;
+	public static Item tiropitaItem;
+	public static Item rosepetalteaItem;
 	
 	public static Item groundbeefItem;
 	public static Item groundchickenItem;
@@ -1785,6 +1821,30 @@ public final class ItemRegistry {
 		squidinkspaghettiItem = registerItemFood("squidinkspaghettiitem", 2, config.mealsaturation);
 		steaktartareItem = registerItemFood("steaktartareitem", 6, config.mealsaturation);
 		szechuaneggplantItem = registerItemFood("szechuaneggplantitem", 9, config.mealsaturation);
+		
+		baconpancakesItem = registerItemFood("baconpancakesitem", 6, config.mealsaturation);
+		blackpaellaItem = registerItemFood("blackpaellaitem", 7, config.mealsaturation);
+		blazingsoupItem = registerItemFood("blazingsoupitem", 9, config.mealsaturation);
+		briochebunItem = registerItemFood("briochebunitem", 3, config.mealsaturation);
+		chickenpaellaItem = registerItemFood("chickenpaellaitem", 8, config.mealsaturation);
+		escargotItem = registerItemFood("escargotitem", 5, config.mealsaturation);
+		gourmetbeefpattyItem = registerItemFood("gourmetbeefpattyitem", 6, config.mealsaturation);
+		gourmetmuttonpattyItem = registerItemFood("gourmetmuttonpattyitem", 6, config.mealsaturation);
+		gourmetporkpattyItem = registerItemFood("gourmetporkpattyitem", 6, config.mealsaturation);
+		gourmetvenisonpattyItem = registerItemFood("gourmetvenisonpattyitem", 6, config.mealsaturation);
+		guisoItem = registerItemFood("guisoitem", 9, config.mealsaturation);
+		jelliedeelItem = registerItemFood("jelliedeelitem", 5, config.mealsaturation);
+		kalechipsItem = registerItemFood("kalechipsitem", 2, config.mealsaturation);
+		padthaiItem = registerItemFood("padthaiitem", 8, config.mealsaturation);
+		peanutbutterbananasandwichItem = registerItemFood("peanutbutterbananasandwichitem", 5, config.mealsaturation);
+		peanutbuttercupItem = registerItemFood("peanutbuttercupitem", 3, config.mealsaturation);
+		pinkelItem = registerItemFood("pinkelitem", 4, config.mealsaturation);
+		pitepaltItem = registerItemFood("pitepaltitem", 6, config.mealsaturation);
+		sauerbratenItem = registerItemFood("sauerbratenitem", 6, config.mealsaturation);
+		slimepieItem = registerItemFood("slimepieitem", 7, config.mealsaturation);
+		strawberryrhubarbpieItem = registerItemFood("strawberryrhubarbpieitem", 6, config.mealsaturation);
+		tiropitaItem = registerItemFood("tiropitaitem", 8, config.mealsaturation);
+		rosepetalteaItem = registerItemFood("rosepetalteaitem", 2, config.mealsaturation);
 
 		groundbeefItem = registerGenericItem("groundbeefitem");
 		groundchickenItem = registerGenericItem("groundchickenitem");
@@ -1857,6 +1917,7 @@ public final class ItemRegistry {
 								cantonesenoodlesItem = registerTopTierFood("cantonesenoodlesitem", 10, config.mealsaturation);
 								dangoItem = registerTopTierFood("dangoitem", 10, config.mealsaturation);
 								takoyakiItem = registerTopTierFood("takoyakiitem", 10, config.mealsaturation);
+								groiledcheesesandwichItem = registerTopTierFood("groiledcheesesandwichitem", 10, config.mealsaturation);
 								
 								springfieldcashewchickenItem = registerTopTierFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 								enchiladaItem = registerTopTierFood("enchiladaitem", 11, config.mealsaturation);
@@ -1866,13 +1927,18 @@ public final class ItemRegistry {
 								toadintheholeItem = registerTopTierFood("toadintheholeitem", 11, config.mealsaturation);
 								homestylelunchItem = registerTopTierFood("homestylelunchitem", 11, config.mealsaturation);
 								montecristosandwichItem = registerTopTierFood("montecristosandwichitem", 11, config.mealsaturation);
+								mobsoupItem = registerTopTierFood("mobsoupitem", 11, config.mealsaturation);
 
 								//////////12 & 13 Food Points
 								randomtacoItem = registerTopTierFood("randomtacoitem", 12, config.mealsaturation);
 								hamsweetpicklesandwichItem = registerTopTierFood("hamsweetpicklesandwichitem", 12, config.mealsaturation);
 								toastedwesternItem = registerTopTierFood("toastedwesternitem", 12, config.mealsaturation);
 								eggsbenedictItem = registerTopTierFood("eggsbenedictitem", 12, config.mealsaturation);
-
+								glisteningsaladItem = registerTopTierFood("glisteningsaladitem", 12, config.mealsaturation);
+								meatloafsandwichItem = registerTopTierFood("meatloafsandwichitem", 12, config.mealsaturation);
+								
+								epicbltItem = registerTopTierFood("epicbltitem", 13, config.mealsaturation);
+								kohlundpinkelItem = registerTopTierFood("kohlundpinkelitem", 13, config.mealsaturation);
 								beetburgerItem = registerTopTierFood("beetburgeritem", 13, config.mealsaturation);
 								anchovypepperonipizzaItem = registerTopTierFood("anchovypepperonipizzaitem", 13, config.mealsaturation);
 								spaghettidinnerItem = registerTopTierFood("spaghettidinneritem", 13, config.mealsaturation);
@@ -1883,13 +1949,17 @@ public final class ItemRegistry {
 								supremepizzaItem = registerTopTierFood("supremepizzaitem", 14, config.mealsaturation);
 								bbqplatterItem = registerTopTierFood("bbqplatteritem", 14, config.mealsaturation);
 								chickenandwafflesItem = registerTopTierFood("chickenandwafflesitem", 14, config.mealsaturation);
-
+								gourmetporkburgerItem = registerTopTierFood("gourmetporkburgeritem", 14, config.mealsaturation);
+								
 								delightedmealItem = registerTopTierFood("delightedmealitem", 15, config.mealsaturation);
 								heartybreakfastItem = registerTopTierFood("heartybreakfastitem", 15, config.mealsaturation);
 
 								//////////16 & 17 Food Points
 								mcpamItem = registerTopTierFood("mcpamitem", 16, config.mealsaturation);
 								deluxenachoesItem = registerTopTierFood("deluxenachoesitem", 16, config.mealsaturation);
+								gourmetmuttonburgerItem = registerTopTierFood("gourmetmuttonburgeritem", 16, config.mealsaturation);
+								netherstartoastItem = registerTopTierFood("netherstartoastitem", 16, config.mealsaturation);
+								paradiseburgerItem = registerTopTierFood("paradiseburgeritem", 16, config.mealsaturation);
 								
 								chimichangaItem = registerTopTierFood("chimichangaitem", 17, config.mealsaturation);
 								salisburysteakItem = registerTopTierFood("salisburysteakitem", 17, config.mealsaturation);
@@ -1900,14 +1970,16 @@ public final class ItemRegistry {
 
 								deluxechickencurryItem = registerTopTierFood("deluxechickencurryitem", 19, config.mealsaturation);
 								weekendpicnicItem = registerTopTierFood("weekendpicnicitem", 19, config.mealsaturation);
-
+								gourmetbeefburgerItem = registerTopTierFood("gourmetbeefburgeritem", 19, config.mealsaturation);
+								
 								//////////20+ Food Points
 								southernstylebreakfastItem = registerTopTierFood("southernstylebreakfastitem", 20, config.mealsaturation);
 
 								meatfeastpizzaItem = registerTopTierFood("meatfeastpizzaitem", 24, config.mealsaturation);
 								thankfuldinnerItem = registerTopTierFood("thankfuldinneritem", 24, config.mealsaturation);
 								koreandinnerItem = registerTopTierFood("koreandinneritem", 24, config.mealsaturation);
-
+								gourmetvenisonburgerItem = registerTopTierFood("gourmetvenisonburgeritem", 20, config.mealsaturation);
+								minerstewItem = registerTopTierFood("minerstewitem", 25, config.mealsaturation);
 								cornedbeefbreakfastItem = registerTopTierFood("cornedbeefbreakfastitem", 26, config.mealsaturation);			
 		}
 		
@@ -1933,6 +2005,7 @@ public final class ItemRegistry {
 							cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
 							dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
 							takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
+							groiledcheesesandwichItem = registerItemFood("groiledcheesesandwichitem", 10, config.mealsaturation);
 							
 							springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 							enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
@@ -1942,13 +2015,18 @@ public final class ItemRegistry {
 							toadintheholeItem = registerItemFood("toadintheholeitem", 11, config.mealsaturation);
 							homestylelunchItem = registerItemFood("homestylelunchitem", 11, config.mealsaturation);
 							montecristosandwichItem = registerItemFood("montecristosandwichitem", 11, config.mealsaturation);
+							mobsoupItem = registerItemFood("mobsoupitem", 11, config.mealsaturation);
 
 							//////////12 & 13 Food Points
 							randomtacoItem = registerTopTierFood("randomtacoitem", 12, config.mealsaturation);
 							hamsweetpicklesandwichItem = registerTopTierFood("hamsweetpicklesandwichitem", 12, config.mealsaturation);
 							toastedwesternItem = registerTopTierFood("toastedwesternitem", 12, config.mealsaturation);
 							eggsbenedictItem = registerTopTierFood("eggsbenedictitem", 12, config.mealsaturation);
-
+							glisteningsaladItem = registerTopTierFood("glisteningsaladitem", 12, config.mealsaturation);
+							meatloafsandwichItem = registerTopTierFood("meatloafsandwichitem", 12, config.mealsaturation);
+							
+							epicbltItem = registerItemFood("epicbltitem", 13, config.mealsaturation);
+							kohlundpinkelItem = registerItemFood("kohlundpinkelitem", 13, config.mealsaturation);
 							beetburgerItem = registerTopTierFood("beetburgeritem", 13, config.mealsaturation);
 							anchovypepperonipizzaItem = registerTopTierFood("anchovypepperonipizzaitem", 13, config.mealsaturation);
 							spaghettidinnerItem = registerTopTierFood("spaghettidinneritem", 13, config.mealsaturation);
@@ -1959,13 +2037,17 @@ public final class ItemRegistry {
 							supremepizzaItem = registerTopTierFood("supremepizzaitem", 14, config.mealsaturation);
 							bbqplatterItem = registerTopTierFood("bbqplatteritem", 14, config.mealsaturation);
 							chickenandwafflesItem = registerTopTierFood("chickenandwafflesitem", 14, config.mealsaturation);
-
+							gourmetporkburgerItem = registerTopTierFood("gourmetporkburgeritem", 14, config.mealsaturation);
+							
 							delightedmealItem = registerTopTierFood("delightedmealitem", 15, config.mealsaturation);
 							heartybreakfastItem = registerTopTierFood("heartybreakfastitem", 15, config.mealsaturation);
 
 							//////////16 & 17 Food Points
 							mcpamItem = registerTopTierFood("mcpamitem", 16, config.mealsaturation);
 							deluxenachoesItem = registerTopTierFood("deluxenachoesitem", 16, config.mealsaturation);
+							gourmetmuttonburgerItem = registerTopTierFood("gourmetmuttonburgeritem", 16, config.mealsaturation);
+							netherstartoastItem = registerTopTierFood("netherstartoastitem", 16, config.mealsaturation);
+							paradiseburgerItem = registerTopTierFood("paradiseburgeritem", 16, config.mealsaturation);
 							
 							chimichangaItem = registerTopTierFood("chimichangaitem", 17, config.mealsaturation);
 							salisburysteakItem = registerTopTierFood("salisburysteakitem", 17, config.mealsaturation);
@@ -1976,14 +2058,16 @@ public final class ItemRegistry {
 
 							deluxechickencurryItem = registerTopTierFood("deluxechickencurryitem", 19, config.mealsaturation);
 							weekendpicnicItem = registerTopTierFood("weekendpicnicitem", 19, config.mealsaturation);
-
+							gourmetbeefburgerItem = registerTopTierFood("gourmetbeefburgeritem", 19, config.mealsaturation);
+							
 							//////////20+ Food Points
 							southernstylebreakfastItem = registerTopTierFood("southernstylebreakfastitem", 20, config.mealsaturation);
 
 							meatfeastpizzaItem = registerTopTierFood("meatfeastpizzaitem", 24, config.mealsaturation);
 							thankfuldinnerItem = registerTopTierFood("thankfuldinneritem", 24, config.mealsaturation);
 							koreandinnerItem = registerTopTierFood("koreandinneritem", 24, config.mealsaturation);
-
+							gourmetvenisonburgerItem = registerTopTierFood("gourmetvenisonburgeritem", 20, config.mealsaturation);
+							minerstewItem = registerTopTierFood("minerstewitem", 25, config.mealsaturation);
 							cornedbeefbreakfastItem = registerTopTierFood("cornedbeefbreakfastitem", 26, config.mealsaturation);	
 		}
 		
@@ -2009,6 +2093,7 @@ public final class ItemRegistry {
 						cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
 						dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
 						takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
+						groiledcheesesandwichItem = registerItemFood("groiledcheesesandwichitem", 10, config.mealsaturation);
 						
 						springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 						enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
@@ -2018,13 +2103,18 @@ public final class ItemRegistry {
 						toadintheholeItem = registerItemFood("toadintheholeitem", 11, config.mealsaturation);
 						homestylelunchItem = registerItemFood("homestylelunchitem", 11, config.mealsaturation);
 						montecristosandwichItem = registerItemFood("montecristosandwichitem", 11, config.mealsaturation);
+						mobsoupItem = registerItemFood("mobsoupitem", 11, config.mealsaturation);
 
 						//////////12 & 13 Food Points
 						randomtacoItem = registerItemFood("randomtacoitem", 12, config.mealsaturation);
 						hamsweetpicklesandwichItem = registerItemFood("hamsweetpicklesandwichitem", 12, config.mealsaturation);
 						toastedwesternItem = registerItemFood("toastedwesternitem", 12, config.mealsaturation);
 						eggsbenedictItem = registerItemFood("eggsbenedictitem", 12, config.mealsaturation);
-
+						glisteningsaladItem = registerItemFood("glisteningsaladitem", 12, config.mealsaturation);
+						meatloafsandwichItem = registerItemFood("meatloafsandwichitem", 12, config.mealsaturation);
+						
+						epicbltItem = registerItemFood("epicbltitem", 13, config.mealsaturation);
+						kohlundpinkelItem = registerItemFood("kohlundpinkelitem", 13, config.mealsaturation);
 						beetburgerItem = registerItemFood("beetburgeritem", 13, config.mealsaturation);
 						anchovypepperonipizzaItem = registerItemFood("anchovypepperonipizzaitem", 13, config.mealsaturation);
 						spaghettidinnerItem = registerItemFood("spaghettidinneritem", 13, config.mealsaturation);
@@ -2035,13 +2125,17 @@ public final class ItemRegistry {
 						supremepizzaItem = registerTopTierFood("supremepizzaitem", 14, config.mealsaturation);
 						bbqplatterItem = registerTopTierFood("bbqplatteritem", 14, config.mealsaturation);
 						chickenandwafflesItem = registerTopTierFood("chickenandwafflesitem", 14, config.mealsaturation);
-
+						gourmetporkburgerItem = registerTopTierFood("gourmetporkburgeritem", 14, config.mealsaturation);
+						
 						delightedmealItem = registerTopTierFood("delightedmealitem", 15, config.mealsaturation);
 						heartybreakfastItem = registerTopTierFood("heartybreakfastitem", 15, config.mealsaturation);
 
 						//////////16 & 17 Food Points
 						mcpamItem = registerTopTierFood("mcpamitem", 16, config.mealsaturation);
 						deluxenachoesItem = registerTopTierFood("deluxenachoesitem", 16, config.mealsaturation);
+						gourmetmuttonburgerItem = registerTopTierFood("gourmetmuttonburgeritem", 16, config.mealsaturation);
+						netherstartoastItem = registerTopTierFood("netherstartoastitem", 16, config.mealsaturation);
+						paradiseburgerItem = registerTopTierFood("paradiseburgeritem", 16, config.mealsaturation);
 						
 						chimichangaItem = registerTopTierFood("chimichangaitem", 17, config.mealsaturation);
 						salisburysteakItem = registerTopTierFood("salisburysteakitem", 17, config.mealsaturation);
@@ -2052,14 +2146,16 @@ public final class ItemRegistry {
 
 						deluxechickencurryItem = registerTopTierFood("deluxechickencurryitem", 19, config.mealsaturation);
 						weekendpicnicItem = registerTopTierFood("weekendpicnicitem", 19, config.mealsaturation);
-
+						gourmetbeefburgerItem = registerTopTierFood("gourmetbeefburgeritem", 19, config.mealsaturation);
+						
 						//////////20+ Food Points
 						southernstylebreakfastItem = registerTopTierFood("southernstylebreakfastitem", 20, config.mealsaturation);
 
 						meatfeastpizzaItem = registerTopTierFood("meatfeastpizzaitem", 24, config.mealsaturation);
 						thankfuldinnerItem = registerTopTierFood("thankfuldinneritem", 24, config.mealsaturation);
 						koreandinnerItem = registerTopTierFood("koreandinneritem", 24, config.mealsaturation);
-
+						gourmetvenisonburgerItem = registerTopTierFood("gourmetvenisonburgeritem", 20, config.mealsaturation);
+						minerstewItem = registerTopTierFood("minerstewitem", 25, config.mealsaturation);
 						cornedbeefbreakfastItem = registerTopTierFood("cornedbeefbreakfastitem", 26, config.mealsaturation);			
 		}
 		
@@ -2085,6 +2181,7 @@ public final class ItemRegistry {
 					cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
 					dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
 					takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
+					groiledcheesesandwichItem = registerItemFood("groiledcheesesandwichitem", 10, config.mealsaturation);
 					
 					springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 					enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
@@ -2094,13 +2191,18 @@ public final class ItemRegistry {
 					toadintheholeItem = registerItemFood("toadintheholeitem", 11, config.mealsaturation);
 					homestylelunchItem = registerItemFood("homestylelunchitem", 11, config.mealsaturation);
 					montecristosandwichItem = registerItemFood("montecristosandwichitem", 11, config.mealsaturation);
+					mobsoupItem = registerItemFood("mobsoupitem", 11, config.mealsaturation);
 
 					//////////12 & 13 Food Points
 					randomtacoItem = registerItemFood("randomtacoitem", 12, config.mealsaturation);
 					hamsweetpicklesandwichItem = registerItemFood("hamsweetpicklesandwichitem", 12, config.mealsaturation);
 					toastedwesternItem = registerItemFood("toastedwesternitem", 12, config.mealsaturation);
 					eggsbenedictItem = registerItemFood("eggsbenedictitem", 12, config.mealsaturation);
-
+					glisteningsaladItem = registerItemFood("glisteningsaladitem", 12, config.mealsaturation);
+					meatloafsandwichItem = registerItemFood("meatloafsandwichitem", 12, config.mealsaturation);
+					
+					epicbltItem = registerItemFood("epicbltitem", 13, config.mealsaturation);
+					kohlundpinkelItem = registerItemFood("kohlundpinkelitem", 13, config.mealsaturation);
 					beetburgerItem = registerItemFood("beetburgeritem", 13, config.mealsaturation);
 					anchovypepperonipizzaItem = registerItemFood("anchovypepperonipizzaitem", 13, config.mealsaturation);
 					spaghettidinnerItem = registerItemFood("spaghettidinneritem", 13, config.mealsaturation);
@@ -2111,13 +2213,17 @@ public final class ItemRegistry {
 					supremepizzaItem = registerItemFood("supremepizzaitem", 14, config.mealsaturation);
 					bbqplatterItem = registerItemFood("bbqplatteritem", 14, config.mealsaturation);
 					chickenandwafflesItem = registerItemFood("chickenandwafflesitem", 14, config.mealsaturation);
-
+					gourmetporkburgerItem = registerItemFood("gourmetporkburgeritem", 14, config.mealsaturation);
+					
 					delightedmealItem = registerItemFood("delightedmealitem", 15, config.mealsaturation);
 					heartybreakfastItem = registerItemFood("heartybreakfastitem", 15, config.mealsaturation);
 
 					//////////16 & 17 Food Points
 					mcpamItem = registerTopTierFood("mcpamitem", 16, config.mealsaturation);
 					deluxenachoesItem = registerTopTierFood("deluxenachoesitem", 16, config.mealsaturation);
+					gourmetmuttonburgerItem = registerTopTierFood("gourmetmuttonburgeritem", 16, config.mealsaturation);
+					netherstartoastItem = registerTopTierFood("netherstartoastitem", 16, config.mealsaturation);
+					paradiseburgerItem = registerTopTierFood("paradiseburgeritem", 16, config.mealsaturation);
 					
 					chimichangaItem = registerTopTierFood("chimichangaitem", 17, config.mealsaturation);
 					salisburysteakItem = registerTopTierFood("salisburysteakitem", 17, config.mealsaturation);
@@ -2128,14 +2234,16 @@ public final class ItemRegistry {
 
 					deluxechickencurryItem = registerTopTierFood("deluxechickencurryitem", 19, config.mealsaturation);
 					weekendpicnicItem = registerTopTierFood("weekendpicnicitem", 19, config.mealsaturation);
-
+					gourmetbeefburgerItem = registerTopTierFood("gourmetbeefburgeritem", 19, config.mealsaturation);
+					
 					//////////20+ Food Points
 					southernstylebreakfastItem = registerTopTierFood("southernstylebreakfastitem", 20, config.mealsaturation);
 
 					meatfeastpizzaItem = registerTopTierFood("meatfeastpizzaitem", 24, config.mealsaturation);
 					thankfuldinnerItem = registerTopTierFood("thankfuldinneritem", 24, config.mealsaturation);
 					koreandinnerItem = registerTopTierFood("koreandinneritem", 24, config.mealsaturation);
-
+					gourmetvenisonburgerItem = registerTopTierFood("gourmetvenisonburgeritem", 20, config.mealsaturation);
+					minerstewItem = registerTopTierFood("minerstewitem", 25, config.mealsaturation);
 					cornedbeefbreakfastItem = registerTopTierFood("cornedbeefbreakfastitem", 26, config.mealsaturation);
 		}
 		
@@ -2161,6 +2269,7 @@ public final class ItemRegistry {
 				cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
 				dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
 				takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
+				groiledcheesesandwichItem = registerItemFood("groiledcheesesandwichitem", 10, config.mealsaturation);
 				
 				springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 				enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
@@ -2170,13 +2279,18 @@ public final class ItemRegistry {
 				toadintheholeItem = registerItemFood("toadintheholeitem", 11, config.mealsaturation);
 				homestylelunchItem = registerItemFood("homestylelunchitem", 11, config.mealsaturation);
 				montecristosandwichItem = registerItemFood("montecristosandwichitem", 11, config.mealsaturation);
+				mobsoupItem = registerItemFood("mobsoupitem", 11, config.mealsaturation);
 
 				//////////12 & 13 Food Points
 				randomtacoItem = registerItemFood("randomtacoitem", 12, config.mealsaturation);
 				hamsweetpicklesandwichItem = registerItemFood("hamsweetpicklesandwichitem", 12, config.mealsaturation);
 				toastedwesternItem = registerItemFood("toastedwesternitem", 12, config.mealsaturation);
 				eggsbenedictItem = registerItemFood("eggsbenedictitem", 12, config.mealsaturation);
-
+				glisteningsaladItem = registerItemFood("glisteningsaladitem", 12, config.mealsaturation);
+				meatloafsandwichItem = registerItemFood("meatloafsandwichitem", 12, config.mealsaturation);
+				
+				epicbltItem = registerItemFood("epicbltitem", 13, config.mealsaturation);
+				kohlundpinkelItem = registerItemFood("kohlundpinkelitem", 13, config.mealsaturation);
 				beetburgerItem = registerItemFood("beetburgeritem", 13, config.mealsaturation);
 				anchovypepperonipizzaItem = registerItemFood("anchovypepperonipizzaitem", 13, config.mealsaturation);
 				spaghettidinnerItem = registerItemFood("spaghettidinneritem", 13, config.mealsaturation);
@@ -2187,13 +2301,17 @@ public final class ItemRegistry {
 				supremepizzaItem = registerItemFood("supremepizzaitem", 14, config.mealsaturation);
 				bbqplatterItem = registerItemFood("bbqplatteritem", 14, config.mealsaturation);
 				chickenandwafflesItem = registerItemFood("chickenandwafflesitem", 14, config.mealsaturation);
-
+				gourmetporkburgerItem = registerItemFood("gourmetporkburgeritem", 14, config.mealsaturation);
+				
 				delightedmealItem = registerItemFood("delightedmealitem", 15, config.mealsaturation);
 				heartybreakfastItem = registerItemFood("heartybreakfastitem", 15, config.mealsaturation);
 
 				//////////16 & 17 Food Points
 				mcpamItem = registerItemFood("mcpamitem", 16, config.mealsaturation);
 				deluxenachoesItem = registerItemFood("deluxenachoesitem", 16, config.mealsaturation);
+				gourmetmuttonburgerItem = registerItemFood("gourmetmuttonburgeritem", 16, config.mealsaturation);
+				netherstartoastItem = registerItemFood("netherstartoastitem", 16, config.mealsaturation);
+				paradiseburgerItem = registerItemFood("paradiseburgeritem", 16, config.mealsaturation);
 				
 				chimichangaItem = registerItemFood("chimichangaitem", 17, config.mealsaturation);
 				salisburysteakItem = registerItemFood("salisburysteakitem", 17, config.mealsaturation);
@@ -2204,14 +2322,16 @@ public final class ItemRegistry {
 
 				deluxechickencurryItem = registerTopTierFood("deluxechickencurryitem", 19, config.mealsaturation);
 				weekendpicnicItem = registerTopTierFood("weekendpicnicitem", 19, config.mealsaturation);
-
+				gourmetbeefburgerItem = registerTopTierFood("gourmetbeefburgeritem", 19, config.mealsaturation);
+				
 				//////////20+ Food Points
 				southernstylebreakfastItem = registerTopTierFood("southernstylebreakfastitem", 20, config.mealsaturation);
 
 				meatfeastpizzaItem = registerTopTierFood("meatfeastpizzaitem", 24, config.mealsaturation);
 				thankfuldinnerItem = registerTopTierFood("thankfuldinneritem", 24, config.mealsaturation);
 				koreandinnerItem = registerTopTierFood("koreandinneritem", 24, config.mealsaturation);
-
+				gourmetvenisonburgerItem = registerTopTierFood("gourmetvenisonburgeritem", 20, config.mealsaturation);
+				minerstewItem = registerTopTierFood("minerstewitem", 25, config.mealsaturation);
 				cornedbeefbreakfastItem = registerTopTierFood("cornedbeefbreakfastitem", 26, config.mealsaturation);
 		}
 		
@@ -2237,6 +2357,7 @@ public final class ItemRegistry {
 			cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
 			dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
 			takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
+			groiledcheesesandwichItem = registerItemFood("groiledcheesesandwichitem", 10, config.mealsaturation);
 			
 			springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 			enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
@@ -2246,13 +2367,18 @@ public final class ItemRegistry {
 			toadintheholeItem = registerItemFood("toadintheholeitem", 11, config.mealsaturation);
 			homestylelunchItem = registerItemFood("homestylelunchitem", 11, config.mealsaturation);
 			montecristosandwichItem = registerItemFood("montecristosandwichitem", 11, config.mealsaturation);
+			mobsoupItem = registerItemFood("mobsoupitem", 11, config.mealsaturation);
 
 			//////////12 & 13 Food Points
 			randomtacoItem = registerItemFood("randomtacoitem", 12, config.mealsaturation);
 			hamsweetpicklesandwichItem = registerItemFood("hamsweetpicklesandwichitem", 12, config.mealsaturation);
 			toastedwesternItem = registerItemFood("toastedwesternitem", 12, config.mealsaturation);
 			eggsbenedictItem = registerItemFood("eggsbenedictitem", 12, config.mealsaturation);
-
+			glisteningsaladItem = registerItemFood("glisteningsaladitem", 12, config.mealsaturation);
+			meatloafsandwichItem = registerItemFood("meatloafsandwichitem", 12, config.mealsaturation);
+			
+			epicbltItem = registerItemFood("epicbltitem", 13, config.mealsaturation);
+			kohlundpinkelItem = registerItemFood("kohlundpinkelitem", 13, config.mealsaturation);
 			beetburgerItem = registerItemFood("beetburgeritem", 13, config.mealsaturation);
 			anchovypepperonipizzaItem = registerItemFood("anchovypepperonipizzaitem", 13, config.mealsaturation);
 			spaghettidinnerItem = registerItemFood("spaghettidinneritem", 13, config.mealsaturation);
@@ -2263,13 +2389,17 @@ public final class ItemRegistry {
 			supremepizzaItem = registerItemFood("supremepizzaitem", 14, config.mealsaturation);
 			bbqplatterItem = registerItemFood("bbqplatteritem", 14, config.mealsaturation);
 			chickenandwafflesItem = registerItemFood("chickenandwafflesitem", 14, config.mealsaturation);
-
+			gourmetporkburgerItem = registerItemFood("gourmetporkburgeritem", 14, config.mealsaturation);
+			
 			delightedmealItem = registerItemFood("delightedmealitem", 15, config.mealsaturation);
 			heartybreakfastItem = registerItemFood("heartybreakfastitem", 15, config.mealsaturation);
 
 			//////////16 & 17 Food Points
 			mcpamItem = registerItemFood("mcpamitem", 16, config.mealsaturation);
 			deluxenachoesItem = registerItemFood("deluxenachoesitem", 16, config.mealsaturation);
+			gourmetmuttonburgerItem = registerItemFood("gourmetmuttonburgeritem", 16, config.mealsaturation);
+			netherstartoastItem = registerItemFood("netherstartoastitem", 16, config.mealsaturation);
+			paradiseburgerItem = registerItemFood("paradiseburgeritem", 16, config.mealsaturation);
 			
 			chimichangaItem = registerItemFood("chimichangaitem", 17, config.mealsaturation);
 			salisburysteakItem = registerItemFood("salisburysteakitem", 17, config.mealsaturation);
@@ -2280,14 +2410,16 @@ public final class ItemRegistry {
 
 			deluxechickencurryItem = registerItemFood("deluxechickencurryitem", 19, config.mealsaturation);
 			weekendpicnicItem = registerItemFood("weekendpicnicitem", 19, config.mealsaturation);
-
+			gourmetbeefburgerItem = registerItemFood("gourmetbeefburgeritem", 19, config.mealsaturation);
+			
 			//////////20+ Food Points
 			southernstylebreakfastItem = registerTopTierFood("southernstylebreakfastitem", 20, config.mealsaturation);
 
 			meatfeastpizzaItem = registerTopTierFood("meatfeastpizzaitem", 24, config.mealsaturation);
 			thankfuldinnerItem = registerTopTierFood("thankfuldinneritem", 24, config.mealsaturation);
 			koreandinnerItem = registerTopTierFood("koreandinneritem", 24, config.mealsaturation);
-
+			gourmetvenisonburgerItem = registerTopTierFood("gourmetvenisonburgeritem", 20, config.mealsaturation);
+			minerstewItem = registerTopTierFood("minerstewitem", 25, config.mealsaturation);
 			cornedbeefbreakfastItem = registerTopTierFood("cornedbeefbreakfastitem", 26, config.mealsaturation);
 		}
 		
@@ -2313,6 +2445,7 @@ public final class ItemRegistry {
 			cantonesenoodlesItem = registerItemFood("cantonesenoodlesitem", 10, config.mealsaturation);
 			dangoItem = registerItemFood("dangoitem", 10, config.mealsaturation);
 			takoyakiItem = registerItemFood("takoyakiitem", 10, config.mealsaturation);
+			groiledcheesesandwichItem = registerItemFood("groiledcheesesandwichitem", 10, config.mealsaturation);
 			
 			springfieldcashewchickenItem = registerItemFood("springfieldcashewchickenitem", 11, config.mealsaturation);
 			enchiladaItem = registerItemFood("enchiladaitem", 11, config.mealsaturation);
@@ -2322,13 +2455,18 @@ public final class ItemRegistry {
 			toadintheholeItem = registerItemFood("toadintheholeitem", 11, config.mealsaturation);
 			homestylelunchItem = registerItemFood("homestylelunchitem", 11, config.mealsaturation);
 			montecristosandwichItem = registerItemFood("montecristosandwichitem", 11, config.mealsaturation);
+			mobsoupItem = registerItemFood("mobsoupitem", 11, config.mealsaturation);
 
 			//////////12 & 13 Food Points
 			randomtacoItem = registerItemFood("randomtacoitem", 12, config.mealsaturation);
 			hamsweetpicklesandwichItem = registerItemFood("hamsweetpicklesandwichitem", 12, config.mealsaturation);
 			toastedwesternItem = registerItemFood("toastedwesternitem", 12, config.mealsaturation);
 			eggsbenedictItem = registerItemFood("eggsbenedictitem", 12, config.mealsaturation);
-
+			glisteningsaladItem = registerItemFood("glisteningsaladitem", 12, config.mealsaturation);
+			meatloafsandwichItem = registerItemFood("meatloafsandwichitem", 12, config.mealsaturation);
+			
+			epicbltItem = registerItemFood("epicbltitem", 13, config.mealsaturation);
+			kohlundpinkelItem = registerItemFood("kohlundpinkelitem", 13, config.mealsaturation);
 			beetburgerItem = registerItemFood("beetburgeritem", 13, config.mealsaturation);
 			anchovypepperonipizzaItem = registerItemFood("anchovypepperonipizzaitem", 13, config.mealsaturation);
 			spaghettidinnerItem = registerItemFood("spaghettidinneritem", 13, config.mealsaturation);
@@ -2339,13 +2477,17 @@ public final class ItemRegistry {
 			supremepizzaItem = registerItemFood("supremepizzaitem", 14, config.mealsaturation);
 			bbqplatterItem = registerItemFood("bbqplatteritem", 14, config.mealsaturation);
 			chickenandwafflesItem = registerItemFood("chickenandwafflesitem", 14, config.mealsaturation);
-
+			gourmetporkburgerItem = registerItemFood("gourmetporkburgeritem", 14, config.mealsaturation);
+			
 			delightedmealItem = registerItemFood("delightedmealitem", 15, config.mealsaturation);
 			heartybreakfastItem = registerItemFood("heartybreakfastitem", 15, config.mealsaturation);
 
 			//////////16 & 17 Food Points
 			mcpamItem = registerItemFood("mcpamitem", 16, config.mealsaturation);
 			deluxenachoesItem = registerItemFood("deluxenachoesitem", 16, config.mealsaturation);
+			gourmetmuttonburgerItem = registerItemFood("gourmetmuttonburgeritem", 16, config.mealsaturation);
+			netherstartoastItem = registerItemFood("netherstartoastitem", 16, config.mealsaturation);
+			paradiseburgerItem = registerItemFood("paradiseburgeritem", 16, config.mealsaturation);
 			
 			chimichangaItem = registerItemFood("chimichangaitem", 17, config.mealsaturation);
 			salisburysteakItem = registerItemFood("salisburysteakitem", 17, config.mealsaturation);
@@ -2356,14 +2498,16 @@ public final class ItemRegistry {
 
 			deluxechickencurryItem = registerItemFood("deluxechickencurryitem", 19, config.mealsaturation);
 			weekendpicnicItem = registerItemFood("weekendpicnicitem", 19, config.mealsaturation);
-
+			gourmetbeefburgerItem = registerItemFood("gourmetbeefburgeritem", 19, config.mealsaturation);
+			
 			//////////20+ Food Points
 			southernstylebreakfastItem = registerItemFood("southernstylebreakfastitem", 20, config.mealsaturation);
 
 			meatfeastpizzaItem = registerItemFood("meatfeastpizzaitem", 24, config.mealsaturation);
 			thankfuldinnerItem = registerItemFood("thankfuldinneritem", 24, config.mealsaturation);
 			koreandinnerItem = registerItemFood("koreandinneritem", 24, config.mealsaturation);
-
+			gourmetvenisonburgerItem = registerItemFood("gourmetvenisonburgeritem", 20, config.mealsaturation);
+			minerstewItem = registerItemFood("minerstewitem", 25, config.mealsaturation);
 			cornedbeefbreakfastItem = registerItemFood("cornedbeefbreakfastitem", 26, config.mealsaturation);
 		}
 
