@@ -1,6 +1,6 @@
 itemGroup.harvestcraft=潘马斯农场
 
-# Blocks
+
 harvestcraft.harvestcraft.tile.cuttingboard.name=刀砧板
 harvestcraft.tile.pot.name=锅
 
@@ -185,6 +185,7 @@ harvestcraft.tile.pamseaweedCrop.name=海带作物
 harvestcraft.tile.pamcurryleafCrop.name=咖喱叶作物
 harvestcraft.tile.pamsesameseedsCrop.name=芝麻作物
 harvestcraft.tile.pamwaterchestnutCrop.name=荸荠作物
+harvestcraft.tile.pamkalecrop.name=羽衣甘蓝作物
 
 harvestcraft.tile.pampicklecrop.name=腌菜作物
 
@@ -216,7 +217,7 @@ tile.pavlovacake.name=帕夫洛娃蛋糕
 tile.holidaycake.name=节日蛋糕
 tile.pumpkincheesecake.name=南瓜奶酪蛋糕
 
-# Items
+
 item.garliccoinitem.name=大蒜硬币
 
 item.cottonitem.name=棉花
@@ -253,7 +254,7 @@ item.fishtrapbaititem.name=鱼饵
 
 item.potitem.name=锅
 item.skilletitem.name=平底锅
-item.saucepanitem.name=深平底锅
+item.saucepanitem.name=炖锅
 item.bakewareitem.name=烤盘
 item.cuttingboarditem.name=刀砧板
 item.mortarandpestleitem.name=研钵和研棒
@@ -426,13 +427,16 @@ item.sesameseedsitem.name=芝麻
 item.sesameseedsseeditem.name=芝麻种子
 item.waterchestnutitem.name=荸荠
 item.waterchestnutseeditem.name=荸荠种子
+item.kaleitem.name=羽衣甘蓝
+item.kaleseeditem.name=羽衣甘蓝种子
+
 item.gigapickleitem.name=腌菜
 item.gigapickleseeditem.name=腌菜种子
 
 item.almonditem.name=杏仁
 item.apricotitem.name=杏
 item.avocadoitem.name=牛油果
-item.bananaitem.name=橡胶
+item.bananaitem.name=香蕉
 item.cashewitem.name=腰果
 item.cherryitem.name=樱桃
 item.chestnutitem.name=栗子
@@ -1359,3 +1363,39 @@ item.squidinkspaghettiitem.name=鱿鱼汁意大利面条
 item.steaktartareitem.name=鞑靼牛排
 item.szechuaneggplantitem.name=四川炒茄子
 item.takoyakiitem.name=章鱼烧
+item.baconpancakesitem.name=培根煎饼
+item.blackpaellaitem.name=西班牙风味海鲜饭
+item.blazingsoupitem.name=烈焰汤
+item.briochebunitem.name=奶油面包
+item.chickenpaellaitem.name=西班牙风味鸡肉饭
+item.epicbltitem.name=史诗BLT
+item.escargotitem.name=法国蜗牛
+item.glisteningsaladitem.name=闪烁的沙拉
+item.gourmetbeefburgeritem.name=牛肉堡
+item.gourmetbeefpattyitem.name=牛肉饼
+item.gourmetmuttonburgeritem.name=羊肉堡
+item.gourmetmuttonpattyitem.name=羊肉饼
+item.gourmetporkburgeritem.name=猪肉堡
+item.gourmetporkpattyitem.name=猪肉饼
+item.gourmetvenisonburgeritem.name=鹿肉堡
+item.gourmetvenisonpattyitem.name=鹿肉饼
+item.groiledcheesesandwichitem.name=奶酪三明治
+item.guisoitem.name=炖汤
+item.jelliedeelitem.name=鳗鱼煎果
+item.kalechipsitem.name=烤羽衣甘蓝
+item.kohlundpinkelitem.name=猪肉香肠便餐
+item.meatloafsandwichitem.name=肉卷三明治
+item.minerstewitem.name=珍宝汤
+item.mobsoupitem.name=怪物汤
+item.netherstartoastitem.name=下界之星面包
+item.padthaiitem.name=泰式炒面
+item.paradiseburgeritem.name=乐园汉堡
+item.peanutbutterbananasandwichitem.name=酱汁香蕉三明治
+item.peanutbuttercupitem.name=花生酱杯
+item.pinkelitem.name=猪肉香肠
+item.pitepaltitem.name=Pitepalt
+item.sauerbratenitem.name=酸味炖肉
+item.slimepieitem.name=粘液派
+item.strawberryrhubarbpieitem.name=草莓大黄派
+item.tiropitaitem.name=Tiropita
+item.rosepetalteaitem.name=玫瑰花茶
