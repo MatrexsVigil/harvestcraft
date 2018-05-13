@@ -37,12 +37,12 @@ harvestcraft.tile.watertrap.name=Ловушка для рыбы
 harvestcraft.tile.groundtrap.name=Ловушка для животных
 harvestcraft.tile.dehydrator.name=Осушитель
 
-tile.aridgarden.name=Засохший сад
-tile.frostgarden.name=Замерзший сад
-tile.tropicalgarden.name=Тропический сад
-tile.windygarden.name=Ветренный сад
-tile.shadedgarden.name=Тенистый сад
-tile.soggygarden.name=Мокрый сад
+tile.aridgarden.name=Засохший куст
+tile.frostgarden.name=Замерзший куст
+tile.tropicalgarden.name=Тропический куст
+tile.windygarden.name=Ветренный куст
+tile.shadedgarden.name=Тенистый куст
+tile.soggygarden.name=Мокрый куст
 
 item.desc.snack=Закуска
 item.desc.lightmeal=Легкая закуска
