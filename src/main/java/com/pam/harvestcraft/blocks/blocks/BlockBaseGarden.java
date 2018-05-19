@@ -78,7 +78,7 @@ public class BlockBaseGarden extends BlockBush {
     public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
         super.updateTick(worldIn, pos, state, rand);
 
-        if (config.enablegardenSpread && rand.nextInt(100 - config.gardenspreadRate) == 0) {
+        if (config.enablegardenSpread && rand.nextInt(100) < config.gardenspreadRate) {
             int amount = config.gardenSpreadMax;
 
             for (BlockPos blockpos : BlockPos.getAllInBoxMutable(pos.add(-4, -1, -4), pos.add(4, 1, 4))) {
