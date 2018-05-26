@@ -1,5 +1,7 @@
 buildscript {
     repositories {
+        mavenCentral()
+		mavenLocal()
         jcenter()
         maven { url = "http://files.minecraftforge.net/maven" }
     }
@@ -7,7 +9,16 @@ buildscript {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
     }
 }
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
 apply plugin: 'net.minecraftforge.gradle.forge'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 
@@ -73,5 +84,56 @@ processResources {
     // copy everything else except the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
+    }
+}
+
+// Create deobf dev jars
+task deobfJar(type: Jar) {
+    from sourceSets.main.output
+    classifier = 'deobf'
+}
+
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allJava
+    classifier = 'sources'
+}
+
+artifacts {
+    archives deobfJar
+    archives sourcesJar
+}
+
+task("uploadJars", dependsOn:"build") {
+    
+    description = "uploads JARs"
+
+    if (project.hasProperty("local_maven")) {
+	    apply plugin: 'maven'
+        uploadArchives {
+            repositories {
+		    	if(project.hasProperty("local_maven"))
+			    {
+                    mavenDeployer {
+                        repository(url: "file://${local_maven}")
+				    }
+                }
+            }
+        }    
+    }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+            artifact deobfJar
+            artifact sourcesJar
+        }
+    }
+
+    repositories {
+        if (project.hasProperty('DEPLOY_DIR')) {
+            maven { url DEPLOY_DIR }
+        }
     }
 }
