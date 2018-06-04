@@ -7,12 +7,12 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.blocks.blocks.BlockBaseGarden;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.config.Configuration;
-import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ConfigHandler {
@@ -455,7 +455,7 @@ public class ConfigHandler {
         final Matcher ITEM_STACK_MATCHER = ITEM_STACK_PATTERN.matcher("");
 
         for (String garden : gardenDropConfig.keySet()) {
-            FMLLog.info("Registering drops for %s.", garden);
+            HarvestCraft.log.info("Registering drops for %s.", garden);
 
             final List<ItemStack> drops = new ArrayList<ItemStack>();
             final String[] itemNames = gardenDropConfig.get(garden);
@@ -479,7 +479,7 @@ public class ConfigHandler {
                         drops.add(drop);
                     } else {
                         // Otherwise, let the user know about it...
-                        FMLLog.severe("Unable to find item %s to add to this garden.", baseItemName);
+                        HarvestCraft.log.error("Unable to find item %s to add to this garden.", baseItemName);
                     }
                 }
             }

@@ -2,6 +2,8 @@ package com.pam.harvestcraft.addons;
 
 import java.util.List;
 
+import com.pam.harvestcraft.HarvestCraft;
+
 import mcp.mobius.waila.api.IWailaConfigHandler;
 import mcp.mobius.waila.api.IWailaDataAccessor;
 import mcp.mobius.waila.api.IWailaDataProvider;
@@ -14,7 +16,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraftforge.fml.common.FMLLog;
 
 public class WailaVanillaHandler implements IWailaDataProvider {
 	@Override
@@ -54,10 +55,10 @@ public class WailaVanillaHandler implements IWailaDataProvider {
 	@Override
 	public List<String> getWailaBody(ItemStack itemStack, List<String> currenttip, IWailaDataAccessor accessor,
 			IWailaConfigHandler config) {
-		FMLLog.info("beetroot 1");
+		HarvestCraft.log.info("beetroot 1");
 
 		if(accessor.getBlock() instanceof BlockBeetroot) {
-			FMLLog.info("beetroot 2");
+			HarvestCraft.log.info("beetroot 2");
 
 			final String newtip = fixBeetroot(accessor);
 			currenttip.clear();

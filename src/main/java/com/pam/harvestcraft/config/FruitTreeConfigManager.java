@@ -1,11 +1,11 @@
 package com.pam.harvestcraft.config;
 
+import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.FruitRegistry;
 import com.pam.harvestcraft.blocks.growables.BlockPamSapling;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.common.config.Configuration;
-import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 import java.util.ArrayList;
@@ -114,7 +114,7 @@ public class FruitTreeConfigManager {
         biomeNames.append("Available/Detected biomes: ");
         for (Biome x : this.availableBiomes) {
             biomeNames.append("[" + x.getRegistryName().toString() + "], ");
-            FMLLog.log.info(
+            HarvestCraft.log.info(
                     x.getRegistryName().toString() + ";" +
                             x.getTempCategory() + ";" +
                             x.getTemperature() + ";" +

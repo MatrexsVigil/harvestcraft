@@ -23,6 +23,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import java.io.File;
 
+import org.apache.logging.log4j.Logger;
+
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class HarvestCraft {
 
@@ -39,11 +41,13 @@ public class HarvestCraft {
 		}
 	};
 
+	public static Logger log;
 	public static ConfigHandler config;
 	public static FruitTreeConfigManager fruitTreeConfigManager;
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		log = event.getModLog();
 		config = new ConfigHandler(new Configuration(event.getSuggestedConfigurationFile()));
 
         fruitTreeConfigManager = new FruitTreeConfigManager(

@@ -5,6 +5,7 @@ import static com.pam.harvestcraft.HarvestCraft.fruitTreeConfigManager;
 import java.util.List;
 import java.util.Random;
 
+import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.FruitRegistry;
 import com.pam.harvestcraft.blocks.growables.BlockPamSapling;
 
@@ -14,7 +15,6 @@ import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.IChunkProvider;
 
-import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class FruitTreeWorldGen implements IWorldGenerator {
@@ -23,7 +23,7 @@ public class FruitTreeWorldGen implements IWorldGenerator {
     public void generate(Random random, int chunkX, int chunkZ, World world,
                          net.minecraft.world.gen.IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
         if (!fruitTreeConfigManager.enableFruitTreeGeneration) {
-            FMLLog.log.debug("disabled fruit tree generation");
+            HarvestCraft.log.debug("disabled fruit tree generation");
             return;
         }
 
@@ -36,22 +36,22 @@ public class FruitTreeWorldGen implements IWorldGenerator {
         List<TreeGenerationConfiguration> fruitTreesRarity = fruitTreeConfigManager.getFruitTreesInBiomeWithLowerRarity(rarity, biome);
 
         if (fruitTreesRarity.isEmpty()) {
-            FMLLog.log.debug("no fruit available for biome: " + biome.getRegistryName().toString() + " with rarity < " + rarity + ".");
+            HarvestCraft.log.debug("no fruit available for biome: " + biome.getRegistryName().toString() + " with rarity < " + rarity + ".");
             return;
         }
         int index = random.nextInt(fruitTreesRarity.size());
         if (index < 0) {
-            FMLLog.log.debug("is < 0");
+            HarvestCraft.log.debug("is < 0");
             return;
         }
         TreeGenerationConfiguration fruitTree = fruitTreesRarity.get(index);
 
         if (fruitTree == null) {
-            FMLLog.log.debug("fruit tree is null");
+            HarvestCraft.log.debug("fruit tree is null");
             return;
         }
 
-//        FMLLog.log.debug("generate tree:" + fruitTree.getFruit());
+//        HarvestCraft.log.debug("generate tree:" + fruitTree.getFruit());
         generateFruitTree(world, random, fruitTree.getFruit(), x, z);
         return;
     }
