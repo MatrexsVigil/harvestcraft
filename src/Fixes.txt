@@ -1,2 +1,32 @@
 Maple tree textures suck at knowing when it's done
 Paper tree textures suck at knowing when it's done
+
+private static void registerNBT(ItemStack stack, ResourceLocation entityId) {
+        NBTTagCompound nbt = new NBTTagCompound();
+        NBTTagCompound nbt1 = new NBTTagCompound();
+        nbt1.setString("id", entityId.toString());
+        nbt.setTag("EntityTag", nbt1);
+        stack.setTagCompound(nbt);
+    }
+
+then
+    private static void registerAnimalEggs() {
+        ItemStack pigEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(pigEgg, EntityList.getKey(EntityPig.class));
+        .......
+    }
+	
+	Add Cooked Ground Meats
+	Check new machines for not giving equal amount of output
+	Fruit Syrups, Slushies, Snow Cones, Sorbet
+	Add gardens to bonemeal (configable)
+	way to disable the market and shipping bin in the config?
+
+	
+	Fix DesertCraft ticking block issue
+
+Add config'd timer to squid/sheep/llama milking, make mod to add config'd cow timer
+
+Invalid registration attempt for an Ore Dictionary item with name listAllfishraw has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+
+

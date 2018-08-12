@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:shrimpcocktailitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodShrimpcooked"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodKetchup"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,34 @@
+{
+  "result": {
+    "item": "harvestcraft:bbqsauceitem",
+    "count": 6
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodVinegar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropMustard"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

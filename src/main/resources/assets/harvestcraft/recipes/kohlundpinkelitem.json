@@ -27,6 +27,10 @@
     {
       "type": "forge:ore_dict",
       "ore": "foodPorksausage"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropKale"
     }
   ],
   "type": "forge:ore_shapeless"

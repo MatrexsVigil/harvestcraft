@@ -1,0 +1,36 @@
+{
+  "result": {
+    "item": "harvestcraft:pambitsboxitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -8,11 +8,22 @@ import com.pam.harvestcraft.blocks.FruitRegistry;
 import com.pam.harvestcraft.item.ItemRegistry;
 
 import net.minecraft.block.Block;
+import net.minecraft.entity.EntityList;
+import net.minecraft.entity.passive.EntityChicken;
+import net.minecraft.entity.passive.EntityCow;
+import net.minecraft.entity.passive.EntityHorse;
+import net.minecraft.entity.passive.EntityLlama;
+import net.minecraft.entity.passive.EntityOcelot;
+import net.minecraft.entity.passive.EntityPig;
+import net.minecraft.entity.passive.EntityRabbit;
+import net.minecraft.entity.passive.EntitySheep;
+import net.minecraft.entity.passive.EntityWolf;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemMonsterPlacer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 
@@ -83,17 +94,45 @@ public class MarketItems {
 			}
 	}
 
+	private static void registerNBT(ItemStack stack, ResourceLocation entityId) {
+        NBTTagCompound nbt = new NBTTagCompound();
+        NBTTagCompound nbt1 = new NBTTagCompound();
+        nbt1.setString("id", entityId.toString());
+        nbt.setTag("EntityTag", nbt1);
+        stack.setTagCompound(nbt);
+	}
+	
 	private static void registerAnimalEggs() {
+		
+		
 
-		final ItemStack pigEgg = new ItemStack(Items.SPAWN_EGG, 1, 90);
-		final ItemStack sheepEgg = new ItemStack(Items.SPAWN_EGG, 1, 91);
-		final ItemStack cowEgg = new ItemStack(Items.SPAWN_EGG, 1, 92);
-		final ItemStack chickenEgg = new ItemStack(Items.SPAWN_EGG, 1, 93);
-		final ItemStack horseEgg = new ItemStack(Items.SPAWN_EGG, 1, 100);
-		final ItemStack llamaEgg = new ItemStack(Items.SPAWN_EGG, 1, 103);
-		final ItemStack ocelotEgg = new ItemStack(Items.SPAWN_EGG, 1, 98);
-		final ItemStack wolfEgg = new ItemStack(Items.SPAWN_EGG, 1, 95);
-		final ItemStack rabbitEgg = new ItemStack(Items.SPAWN_EGG, 1, 101);
+		ItemStack pigEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(pigEgg, EntityList.getKey(EntityPig.class));
+        
+        ItemStack sheepEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(sheepEgg, EntityList.getKey(EntitySheep.class));
+        
+        ItemStack cowEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(cowEgg, EntityList.getKey(EntityCow.class));
+        
+        ItemStack chickenEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(chickenEgg, EntityList.getKey(EntityChicken.class));
+        
+        ItemStack horseEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(horseEgg, EntityList.getKey(EntityHorse.class));
+        
+        ItemStack llamaEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(llamaEgg, EntityList.getKey(EntityLlama.class));
+        
+        ItemStack ocelotEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(ocelotEgg, EntityList.getKey(EntityOcelot.class));
+        
+        ItemStack wolfEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(wolfEgg, EntityList.getKey(EntityWolf.class));
+        
+        ItemStack rabbitEgg = new ItemStack(Items.SPAWN_EGG);
+        registerNBT(rabbitEgg, EntityList.getKey(EntityRabbit.class));
+
 
 		if(FMLCommonHandler.instance().getEffectiveSide().isClient()) {
 			ItemMonsterPlacer.applyEntityIdToItemStack(pigEgg, new ResourceLocation("minecraft", "pig"));

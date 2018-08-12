@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:applesnowitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMeringue"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropApple"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

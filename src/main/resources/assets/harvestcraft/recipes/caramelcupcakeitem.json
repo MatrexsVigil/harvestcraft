@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:caramelcupcakeitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCaramel"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

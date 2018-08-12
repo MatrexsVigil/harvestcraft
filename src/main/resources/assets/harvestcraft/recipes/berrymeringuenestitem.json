@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:berrymeringuenestitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMeringue"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllberry"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllberry"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllberry"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllyogurt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

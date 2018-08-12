@@ -1,0 +1,45 @@
+{
+  "result": {
+    "item": "harvestcraft:swedishmeatballsitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundbeef"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodSpiceleaf"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundnutmeg"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

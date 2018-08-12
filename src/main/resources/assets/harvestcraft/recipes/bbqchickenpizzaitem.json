@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:bbqchickenpizzaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBbqsauce"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

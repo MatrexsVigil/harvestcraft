@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:cheesesteakitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodToast"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefcooked"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

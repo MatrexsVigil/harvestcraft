@@ -1,4 +1,19 @@
-﻿HarvestCraft 1.12.2u
+﻿HarvestCraft 1.12.2v
+-----------------
+- Fixed: Recipe: Gourmet Mutton Burger should now work (NB - Ligands)
+- Fixed: Recipe: Kohl und Pinkel now also requires kale and restores 14 FP, instead of 13FP
+- Fixed: Market: Spawn Eggs should now be the correct animal and not a blank egg
+- Changed: Texture: Cantaloupe item
+- Changed: Recipe: All recipes that used foodHeavycream now use listAllheavycream Ore Dictionary instead
+- Changed: Recipe: Keylime Pie, Lemon Meringue, and Pavlova now use foodMerginue item instead of listAllheavycream
+- Added: OreDictionary: All yogurts are now listed as listAllyogurt
+- Added: Items: Potato Skins, Chili Donut, BBQ Sauce, Vanilla Cupcake, Chocolate Cupcake, Carrot Cupcake, , Chili Cupcake, , Lemon Cupcake, Strawberry Cupcake, Mint Cupcake, Coffee Cupcake, Sprinkles Cupcake, Caramel Cupcake, Cherry Slushie, Pam Bits Box, Stuffed Chili Peppers, Slime Gummies, Chocolate Pudding, BBQ Chicken Pizza, Quesadillia, Mashed Potatoes and Chicken Biscuit, Cheesesteak, , Shrimp Cocktail, Swedish Meatballs, Nopales Salad, Meringue, Apple Snow, Baked Alaska, Berry Meringue Nest, Eton Mess, Meringue Bombe, Meringue Brownie, Meringue Cookie, Meringue Roulade, Merveilleux
+
+
+
+
+
+HarvestCraft 1.12.2u
 -----------------
 
 - Fixed: Recipe: Converting a HC fish to a MC fish now uses listAllfishfresh instead of listAllfishraw to avoid using Ground Fish to make infinite fish

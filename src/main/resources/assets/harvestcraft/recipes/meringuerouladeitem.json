@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:meringuerouladeitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMeringue"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropStrawberry"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodStrawberryjelly"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropMango"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

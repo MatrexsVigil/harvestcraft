@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "harvestcraft:slimegummiesitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllvenisonraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+{
+      "item": "minecraft:dye",
+      "data": 2
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

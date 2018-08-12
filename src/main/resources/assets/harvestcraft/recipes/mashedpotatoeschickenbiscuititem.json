@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:mashedpotatoeschickenbiscuititem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBiscuit"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMashedpotatoes"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllchickencooked"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

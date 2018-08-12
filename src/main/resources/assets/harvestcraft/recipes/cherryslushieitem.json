@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "harvestcraft:cherryslushieitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCherryjuice"
+    },
+{
+      "item": "minecraft:snowball"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

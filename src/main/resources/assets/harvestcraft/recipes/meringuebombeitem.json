@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:meringuebombeitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMeringue"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBatter"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllicecream"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCherry"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

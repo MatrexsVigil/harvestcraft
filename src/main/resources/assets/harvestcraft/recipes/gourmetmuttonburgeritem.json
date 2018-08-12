@@ -34,7 +34,7 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "foodGrilledmushrooms"
+      "ore": "foodGrilledmushroom"
     }
   ],
   "type": "forge:ore_shapeless"

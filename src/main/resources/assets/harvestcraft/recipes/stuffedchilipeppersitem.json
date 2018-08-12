@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:stuffedchilipeppersitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropSpiceleaf"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

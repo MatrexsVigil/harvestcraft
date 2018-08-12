@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:chilidonutitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
