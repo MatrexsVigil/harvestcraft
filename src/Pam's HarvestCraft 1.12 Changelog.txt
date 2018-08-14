@@ -1,4 +1,9 @@
-﻿HarvestCraft 1.12.2v
+﻿HarvestCraft 1.12.2w
+-----------------
+- Fixed: Recipe: Meringue recipe now correctly requires toolMixingbowl, listAllegg, listAllsugar, cropLemon, foodCornmeal
+- Added: Recipe: Alternate nopales salad requiring cactus fruit
+
+HarvestCraft 1.12.2v
 -----------------
 - Fixed: Recipe: Gourmet Mutton Burger should now work (NB - Ligands)
 - Fixed: Recipe: Kohl und Pinkel now also requires kale and restores 14 FP, instead of 13FP

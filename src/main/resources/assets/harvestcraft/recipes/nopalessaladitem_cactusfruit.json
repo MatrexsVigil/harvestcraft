@@ -1,29 +1,32 @@
 {
   "result": {
-    "item": "harvestcraft:meringueitem",
-    "count": 5
+    "item": "harvestcraft:nopalessaladitem"
   },
 
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "toolMixingbowl"
+      "ore": "toolCuttingboard"
     },
 {
       "type": "forge:ore_dict",
-      "ore": "listAllegg"
+      "ore": "cropOnion"
     },
 {
       "type": "forge:ore_dict",
-      "ore": "listAllsugar"
+      "ore": "cropChilipepper"
     },
 {
       "type": "forge:ore_dict",
-      "ore": "foodCornmeal"
+      "ore": "cropCactusfruit"
     },
 {
       "type": "forge:ore_dict",
-      "ore": "cropLemon"
+      "ore": "cropTomato"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropAvocado"
     }
   ],
   "type": "forge:ore_shapeless"
