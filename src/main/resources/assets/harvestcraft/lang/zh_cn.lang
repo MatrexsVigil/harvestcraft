@@ -1,6 +1,6 @@
 itemGroup.harvestcraft=潘马斯农场
 
-# Blocks
+
 harvestcraft.harvestcraft.tile.cuttingboard.name=刀砧板
 harvestcraft.tile.pot.name=锅
 
@@ -185,6 +185,7 @@ harvestcraft.tile.pamseaweedCrop.name=海带作物
 harvestcraft.tile.pamcurryleafCrop.name=咖喱叶作物
 harvestcraft.tile.pamsesameseedsCrop.name=芝麻作物
 harvestcraft.tile.pamwaterchestnutCrop.name=荸荠作物
+harvestcraft.tile.pamkalecrop.name=羽衣甘蓝作物
 
 harvestcraft.tile.pampicklecrop.name=腌菜作物
 
@@ -216,7 +217,7 @@ tile.pavlovacake.name=帕夫洛娃蛋糕
 tile.holidaycake.name=节日蛋糕
 tile.pumpkincheesecake.name=南瓜奶酪蛋糕
 
-# Items
+
 item.garliccoinitem.name=大蒜硬币
 
 item.cottonitem.name=棉花
@@ -253,7 +254,7 @@ item.fishtrapbaititem.name=鱼饵
 
 item.potitem.name=锅
 item.skilletitem.name=平底锅
-item.saucepanitem.name=深平底锅
+item.saucepanitem.name=炖锅
 item.bakewareitem.name=烤盘
 item.cuttingboarditem.name=刀砧板
 item.mortarandpestleitem.name=研钵和研棒
@@ -426,13 +427,16 @@ item.sesameseedsitem.name=芝麻
 item.sesameseedsseeditem.name=芝麻种子
 item.waterchestnutitem.name=荸荠
 item.waterchestnutseeditem.name=荸荠种子
+item.kaleitem.name=羽衣甘蓝
+item.kaleseeditem.name=羽衣甘蓝种子
+
 item.gigapickleitem.name=腌菜
 item.gigapickleseeditem.name=腌菜种子
 
 item.almonditem.name=杏仁
 item.apricotitem.name=杏
 item.avocadoitem.name=牛油果
-item.bananaitem.name=橡胶
+item.bananaitem.name=香蕉
 item.cashewitem.name=腰果
 item.cherryitem.name=樱桃
 item.chestnutitem.name=栗子
@@ -1302,7 +1306,7 @@ item.fruitcreamfestivalbreaditem.name=节日水果奶油面包
 item.phoitem.name=越南河粉
 item.bubbleteaitem.name=珍珠奶茶
 item.duckrawitem.name=生鸭肉
-item.cookedduckitem.name=熟鸭肉
+item.duckcookeditem.name=熟鸭肉
 item.wontonsoupitem.name=馄饨
 item.springrollitem.name=春卷
 item.meatystirfryitem.name=肉炒
@@ -1329,8 +1333,8 @@ item.hotdishcasseroleitem.name=砂锅菜
 item.sausagebeanmeltitem.name=脆香黄金肠
 item.mettbrotchenitem.name=肉末洋葱面包
 
-item.porkrindsitem.name=猪皮
-item.cracklinsitem.name=猪皮
+item.porkrindsitem.name=猪肉剥
+item.cracklinsitem.name=猪油渣
 item.chorusfruitsoupitem.name=紫颂果汤
 
 item.akutuqitem.name=爱斯基摩冰淇淋
@@ -1359,3 +1363,78 @@ item.squidinkspaghettiitem.name=鱿鱼汁意大利面条
 item.steaktartareitem.name=鞑靼牛排
 item.szechuaneggplantitem.name=四川炒茄子
 item.takoyakiitem.name=章鱼烧
+item.baconpancakesitem.name=培根煎饼
+item.blackpaellaitem.name=西班牙风味海鲜饭
+item.blazingsoupitem.name=烈焰汤
+item.briochebunitem.name=奶油面包
+item.chickenpaellaitem.name=西班牙风味鸡肉饭
+item.epicbltitem.name=史诗BLT
+item.escargotitem.name=法国蜗牛
+item.glisteningsaladitem.name=闪烁的沙拉
+item.gourmetbeefburgeritem.name=牛肉堡
+item.gourmetbeefpattyitem.name=牛肉饼
+item.gourmetmuttonburgeritem.name=羊肉堡
+item.gourmetmuttonpattyitem.name=羊肉饼
+item.gourmetporkburgeritem.name=猪肉堡
+item.gourmetporkpattyitem.name=猪肉饼
+item.gourmetvenisonburgeritem.name=鹿肉堡
+item.gourmetvenisonpattyitem.name=鹿肉饼
+item.groiledcheesesandwichitem.name=臭奶酪三明治
+item.guisoitem.name=面汤
+item.jelliedeelitem.name=煎鳗鱼
+item.kalechipsitem.name=烤羽衣甘蓝
+item.kohlundpinkelitem.name=猪肉香肠便餐
+item.meatloafsandwichitem.name=肉卷三明治
+item.minerstewitem.name=珍宝汤
+item.mobsoupitem.name=怪物汤
+item.netherstartoastitem.name=下界之星面包
+item.padthaiitem.name=泰式炒面
+item.paradiseburgeritem.name=田园汉堡
+item.peanutbutterbananasandwichitem.name=酱汁香蕉三明治
+item.peanutbuttercupitem.name=巧克力花生酱
+item.pinkelitem.name=猪肉香肠
+item.pitepaltitem.name=马铃薯猪肉丸
+item.sauerbratenitem.name=酸味炖肉
+item.slimepieitem.name=粘液派
+item.strawberryrhubarbpieitem.name=草莓大黄派
+item.tiropitaitem.name=奶酪饼
+item.rosepetalteaitem.name=玫瑰花茶
+
+item.potatoskinsitem.name=马铃薯皮
+item.chilidonutitem.name=辣椒甜甜圈
+item.bbqsauceitem.name=BBQ酱
+item.vanillacupcakeitem.name=香草杯蛋糕
+item.chocolatecupcakeitem.name=巧克力杯蛋糕
+item.carrotcupcakeitem.name=胡萝卜杯蛋糕
+item.redvelvetcupcakeitem.name=红丝绒杯蛋糕
+item.chilicupcakeitem.name=辣椒杯蛋糕
+item.peanutbuttercupcakeitem.name=花生酱杯蛋糕
+item.lemoncupcakeitem.name=柠檬杯蛋糕
+item.strawberrycupcakeitem.name=草莓杯蛋糕
+item.mintcupcakeitem.name=香叶杯蛋糕
+item.coffeecupcakeitem.name=咖啡杯蛋糕
+item.sprinklescupcakeitem.name=蜂蜜杯蛋糕
+item.caramelcupcakeitem.name=焦糖杯蛋糕
+item.cherryslushieitem.name=樱桃冰沙
+item.pambitsboxitem.name=便餐
+item.stuffedchilipeppersitem.name=辣椒馅
+item.slimegummiesitem.name=史莱姆软糖
+item.chocolatepuddingitem.name=巧克力布丁
+item.bbqchickenpizzaitem.name=BBQ鸡肉披萨
+item.quesadillaitem.name=墨西哥芝士馅饼
+item.mashedpotatoeschickenbiscuititem.name=土豆泥鸡肉饼
+item.cheesesteakitem.name=费城牛肉芝士三明治
+item.bibimbapitem.name=朝鲜拌饭
+item.shrimpcocktailitem.name=鸡尾冷虾
+item.swedishmeatballsitem.name=瑞典肉丸
+item.nopalessaladitem.name=杂菜沙拉
+item.meringueitem.name=蛋白脆饼
+item.applesnowitem.name=苹果霜
+item.bakedalaskaitem.name=热烤阿拉斯加
+item.berrymeringuenestitem.name=浆果霜
+item.etonmessitem.name=伊顿麦斯
+item.meringuebombeitem.name=Meringue Bombe
+item.meringuebrownieitem.name=Meringue Brownie
+item.meringuecookieitem.name=Meringue Cookie
+item.meringuerouladeitem.name=Meringue Roulade
+item.merveilleuxitem.name=Merveilleux
