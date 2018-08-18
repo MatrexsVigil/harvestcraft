@@ -78,6 +78,14 @@ public class CommonProxy {
 	    for (ItemStack stack : OreDictionary.getOres("listAllseed")) {
 	        temptationItems2.add(stack.getItem());
 	    }
+		
+		//Cow and Sheep dont have Temptation Items
+	    /*
+		Set<Item> temptationItems3 = ObfuscationReflectionHelper.getPrivateValue(EntityCow.class, null, "TEMPTATION_ITEMS", "field_184761_bD");
+	    for (ItemStack stack : OreDictionary.getOres("listAllgrain")) {
+	        temptationItems3.add(stack.getItem());
+	    }
+	    */
 	    
 	    
 
@@ -111,7 +119,7 @@ public class CommonProxy {
         
         RightClickHarvesting.instance.register();
         
-        //MinecraftForge.EVENT_BUS.register(new AnimalBreedingEvent());
+        MinecraftForge.EVENT_BUS.register(new AnimalBreedingEvent());
         
         GameRegistry.registerFuelHandler(new HarvestCraftFuelHandler());
         
