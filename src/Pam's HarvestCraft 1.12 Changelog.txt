@@ -3,9 +3,14 @@
 - Fixed: Bug: Right clicking on crops no longer activates any held item (PR by panoskj)
 - Fixed: Bug: Shipping Bin now accepts raw duck, raw turkey, and raw venison (PR by JSW-TheOtherOne)
 - Fixed: Bug: Sheep and Cows should breed normally when vanilla balance is enabled (PR by Mxater)
+- Fixed: Bug: Garden spread rate makes a lot more sense now!  (PR by codewarrior0)
+- Fixed: Bug: Several Ore Dictionary labels work correctly even with vanilla food balance disabled (PR by clienthax)
+- Fixed: Bug: Vanilla food balance should no longer spam the console or break advancements (PR by clienthax)
 - Fixed: Texture: Gardens and Saplings should render the correct size (PR by Mrbysco)
 - Improved: Textures: Almond and Banana look much better (PR by WolfieWaffle)
 - Improved: Crops: White Mushrooms can now be planted on mycelium (PR by JSW-TheOtherOne)
+- Added: Language: ko_kr by mindy15963
+
 
 Direwolf20 -
 mango stirfry
