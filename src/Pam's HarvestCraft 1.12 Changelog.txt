@@ -1,4 +1,16 @@
-﻿HarvestCraft 1.12.2w
+﻿HarvestCraft 1.12.2x
+-----------------
+- Fixed: Bug: Right clicking on crops no longer activates any held item (PR by panoskj)
+- Fixed: Bug: Shipping Bin now accepts raw duck, raw turkey, and raw venison (PR by JSW-TheOtherOne)
+- Fixed: Bug: Sheep and Cows should breed normally when vanilla balance is enabled (PR by Mxater)
+- Fixed: Texture: Gardens and Saplings should render the correct size (PR by Mrbysco)
+- Improved: Textures: Almond and Banana look much better (PR by WolfieWaffle)
+- Improved: Crops: White Mushrooms can now be planted on mycelium (PR by JSW-TheOtherOne)
+
+Direwolf20 -
+mango stirfry
+
+HarvestCraft 1.12.2w
 -----------------
 - Fixed: Recipe: Meringue recipe now correctly requires toolMixingbowl, listAllegg, listAllsugar, cropLemon, foodCornmeal
 - Added: Recipe: Alternate nopales salad requiring cactus fruit
