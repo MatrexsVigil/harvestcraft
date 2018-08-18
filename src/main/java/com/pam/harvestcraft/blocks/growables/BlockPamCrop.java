@@ -3,9 +3,7 @@ package com.pam.harvestcraft.blocks.growables;
 import java.util.List;
 import java.util.Random;
 
-import com.pam.harvestcraft.blocks.CropRegistry;
 import com.pam.harvestcraft.config.ConfigHandler;
-import com.pam.harvestcraft.item.ItemRegistry;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockCrops;
@@ -16,6 +14,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
@@ -254,9 +253,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 	}
 
 	@Override
-	public List<ItemStack> getDrops(IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-
-		final List<ItemStack> ret = new java.util.ArrayList<ItemStack>();
+	public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
 
 		final Random rand = world instanceof World ? ((World) world).rand : new Random();
 
@@ -266,19 +263,17 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 		for(int i = 0; i < count; i++) {
 			final Item item = this.getItemDropped(state, rand, fortune);
 			if(item != null) {
-				ret.add(new ItemStack(item, 1, this.damageDropped(state)));
+				drops.add(new ItemStack(item, 1, this.damageDropped(state)));
 			}
 		}
 
 		if(age >= getMatureAge()) {
 			for(int i = 0; i < 3 + fortune; ++i) {
 				if(rand.nextInt(2 * getMatureAge()) <= age) {
-					ret.add(new ItemStack(getSeed(), 1, 0));
+					drops.add(new ItemStack(getSeed(), 1, 0));
 				}
 			}
 		}
-
-		return ret;
 	}
 
 	@Override

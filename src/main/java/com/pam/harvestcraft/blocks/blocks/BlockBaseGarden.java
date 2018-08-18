@@ -25,6 +25,7 @@ import net.minecraft.init.Enchantments;
 import net.minecraft.item.ItemStack;
 import net.minecraft.stats.StatList;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
@@ -165,8 +166,7 @@ public class BlockBaseGarden extends BlockBush {
     }
 
     @Override
-    public List<ItemStack> getDrops(IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-        List<ItemStack> newStack = new ArrayList<ItemStack>();
+    public void getDrops(NonNullList<ItemStack> list, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
         List<ItemStack> ourDrops = drops.get(type);
         Collections.shuffle(ourDrops);
 
@@ -182,9 +182,8 @@ public class BlockBaseGarden extends BlockBush {
             }
 
             // Add it to our drops...
-            newStack.add(drop.copy());
+            list.add(drop.copy());
         }
-        return newStack;
     }
 
     @Override

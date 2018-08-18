@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Random;
 
 import com.pam.harvestcraft.HarvestCraft;
-import com.pam.harvestcraft.config.ConfigHandler;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.IGrowable;
@@ -17,6 +16,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
@@ -138,14 +138,11 @@ public class BlockPamFruitLog extends Block implements IGrowable, PamCropGrowabl
 	}
 
 	@Override
-	public List<ItemStack> getDrops(IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-		final List<ItemStack> drops = new ArrayList<ItemStack>();
-		// drops.add(new ItemStack(this, 1));
+	public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
 		if(getMetaFromState(state) >= MATURE_AGE) {
 			drops.add(new ItemStack(getFruitItem(), 1));
 			drops.add(new ItemStack(getFruitItem(), 1));
 		}
-		return drops;
 	}
 
 	@Override
