@@ -2,6 +2,8 @@ package com.pam.harvestcraft.config;
 
 import com.pam.harvestcraft.blocks.FruitRegistry;
 import com.pam.harvestcraft.blocks.growables.BlockPamSapling;
+
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.common.config.Configuration;
@@ -117,7 +119,7 @@ public class FruitTreeConfigManager {
             FMLLog.log.info(
                     x.getRegistryName().toString() + ";" +
                             x.getTempCategory() + ";" +
-                            x.getTemperature() + ";" +
+                            x.getTemperature(new BlockPos(0,0,0)) + ";" +
                             x.isHighHumidity() + ";" +
                             x.isMutation() + ";" +
                             x.isSnowyBiome() + ";" +
