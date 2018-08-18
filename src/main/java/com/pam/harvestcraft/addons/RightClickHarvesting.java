@@ -21,11 +21,13 @@ import net.minecraft.init.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.fml.common.eventhandler.Event;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class RightClickHarvesting {
@@ -43,27 +45,42 @@ public class RightClickHarvesting {
 		if(!HarvestCraft.config.enableEasyHarvest)
 			return;
 
-		if(event.getWorld().isRemote) {
-			return;
-		}
-
 		if(event.getEntityPlayer() == null)
-			return;
-		if(event.getHand() != EnumHand.MAIN_HAND)
 			return;
 
 		final IBlockState blockState = event.getWorld().getBlockState(event.getPos());
 
 		if(blockState.getBlock() instanceof BlockCrops) {
-			harvestCrops(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+			// we harvest with mainhand only
+			// but we cancel both hands
+			if(event.getHand() == EnumHand.MAIN_HAND) {
+				if(!event.getWorld().isRemote)
+					// must be run by server only
+					harvestCrops(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+				event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
+			}
+			// this actually denies block placement only
+			// targeted block and held item can still be activated
+			event.setUseItem(Event.Result.DENY);
 		}
 
-		if(blockState.getBlock() instanceof BlockNetherWart) {
-			harvestNetherWart(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+		// now do this again for other block types
+		else if(blockState.getBlock() instanceof BlockNetherWart) {
+			if(event.getHand() == EnumHand.MAIN_HAND) {
+				if(!event.getWorld().isRemote)
+					harvestNetherWart(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+				event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
+			}
+			event.setUseItem(Event.Result.DENY);
 		}
 
-		if(blockState.getBlock() instanceof BlockPamFruit || blockState.getBlock() instanceof BlockPamFruitLog) {
-			harvestFruit(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+		else if(blockState.getBlock() instanceof BlockPamFruit || blockState.getBlock() instanceof BlockPamFruitLog) {
+			if(event.getHand() == EnumHand.MAIN_HAND) {
+				if(!event.getWorld().isRemote)
+					harvestFruit(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+				event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
+			}
+			event.setUseItem(Event.Result.DENY);
 		}
 	}
 
