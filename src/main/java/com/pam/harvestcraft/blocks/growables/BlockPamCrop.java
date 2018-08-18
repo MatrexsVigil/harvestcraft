@@ -286,6 +286,16 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 		return isSuitableSoilBlock(state.getBlock());
 	}
 
+//  @Override canBlockStay to deal with pamwhitemushroomcrop on mycelium
+	@Override
+        public boolean canBlockStay(World worldIn, BlockPos pos, IBlockState state){
+                IBlockState soilBlock = worldIn.getBlockState(pos.down());
+                if (state.getBlock().getRegistryName().toString().equals("harvestcraft:pamwhitemushroomcrop") && soilBlock.getBlock() == Blocks.MYCELIUM) {
+                    return true;
+                }
+                return super.canBlockStay(worldIn, pos, state);
+        }
+
 	@Override
 	public int getMaxAge() {
 		return getMatureAge();
