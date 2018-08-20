@@ -19,6 +19,7 @@ import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Enchantments;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.EnumActionResult;
@@ -50,125 +51,143 @@ public class RightClickHarvesting {
 
 		final IBlockState blockState = event.getWorld().getBlockState(event.getPos());
 
-		if(blockState.getBlock() instanceof BlockCrops) {
-			// we harvest with mainhand only
-			// but we cancel both hands
-			if(event.getHand() == EnumHand.MAIN_HAND) {
-				if(!event.getWorld().isRemote)
-					// must be run by server only
-					harvestCrops(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
-				event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
-			}
-			// this actually denies block placement only
-			// targeted block and held item can still be activated
-			event.setUseItem(Event.Result.DENY);
+		if(!(blockState.getBlock() instanceof BlockCrops ||
+			blockState.getBlock() instanceof BlockNetherWart ||
+			blockState.getBlock() instanceof BlockPamFruit ||
+			blockState.getBlock() instanceof BlockPamFruitLog))
+			return;
+
+		// Disable block placement even if the crop won't be harvested.
+		// Particularly useful when right clicking fruits with an ItemBlock in either hand.
+		disableItemBlock(event);
+
+		// Disable right click harvesting if holding a tool that can harvest crops (e.g. TiCo's Kama or Scythe).
+		// Note that Item.canHarvestBlock(IBlockState) doesn't have the same effect as ItemStack.canHarvestBlock(IBlockState)
+		// because TiCo's tools overload Item.canHarvestBlock(IBlockState, ItemStack) instead.
+		if((blockState.getBlock() instanceof BlockCrops || blockState.getBlock() instanceof BlockNetherWart) &&
+			(event.getEntityPlayer().getHeldItemMainhand().canHarvestBlock(blockState) ||
+			event.getEntityPlayer().getHeldItemOffhand().canHarvestBlock(blockState)))
+			return;
+
+		if(event.getHand() != EnumHand.MAIN_HAND) return;
+
+		if(canHarvestCrops(blockState)) {
+			if(!event.getWorld().isRemote)
+				harvestCrops(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+			event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
 		}
 
-		// now do this again for other block types
-		else if(blockState.getBlock() instanceof BlockNetherWart) {
-			if(event.getHand() == EnumHand.MAIN_HAND) {
-				if(!event.getWorld().isRemote)
-					harvestNetherWart(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
-				event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
-			}
-			event.setUseItem(Event.Result.DENY);
+		else if(canHarvestNetherWart(blockState)) {
+			if(!event.getWorld().isRemote)
+				harvestNetherWart(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+			event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
 		}
 
-		else if(blockState.getBlock() instanceof BlockPamFruit || blockState.getBlock() instanceof BlockPamFruitLog) {
-			if(event.getHand() == EnumHand.MAIN_HAND) {
-				if(!event.getWorld().isRemote)
-					harvestFruit(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
-				event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
-			}
-			event.setUseItem(Event.Result.DENY);
+		else if(canHarvestFruit(blockState)) {
+			if(!event.getWorld().isRemote)
+				harvestFruit(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
+			event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
 		}
+	}
+
+	private static boolean canHarvestCrops(IBlockState blockState) {
+		if(!(blockState.getBlock() instanceof BlockCrops)) return false;
+		final BlockCrops crops = (BlockCrops) blockState.getBlock();
+		return crops.isMaxAge(blockState);
 	}
 
 	private static void harvestCrops(IBlockState blockState, EntityPlayer player, World world, BlockPos blockPos) {
 		final BlockCrops crops = (BlockCrops) blockState.getBlock();
-		if(crops.isMaxAge(blockState)) {
-			final ItemStack stack = player.getHeldItemMainhand();
-			final int fortune = EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE, stack);
+		final ItemStack stack = player.getHeldItemMainhand();
+		final int fortune = EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE, stack);
 
-			final List<ItemStack> drops = crops.getDrops(world, blockPos, blockState, fortune);
+		final List<ItemStack> drops = crops.getDrops(world, blockPos, blockState, fortune);
 
-			// This removes exactly one seed from drops in order to make this more fair compared to vanilla
-			// as one seed stays planted.
-			final Item seedItem = crops.getItemDropped(blockState, world.rand, fortune);
-			if(seedItem != null)
-				for(Iterator<ItemStack> iterator = drops.iterator(); iterator.hasNext();) {
-					final ItemStack drop = iterator.next();
+		// This removes exactly one seed from drops in order to make this more fair compared to vanilla
+		// as one seed stays planted.
+		final Item seedItem = crops.getItemDropped(blockState, world.rand, fortune);
+		if(seedItem != null)
+			for(Iterator<ItemStack> iterator = drops.iterator(); iterator.hasNext();) {
+				final ItemStack drop = iterator.next();
 
-					// Remove a seed, then break.
-					if(!(drop.getItem() == seedItem) || crops instanceof BlockCarrot || crops instanceof BlockPotato) {
-						iterator.remove();
-						break;
-					}
+				// Remove a seed, then break.
+				if(!(drop.getItem() == seedItem) || crops instanceof BlockCarrot || crops instanceof BlockPotato) {
+					iterator.remove();
+					break;
 				}
-
-			ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
-
-			// Reset growth level
-			world.setBlockState(blockPos, crops.withAge(0));
-
-			for(ItemStack drop : drops) {
-				dropItem(drop, world, blockPos);
 			}
+
+		ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
+
+		// Reset growth level
+		world.setBlockState(blockPos, crops.withAge(0));
+
+		for(ItemStack drop : drops) {
+			dropItem(drop, world, blockPos);
 		}
+		
+	}
+
+	private static boolean canHarvestFruit(IBlockState blockState) {
+		if(!(blockState.getBlock() instanceof BlockPamFruit || blockState.getBlock() instanceof BlockPamFruitLog)) return false;
+		final PamCropGrowable blockPamFruit = (PamCropGrowable) blockState.getBlock();
+		return blockPamFruit.isMature(blockState);
 	}
 
 	private static void harvestFruit(IBlockState blockState, EntityPlayer player, World world, BlockPos blockPos) {
 		final PamCropGrowable blockPamFruit = (PamCropGrowable) blockState.getBlock();
 
-		if(blockPamFruit.isMature(blockState)) {
-			final ItemStack stack = player.getHeldItemMainhand();
-			final int fortune = EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE, stack);
-			final List<ItemStack> drops = blockPamFruit.getDrops(world, blockPos, blockState, fortune);
+		final ItemStack stack = player.getHeldItemMainhand();
+		final int fortune = EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE, stack);
+		final List<ItemStack> drops = blockPamFruit.getDrops(world, blockPos, blockState, fortune);
 
-			// This removes exactly one fruit from drops in order to make this more fair compared to "vanilla"
-			// as one fruit stays planted.
-			if(drops.size() > 0)
-				drops.remove(drops.size() - 1);
+		// This removes exactly one fruit from drops in order to make this more fair compared to "vanilla"
+		// as one fruit stays planted.
+		if(drops.size() > 0)
+			drops.remove(drops.size() - 1);
 
-			ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
+		ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
 
-			world.setBlockState(blockPos, blockState.withProperty(blockPamFruit.getAgeProperty(), 0), 3);
+		world.setBlockState(blockPos, blockState.withProperty(blockPamFruit.getAgeProperty(), 0), 3);
 
-			for(ItemStack drop : drops) {
-				dropItem(drop, world, blockPos);
-			}
+		for(ItemStack drop : drops) {
+			dropItem(drop, world, blockPos);
 		}
+	}
+
+	private static boolean canHarvestNetherWart(IBlockState blockState) {
+		if(!(blockState.getBlock() instanceof BlockNetherWart)) return false;
+		final BlockNetherWart netherWart = (BlockNetherWart) blockState.getBlock();
+		return blockState.getValue(BlockNetherWart.AGE) >= Iterables.getLast(BlockNetherWart.AGE.getAllowedValues());
 	}
 
 	private static void harvestNetherWart(IBlockState blockState, EntityPlayer player, World world, BlockPos blockPos) {
 		final BlockNetherWart netherWart = (BlockNetherWart) blockState.getBlock();
-		if (blockState.getValue(BlockNetherWart.AGE) >= Iterables.getLast(BlockNetherWart.AGE.getAllowedValues())) {
-			final ItemStack stack = player.getHeldItemMainhand();
-			final int fortune = EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE, stack);
+		final ItemStack stack = player.getHeldItemMainhand();
+		final int fortune = EnchantmentHelper.getEnchantmentLevel(Enchantments.FORTUNE, stack);
 
-			final List<ItemStack> drops = netherWart.getDrops(world, blockPos, blockState, fortune);
+		final List<ItemStack> drops = netherWart.getDrops(world, blockPos, blockState, fortune);
 
-			// This removes exactly one seed from drops in order to make this more fair compared to vanilla
-			// as one seed stays planted.
-			final Item seedItem = netherWart.getItemDropped(blockState, world.rand, fortune);
-			if (seedItem != null) {
-				for (Iterator<ItemStack> iterator = drops.iterator(); iterator.hasNext(); ) {
-					final ItemStack drop = iterator.next();
+		// This removes exactly one seed from drops in order to make this more fair compared to vanilla
+		// as one seed stays planted.
+		final Item seedItem = netherWart.getItemDropped(blockState, world.rand, fortune);
+		if (seedItem != null) {
+			for (Iterator<ItemStack> iterator = drops.iterator(); iterator.hasNext(); ) {
+				final ItemStack drop = iterator.next();
 
-					// Remove a seed, then break.
-					if (!(drop.getItem() == seedItem)) {
-						iterator.remove();
-						break;
-					}
+				// Remove a seed, then break.
+				if (!(drop.getItem() == seedItem)) {
+					iterator.remove();
+					break;
 				}
 			}
-			ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
+		}
+		ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
 
-			world.setBlockState(blockPos, blockState.withProperty(BlockNetherWart.AGE, 0));
+		world.setBlockState(blockPos, blockState.withProperty(BlockNetherWart.AGE, 0));
 
-			for (ItemStack drop : drops) {
-				dropItem(drop, world, blockPos);
-			}
+		for (ItemStack drop : drops) {
+			dropItem(drop, world, blockPos);
 		}
 	}
 
@@ -187,4 +206,8 @@ public class RightClickHarvesting {
 		world.spawnEntity(entityItem);
 	}
 
+	private static void disableItemBlock(PlayerInteractEvent.RightClickBlock event) {
+		if (event.getEntityPlayer().getHeldItem(event.getHand()).getItem() instanceof ItemBlock)
+			event.setUseItem(Event.Result.DENY);
+	}
 }
