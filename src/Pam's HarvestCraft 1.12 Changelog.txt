@@ -1,4 +1,8 @@
-﻿HarvestCraft 1.12.2x
+﻿HarvestCraft 1.12.2y
+-----------------
+- Fixed: Bug: RightClickHarvesting: Bonemeal should work again, adds improved compatibility with TiCo's Kama and Scythe (PR by panoskj)
+
+HarvestCraft 1.12.2x
 -----------------
 - Fixed: Bug: Right clicking on crops no longer activates any held item (PR by panoskj)
 - Fixed: Bug: Shipping Bin now accepts raw duck, raw turkey, and raw venison (PR by JSW-TheOtherOne)
@@ -12,8 +16,6 @@
 - Added: Language: ko_kr by mindy15963
 
 
-Direwolf20 -
-mango stirfry
 
 HarvestCraft 1.12.2w
 -----------------
