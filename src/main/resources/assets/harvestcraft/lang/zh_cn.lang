@@ -1,5 +1,6 @@
 itemGroup.harvestcraft=潘马斯农场
 
+
 harvestcraft.harvestcraft.tile.cuttingboard.name=刀砧板
 harvestcraft.tile.pot.name=锅
 
@@ -64,12 +65,12 @@ tile.pamdurian.name=榴莲
 tile.pamfig.name=无花果 
 tile.pamgrapefruit.name=葡萄柚
 tile.pamlemon.name=柠檬
-tile.pamlime.name=石灰
+tile.pamlime.name=青柠
 tile.pammaple.name=枫木
 tile.pammango.name=芒果
 tile.pamnutmeg.name=肉豆蔻
 tile.pamolive.name=橄榄
-tile.pamorange.name=橙色
+tile.pamorange.name=柑橘
 tile.pampapaya.name=木瓜
 tile.pampaperbark.name=白千层木
 tile.pampeach.name=桃
