@@ -40,6 +40,8 @@ public class BlockPamFruit extends Block implements IGrowable, PamCropGrowable, 
 	public static final PropertyInteger AGE = PropertyInteger.create("age", 0, MATURE_AGE);
 	public String BASE_STAGE_ID = null;
 
+	public static boolean fruitRemoval = false;//This is for Dynamic Trees since the fruits grow back completely
+	
 	public BlockPamFruit(BlockPamSapling sapling, Item fruit) {
 		super(Material.PLANTS);
 		this.setTickRandomly(true);
@@ -140,7 +142,9 @@ public class BlockPamFruit extends Block implements IGrowable, PamCropGrowable, 
 	@Override
 	public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
 		if(getMetaFromState(state) >= MATURE_AGE) {
-			drops.add(new ItemStack(getFruitItem(), 1));
+			if(!fruitRemoval) { 
+				drops.add(new ItemStack(getFruitItem(), 1));
+			}
 			drops.add(new ItemStack(getFruitItem(), 1));
 		}
 	}
