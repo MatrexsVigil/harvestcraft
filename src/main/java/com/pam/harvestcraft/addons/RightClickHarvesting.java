@@ -22,6 +22,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -71,7 +72,7 @@ public class RightClickHarvesting {
 
 		if(event.getHand() != EnumHand.MAIN_HAND) return;
 
-		if(canHarvestCrops(blockState)) {
+		if(canHarvestCrops(blockState, event.getWorld(), event.getPos())) {
 			if(!event.getWorld().isRemote)
 				harvestCrops(blockState, event.getEntityPlayer(), event.getWorld(), event.getPos());
 			event.getEntityPlayer().swingArm(EnumHand.MAIN_HAND);
@@ -90,10 +91,12 @@ public class RightClickHarvesting {
 		}
 	}
 
-	private static boolean canHarvestCrops(IBlockState blockState) {
-		if(!(blockState.getBlock() instanceof BlockCrops)) return false;
-		final BlockCrops crops = (BlockCrops) blockState.getBlock();
-		return crops.isMaxAge(blockState);
+	private static boolean canHarvestCrops(IBlockState plantBlockState, World world, BlockPos pos) {
+		if(!(plantBlockState.getBlock() instanceof BlockCrops)) return false;
+		final BlockCrops crops = (BlockCrops) plantBlockState.getBlock();
+		IBlockState soilBlockState = world.getBlockState(pos.down());
+		if(!soilBlockState.getBlock().canSustainPlant(soilBlockState, world, pos.down(), EnumFacing.UP, crops)) return false;
+		return crops.isMaxAge(plantBlockState);
 	}
 
 	private static void harvestCrops(IBlockState blockState, EntityPlayer player, World world, BlockPos blockPos) {
