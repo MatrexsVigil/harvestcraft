@@ -1,4 +1,9 @@
-﻿HarvestCraft 1.12.2y
+﻿HarvestCraft 1.12.2z
+-----------------
+- Fixed: Compatibility: Simple Corn (PR by panoskj)
+- Added: Compatibility: Dynamic Trees Add-On in the future (PR by ferreusveritas)
+
+HarvestCraft 1.12.2y
 -----------------
 - Fixed: Bug: RightClickHarvesting: Bonemeal should work again, adds improved compatibility with TiCo's Kama and Scythe (PR by panoskj)
 

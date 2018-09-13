@@ -1,20 +1,7 @@
+MAKE PRESSER RECIPES USE ORE DICTIONARY
+
 Maple tree textures suck at knowing when it's done
 Paper tree textures suck at knowing when it's done
-
-private static void registerNBT(ItemStack stack, ResourceLocation entityId) {
-        NBTTagCompound nbt = new NBTTagCompound();
-        NBTTagCompound nbt1 = new NBTTagCompound();
-        nbt1.setString("id", entityId.toString());
-        nbt.setTag("EntityTag", nbt1);
-        stack.setTagCompound(nbt);
-    }
-
-then
-    private static void registerAnimalEggs() {
-        ItemStack pigEgg = new ItemStack(Items.SPAWN_EGG);
-        registerNBT(pigEgg, EntityList.getKey(EntityPig.class));
-        .......
-    }
 	
 	Add Cooked Ground Meats
 	Check new machines for not giving equal amount of output
@@ -28,5 +15,11 @@ then
 Add config'd timer to squid/sheep/llama milking, make mod to add config'd cow timer
 
 Invalid registration attempt for an Ore Dictionary item with name listAllfishraw has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+
+Bee Sandwich - 3 queen bees, bread, butter
+
+Add "Chiliwowaz Special" under Chimichanga
+
+Add soy fish
 
 

@@ -8,6 +8,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import javax.annotation.Nullable;
+
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.BlockRegistry;
 import com.pam.harvestcraft.blocks.FruitRegistry;
@@ -22,6 +24,7 @@ import com.pam.harvestcraft.item.items.ItemPamTool;
 import com.pam.harvestcraft.item.items.ItemPamTopTierFood;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.passive.EntityChicken;
 import net.minecraft.entity.passive.EntityPig;
 import net.minecraft.init.Blocks;
@@ -32,11 +35,15 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemSeedFood;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.world.World;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.registries.IForgeRegistry;
 
@@ -2777,4 +2784,5 @@ public final class ItemRegistry {
         reg.registerAll(itemlist.toArray(new Item[0]));
         GeneralOreRegistry.initOreRegistry();
     }
+
 }

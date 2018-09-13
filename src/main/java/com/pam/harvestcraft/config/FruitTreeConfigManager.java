@@ -119,7 +119,7 @@ public class FruitTreeConfigManager {
             HarvestCraft.log.info(
                     x.getRegistryName().toString() + ";" +
                             x.getTempCategory() + ";" +
-                            x.getTemperature(new BlockPos(0,0,0)) + ";" +
+                            x.getFloatTemperature(new BlockPos(0,0,0)) + ";" +
                             x.isHighHumidity() + ";" +
                             x.isMutation() + ";" +
                             x.isSnowyBiome() + ";" +
