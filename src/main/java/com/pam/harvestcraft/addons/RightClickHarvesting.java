@@ -146,12 +146,16 @@ public class RightClickHarvesting {
 
 		// This removes exactly one fruit from drops in order to make this more fair compared to "vanilla"
 		// as one fruit stays planted.
-		if(drops.size() > 0)
+		if(drops.size() > 1)
 			drops.remove(drops.size() - 1);
 
 		ForgeEventFactory.fireBlockHarvesting(drops, world, blockPos, blockState, fortune, 1f, false, player);
 
-		world.setBlockState(blockPos, blockState.withProperty(blockPamFruit.getAgeProperty(), 0), 3);
+		if(BlockPamFruit.fruitRemoval) {
+			world.setBlockToAir(blockPos);
+		} else {
+			world.setBlockState(blockPos, blockState.withProperty(blockPamFruit.getAgeProperty(), 0), 3);
+		}
 
 		for(ItemStack drop : drops) {
 			dropItem(drop, world, blockPos);
