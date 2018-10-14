@@ -57,10 +57,10 @@ public class FruitTreeGen extends WorldGenAbstractTree {
                     k = 2;
                 }
 
-                for (int iPosX = blockPos.getX() - k, halflength = blockPos.getX() + k; iPosX <= halflength + k && canGenerate; ++iPosX) {
-                    for (int iPosZ = blockPos.getZ() - k, halfLength = blockPos.getZ() + k; iPosZ <= halfLength + k && canGenerate; ++iPosZ) {
+                for (int xStart = blockPos.getX() - k, xEnd = blockPos.getX() + k; xStart <= xEnd && canGenerate; ++xStart) {
+                    for (int zStart = blockPos.getZ() - k, zEnd = blockPos.getZ() + k; zStart <= zEnd && canGenerate; ++zStart) {
                         if (iPosY >= 0 && iPosY < 256) {
-                            if (!this.isReplaceable(worldIn, mutableBlockPos.setPos(iPosX, iPosY, iPosZ))) {
+                            if (!this.isReplaceable(worldIn, mutableBlockPos.setPos(xStart, iPosY, zStart))) {
                                 canGenerate = false;
                             }
                         } else {
