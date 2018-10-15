@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:soursop_sapling"
+  },
+  "group": "harvestcraft_sapling",
+  "ingredients": [
+    {
+      "item": "harvestcraft:soursopitem"
+    },
+    {
+      "item": "harvestcraft:soursopitem"
+    },
+    {
+      "item": "harvestcraft:soursopitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

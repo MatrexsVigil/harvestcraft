@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:tamarind_sapling"
+  },
+  "group": "harvestcraft_sapling",
+  "ingredients": [
+    {
+      "item": "harvestcraft:tamarinditem"
+    },
+    {
+      "item": "harvestcraft:tamarinditem"
+    },
+    {
+      "item": "harvestcraft:tamarinditem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

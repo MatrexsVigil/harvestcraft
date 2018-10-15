@@ -1,0 +1,8 @@
+{
+    "variants": {
+    	"inventory": [{ "model": "harvestcraft:fruits/tamarind_stage_0" }],
+        "age=0": { "model": "harvestcraft:fruits/tamarind_stage_0" },
+        "age=1": { "model": "harvestcraft:fruits/tamarind_stage_1" },
+        "age=2": { "model": "harvestcraft:fruits/tamarind_stage_2" }
+    }
+}

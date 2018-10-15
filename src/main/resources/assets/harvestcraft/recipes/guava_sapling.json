@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:guava_sapling"
+  },
+  "group": "harvestcraft_sapling",
+  "ingredients": [
+    {
+      "item": "harvestcraft:guavaitem"
+    },
+    {
+      "item": "harvestcraft:guavaitem"
+    },
+    {
+      "item": "harvestcraft:guavaitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

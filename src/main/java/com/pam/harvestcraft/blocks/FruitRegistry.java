@@ -60,6 +60,16 @@ public class FruitRegistry {
 	public static final String VANILLABEAN = "vanillabean";
 	public static final String WALNUT = "walnut";
 	public static final String SPIDERWEB = "spiderweb";
+	public static final String HAZELNUT = "hazelnut";
+	public static final String PAWPAW = "pawpaw";
+	public static final String SOURSOP = "soursop";
+	public static final String BREADFRUIT = "breadfruit";
+	public static final String GUAVA = "guava";
+	public static final String JACKFRUIT = "jackfruit";
+	public static final String LYCHEE = "lychee";
+	public static final String PASSIONFRUIT = "passionfruit";
+	public static final String RAMBUTAN = "rambutan";
+	public static final String TAMARIND = "tamarind";
 
 	public static final String CINNAMON = "cinnamon";
 	public static final String MAPLE = "maple";
@@ -103,7 +113,17 @@ public class FruitRegistry {
 		registeringFruits.put(VANILLABEAN, SaplingType.WARM);
 		registeringFruits.put(WALNUT, SaplingType.TEMPERATE);
 		registeringFruits.put(SPIDERWEB, SaplingType.TEMPERATE);
-
+		registeringFruits.put(HAZELNUT, SaplingType.TEMPERATE);
+		registeringFruits.put(PAWPAW, SaplingType.TEMPERATE);
+		registeringFruits.put(SOURSOP, SaplingType.TEMPERATE);
+		registeringFruits.put(BREADFRUIT, SaplingType.WARM);
+		registeringFruits.put(GUAVA, SaplingType.WARM);
+		registeringFruits.put(JACKFRUIT, SaplingType.WARM);
+		registeringFruits.put(LYCHEE, SaplingType.WARM);
+		registeringFruits.put(PASSIONFRUIT, SaplingType.WARM);
+		registeringFruits.put(RAMBUTAN, SaplingType.WARM);
+		registeringFruits.put(TAMARIND, SaplingType.WARM);
+		
 		registeringLogFruits.put(CINNAMON, SaplingType.WARM);
 		registeringLogFruits.put(MAPLE, SaplingType.COLD);
 		registeringLogFruits.put(PAPERBARK, SaplingType.WARM);

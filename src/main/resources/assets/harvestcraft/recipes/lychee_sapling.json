@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:lychee_sapling"
+  },
+  "group": "harvestcraft_sapling",
+  "ingredients": [
+    {
+      "item": "harvestcraft:lycheeitem"
+    },
+    {
+      "item": "harvestcraft:lycheeitem"
+    },
+    {
+      "item": "harvestcraft:lycheeitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

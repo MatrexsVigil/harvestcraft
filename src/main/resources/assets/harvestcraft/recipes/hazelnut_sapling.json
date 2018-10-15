@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:hazelnut_sapling"
+  },
+  "group": "harvestcraft_sapling",
+  "ingredients": [
+    {
+      "item": "harvestcraft:hazelnutitem"
+    },
+    {
+      "item": "harvestcraft:hazelnutitem"
+    },
+    {
+      "item": "harvestcraft:hazelnutitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

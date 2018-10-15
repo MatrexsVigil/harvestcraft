@@ -1,5 +1,7 @@
 MAKE PRESSER RECIPES USE ORE DICTIONARY
 
+MAKE OPTION TO DISABLE FOOD REGISTRATION FOR TI-CON FOOD MOD
+
 Maple tree textures suck at knowing when it's done
 Paper tree textures suck at knowing when it's done
 	

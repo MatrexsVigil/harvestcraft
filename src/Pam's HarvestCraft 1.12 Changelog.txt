@@ -1,4 +1,11 @@
-﻿HarvestCraft 1.12.2z
+﻿HarvestCraft 1.12.2za
+- Added: Temeperate Fruit Trees: Hazelnut, Pawpaw, Soursop
+- Added: Warm Fruit Trees: Breadfruit, Guava, Jackfruit, Lychee, Passionfruit, Rambutan, and Tamarind
+----- Note:  You will need to generate new chunks or use the Market block to find/buy these new fruit trees/saplings.
+- Added: Recipe: Hazelnut to flour
+- Added: OreDictionary: All new fruits/etc are under the ore dictionary and can be used in many recipes already
+
+HarvestCraft 1.12.2z
 -----------------
 - Fixed: Compatibility: Simple Corn (PR by panoskj)
 - Added: Compatibility: Dynamic Trees Add-On in the future (PR by ferreusveritas)

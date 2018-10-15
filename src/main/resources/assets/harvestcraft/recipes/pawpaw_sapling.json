@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "harvestcraft:pawpaw_sapling"
+  },
+  "group": "harvestcraft_sapling",
+  "ingredients": [
+    {
+      "item": "harvestcraft:pawpawitem"
+    },
+    {
+      "item": "harvestcraft:pawpawitem"
+    },
+    {
+      "item": "harvestcraft:pawpawitem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

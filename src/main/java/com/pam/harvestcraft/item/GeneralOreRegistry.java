@@ -300,6 +300,19 @@ public class GeneralOreRegistry {
     public static final String cropPecan="cropPecan";
     public static final String cropPersimmon="cropPersimmon";
     public static final String cropPistachio="cropPistachio";
+    
+    public static final String cropHazelnut="cropHazelnut";
+    public static final String cropPawpaw="cropPawpaw";
+    public static final String cropSoursop="cropSoursop";
+    public static final String cropBreadfruit="cropBreadfruit";
+    public static final String cropGuava="cropGuava";
+    public static final String cropJackfruit="cropJackfruit";
+    public static final String cropLychee="cropLychee";
+    public static final String cropPassionfruit="cropPassionfruit";
+    public static final String cropRambutan="cropRambutan";
+    public static final String cropTamarind="cropTamarind";
+    
+    
     public static final String foodSalt="foodSalt";
     public static final String foodFlour="foodFlour";
     public static final String foodDough="foodDough";
@@ -1222,7 +1235,17 @@ public class GeneralOreRegistry {
         OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.POMEGRANATE));
         OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.STARFRUIT));
         OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.VANILLABEAN));
-        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.WALNUT));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.HAZELNUT));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.PAWPAW));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.SOURSOP));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.BREADFRUIT));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.GUAVA));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.JACKFRUIT));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.LYCHEE));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.PASSIONFRUIT));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.RAMBUTAN));
+        OreDictionary.registerOre(treeSapling, FruitRegistry.getSapling(FruitRegistry.TAMARIND));
+        
 
         OreDictionary.registerOre(flowerRed,  Blocks.RED_FLOWER);
         OreDictionary.registerOre(flowerYellow,  Blocks.YELLOW_FLOWER);
@@ -2737,6 +2760,16 @@ public class GeneralOreRegistry {
 		OreDictionary.registerOre(foodMeringuecookie, ItemRegistry.meringuecookieItem);
 		OreDictionary.registerOre(foodMeringueroulade, ItemRegistry.meringuerouladeItem);
 		OreDictionary.registerOre(foodMerveilleux, ItemRegistry.merveilleuxItem);
+		
+		OreDictionary.registerOre(listAllfruit, FruitRegistry.getFood(FruitRegistry.PAWPAW));
+		OreDictionary.registerOre(listAllfruit, FruitRegistry.getFood(FruitRegistry.SOURSOP));
+		OreDictionary.registerOre(listAllfruit, FruitRegistry.getFood(FruitRegistry.GUAVA));
+		OreDictionary.registerOre(listAllfruit, FruitRegistry.getFood(FruitRegistry.LYCHEE));
+		OreDictionary.registerOre(listAllfruit, FruitRegistry.getFood(FruitRegistry.PASSIONFRUIT));
+		OreDictionary.registerOre(listAllfruit, FruitRegistry.getFood(FruitRegistry.RAMBUTAN));
+		OreDictionary.registerOre(listAllgrain, FruitRegistry.getFood(FruitRegistry.BREADFRUIT));
+		OreDictionary.registerOre(listAllveggie, FruitRegistry.getFood(FruitRegistry.JACKFRUIT));
+		OreDictionary.registerOre(listAllveggie, FruitRegistry.getFood(FruitRegistry.TAMARIND));
     	
     }
 
