@@ -1053,7 +1053,9 @@ public final class ItemRegistry {
 
 	private static void registerVanillaReplacementItems() {
 		harvestappleItem = registerItemFood("minecraft:apple", config.cropfoodRestore, config.cropsaturationRestore);
-		harvestwheatItem = registerItemFood("minecraft:wheat", config.cropfoodRestore, config.cropsaturationRestore);
+		if (ConfigHandler.makeWheatEdible == true) {
+			harvestwheatItem = registerItemFood("minecraft:wheat", config.cropfoodRestore, config.cropsaturationRestore);
+		}
 		harvestpotatoItem = registerItemSeedFood("minecraft:potato", config.cropfoodRestore, config.cropsaturationRestore, Blocks.POTATOES, Blocks.FARMLAND);
 		harvestcarrotItem = registerItemSeedFood("minecraft:carrot", config.cropfoodRestore, config.cropsaturationRestore, Blocks.CARROTS, Blocks.FARMLAND);
 		harvestbeetItem = registerItemFood("minecraft:beetroot", config.cropfoodRestore, config.cropsaturationRestore);

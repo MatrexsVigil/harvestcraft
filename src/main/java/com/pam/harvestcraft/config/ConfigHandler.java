@@ -33,6 +33,7 @@ public class ConfigHandler {
     private static final String CATEGORY_MISC_RECIPES = "miscellaneous recipes";
     private static final String CATEGORY_SHIPPINGBIN_PURCHASES = "shipping bin purchases";
     private static final String CATEGORY_SHIPPINGBIN_PRICES = "shipping bin prices";
+    private static final String CATEGORY_FOOD = "food items";
     //public static final String CATEGORY_WHITELIST = "whitelist";
 
     /**
@@ -99,6 +100,10 @@ public class ConfigHandler {
     private final Map<String, String[]> gardenDropConfig = new HashMap<String, String[]>();
 
 
+    // Food items config
+    public static boolean makeWheatEdible;
+    
+    
     // Block configuration variables
     public int gardenRarity;
     public int gardendropAmount;
@@ -202,12 +207,14 @@ public class ConfigHandler {
         config.load();
 
         initGeneralSettings();
+        initFoodSettings();
         initCropSettings();
         initSeedDropSettings();
         initGardenSettings();
         initMarketSettings();
         initBeesSettings();
         initMiscRecipesSettings();
+        
 
         if (config.hasChanged()) {
             config.save();
@@ -219,6 +226,10 @@ public class ConfigHandler {
         beehiveRarity = config.getInt("beehiveRarity", CATEGORY_BEE, 10, 0, Short.MAX_VALUE, "The higher the value, the more beehives are generated.");
         queenbeelastresultequalsQueen = config.getBoolean("apiarylastresultequalsQueen", CATEGORY_BEE, true, "If true, the last item produced by a queen bee will be another queen bee.");
         enablebeegrubaslistAllmeat  = config.getBoolean("enablebeegrubaslistAllmeat", CATEGORY_BEE, true, "Allows grubs and cooked grubs to be used in listAllrawmeat and listAllcookedmeat.");
+    }
+    
+    private void initFoodSettings() {
+    	makeWheatEdible = config.getBoolean("makeWheatEdible", CATEGORY_FOOD, true, "Enables Wheat as an edible item");
     }
 
     private void initGeneralSettings() {
