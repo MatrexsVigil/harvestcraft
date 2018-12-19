@@ -1,0 +1,6 @@
+{
+	"parent":"block/crop",
+	"textures": {
+		"crop": "harvestcraft:blocks/crops/greengrape_stage_2"
+	}
+}

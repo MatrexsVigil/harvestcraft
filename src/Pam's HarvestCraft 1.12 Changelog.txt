@@ -1,4 +1,12 @@
-﻿HarvestCraft 1.12.2za
+﻿HarvestCraft 1.12.2zb
+-----------------
+- Added: Crops: Agave, Amaranth, Arrowroot, Cassava, Chickpea, Elderberry, Flax, Green Grape, Huckleberry, Jicama, Jute, Kenaf, Kohlrabi, Lentil, Millet, Mulberry, Quinoa, Sisal, and Taro
+- Added: Recipes: String and flour recipes for various new crops
+- Added: Ore Dictionary: Made sure new crops were properly in the ore dictionary so they can work in old recipes
+- Fixed: Drops: Kale properly drops from gardens again
+
+HarvestCraft 1.12.2za
+-----------------
 - Added: Temeperate Fruit Trees: Hazelnut, Pawpaw, Soursop
 - Added: Warm Fruit Trees: Breadfruit, Guava, Jackfruit, Lychee, Passionfruit, Rambutan, and Tamarind
 ----- Note:  You will need to generate new chunks or use the Market block to find/buy these new fruit trees/saplings.

@@ -121,6 +121,7 @@ public class FruitTreeConfigManager {
                             x.getTempCategory() + ";" +
                             //x.getFloatTemperature(new BlockPos(0,0,0)) + ";" +
                             x.getTemperature(new BlockPos(0,0,0)) + ";" +
+                           
                             x.isHighHumidity() + ";" +
                             x.isMutation() + ";" +
                             x.isSnowyBiome() + ";" +

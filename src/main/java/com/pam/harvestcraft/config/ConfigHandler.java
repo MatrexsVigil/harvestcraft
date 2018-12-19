@@ -262,34 +262,36 @@ public class ConfigHandler {
 
         // Garden drop configuration
         gardenDropConfig.put("aridGarden", config.getStringList("aridGarden", "drops",
-                new String[]{"harvestcraft:cactusfruititem", "minecraft:cactus", }, ""));
+                new String[]{"harvestcraft:cactusfruititem", "harvestcraft:agaveitem", "harvestcraft:sisalitem", "harvestcraft:cassavaitem", "harvestcraft:chickpeaitem", "harvestcraft:lentilitem", "minecraft:cactus", }, ""));
         gardenDropConfig.put("frostGarden", config.getStringList("frostGarden", "drops",
                 new String[]{"harvestcraft:raspberryitem", "harvestcraft:oatsitem", "harvestcraft:ryeitem",
                         "harvestcraft:celeryitem", "harvestcraft:peasitem", "harvestcraft:beetitem",
                         "harvestcraft:rutabagaitem", "harvestcraft:broccoliitem", "harvestcraft:caulifloweritem",
-                        "harvestcraft:cabbageitem", "harvestcraft:spinachitem", "harvestcraft:cottonitem"}, ""));
+                        "harvestcraft:cabbageitem", "harvestcraft:spinachitem", "harvestcraft:cottonitem", 
+                        "harvestcraft:huckleberryitem", "harvestcraft:kohlrabiitem", "harvestcraft:quinoaitem"}, ""));
         gardenDropConfig.put("shadedGarden", config.getStringList("shadedGarden", "drops",
                 new String[]{"harvestcraft:whitemushroomitem", "harvestcraft:blackberryitem", "harvestcraft:zucchiniitem",
                         "harvestcraft:radishitem", "harvestcraft:rhubarbitem", "harvestcraft:tealeafitem",
                         "harvestcraft:garlicitem", "harvestcraft:sweetpotatoitem", "harvestcraft:turnipitem",
                         "harvestcraft:spiceleafitem", "harvestcraft:beanitem", "harvestcraft:leekitem",
-                        "harvestcraft:scallionitem", "harvestcraft:tomatoitem", "harvestcraft:cottonitem"}, ""));
+                        "harvestcraft:scallionitem", "harvestcraft:tomatoitem", "harvestcraft:juteitem"}, ""));
         gardenDropConfig.put("soggyGarden", config.getStringList("soggyGarden", "drops",
                 new String[]{"harvestcraft:brusselsproutitem", "harvestcraft:spiceleafitem", "harvestcraft:blueberryitem",
                         "harvestcraft:asparagusitem", "harvestcraft:cranberryitem", "harvestcraft:riceitem",
-                        "harvestcraft:seaweeditem", "harvestcraft:waterchestnutitem", "harvestcraft:okraitem", "harvestcraft:cottonitem"}, ""));
+                        "harvestcraft:seaweeditem", "harvestcraft:waterchestnutitem", "harvestcraft:okraitem", "harvestcraft:cottonitem", "harvestcraft:kaleitem", 
+                        "harvestcraft:milletitem", "harvestcraft:jicamaitem", "harvestcraft:greengrapeitem", "harvestcraft:mulberryitem"}, ""));
         gardenDropConfig.put("tropicalGarden", config.getStringList("tropicalGarden", "drops",
                 new String[]{"harvestcraft:grapeitem", "harvestcraft:pineappleitem", "harvestcraft:kiwiitem",
                         "harvestcraft:sesameseedsitem", "harvestcraft:curryleafitem", "harvestcraft:bambooshootitem",
                         "harvestcraft:cantaloupeitem", "harvestcraft:gingeritem", "harvestcraft:coffeebeanitem",
-                        "harvestcraft:soybeanitem", "harvestcraft:eggplantitem", "harvestcraft:cottonitem"}, ""));
+                        "harvestcraft:soybeanitem", "harvestcraft:eggplantitem", "harvestcraft:kenafitem", "harvestcraft:arrowrootitem", "harvestcraft:taroitem"}, ""));
         gardenDropConfig.put("windyGarden", config.getStringList("windyGarden", "drops",
                 new String[]{"harvestcraft:strawberryitem", "harvestcraft:barleyitem", "harvestcraft:cornitem",
                         "harvestcraft:cucumberitem", "harvestcraft:wintersquashitem", "harvestcraft:mustardseedsitem",
                         "harvestcraft:onionitem", "harvestcraft:parsnipitem", "harvestcraft:peanutitem",
                         "minecraft:potato", "minecraft:carrot", "harvestcraft:lettuceitem",
                         "harvestcraft:artichokeitem", "harvestcraft:bellpepperitem", "harvestcraft:chilipepperitem",
-                        "minecraft:wheat", "harvestcraft:cottonitem"}, ""));
+                        "minecraft:wheat", "harvestcraft:flaxitem", "harvestcraft:amaranthitem", "harvestcraft:elderberryitem"}, ""));
     }
     
     private void initMarketSettings() {
@@ -427,6 +429,29 @@ public class ConfigHandler {
         initSeedDropFromGrassSetting("curryleafseeddropfromgrass", CropRegistry.CURRYLEAF);
         initSeedDropFromGrassSetting("sesameseedsseeddropfromgrass", CropRegistry.SESAME);
         initSeedDropFromGrassSetting("waterchestnutseeddropfromgrass", CropRegistry.WATERCHESTNUT);
+        initSeedDropFromGrassSetting("kaleseeddropfromgrass", CropRegistry.KALE);
+
+        initSeedDropFromGrassSetting("agaveseeddropfromgrass", CropRegistry.AGAVE);
+        initSeedDropFromGrassSetting("amaranthseeddropfromgrass", CropRegistry.AMARANTH);
+        initSeedDropFromGrassSetting("arrowrootseeddropfromgrass", CropRegistry.ARROWROOT);
+        initSeedDropFromGrassSetting("cassavaseeddropfromgrass", CropRegistry.CASSAVA);
+        initSeedDropFromGrassSetting("chickpeaseeddropfromgrass", CropRegistry.CHICKPEA);
+        initSeedDropFromGrassSetting("elderberryseeddropfromgrass", CropRegistry.ELDERBERRY);
+        initSeedDropFromGrassSetting("flaxseeddropfromgrass", CropRegistry.FLAX);
+        initSeedDropFromGrassSetting("greengrapeseeddropfromgrass", CropRegistry.GREENGRAPE);
+        initSeedDropFromGrassSetting("huckleberryseeddropfromgrass", CropRegistry.HUCKLEBERRY);
+        initSeedDropFromGrassSetting("jicamaseeddropfromgrass", CropRegistry.JICAMA);
+        initSeedDropFromGrassSetting("juteseeddropfromgrass", CropRegistry.JUTE);
+        initSeedDropFromGrassSetting("kenafseeddropfromgrass", CropRegistry.KENAF);
+        initSeedDropFromGrassSetting("kohlrabiseeddropfromgrass", CropRegistry.KOHLRABI);
+        initSeedDropFromGrassSetting("lentilseeddropfromgrass", CropRegistry.LENTIL);
+        initSeedDropFromGrassSetting("milletseeddropfromgrass", CropRegistry.MILLET);
+        initSeedDropFromGrassSetting("mulberryseeddropfromgrass", CropRegistry.MULBERRY);
+        initSeedDropFromGrassSetting("quinoaseeddropfromgrass", CropRegistry.QUINOA);
+        initSeedDropFromGrassSetting("sisalseeddropfromgrass", CropRegistry.SISAL);
+        initSeedDropFromGrassSetting("taronutseeddropfromgrass", CropRegistry.TARO);
+
+    
     }
 
     private void initMiscRecipesSettings() {

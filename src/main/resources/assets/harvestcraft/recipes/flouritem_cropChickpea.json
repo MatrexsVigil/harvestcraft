@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "harvestcraft:flouritem"
+  },
+  "group":"harvestcraft_flouritem",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropChickpea"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

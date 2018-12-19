@@ -82,13 +82,35 @@ public class CropRegistry {
 	public static final String WATERCHESTNUT = "waterchestnut";
 	public static final String GIGAPICKLE = "gigapickle";
 	public static final String KALE = "kale";
+	
+	public static final String AGAVE = "agave";
+	public static final String AMARANTH = "amaranth";
+	public static final String ARROWROOT = "arrowroot";
+	public static final String CASSAVA = "cassava";
+	public static final String CHICKPEA = "chickpea";
+	public static final String ELDERBERRY = "elderberry";
+	public static final String FLAX = "flax";
+	public static final String GREENGRAPE = "greengrape";
+	public static final String HUCKLEBERRY = "huckleberry";
+	public static final String JICAMA = "jicama";
+	public static final String JUTE = "jute";
+	public static final String KENAF = "kenaf";
+	public static final String KOHLRABI = "kohlrabi";
+	public static final String LENTIL = "lentil";
+	public static final String MILLET = "millet";
+	public static final String MULBERRY = "mulberry";
+	public static final String QUINOA = "quinoa";
+	public static final String SISAL = "sisal";
+	public static final String TARO = "taro";
 
 	public static final String[] cropNames = new String[] {BLACKBERRY, BLUEBERRY, CANDLEBERRY, RASPBERRY, STRAWBERRY,
 			CACTUSFRUIT, ASPARAGUS, BARLEY, OATS, RYE, CORN, BAMBOOSHOOT, CANTALOUPE, CUCUMBER, WINTERSQUASH, ZUCCHINI,
 			BEET, ONION, PARSNIP, PEANUT, RADISH, RUTABAGA, SWEETPOTATO, TURNIP, RHUBARB, CELERY, GARLIC, GINGER,
 			SPICELEAF, TEALEAF, COFFEE, MUSTARD, BROCCOLI, CAULIFLOWER, LEEK, LETTUCE, SCALLION, ARTICHOKE,
 			BRUSSELSPROUT, CABBAGE, SPINACH, WHITEMUSHROOM, BEAN, SOYBEAN, BELLPEPPER, CHILIPEPPER, EGGPLANT, OKRA,
-			PEAS, TOMATO, COTTON, PINEAPPLE, GRAPE, KIWI, CRANBERRY, RICE, SEAWEED, CURRYLEAF, SESAME, WATERCHESTNUT, GIGAPICKLE, KALE};
+			PEAS, TOMATO, COTTON, PINEAPPLE, GRAPE, KIWI, CRANBERRY, RICE, SEAWEED, CURRYLEAF, SESAME, WATERCHESTNUT, GIGAPICKLE, KALE, 
+			AGAVE, AMARANTH, ARROWROOT, CASSAVA, CHICKPEA, ELDERBERRY, FLAX, GREENGRAPE, HUCKLEBERRY, JICAMA, JUTE, KENAF, KOHLRABI, LENTIL, 
+			MILLET, MULBERRY, QUINOA, SISAL, TARO};
 
 	private static boolean isInitialized = false;
 

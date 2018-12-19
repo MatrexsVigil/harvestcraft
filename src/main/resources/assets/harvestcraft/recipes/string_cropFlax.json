@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "minecraft:string",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropFlax"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropFlax"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropFlax"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

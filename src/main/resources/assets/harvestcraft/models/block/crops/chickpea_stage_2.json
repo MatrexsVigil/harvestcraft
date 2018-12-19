@@ -1,0 +1,6 @@
+{
+	"parent":"block/crop",
+	"textures": {
+		"crop": "harvestcraft:blocks/crops/chickpea_stage_2"
+	}
+}

@@ -1,3 +1,5 @@
+Soba Noodles, Red Bean and Red Bean Paste, Tuna, Original, and Salmon Onigiri, Mochi Cake and Dessert, Taiyaki, Imagawayaki, Shrimp Tempura, Gyudon, Strawberry Soufflé, Bratwurst, Schnitzel, Hot Cocoa and Marshmellows, Chicken Biscuit, BBQ Chicken Biscuit, Zucchini Bake, Chocolate Coconut Bars, Vanilla Conchas Bread, Cinnamon Bread, Musubi, Fruit Cake, Bologna, Bologna Sandwich, Fried Bologna Sandwich, Cassoulet, Corn Chips, Battenburg, Pumpkin Spice Latte, Root Beer Float, Chili Dog, Peanut Soup, Gravlax 
+
 MAKE PRESSER RECIPES USE ORE DICTIONARY
 
 MAKE OPTION TO DISABLE FOOD REGISTRATION FOR TI-CON FOOD MOD

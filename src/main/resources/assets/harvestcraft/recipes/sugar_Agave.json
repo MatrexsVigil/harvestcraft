@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "minecraft:sugar"
+  },
+  "group":"harvestcraft_sugar",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropAgave"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
