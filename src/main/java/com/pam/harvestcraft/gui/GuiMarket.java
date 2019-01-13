@@ -141,6 +141,7 @@ public class GuiMarket extends GuiContainer {
 	}
 
 	public void drawScreen(int par1, int par2, float par3) {
+		drawDefaultBackground();
 		super.drawScreen(par1, par2, par3);
 		ItemStack item = MarketItems.getData(itemNum).getItem();
 
