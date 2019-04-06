@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:arrowrootseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:arrowrootitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

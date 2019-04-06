@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:kenafseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:kenafitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

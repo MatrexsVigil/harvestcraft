@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:cassavaseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:cassavaitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

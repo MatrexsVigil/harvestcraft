@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:battenbergitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMarzipan"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodApricotjelly"
+    },
+{
+      "item": "minecraft:dye",
+      "data": 11
+    },
+{
+      "item": "minecraft:dye",
+      "data": 9
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

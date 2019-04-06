@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:imitationcrabsticksitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllwheat"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllfishcooked"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+{
+      "item": "minecraft:dye",
+      "data": 1
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

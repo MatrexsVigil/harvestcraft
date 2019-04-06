@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:jicamaseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:jicamaitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:agaveseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:agaveitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

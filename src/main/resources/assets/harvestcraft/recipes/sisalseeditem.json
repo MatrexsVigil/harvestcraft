@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:sisalseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:sisalitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

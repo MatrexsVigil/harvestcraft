@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:quesadillaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllporkraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropLemon"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBlackpepper"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

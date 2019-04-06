@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:amaranthseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:amaranthitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:taiyakiitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMisopaste"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

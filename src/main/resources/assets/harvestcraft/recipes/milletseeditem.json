@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:milletseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:milletitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

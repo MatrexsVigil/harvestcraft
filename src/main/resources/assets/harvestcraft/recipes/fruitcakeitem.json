@@ -1,0 +1,41 @@
+{
+  "result": {
+    "item": "harvestcraft:fruitcakeitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropApricot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropPineapple"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodRaisins"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAlljuice"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropDate"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCherry"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "harvestcraft:quesadillaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodPorksausage"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodPickles"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+{
+      "item": "minecraft:bread"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

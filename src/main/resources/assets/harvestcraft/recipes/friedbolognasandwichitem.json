@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "harvestcraft:friedbolognasandwichitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "item": "minecraft:bread"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBologna"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

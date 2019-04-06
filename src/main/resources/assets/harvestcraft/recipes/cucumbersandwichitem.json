@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:cucumbersandwichitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+,
+{
+      "item": "minecraft:bread"
+    }
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCucumber"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

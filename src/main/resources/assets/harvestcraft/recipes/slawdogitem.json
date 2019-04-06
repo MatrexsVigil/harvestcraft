@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:slawdogitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodHotdog"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodKetchup"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMustard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodPickles"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:lycheeteaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropLychee"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropTea"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllwater"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

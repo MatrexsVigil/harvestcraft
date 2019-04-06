@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:chickpeaseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:chickpeaitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

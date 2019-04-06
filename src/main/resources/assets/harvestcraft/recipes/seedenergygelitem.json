@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:seedenergygelitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAlljuice"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllseed"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllseed"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllseed"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

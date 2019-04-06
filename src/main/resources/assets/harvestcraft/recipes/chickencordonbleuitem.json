@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:chickencordonbleuitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllchickenraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllporkraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

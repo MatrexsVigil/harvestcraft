@@ -1,0 +1,30 @@
+{
+  "result": {
+    "item": "harvestcraft:misopasteitem",
+    "count": 4
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMortarandpestle"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropSoybean"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "itemSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

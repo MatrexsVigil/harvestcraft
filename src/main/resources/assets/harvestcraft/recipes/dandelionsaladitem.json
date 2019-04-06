@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:dandelionsaladitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllgreenveggie"
+    },
+{
+      "item": "minecraft:dye",
+      "data": 11
+    },
+{
+      "item": "minecraft:dye",
+      "data": 11
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

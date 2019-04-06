@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:quinoaseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:quinoaitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

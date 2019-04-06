@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:kohlrabiseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:kohlrabiitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

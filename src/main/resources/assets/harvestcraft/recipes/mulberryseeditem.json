@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:mulberryseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:mulberryitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

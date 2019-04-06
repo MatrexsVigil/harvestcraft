@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:sundayhighteaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodEarlgreytea"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCucumbersandwich"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:gyudonitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllbeefraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropScallion"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropGinger"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

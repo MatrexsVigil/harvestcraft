@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:timpanoitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodSpagettiandmeatballs"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDeviledegg"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodSausage"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

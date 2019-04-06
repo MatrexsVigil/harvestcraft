@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:mochidessertitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolMixingbowl"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMochi"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodIcecream"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

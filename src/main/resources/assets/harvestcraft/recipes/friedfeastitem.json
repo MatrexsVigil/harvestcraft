@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:friedfeastitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFriedchicken"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFries"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMashedpotatoes"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsoda"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

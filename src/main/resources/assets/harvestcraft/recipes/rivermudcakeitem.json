@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:rivermudcakeitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCocoapowder"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropCoconut"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodMarshmellows"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

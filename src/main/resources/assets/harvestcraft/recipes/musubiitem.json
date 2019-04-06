@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:musubiitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllporkcooked"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropSeaweed"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

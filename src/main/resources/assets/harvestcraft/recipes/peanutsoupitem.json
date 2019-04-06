@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:peanutsoupitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodPeanutbutter"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropChilipepper"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropTomato"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodStock"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

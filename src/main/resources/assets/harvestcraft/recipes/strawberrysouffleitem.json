@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:strawberrysouffleitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropStrawberry"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllheavycream"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodVanilla"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

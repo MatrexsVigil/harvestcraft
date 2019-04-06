@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:marshmellowchicksitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodMarshmellows"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "item": "minecraft:dye",
+      "data": 11
+    },
+{
+      "item": "minecraft:dye",
+      "data": 9
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

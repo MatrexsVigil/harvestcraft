@@ -1,0 +1,37 @@
+{
+  "result": {
+    "item": "harvestcraft:mochicakeitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodVanilla"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

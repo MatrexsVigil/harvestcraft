@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:chickenbiscuititem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFriedchicken"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBiscuit"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

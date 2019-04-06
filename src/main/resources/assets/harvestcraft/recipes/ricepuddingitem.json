@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:ricepuddingitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropRice"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodVanilla"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

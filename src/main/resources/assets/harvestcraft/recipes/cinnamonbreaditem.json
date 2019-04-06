@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:cinnamonbreaditem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolBakeware"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodButter"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

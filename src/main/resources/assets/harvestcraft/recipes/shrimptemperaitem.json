@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:shrimptemperaitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodShrimpraw"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodFlour"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

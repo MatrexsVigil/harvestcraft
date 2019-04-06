@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "harvestcraft:bbqjackfruititem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSkillet"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropJackfruit"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBbqsauce"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

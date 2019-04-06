@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "harvestcraft:pumpkinspicelatteitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolSaucepan"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropPumpkin"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodEspresso"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundnutmeg"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundcinnamon"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

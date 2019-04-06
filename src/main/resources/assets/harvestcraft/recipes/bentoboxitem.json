@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "harvestcraft:bentoboxitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodBamboosteamedrice"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodPickledbeets"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodTeriyakichicken"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodSushi"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

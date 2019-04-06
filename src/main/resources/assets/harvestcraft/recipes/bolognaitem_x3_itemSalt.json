@@ -1,0 +1,38 @@
+{
+  "result": {
+    "item": "harvestcraft:bolognaitem",
+    "count": 3
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolCuttingboard"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundbeef"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodGroundpork"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "cropGarlic"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "listAllsugar"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

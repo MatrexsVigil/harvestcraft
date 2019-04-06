@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:lentilseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:lentilitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

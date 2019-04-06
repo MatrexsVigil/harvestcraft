@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "harvestcraft:cornchipsitem"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "toolPot"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodCornmeal"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodOliveoil"
+    },
+{
+      "type": "forge:ore_dict",
+      "ore": "foodSalt"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
