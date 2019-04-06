@@ -1,13 +1,12 @@
 ﻿HarvestCraft 1.12.2zc
 -----------------
-
-Add new seeds to market
-Add new crops to shipping bin
+This update took so long because of my near full hysterectomy surgery and recovery, trying to lose weight via exercise, my 'accused' rapist coming back into my life via me learning he had hurt other people and me having to help those people, and me getting a 7mm kidney stone.  These aren't excuses, just facts.  I'm sorry this took so long.  Love you all!  <3
 
 - Fixed: Recipes: zb Crops (Agave etc) are can now be turned into seeds
-
+- Fixed: Saplings: Can now be planted on any soil (Thanks Ricket)
+- Fixed: GUI: Machine GUIs now look way nicer (Thanks Takakura-Anri)
+- Added: Config: Wheat can now be toggled on and off edible in case you are having issues with livestock (Thanks manusoftar)
 - Added: Food: Soba Noodles, Tuna Onigiri, Salmon Onigiri, Taiyaki, Mochi Dessert, Mochi Cake, Imagawayaki, Shrimp Tempura, Gyudon, Strawberry Soufflé, Bratwurst, Schnitzel, Hot Cocoa, Chicken Biscuit, BBQ Chicken Biscuit, Zucchini Bake, Chocolate Coconut Bar, Vanilla Conchas Bread, Cinnamon Bread, Musubi, Fruit Cake, Bologna, Bologna Sandwich, Fried Bologna Sandwich, Cassoulet, Corn Chips, Battenberg, Pumpkin Spice Latte, Root Beer Float, Chili Dog, Peanut Soup, Gravlax, Cheese Danish, Chicken Cordon Bleu, Sunday High Tea, Cucumber Sandwich, Imitation Crab Sticks, Raspberry Milk Shake, Rice Pudding, River Mud Cake, Seed Energy Gel, Butter Tart, Marshmellow Chicks, Bacon Wrapped Chili, Mushroom Ketchup, Mushroom Ketchup Omelet, Bento Box, Fried Feast, Dandelion Salad, Dandelion Tea, Lychee Tea, Miso Paste, BBQ Jackfruit, BBQ Chicken Biscuit, Chicken Biscuit
-
 - Added: OreDictionary: BBQ Jackfruit can be used as listAllporkraw, listAllporkcooked
 
 HarvestCraft 1.12.2zb
