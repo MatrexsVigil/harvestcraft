@@ -15,12 +15,14 @@ import net.minecraft.block.BlockLeaves;
 import net.minecraft.block.BlockOldLeaf;
 import net.minecraft.block.BlockOldLog;
 import net.minecraft.block.BlockPlanks;
+import net.minecraft.block.BlockSapling;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
@@ -80,9 +82,11 @@ public class BlockPamSapling extends BlockBush implements IGrowable {
 
     @Override
     public boolean canPlaceBlockAt(World world, BlockPos pos) {
-        Block soilBlock = world.getBlockState(pos.down()).getBlock();
+        BlockPos down = pos.down();
+        IBlockState soilBlockState = world.getBlockState(down);
+        Block soilBlock = soilBlockState.getBlock();
 
-        return this.isSuitableSoilBlock(soilBlock);
+        return soilBlock.canSustainPlant(soilBlockState, world, down, EnumFacing.UP, (BlockSapling) Blocks.SAPLING);
     }
 
     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn) {
@@ -105,10 +109,6 @@ public class BlockPamSapling extends BlockBush implements IGrowable {
     @Override
     public boolean isFullCube(IBlockState state) {
         return false;
-    }
-
-    private boolean isSuitableSoilBlock(Block soilBlock) {
-        return soilBlock == Blocks.GRASS || soilBlock == Blocks.DIRT || soilBlock == Blocks.FARMLAND;
     }
 
     @Override
