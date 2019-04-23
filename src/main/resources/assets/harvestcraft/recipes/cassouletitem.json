@@ -8,35 +8,35 @@
       "type": "forge:ore_dict",
       "ore": "toolPot"
     },
-{
+    {
       "type": "forge:ore_dict",
       "ore": "listAllduckraw"
     },
-{
+    {
       "type": "forge:ore_dict",
       "ore": "foodSausage"
     },
-{
+    {
       "type": "forge:ore_dict",
       "ore": "listAllporkraw"
     },
-{
+    {
       "type": "forge:ore_dict",
       "ore": "cropBean"
     },
-{
+    {
       "type": "forge:ore_dict",
-      "ore": cropOnion"
+      "ore": "cropOnion"
     },
-{
+    {
       "type": "forge:ore_dict",
       "ore": "cropSpiceleaf"
     },
-{
+    {
       "type": "forge:ore_dict",
       "ore": "cropGarlic"
     },
-{
+    {
       "type": "forge:ore_dict",
       "ore": "cropCarrot"
     }
