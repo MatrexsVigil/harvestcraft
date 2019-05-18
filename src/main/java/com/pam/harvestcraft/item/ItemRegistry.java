@@ -528,7 +528,7 @@ public final class ItemRegistry {
 
 	public static Item gherkinItem;
 	public static Item mcpamItem;
-	public static Item ceasarsaladItem;
+	public static Item caesarsaladItem;
 	public static Item chaoscookieItem;
 	public static Item chocolatebaconItem;
 	public static Item lambkebabItem;
@@ -1613,7 +1613,7 @@ public final class ItemRegistry {
 
 		gherkinItem = registerItemFood("gherkinitem", 5, config.mealsaturation);
 		
-		ceasarsaladItem = registerItemFood("ceasarsaladitem", 9, config.mealsaturation);
+		caesarsaladItem = registerItemFood("caesarsaladitem", 9, config.mealsaturation);
 		chaoscookieItem = registerItemFood("chaoscookieitem", 3, config.mealsaturation);
 		chocolatebaconItem = registerItemFood("chocolatebaconitem", 3, config.mealsaturation);
 		lambkebabItem = registerItemFood("lambkebabitem", 5, config.mealsaturation);
