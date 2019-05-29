@@ -26,7 +26,7 @@
     },
 {
       "type": "forge:ore_dict",
-      "ore": cropOnion"
+      "ore": "cropOnion"
     },
 {
       "type": "forge:ore_dict",

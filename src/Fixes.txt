@@ -1,4 +1,8 @@
 
+cropGrowthSpeed config option can't be set to negative
+Add Tomatillo crop in exchange for Moonlighter
+Add Dogwood tree (drops bones, special sapling dungeon drop) for Forager
+
 
 MAKE PRESSER RECIPES USE ORE DICTIONARY
 
@@ -24,6 +28,7 @@ Bee Sandwich - 3 queen bees, bread, butter
 
 Add "Chiliwowaz Special" under Chimichanga
 
-Add soy fish
+I'm working on Harvestcraft 1.12.21zb, and the foods used to have identifiers for saturation level, and now that all harvestcraft foods do the same saturation, they've been removed... but would it be possible to fill this same field with some kind of wording (maybe even the same words) which instead of indicating the saturation level it restores, indicates the hunger level restored / Tier of the meal?
 
+I ask not only because the tiers of meals is COMPLETELY vague in the existing version and configs, but also because I used to be able to search in JEI for exactly the tier of meal I wanted, by for instance searching "snack" and it'd find all snacks, now the only way for me to get JEI to return all meals is to search @pam's, which returns all the component foods, tools, and machines as well. I think these labels gave us something valuable. It'd be nice if there was some way to show them again.
 

@@ -1,7 +1,7 @@
 {
   "result": {
     "item": "harvestcraft:pizzasliceitem",
-    "count": 3
+    "count": 9
   },
 
   "ingredients": [
@@ -11,7 +11,7 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllgreenveggie"
+      "ore": "foodbbqchickenpizza"
     }
   ],
   "type": "forge:ore_shapeless"

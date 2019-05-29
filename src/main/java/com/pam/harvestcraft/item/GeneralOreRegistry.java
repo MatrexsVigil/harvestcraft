@@ -87,6 +87,7 @@ public class GeneralOreRegistry {
 	public static final String listAllsoda = "listAllsoda";
 	public static final String listAlltofu = "listAlltofu";
 	public static final String listAllyogurt = "listAllyogurt";
+	public static final String listAlljuice = "listAlljuice";
 
     // Food ores
     public static final String bread="bread";
@@ -365,7 +366,6 @@ public class GeneralOreRegistry {
     public static final String foodGrilledcheese="foodGrilledcheese";
     public static final String foodApplesauce="foodApplesauce";
     public static final String foodApplejuice="foodApplejuice";
-    public static final String listAlljuice="listAlljuice";
     public static final String foodApplepie="foodApplepie";
     public static final String foodCaramelapple="foodCaramelapple";
     public static final String foodPumpkinbread="foodPumpkinbread";
@@ -1260,6 +1260,7 @@ public class GeneralOreRegistry {
 	public static final String foodMarshmellowchicks="foodMarshmellowchicks";
 	public static final String foodBbqchickenbiscuit="foodBbqchickenbiscuit";
 	public static final String foodChickenbiscuit="foodChickenbiscuit";
+	public static final String foodPizzaslice="foodPizzaslice";
 
 
     public static void initOreRegistry() {
@@ -1433,6 +1434,33 @@ public class GeneralOreRegistry {
         }
 
         registerOres(listAlljuice, ItemRegistry.allJuice);
+        
+        registerOres(listAlljuice,
+        		ItemRegistry.applejuiceItem,
+        		ItemRegistry.melonjuiceItem,
+        		ItemRegistry.carrotjuiceItem,
+        		ItemRegistry.strawberryjuiceItem,
+        		ItemRegistry.grapejuiceItem,
+        		ItemRegistry.blueberryjuiceItem,
+        		ItemRegistry.cherryjuiceItem,
+        		ItemRegistry.papayajuiceItem,
+        		ItemRegistry.starfruitjuiceItem,
+        		ItemRegistry.orangejuiceItem,
+        		ItemRegistry.peachjuiceItem,
+        		ItemRegistry.limejuiceItem,
+        		ItemRegistry.mangojuiceItem,
+        		ItemRegistry.pomegranatejuiceItem,
+        		ItemRegistry.blackberryjuiceItem,
+        		ItemRegistry.raspberryjuiceItem,
+        		ItemRegistry.kiwijuiceItem,
+        		ItemRegistry.cranberryjuiceItem,
+        		ItemRegistry.cactusfruitjuiceItem,
+        		ItemRegistry.plumjuiceItem,
+        		ItemRegistry.pearjuiceItem,
+        		ItemRegistry.apricotjuiceItem,
+        		ItemRegistry.figjuiceItem,
+        		ItemRegistry.grapefruitjuiceItem,
+        		ItemRegistry.persimmonjuiceItem);
 
         registerOres(listAllveggie,
                 Items.CARROT,
@@ -2984,7 +3012,7 @@ public class GeneralOreRegistry {
 	OreDictionary.registerOre(foodMarshmellowchicks, ItemRegistry.marshmellowchicksItem);
 	OreDictionary.registerOre(foodBbqchickenbiscuit, ItemRegistry.bbqchickenbiscuitItem);
 	OreDictionary.registerOre(foodChickenbiscuit, ItemRegistry.chickenbiscuitItem);
-    	
+	OreDictionary.registerOre(foodPizzaslice, ItemRegistry.pizzasliceItem);
     }
 
     private static void registerOres(String key, Object... items) {

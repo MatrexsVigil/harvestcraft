@@ -8,6 +8,7 @@ import com.pam.harvestcraft.item.ItemRegistry;
 import com.pam.harvestcraft.item.WaterFilterRecipes;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
@@ -18,6 +19,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ITickable;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.fml.relauncher.Side;
@@ -245,6 +247,11 @@ public class TileEntityWaterFilter extends TileEntity implements ITickable {
 		return !isInvalid() && playerIn.getDistanceSq(pos.add(0.5D, 0.5D, 0.5D)) <= 64D;
 	}
 
+	@Override
+	  public boolean shouldRefresh(World world, BlockPos pos,@Nonnull IBlockState oldState,@Nonnull IBlockState newState) {
+	    return oldState.getBlock() != newState.getBlock();
+	  }
+	
 	public String getGuiID() {
 		return "harvestcraft:waterfilter";
 	}

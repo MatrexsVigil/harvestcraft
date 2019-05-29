@@ -6,6 +6,7 @@ import javax.annotation.Nullable;
 import com.pam.harvestcraft.gui.SlotPamPresser;
 import com.pam.harvestcraft.item.PresserRecipes;
 
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -14,6 +15,8 @@ import net.minecraft.network.play.server.SPacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ITickable;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.fml.relauncher.Side;
@@ -209,6 +212,11 @@ public class TileEntityPresser extends TileEntity implements ITickable {
 		// If we are too far away from this tile entity you cannot use it
 		return !isInvalid() && playerIn.getDistanceSq(pos.add(0.5D, 0.5D, 0.5D)) <= 64D;
 	}
+	
+	@Override
+	  public boolean shouldRefresh(World world, BlockPos pos,@Nonnull IBlockState oldState,@Nonnull IBlockState newState) {
+	    return oldState.getBlock() != newState.getBlock();
+	  }
 
 	public String getGuiID() {
 		return "harvestcraft:presser";

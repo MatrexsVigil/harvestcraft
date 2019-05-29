@@ -1,4 +1,15 @@
-﻿HarvestCraft 1.12.2zc
+﻿HarvestCraft 1.12.2zd
+-----------------
+- Fixed: Machine: Machines should now keep inventories when rotated/moved
+- Fixed: Recipe: Cucumber Sandwich and cassoulet recipe JSONs
+- Fixed: Name: BBQ Chicken Biscuit, Chicken Biscuit, Caesar Salad, Banana Milkshake all named correctly
+- Fixed: Recipe: Recipes with listAlljuice now work correctly
+- Fixed: Config: cropsdropSeeds now correctly works when set to True
+- Fixed: Fruit Blocks: Mature fruits should no longer instantly break: NOTE: PLEASE tell me if this messes with Dynamic Trees, thank you
+- Added: Item: Pizza Slice (created by putting pizza items in the crafting grid w/cutting board), for the Yogscast
+
+
+HarvestCraft 1.12.2zc
 -----------------
 This update took so long because of my near full hysterectomy surgery and recovery, trying to lose weight via exercise, my 'accused' rapist coming back into my life via me learning he had hurt other people and me having to help those people, and me getting a 7mm kidney stone.  These aren't excuses, just facts.  I'm sorry this took so long.  Love you all!  <3
 

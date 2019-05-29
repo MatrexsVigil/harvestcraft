@@ -1087,6 +1087,8 @@ public final class ItemRegistry {
 	public static Item marshmellowchicksItem;
 	public static Item bbqchickenbiscuitItem;
 	public static Item chickenbiscuitItem;
+	
+	public static Item pizzasliceItem;
 
 	public static boolean initialized = false;
 
@@ -2023,6 +2025,8 @@ public final class ItemRegistry {
 		cinnamonbreadItem = registerItemFood("cinnamonbreaditem", 6, config.mealsaturation);
 		cornchipsItem = registerItemFood("cornchipsitem", 3, config.mealsaturation);
 		marshmellowchicksItem = registerItemFood("marshmellowchicksitem", 6, config.mealsaturation);
+		
+		pizzasliceItem = registerItemFood("pizzasliceitem", 2, config.mealsaturation);
 
 		groundbeefItem = registerGenericItem("groundbeefitem");
 		groundchickenItem = registerGenericItem("groundchickenitem");

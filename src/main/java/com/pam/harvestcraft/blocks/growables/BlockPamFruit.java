@@ -80,11 +80,13 @@ public class BlockPamFruit extends Block implements IGrowable, PamCropGrowable, 
 	@Override
 	public float getBlockHardness(IBlockState blockState, World worldIn, BlockPos pos) {
 		if(getMetaFromState(blockState) >= MATURE_AGE) {
-			return 0f;
-		}
+			return 2f;
+		} else
 
 		return 5f;
 	}
+	
+	
 
 	public String getStageId(int stage) {
 		if(BASE_STAGE_ID == null) {

@@ -51,7 +51,7 @@ public class BlockPamCrop extends BlockCrops implements IGrowable, IPlantable, P
 	public void setSeed(Item seed) {
 		if(ConfigHandler.cropsdropSeeds) {
 			this.seed = seed;
-		}
+		} else
 		this.seed = food;
 	}
 
