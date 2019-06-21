@@ -47,6 +47,9 @@ public class RightClickHarvesting {
 		if(!HarvestCraft.config.enableEasyHarvest)
 			return;
 
+		if(event.isCanceled())
+			return;
+
 		if(event.getEntityPlayer() == null)
 			return;
 
