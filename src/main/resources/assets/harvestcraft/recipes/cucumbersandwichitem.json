@@ -10,7 +10,7 @@
     },
 {
       "item": "minecraft:bread"
-    }
+    },
 {
       "type": "forge:ore_dict",
       "ore": "cropCucumber"
