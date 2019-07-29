@@ -1,4 +1,11 @@
-﻿HarvestCraft 1.12.2zd
+﻿HarvestCraft 1.12.2ze
+-----------------
+- Added: Crop: Tomatillos
+- Fixed: Creative Tab name (thanks BloodshotPico!)
+- Updated: Gradle wrapper to 4.2 (thanks Darkhax!)
+- Updated: Languages: I merged whatever was in the Github that didn't conflict.  Hopefully they're the most recent!  <3
+
+HarvestCraft 1.12.2zd
 -----------------
 - Fixed: Machine: Machines should now keep inventories when rotated/moved
 - Fixed: Recipe: Cucumber Sandwich and cassoulet recipe JSONs
