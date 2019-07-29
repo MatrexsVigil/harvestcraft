@@ -303,6 +303,8 @@ public class GeneralOreRegistry {
     public static final String seedSisal="seedSisal";
     public static final String cropTaro="cropTaro";
     public static final String seedTaro="seedTaro";
+	public static final String cropTomatillo="cropTomatillo";
+    public static final String seedTomatillo="seedTomatillo";
     
     public static final String cropAvocado="cropAvocado";
     public static final String cropBanana="cropBanana";
@@ -1511,7 +1513,8 @@ public class GeneralOreRegistry {
                 CropRegistry.getFood(CropRegistry.JICAMA),
                 CropRegistry.getFood(CropRegistry.KOHLRABI),
                 CropRegistry.getFood(CropRegistry.LENTIL),
-                CropRegistry.getFood(CropRegistry.TARO));
+                CropRegistry.getFood(CropRegistry.TARO),
+				CropRegistry.getFood(CropRegistry.TOMATILLO));
 
         if(ConfigHandler.enablevanillafoodBalance) {
             OreDictionary.registerOre(listAllchickenraw, ItemRegistry.harvestchickenItem);
@@ -1982,6 +1985,9 @@ public class GeneralOreRegistry {
         		OreDictionary.registerOre(seedSisal, CropRegistry.getSeed(CropRegistry.SISAL));
         OreDictionary.registerOre(cropTaro, CropRegistry.getFood(CropRegistry.TARO));
         		OreDictionary.registerOre(seedTaro, CropRegistry.getSeed(CropRegistry.TARO));
+				
+				OreDictionary.registerOre(cropTomatillo, CropRegistry.getFood(CropRegistry.TOMATILLO));
+        		OreDictionary.registerOre(seedTomatillo, CropRegistry.getSeed(CropRegistry.TOMATILLO));
         
         OreDictionary.registerOre(cropAvocado, FruitRegistry.getFood(FruitRegistry.AVOCADO));
         OreDictionary.registerOre(cropBanana, FruitRegistry.getFood(FruitRegistry.BANANA));

@@ -491,6 +491,9 @@ item.sisalitem.name=Sisal
 item.sisalseeditem.name=Sisal Seed
 item.taroitem.name=Taro
 item.taroseeditem.name=Taro Seed
+
+item.tomatilloitem.name=Tomatillo
+item.tomatilloseeditem.name=Tomatillo Seed
         
 item.almonditem.name=Almond
 item.apricotitem.name=Apricot

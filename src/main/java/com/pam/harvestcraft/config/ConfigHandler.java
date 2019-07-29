@@ -290,7 +290,7 @@ public class ConfigHandler {
                 new String[]{"harvestcraft:brusselsproutitem", "harvestcraft:spiceleafitem", "harvestcraft:blueberryitem",
                         "harvestcraft:asparagusitem", "harvestcraft:cranberryitem", "harvestcraft:riceitem",
                         "harvestcraft:seaweeditem", "harvestcraft:waterchestnutitem", "harvestcraft:okraitem", "harvestcraft:cottonitem", "harvestcraft:kaleitem", 
-                        "harvestcraft:milletitem", "harvestcraft:jicamaitem", "harvestcraft:greengrapeitem", "harvestcraft:mulberryitem"}, ""));
+                        "harvestcraft:milletitem", "harvestcraft:jicamaitem", "harvestcraft:greengrapeitem", "harvestcraft:mulberryitem", "harvestcraft:tomatilloitem"}, ""));
         gardenDropConfig.put("tropicalGarden", config.getStringList("tropicalGarden", "drops",
                 new String[]{"harvestcraft:grapeitem", "harvestcraft:pineappleitem", "harvestcraft:kiwiitem",
                         "harvestcraft:sesameseedsitem", "harvestcraft:curryleafitem", "harvestcraft:bambooshootitem",
