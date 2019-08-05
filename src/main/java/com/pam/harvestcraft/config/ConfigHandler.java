@@ -491,7 +491,7 @@ public class ConfigHandler {
         final Matcher ITEM_STACK_MATCHER = ITEM_STACK_PATTERN.matcher("");
 
         for (String garden : gardenDropConfig.keySet()) {
-            HarvestCraft.log.info("Registering drops for %s.", garden);
+            HarvestCraft.log.info("Registering drops for {}.", garden);
 
             final List<ItemStack> drops = new ArrayList<ItemStack>();
             final String[] itemNames = gardenDropConfig.get(garden);
