@@ -207,7 +207,29 @@ harvestcraft.tile.pamsesameseedscrop.name=Посевные семена кунж
 harvestcraft.tile.pamwaterchestnutcrop.name=Водный каштан
 harvestcraft.tile.pamkalecrop.name=Листовая капуста
 
-harvestcraft.tile.pampicklecrop.name=Культура рассола
+harvestcraft.tile.pamgooseberry.name=Крыжовник
+harvestcraft.tile.pamagavecrop.name=Агава
+harvestcraft.tile.pamamaranthcrop.name=Амарант
+harvestcraft.tile.pamarrowrootcrop.name=Арроурут
+harvestcraft.tile.pamcassavacrop.name=Маниока
+harvestcraft.tile.pamchickpeacrop.name=Нут
+harvestcraft.tile.pamelderberrycrop.name=Бузина
+harvestcraft.tile.pamhuckleberrycrop.name=Черника
+harvestcraft.tile.pamjicamacrop.name=Хикама
+harvestcraft.tile.pamgreengrapecrop.name=Зеленый виноград
+harvestcraft.tile.pamjutecrop.name=Джут
+harvestcraft.tile.pamkenafcrop.name=Кенаф
+harvestcraft.tile.pamkohlrabicrop.name=Кольраби
+harvestcraft.tile.pamlentilcrop.name=Чечевица
+harvestcraft.tile.pammilletcrop.name=Пшено
+harvestcraft.tile.pamtarocrop.name=Таро
+harvestcraft.tile.pamsisalcrop.name=Сизаль
+harvestcraft.tile.pammulberrycrop.name=Шелковица
+harvestcraft.tile.pamquinoacrop.name=Киноа
+
+harvestcraft.tile.pamjuniperberrycrop.name=Можжевельник
+
+harvestcraft.tile.pampicklecrop.name=Соленый огурец
 
 tile.candleDeco1.name=Белая свечка
 tile.candleDeco2.name=Оранжевый свечка
@@ -376,7 +398,7 @@ item.turnipitem.name=Репа
 item.turnipseeditem.name=Семя репы
 item.whitemushroomitem.name=Белый гриб
 item.whitemushroomseeditem.name=Спора белого гриба
-        
+
 item.artichokeitem.name=Артишок
 item.artichokeseeditem.name=Семя артишока
 item.bellpepperitem.name=Болгарский перец
@@ -491,6 +513,12 @@ item.sisalitem.name=Сизаль
 item.sisalseeditem.name=Семя сизаля
 item.taroitem.name=Таро
 item.taroseeditem.name=Семя таро
+
+item.tomatilloitem.name=Томатилло
+item.tomatilloseeditem.name=Семя томатилло
+
+item.juniperberryitem.name=Можжевельник
+item.juniperberryseeditem.name=Семя можжевельника
 
 item.almonditem.name=Миндаль
 item.apricotitem.name=Абрикос
@@ -608,14 +636,14 @@ item.chocolateicecreamitem.name=Шоколадное мороженое
 item.vegetablesoupitem.name=Овощной суп
 item.stockitem.name=Бульон
 item.fruitsaladitem.name=Фруктовый салат
-        
+
 item.spagettiitem.name=Спагетти
 item.spagettiandmeatballsitem.name=Спагетти и фрикадельки
 item.tomatosoupitem.name=Томатный суп
 item.ketchupitem.name=Кетчуп
 item.chickenparmasanitem.name=Курица под пармезаном
 item.pizzaitem.name=Пицца
-        
+
 item.springsaladitem.name=Весенний салат
 item.porklettucewrapitem.name=Свинина обёрнутая латуком
 item.fishlettucewrapitem.name=Рыба обёрнутая латуком
@@ -624,7 +652,7 @@ item.leafychickensandwichitem.name=Куриный сэндвич с латуко
 item.leafyfishsandwichitem.name=Рыбный сэндвич с латуком
 item.deluxecheeseburgeritem.name=Роскошный чизбургер
 item.delightedmealitem.name=Восхищающая еда
-        
+
 item.onionsoupitem.name=Луковый суп
 item.potatocakesitem.name=Картофельные торты
 item.hashitem.name=Хаш
@@ -639,24 +667,24 @@ item.nachoesitem.name=Начос
 item.tacoitem.name=Тако
 item.fishtacoitem.name=Рыбный тако
 item.creamedcornitem.name=Кукурузное пюре
-        
+
 item.strawberrysmoothieitem.name=Клубничный смузи
 item.strawberrypieitem.name=Клубничный пирог
 item.strawberrysaladitem.name=Клубничный салат
 item.strawberryjuiceitem.name=Клубничный сок
 item.chocolatestrawberryitem.name=Клубника в шоколаде
-        
+
 item.peanutbutteritem.name=Арахисовое масло
 item.trailmixitem.name=Смесь сушёных фруктов и орехов
 item.pbandjitem.name=Сэндвич с арахисовым маслом и желе
 item.peanutbuttercookiesitem.name=Печеньки в арахисовом масле
-        
+
 item.grapejuiceitem.name=Виноградный сок
 item.vinegaritem.name=Уксус
 item.grapejellyitem.name=Виноградное желе
 item.grapesaladitem.name=Виноградный салат
 item.raisincookiesitem.name=Печеньки с изюмом
-        
+
 item.picklesitem.name=Солёные огурцы
 item.cucumbersaladitem.name=Салат из огурцов
 item.cucumbersoupitem.name=Суп из огурцов
@@ -951,7 +979,7 @@ item.strawberryjellyitem.name=Клубничное желе
 item.strawberryjellysandwichitem.name=Сэндвич с клубничным желе
 item.watermelonjellyitem.name=Арбузное желе
 item.watermelonjellysandwichitem.name=Сэндвич с арбузным желе
-        
+
 item.bubblywateritem.name=Газированная вода
 item.cherrysodaitem.name=Вишнёвая газировка
 item.colasodaitem.name=Кола
@@ -961,16 +989,16 @@ item.lemonlimesodaitem.name=Газировка лимон-лайм
 item.orangesodaitem.name=Апельсиновая газировка
 item.rootbeersodaitem.name=Корневое пиво
 item.strawberrysodaitem.name=Клубничная газировка
-        
+
 item.caramelicecreamitem.name=Карамельное мороженое
 item.mintchocolatechipicemcreamitem.name=Мятное мороженое с шоколадной крошкой
 item.strawberryicecreamitem.name=Клубничное мороженое
 item.vanillaicecreamitem.name=Ванильное мороженое
-        
+
 item.ediblerootitem.name=Съедобный корень
-        
+
 item.gingerchickenitem.name=Курятина с имбирём
-        
+
 item.oldworldveggiesoupitem.name=Овощной суп старого света
 item.spicebunitem.name=Приправленная булочка
 item.gingeredrhubarbtartitem.name=Пирог с ревенем и имбирём
