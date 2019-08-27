@@ -305,6 +305,8 @@ public class GeneralOreRegistry {
     public static final String seedTaro="seedTaro";
 	public static final String cropTomatillo="cropTomatillo";
     public static final String seedTomatillo="seedTomatillo";
+    public static final String cropJuniperberry="cropJuniperberry";
+    public static final String seedJuniperberry="seedJuniperberry";
     
     public static final String cropAvocado="cropAvocado";
     public static final String cropBanana="cropBanana";
@@ -1988,6 +1990,11 @@ public class GeneralOreRegistry {
 				
 				OreDictionary.registerOre(cropTomatillo, CropRegistry.getFood(CropRegistry.TOMATILLO));
         		OreDictionary.registerOre(seedTomatillo, CropRegistry.getSeed(CropRegistry.TOMATILLO));
+        		
+        		OreDictionary.registerOre(cropJuniperberry, CropRegistry.getFood(CropRegistry.JUNIPERBERRY));
+        		OreDictionary.registerOre(seedJuniperberry, CropRegistry.getSeed(CropRegistry.JUNIPERBERRY));
+        		OreDictionary.registerOre(listAllfruit, CropRegistry.getFood(CropRegistry.JUNIPERBERRY));
+                OreDictionary.registerOre(listAllberry, CropRegistry.getFood(CropRegistry.JUNIPERBERRY));
         
         OreDictionary.registerOre(cropAvocado, FruitRegistry.getFood(FruitRegistry.AVOCADO));
         OreDictionary.registerOre(cropBanana, FruitRegistry.getFood(FruitRegistry.BANANA));

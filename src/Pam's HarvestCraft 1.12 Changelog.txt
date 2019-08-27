@@ -1,5 +1,12 @@
 ﻿HarvestCraft 1.12.2ze
 -----------------
+- Added: Crop: Juniper Berries
+- Fixed: Names: Missing crop block names
+- Fixed: Missing seed drop configs (yes I know taro is mispelled but changing it would make people have to regen configs and that seems silly)
+- Fixed: Fixed drops registering log message (thanks Lanvilla!)
+
+HarvestCraft 1.12.2ze
+-----------------
 - Added: Crop: Tomatillos
 - Fixed: Creative Tab name (thanks BloodshotPico!)
 - Updated: Gradle wrapper to 4.2 (thanks Darkhax!)

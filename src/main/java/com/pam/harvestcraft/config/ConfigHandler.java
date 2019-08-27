@@ -279,7 +279,7 @@ public class ConfigHandler {
                         "harvestcraft:celeryitem", "harvestcraft:peasitem", "harvestcraft:beetitem",
                         "harvestcraft:rutabagaitem", "harvestcraft:broccoliitem", "harvestcraft:caulifloweritem",
                         "harvestcraft:cabbageitem", "harvestcraft:spinachitem", "harvestcraft:cottonitem", 
-                        "harvestcraft:huckleberryitem", "harvestcraft:kohlrabiitem", "harvestcraft:quinoaitem"}, ""));
+                        "harvestcraft:huckleberryitem", "harvestcraft:kohlrabiitem", "harvestcraft:quinoaitem", "harvestcraft:juniperitem"}, ""));
         gardenDropConfig.put("shadedGarden", config.getStringList("shadedGarden", "drops",
                 new String[]{"harvestcraft:whitemushroomitem", "harvestcraft:blackberryitem", "harvestcraft:zucchiniitem",
                         "harvestcraft:radishitem", "harvestcraft:rhubarbitem", "harvestcraft:tealeafitem",
@@ -461,6 +461,9 @@ public class ConfigHandler {
         initSeedDropFromGrassSetting("quinoaseeddropfromgrass", CropRegistry.QUINOA);
         initSeedDropFromGrassSetting("sisalseeddropfromgrass", CropRegistry.SISAL);
         initSeedDropFromGrassSetting("taronutseeddropfromgrass", CropRegistry.TARO);
+        
+        initSeedDropFromGrassSetting("tomatilloseeddropfromgrass", CropRegistry.TOMATILLO);
+        initSeedDropFromGrassSetting("juniperberryseeddropfromgrass", CropRegistry.JUNIPERBERRY);
 
     
     }

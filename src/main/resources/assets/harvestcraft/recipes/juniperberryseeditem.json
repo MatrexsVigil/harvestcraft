@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:juniperberryseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:juniperberryitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}
