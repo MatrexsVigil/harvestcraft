@@ -1,0 +1,12 @@
+{
+  "result": {
+    "item": "harvestcraft:kaleseeditem"
+  },
+
+  "ingredients": [
+    {
+      "item": "harvestcraft:kaleitem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}
