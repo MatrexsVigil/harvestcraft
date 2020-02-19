@@ -1,4 +1,4 @@
-﻿itemGroup.harvestcraft=潘马斯农场
+itemGroup.harvestcraft=潘马斯农场
 
 
 harvestcraft.harvestcraft.tile.cuttingboard.name=刀砧板
@@ -1564,7 +1564,7 @@ item.mochicakeitem.name=麻糬糕
 item.mochidessertitem.name=麻糬冰淇淋
 item.taiyakiitem.name=鲷鱼烧
 item.salmononigiriitem.name=三文鱼饭团
-item.tunaonigriitem.name=金枪鱼饭团
+item.tunaonigiriitem.name=金枪鱼饭团
 item.friedbolognasandwichitem.name=油炸博洛尼亚香肠三明治
 item.bolognasandwichitem.name=博洛尼亚风味香肠三明治
 item.ricepuddingitem.name=米布丁
