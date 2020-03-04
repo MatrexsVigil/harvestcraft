@@ -3,11 +3,9 @@ package com.pam.harvestcraft.tileentities;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import com.pam.harvestcraft.gui.SlotPamPresser;
 import com.pam.harvestcraft.item.PresserRecipes;
 
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.NetworkManager;
@@ -21,12 +19,11 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.wrapper.RangedWrapper;
 
-public class TileEntityPresser extends TileEntity implements ITickable {
+public class TileEntityPresser extends TileEntity implements ITickable, ITileCheckInteract {
 
 	//private ItemStackHandler itemstackhandler = new ItemStackHandler(3);
 	public short cookTime;
@@ -208,11 +205,6 @@ public class TileEntityPresser extends TileEntity implements ITickable {
 		readFromNBT(pkt.getNbtCompound());
 	}
 
-	public boolean canInteractWith(EntityPlayer playerIn) {
-		// If we are too far away from this tile entity you cannot use it
-		return !isInvalid() && playerIn.getDistanceSq(pos.add(0.5D, 0.5D, 0.5D)) <= 64D;
-	}
-	
 	@Override
 	  public boolean shouldRefresh(World world, BlockPos pos,@Nonnull IBlockState oldState,@Nonnull IBlockState newState) {
 	    return oldState.getBlock() != newState.getBlock();

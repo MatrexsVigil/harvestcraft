@@ -2,7 +2,6 @@ package com.pam.harvestcraft.gui;
 
 import com.pam.harvestcraft.item.PresserRecipes;
 import com.pam.harvestcraft.tileentities.TileEntityGrinder;
-import com.pam.harvestcraft.tileentities.TileEntityPresser;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -95,7 +94,6 @@ public class ContainerGrinder extends Container {
 
 	@Override
 	public boolean canInteractWith(EntityPlayer playerIn) {
-		// TODO Auto-generated method stub
-		return true;
+        return entityGrinder.canInteractWithMe(playerIn);
 	}
 }

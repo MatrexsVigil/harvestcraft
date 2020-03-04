@@ -6,7 +6,6 @@ import org.lwjgl.opengl.GL12;
 
 import com.pam.harvestcraft.proxy.PacketHandler;
 import com.pam.harvestcraft.tileentities.MessageShippingBinBuy;
-import com.pam.harvestcraft.tileentities.MessageShippingBinClosed;
 import com.pam.harvestcraft.tileentities.ShippingBinData;
 import com.pam.harvestcraft.tileentities.ShippingBinItems;
 import com.pam.harvestcraft.tileentities.TileEntityShippingBin;
@@ -17,7 +16,6 @@ import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.items.CapabilityItemHandler;
 
 public class GuiShippingBin extends GuiContainer {
 	private static final ResourceLocation gui = new ResourceLocation("harvestcraft:textures/gui/shippingbin.png");
@@ -72,45 +70,8 @@ public class GuiShippingBin extends GuiContainer {
 			this.tileEntityShippingBin.setBrowsingInfo(itemNum);
 		}
 		if(guibutton.id == 2) {
-			ItemStack buySlot = this.tileEntityShippingBin
-					.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).getStackInSlot(0);
-			if(buySlot != null) {
-				final ShippingBinData data = ShippingBinItems.getData(itemNum);
-				if(buySlot.getItem() == data.getCurrency().getItem()) {
-					if(buySlot.getItemDamage() == data.getCurrency().getItemDamage()) {
-						int price = data.getPrice();
-						if(buySlot.getCount() == price) {
-							PacketHandler.network.sendToServer(
-									new MessageShippingBinBuy(this.itemNum, this.tileEntityShippingBin.getPos().getX(),
-											this.tileEntityShippingBin.getPos().getY(),
-											this.tileEntityShippingBin.getPos().getZ(), true));
-							// System.out.println("Equal Price");
-						}
-						else if(buySlot.getCount() > price && buySlot.getCount() > 1) {
-							PacketHandler.network.sendToServer(
-									new MessageShippingBinBuy(this.itemNum, this.tileEntityShippingBin.getPos().getX(),
-											this.tileEntityShippingBin.getPos().getY(),
-											this.tileEntityShippingBin.getPos().getZ(), false));
-							// System.out.println("Less than Price");
-						}
-						if(buySlot.getCount() == 0 && price == 1) {
-							PacketHandler.network.sendToServer(
-									new MessageShippingBinBuy(this.itemNum, this.tileEntityShippingBin.getPos().getX(),
-											this.tileEntityShippingBin.getPos().getY(),
-											this.tileEntityShippingBin.getPos().getZ(), true));
-							// System.out.println("Stack Size is 0");
-						}
-					}
-				}
-			}
+			PacketHandler.network.sendToServer(new MessageShippingBinBuy(this.itemNum));
 		}
-	}
-
-	@Override
-	public void onGuiClosed() {
-		PacketHandler.network.sendToServer(new MessageShippingBinClosed(this.tileEntityShippingBin.getPos().getX(),
-				this.tileEntityShippingBin.getPos().getY(), this.tileEntityShippingBin.getPos().getZ()));
-		super.onGuiClosed();
 	}
 
 	protected void drawGuiContainerForegroundLayer(int par1, int par2) {

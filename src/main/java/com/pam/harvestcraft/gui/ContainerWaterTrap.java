@@ -83,7 +83,7 @@ public class ContainerWaterTrap extends Container {
 
 	@Override
 	public boolean canInteractWith(EntityPlayer playerIn) {
-		return true;
+		return watertrap.canInteractWithMe(playerIn);
 	}
 
 	@Override

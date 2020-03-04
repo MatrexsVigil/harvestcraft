@@ -85,7 +85,7 @@ public class ContainerApiary extends Container {
 
 	@Override
 	public boolean canInteractWith(EntityPlayer playerIn) {
-		return apiary.canInteractWith(playerIn);
+		return apiary.canInteractWithMe(playerIn);
 	}
 
 	@Nullable

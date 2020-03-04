@@ -94,7 +94,6 @@ public class ContainerWaterFilter extends Container {
 
 	@Override
 	public boolean canInteractWith(EntityPlayer playerIn) {
-		return true;
+        return entityWaterFilter.canInteractWithMe(playerIn);
 	}
-
 }

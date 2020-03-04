@@ -6,7 +6,6 @@ import javax.annotation.Nullable;
 import com.pam.harvestcraft.HarvestCraft;
 import com.pam.harvestcraft.blocks.BlockRegistry;
 import com.pam.harvestcraft.blocks.blocks.BlockBaseGarden;
-import com.pam.harvestcraft.config.ConfigHandler;
 import com.pam.harvestcraft.item.ItemRegistry;
 
 import mcp.MethodsReturnNonnullByDefault;
@@ -14,10 +13,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockCrops;
 import net.minecraft.block.BlockFlower;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.inventory.IInventory;
-import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.NetworkManager;
@@ -29,12 +24,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityInject;
-import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.wrapper.RangedWrapper;
 
-public class TileEntityApiary extends TileEntity implements ITickable {
+public class TileEntityApiary extends TileEntity implements ITickable, ITileCheckInteract {
 
 	//private ItemStackHandler itemstackhandler = new ItemStackHandler(19);
 	public int runTime = 0;
@@ -283,11 +277,6 @@ public class TileEntityApiary extends TileEntity implements ITickable {
 		readFromNBT(pkt.getNbtCompound());
 	}
 
-	public boolean canInteractWith(EntityPlayer playerIn) {
-		// If we are too far away from this tile entity you cannot use it
-		return !isInvalid() && playerIn.getDistanceSq(pos.add(0.5D, 0.5D, 0.5D)) <= 64D;
-	}
-	
 	@Override
 	  public boolean shouldRefresh(World world, BlockPos pos,@Nonnull IBlockState oldState,@Nonnull IBlockState newState) {
 	    return oldState.getBlock() != newState.getBlock();

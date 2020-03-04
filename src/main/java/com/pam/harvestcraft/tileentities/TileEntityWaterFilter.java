@@ -4,12 +4,10 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import com.pam.harvestcraft.HarvestCraft;
-import com.pam.harvestcraft.item.ItemRegistry;
 import com.pam.harvestcraft.item.WaterFilterRecipes;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -28,7 +26,7 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.wrapper.RangedWrapper;
 
-public class TileEntityWaterFilter extends TileEntity implements ITickable {
+public class TileEntityWaterFilter extends TileEntity implements ITickable, ITileCheckInteract {
 
 	//private ItemStackHandler itemstackhandler = new ItemStackHandler(3);
 	public short cookTime;
@@ -240,11 +238,6 @@ public class TileEntityWaterFilter extends TileEntity implements ITickable {
 	@Override
 	public void onDataPacket(NetworkManager net, SPacketUpdateTileEntity pkt) {
 		readFromNBT(pkt.getNbtCompound());
-	}
-
-	public boolean canInteractWith(EntityPlayer playerIn) {
-		// If we are too far away from this tile entity you cannot use it
-		return !isInvalid() && playerIn.getDistanceSq(pos.add(0.5D, 0.5D, 0.5D)) <= 64D;
 	}
 
 	@Override

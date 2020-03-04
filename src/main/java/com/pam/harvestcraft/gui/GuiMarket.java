@@ -1,15 +1,12 @@
 package com.pam.harvestcraft.gui;
 
+import com.pam.harvestcraft.HarvestCraft;
+import com.pam.harvestcraft.tileentities.*;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
 import com.pam.harvestcraft.proxy.PacketHandler;
-import com.pam.harvestcraft.tileentities.MarketData;
-import com.pam.harvestcraft.tileentities.MarketItems;
-import com.pam.harvestcraft.tileentities.MessageMarketBuy;
-import com.pam.harvestcraft.tileentities.MessageMarketClosed;
-import com.pam.harvestcraft.tileentities.TileEntityMarket;
 
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.inventory.GuiContainer;
@@ -63,6 +60,7 @@ public class GuiMarket extends GuiContainer {
 				itemNum = MarketItems.getSize() - 1;
 			}
 			this.tileEntityMarket.setBrowsingInfo(itemNum);
+			PacketHandler.network.sendToServer(new MessageMarketBrowse(itemNum));
 		}
 		if(guibutton.id == 1) {
 			itemNum++;
@@ -70,42 +68,11 @@ public class GuiMarket extends GuiContainer {
 				itemNum = 0;
 			}
 			this.tileEntityMarket.setBrowsingInfo(itemNum);
+			PacketHandler.network.sendToServer(new MessageMarketBrowse(itemNum));
 		}
 		if(guibutton.id == 2) {
-			ItemStack buySlot = tileEntityMarket.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
-					.getStackInSlot(0);
-			if(buySlot != null) {
-				final MarketData data = MarketItems.getData(itemNum);
-				if(buySlot.getItem() == data.getCurrency().getItem()) {
-					if(buySlot.getItemDamage() == data.getCurrency().getItemDamage()) {
-						int price = data.getPrice();
-						if(buySlot.getCount() == price) {
-
-							PacketHandler.network.sendToServer(new MessageMarketBuy(this.itemNum,
-									this.tileEntityMarket.getPos().getX(), this.tileEntityMarket.getPos().getY(),
-									this.tileEntityMarket.getPos().getZ(), true));
-						}
-						else if(buySlot.getCount() > price && buySlot.getCount() > 1) {
-							PacketHandler.network.sendToServer(new MessageMarketBuy(this.itemNum,
-									this.tileEntityMarket.getPos().getX(), this.tileEntityMarket.getPos().getY(),
-									this.tileEntityMarket.getPos().getZ(), false));
-						}
-						if(buySlot.getCount() == 0 && price == 1) {
-							PacketHandler.network.sendToServer(new MessageMarketBuy(this.itemNum,
-									this.tileEntityMarket.getPos().getX(), this.tileEntityMarket.getPos().getY(),
-									this.tileEntityMarket.getPos().getZ(), true));
-						}
-					}
-				}
-			}
+			PacketHandler.network.sendToServer(new MessageMarketBuy(this.itemNum));
 		}
-	}
-
-	@Override
-	public void onGuiClosed() {
-		PacketHandler.network.sendToServer(new MessageMarketClosed(this.tileEntityMarket.getPos().getX(),
-				this.tileEntityMarket.getPos().getY(), this.tileEntityMarket.getPos().getZ()));
-		super.onGuiClosed();
 	}
 
 	protected void drawGuiContainerForegroundLayer(int par1, int par2) {
