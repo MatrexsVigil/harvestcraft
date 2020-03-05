@@ -62,7 +62,7 @@ public class ContainerMarket extends Container {
 				playerIn.dropItem(stack.copy(), false);
 			}
 			else {
-				playerIn.inventory.placeItemBackInInventory(playerIn.world, stack);
+				playerIn.inventory.placeItemBackInInventory(playerIn.world, stack.copy());
 			}
 
 			stack.setCount(0);
