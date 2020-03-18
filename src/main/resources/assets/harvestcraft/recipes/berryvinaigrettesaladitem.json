@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "harvestcraft:pizzasliceitem",
+    "item": "harvestcraft:berryvinaigrettesaladitem",
     "count": 3
   },
 
@@ -12,6 +12,14 @@
     {
       "type": "forge:ore_dict",
       "ore": "listAllgreenveggie"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllberry"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodSaladdressing"
     }
   ],
   "type": "forge:ore_shapeless"
