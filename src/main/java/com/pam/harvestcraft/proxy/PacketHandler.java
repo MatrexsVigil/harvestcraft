@@ -3,10 +3,8 @@ package com.pam.harvestcraft.proxy;
 import com.pam.harvestcraft.Reference;
 import com.pam.harvestcraft.tileentities.MessageMarketBrowse;
 import com.pam.harvestcraft.tileentities.MessageMarketBuy;
-import com.pam.harvestcraft.tileentities.MessageMarketClosed;
 import com.pam.harvestcraft.tileentities.MessageShippingBinBrowse;
 import com.pam.harvestcraft.tileentities.MessageShippingBinBuy;
-import com.pam.harvestcraft.tileentities.MessageShippingBinClosed;
 import com.pam.harvestcraft.tileentities.MessageTEUpdate;
 import com.pam.harvestcraft.tileentities.MessageTEUpdateRequest;
 
@@ -24,11 +22,11 @@ public class PacketHandler  {
     	
         network.registerMessage(MessageMarketBrowse.class, MessageMarketBrowse.class, 0, Side.SERVER);
         network.registerMessage(MessageMarketBuy.class, MessageMarketBuy.class, 1, Side.SERVER);
-        network.registerMessage(MessageMarketClosed.class, MessageMarketClosed.class, 2, Side.SERVER);
+//        network.registerMessage(MessageMarketClosed.class, MessageMarketClosed.class, 2, Side.SERVER);
         
         network.registerMessage(MessageShippingBinBrowse.class, MessageShippingBinBrowse.class, 3, Side.SERVER);
         network.registerMessage(MessageShippingBinBuy.class, MessageShippingBinBuy.class, 4, Side.SERVER);
-        network.registerMessage(MessageShippingBinClosed.class, MessageShippingBinClosed.class, 5, Side.SERVER);
+//        network.registerMessage(MessageShippingBinClosed.class, MessageShippingBinClosed.class, 5, Side.SERVER);
         
         network.registerMessage(MessageTEUpdate.MessageHolder.class,MessageTEUpdate.class,6,Side.CLIENT);
     	network.registerMessage(MessageTEUpdateRequest.MessageHolder.class,MessageTEUpdateRequest.class,7,Side.SERVER);

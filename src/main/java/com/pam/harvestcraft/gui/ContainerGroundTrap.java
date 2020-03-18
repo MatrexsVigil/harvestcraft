@@ -83,7 +83,7 @@ public class ContainerGroundTrap extends Container {
 
 	@Override
 	public boolean canInteractWith(EntityPlayer playerIn) {
-		return true;
+		return groundtrap.canInteractWithMe(playerIn);
 	}
 
 	public ItemStack transferStackInSlot(EntityPlayer entityPlayer, int slotIndex)

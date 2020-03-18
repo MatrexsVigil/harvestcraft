@@ -1,20 +1,26 @@
 package com.pam.harvestcraft.gui;
 
 import com.pam.harvestcraft.blocks.CropRegistry;
+import com.pam.harvestcraft.tileentities.ShippingBinData;
+import com.pam.harvestcraft.tileentities.ShippingBinItems;
 import com.pam.harvestcraft.tileentities.TileEntityShippingBin;
 
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
 public class ContainerShippingBin extends Container {
+	private final TileEntityShippingBin bin;
+
 	public ContainerShippingBin(IInventory par1IInventory, TileEntityShippingBin tileEntity) {
-		addSlotToContainer(new SlotItemHandler(
-				tileEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null), 0, 113, 38));
+		bin = tileEntity;
+
+		addSlotToContainer(new SlotItemHandler(new ItemStackHandler(), 0, 113, 38));
 
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 9; j++) {
@@ -27,8 +33,43 @@ public class ContainerShippingBin extends Container {
 		}
 	}
 
-	public boolean canInteractWith(EntityPlayer par1EntityPlayer) {
-		return true;
+	@Override
+	public boolean canInteractWith(EntityPlayer player) {
+		return bin.canInteractWithMe(player);
+	}
+
+	@Override
+	public void onContainerClosed(EntityPlayer playerIn) {
+		if (!playerIn.world.isRemote) {
+			ItemStack stack = getSlot(0).getStack();
+
+			if (!playerIn.isEntityAlive() || playerIn instanceof EntityPlayerMP && ((EntityPlayerMP)playerIn).hasDisconnected()) {
+				playerIn.dropItem(stack.copy(), false);
+			}
+			else {
+				playerIn.inventory.placeItemBackInInventory(playerIn.world, stack.copy());
+			}
+
+			stack.setCount(0);
+		}
+		super.onContainerClosed(playerIn);
+	}
+
+	public TileEntityShippingBin getBin() {
+		return bin;
+	}
+
+	public ItemStack buy(int item) {
+		if (item > -1 && item < ShippingBinItems.getSize()) {
+			ShippingBinData marketData = ShippingBinItems.getData(item);
+			ItemStack emeralds = getSlot(0).getStack();
+			if (marketData.getCurrency().isItemEqual(emeralds) && marketData.getPrice() <= emeralds.getCount()) {
+				emeralds.shrink(marketData.getPrice());
+				return marketData.getItem().copy();
+			}
+		}
+		return ItemStack.EMPTY;
+
 	}
 
 	public ItemStack transferStackInSlot(EntityPlayer entityPlayer, int slotIndex) {
