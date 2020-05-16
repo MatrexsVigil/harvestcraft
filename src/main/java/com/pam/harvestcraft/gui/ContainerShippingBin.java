@@ -20,7 +20,7 @@ public class ContainerShippingBin extends Container {
 	public ContainerShippingBin(IInventory par1IInventory, TileEntityShippingBin tileEntity) {
 		bin = tileEntity;
 
-		addSlotToContainer(new SlotItemHandler(new ItemStackHandler(), 0, 113, 38));
+		addSlotToContainer(new SlotPamShippingBin(new ItemStackHandler(), 0, 113, 38));
 
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 9; j++) {
@@ -66,6 +66,17 @@ public class ContainerShippingBin extends Container {
 			if (marketData.getCurrency().isItemEqual(emeralds) && marketData.getPrice() <= emeralds.getCount()) {
 				emeralds.shrink(marketData.getPrice());
 				return marketData.getItem().copy();
+			} 
+			else if(!marketData.getCurrency().isItemEqual(emeralds)) {
+				for(int i = 1; i < ShippingBinItems.getSize(); i++) {
+					int index = (item+i)%ShippingBinItems.getSize();
+					marketData = ShippingBinItems.getData(index);
+					if (marketData.getCurrency().isItemEqual(emeralds) && marketData.getPrice() <= emeralds.getCount()) {
+						bin.setBrowsingInfo(index);
+						emeralds.shrink(marketData.getPrice());
+						return marketData.getItem().copy();
+					} 
+				}
 			}
 		}
 		return ItemStack.EMPTY;
