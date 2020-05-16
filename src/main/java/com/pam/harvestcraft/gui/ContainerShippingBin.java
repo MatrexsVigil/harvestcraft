@@ -20,7 +20,7 @@ public class ContainerShippingBin extends Container {
 	public ContainerShippingBin(IInventory par1IInventory, TileEntityShippingBin tileEntity) {
 		bin = tileEntity;
 
-		addSlotToContainer(new SlotItemHandler(new ItemStackHandler(), 0, 113, 38));
+		addSlotToContainer(new SlotPamShippingBin(new ItemStackHandler(), 0, 113, 38));
 
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 9; j++) {
