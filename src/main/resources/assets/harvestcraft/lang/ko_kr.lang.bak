@@ -86,16 +86,6 @@ tile.pamvanillabean.name=바닐라콩
 tile.pamwalnut.name=호두
 tile.pamgooseberry.name=구즈베리
 tile.pamspiderweb.name=거미줄
-tile.pamhazelnut.name=헤이즐넛
-tile.pampawpaw.name=포포
-tile.pamsoursop.name=가시여지
-tile.pambreadfruit.name=빵나무 열매
-tile.pamguava.name=구아바
-tile.pamjackfruit.name=잭프루트
-tile.pamlychee.name=여지
-tile.pampassionfruit.name=패션프루트
-tile.pamrambutan.name=람부탄
-tile.pamtamarind.name=타마린드
 
 tile.almond_sapling.name=아몬드 묘목
 tile.apple_sapling.name=사과 묘목
@@ -134,16 +124,6 @@ tile.vanillabean_sapling.name=바닐라 묘목
 tile.walnut_sapling.name=호두 묘목
 tile.gooseberry_sapling.name=구즈베리 묘목
 tile.spiderweb_sapling.name=거미줄 묘목
-tile.hazelnut_sapling.name=헤이즐넛 묘목
-tile.pawpaw_sapling.name=포포 묘목
-tile.soursop_sapling.name=가시여지 묘목
-tile.breadfruit_sapling.name=빵나무 묘목
-tile.guava_sapling.name=구아바 묘목
-tile.jackfruit_sapling.name=잭푸르트 묘목
-tile.lychee_sapling.name=여지 묘목
-tile.passionfruit_sapling.name=패션프루트 묘목
-tile.rambutan_sapling.name=람부탄 묘목
-tile.tamarind_sapling.name=타마린드 묘목
 
 harvestcraft.tile.pamblackberrycrop.name=블랙베리 작물
 harvestcraft.tile.pamblueberrycrop.name=블루베리 작물
@@ -207,27 +187,6 @@ harvestcraft.tile.pamsesameseedscrop.name=참깨 작물
 harvestcraft.tile.pamwaterchestnutcrop.name=마름 작물
 harvestcraft.tile.pamkalecrop.name=케일 작물
 
-harvestcraft.tile.pamgooseberry.name=구즈베리 작물
-harvestcraft.tile.pamagavecrop.name=용설란 작물
-harvestcraft.tile.pamamaranthcrop.name=아마란스 작물
-harvestcraft.tile.pamarrowrootcrop.name=애로루트 작물
-harvestcraft.tile.pamcassavacrop.name=카사바 작물
-harvestcraft.tile.pamchickpeacrop.name=병아리콩 작물
-harvestcraft.tile.pamelderberrycrop.name=엘더베리 작물
-harvestcraft.tile.pamhuckleberrycrop.name=허클베리 작물
-harvestcraft.tile.pamjicamacrop.name=히카마 작물
-harvestcraft.tile.pamgreengrapecrop.name=청포도 작물
-harvestcraft.tile.pamjutecrop.name=황마 작물
-harvestcraft.tile.pamkenafcrop.name=양마 작물
-harvestcraft.tile.pamkohlrabicrop.name=콜라비 작물
-harvestcraft.tile.pamlentilcrop.name=렌틸콩 작물
-harvestcraft.tile.pammilletcrop.name=조 작물
-harvestcraft.tile.pamtarocrop.name=타로 작물
-harvestcraft.tile.pamsisalcrop.name=사이잘 작물
-harvestcraft.tile.pammulberrycrop.name=오디 작물
-harvestcraft.tile.pamquinoacrop.name=퀴노아 작물
-
-harvestcraft.tile.pamjuniperberrycrop.name=주니퍼베리 작물
 harvestcraft.tile.pampicklecrop.name=절임오이 작물
 
 tile.candleDeco1.name=흰색 양초
@@ -251,7 +210,7 @@ tile.carrotcake.name=당근 케이크
 tile.cheesecake.name=치즈 케이크
 tile.cherrycheesecake.name=체리 치즈 케이크
 tile.pineappleupsidedowncake.name=파인애플 업사이드 다운 케이크
-tile.chocolatesprinklecake.name=초콜렛 스프링클 케이크
+tile.chocolatesprinklecake.name=초콜렛 스프린클 케이크
 tile.redvelvetcake.name=레드 벨벳 케이크
 tile.lamingtoncake.name=래밍턴 케이크
 tile.pavlovacake.name=파블로바 케이크
@@ -323,7 +282,7 @@ item.minecraft:cooked_mutton.name=구운 양고기
 item.minecraft:cod.name=익히지 않은 대구
 item.minecraft:cooked_cod.name=구운 대구
 item.minecraft:salmon.name=익히지 않은 연어
-item.minecraft:cooked_salmon.name=구운 연어
+item.minecraft:cooked_salmon.name=익은 연어
 item.minecraft:clownfish.name=열대어
 item.minecraft:pufferfish.name=복어
 
@@ -473,51 +432,7 @@ item.kaleseeditem.name=케일 씨앗
 
 item.gigapickleitem.name=왕절임오이
 item.gigapickleseeditem.name=왕절임오이 씨앗
-
-item.agaveitem.name=용설란
-item.agaveseeditem.name=용설란 씨앗
-item.amaranthitem.name=아마란스
-item.amaranthseeditem.name=아마란스 씨앗
-item.arrowrootitem.name=애로루트
-item.arrowrootseeditem.name=애로루트 씨앗
-item.cassavaitem.name=카사바
-item.cassavaseeditem.name=카사바 씨앗
-item.chickpeaitem.name=병아리콩
-item.chickpeaseeditem.name=병아리콩 씨앗
-item.elderberryitem.name=엘더베리
-item.elderberryseeditem.name=엘더베리 씨앗
-item.flaxitem.name=아마
-item.flaxseeditem.name=아마 씨앗
-item.greengrapeitem.name=청포도
-item.greengrapeseeditem.name=청포도 씨앗
-item.huckleberryitem.name=허클베리
-item.huckleberryseeditem.name=허클베리 씨앗
-item.jicamaitem.name=히카마
-item.jicamaseeditem.name=히카마 씨앗
-item.juteitem.name=황마
-item.juteseeditem.name=황마 씨앗
-item.kenafitem.name=양마
-item.kenafseeditem.name=양마 씨앗
-item.kohlrabiitem.name=콜라비
-item.kohlrabiseeditem.name=콜라비 씨앗
-item.lentilitem.name=렌틸콩
-item.lentilseeditem.name=렌틸콩 씨앗
-item.milletitem.name=조
-item.milletseeditem.name=조 씨앗
-item.mulberryitem.name=오디
-item.mulberryseeditem.name=오디 씨앗
-item.quinoaitem.name=퀴노아
-item.quinoaseeditem.name=퀴노아 씨앗
-item.sisalitem.name=사이잘
-item.sisalseeditem.name=사이잘 씨앗
-item.taroitem.name=타로
-item.taroseeditem.name=타로 씨앗
-
-item.tomatilloitem.name=토마티요
-item.tomatilloseeditem.name=토마티요 씨앗
-
-item.juniperberryitem.name=주니퍼베리
-item.juniperberryseeditem.name=주니퍼베리 씨앗
+        
 item.almonditem.name=아몬드
 item.apricotitem.name=살구
 item.avocadoitem.name=아보카도
@@ -553,24 +468,13 @@ item.vanillabeanitem.name=바닐라콩
 item.walnutitem.name=호두
 item.gooseberryitem.name=구즈베리
 
-item.hazelnutitem.name=헤이즐넛
-item.pawpawitem.name=포포
-item.soursopitem.name=가시여지
-item.breadfruititem.name=빵나무
-item.guavaitem.name=구아바
-item.jackfruititem.name=잭플트
-item.lycheeitem.name=여지
-item.passionfruititem.name=패션프루트
-item.rambutanitem.name=람부탄
-item.tamarinditem.name=타마린드
-
 item.grilledasparagusitem.name=구운 아스파라거스
 item.ricecakeitem.name=떡
 item.bakedsweetpotatoitem.name=구운 고구마
 item.teaitem.name=차
 item.coffeeitem.name=커피
 item.grilledeggplantitem.name=구운 가지
-item.toastedcoconutitem.name=구운 코코넛
+item.toastedcoconutitem.name=튀긴 코코넛
 item.vanillaitem.name=바닐라
 item.toastedsesameseedsitem.name=볶은 참깨
         
@@ -1535,56 +1439,17 @@ item.meringuecookieitem.name=머랭 쿠키
 item.meringuerouladeitem.name=머랭 룰라드
 item.merveilleuxitem.name=메르베이유
 
-item.bbqjackfruititem.name=바베큐 잭푸르트
-item.bentoboxitem.name=도시락
-item.timpanoitem.name=팀파노
-item.friedfeastitem.name=모듬 튀김
-item.mushroomketchupomeletitem.name=버섯케첩 오믈렛
-item.mushroomketchupitem.name=버섯케첩
-item.lycheeteaitem.name=여지차
-item.baconwrappedchiliitem.name=베이컨 칠리 말이
-item.buttertartitem.name=버터 타르트
-item.seedenergygelitem.name=씨앗 에너지 겔
-item.chickencordonbleuitem.name=치킨 꼬르동 블루
-item.sundayhighteaitem.name=선데이 하이 티
-item.battenbergitem.name=바텐버그
-item.cucumbersandwichitem.name=오이 샌드위치
-item.slawdogitem.name=슬로독
-item.dandelionsaladitem.name=민들레 샐러드
-item.peanutsoupitem.name=땅콩 수프
-item.vanillaconchasbreaditem.name=바닐라 조개 빵
-item.chocolatecoconutbaritem.name=초콜렛 코코넛 바
-item.strawberrysouffleitem.name=딸기 수플레
-item.gyudonitem.name=규동
-item.shrimptemperaitem.name=새우튀김
-item.imagawayakiitem.name=이마가와야키
-item.mochicakeitem.name=모찌 케이크
-item.mochidessertitem.name=모찌 디저트
-item.taiyakiitem.name=붕어빵
-item.salmononigiriitem.name=연어 오니기리
-item.tunaonigiriitem.name=참치 오니기리
-item.friedbolognasandwichitem.name=튀긴 볼로냐 샌드위치
-item.bolognasandwichitem.name=볼로냐 샌드위치
-item.ricepuddingitem.name=라이스 푸딩
-item.musubiitem.name=무스비
-item.cassouletitem.name=카술레
-item.imitationcrabsticksitem.name=게맛살
-item.misopasteitem.name=된장
-item.dandelionteaitem.name=민들레차
-item.rivermudcakeitem.name=리버 머드 케이크
-item.gravlaxitem.name=그라브락스
-item.cheesedanishitem.name=치즈 대니쉬
-item.schnitzelitem.name=슈니첼
-item.bratwurstitem.name=브라트부어스트
-item.bolognaitem.name=볼로냐
-item.raspberrymilkshakeitem.name=라즈베리 밀크쉐이크
-item.pumpkinspicelatteitem.name=펌킨 스파이스 라떼
-item.rootbeerfloatitem.name=루트 비어 플로트
-item.hotcocoaitem.name=핫 코코아
-item.cinnamonbreaditem.name=시나몬 브레드
-item.fruitcakeitem.name=과일 케이크
-item.cornchipsitem.name=콘칩
-item.marshmellowchicksitem.name=마시멜로 병아리
-item.bbqchickenbiscuititem.name=바베큐 치킨 비스킷
-item.chickenbiscuititem.name=치킨 비스킷
-item.pizzasliceitem.name=피자 조각
+
+
+
+
+
+
+
+
+
+
+
+
+
+
