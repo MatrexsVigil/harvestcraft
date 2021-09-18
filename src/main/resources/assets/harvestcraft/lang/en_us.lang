@@ -1,4 +1,4 @@
-﻿
+
 itemGroup.harvestcraft=HarvestCraft
 
 harvestcraft.harvestcraft.tile.cuttingboard.name=Cutting Board
@@ -338,7 +338,6 @@ item.minecraft:beetroot_soup.name=Beetroot Soup
 
 item.asparagusitem.name=Asparagus
 item.asparagusseeditem.name=Asparagus Seed
-item.grilledasparagusitem.name=Grilled Asparagus
 item.barleyitem.name=Barley
 item.barleyseeditem.name=Barley Seed
 item.beanitem.name=Beans
@@ -413,27 +412,19 @@ item.cabbageitem.name=Cabbage
 item.cabbageseeditem.name=Cabbage Seed
 item.cactusfruititem.name=Cactus Fruit
 item.cactusfruitseeditem.name=Cactus Fruit Seed
-item.candleberryitem.name=Candleberry
-item.candleberryseeditem.name=Candleberry Seed
-item.waxitem.name=Wax
 item.cantaloupeitem.name=Cantaloupe
 item.cantaloupeseeditem.name=Cantaloupe Seed
 item.chilipepperitem.name=Chili Pepper
 item.chilipepperseeditem.name=Chili Pepper Seed
 item.coffeebeanitem.name=Coffee Beans
 item.coffeeseeditem.name=Coffee Seed
-item.coffeeitem.name=Cup of Coffee
 item.cornitem.name=Corn
 item.cornseeditem.name=Corn Seed
 item.popcornitem.name=Popcorn
-item.cottonitem.name=Cotton
-item.cottonseeditem.name=Cotton Seed
-item.wovencottonitem.name=Woven Cotton
 item.cucumberitem.name=Cucumber
 item.cucumberseeditem.name=Cucumber Seed
 item.eggplantitem.name=Eggplant
 item.eggplantseeditem.name=Eggplant Seed
-item.grilledeggplantitem.name=Grilled Eggplant
 item.grapeitem.name=Grape
 item.grapeseeditem.name=Grape Seed
 item.raisinsitem.name=Raisins
@@ -567,9 +558,6 @@ item.rambutanitem.name=Rambutan
 item.tamarinditem.name=Tamarind
 
 item.grilledasparagusitem.name=Grilled Asparagus
-item.ricecakeitem.name=Rice Cake
-item.bakedsweetpotatoitem.name=Baked Sweet Potato
-item.teaitem.name=Cup of Tea
 item.coffeeitem.name=Cup of Coffee
 item.grilledeggplantitem.name=Grilled Eggplant
 item.toastedcoconutitem.name=Toasted Coconut
@@ -1590,18 +1578,3 @@ item.marshmellowchicksitem.name=Marshmellow Chicks
 item.bbqchickenbiscuititem.name=BBQ Chicken Biscuit
 item.chickenbiscuititem.name=Chicken Biscuit
 item.pizzasliceitem.name=Pizza Slice
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
